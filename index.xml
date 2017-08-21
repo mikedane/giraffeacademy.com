@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_index on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/</link>
+    <description>Recent content in _index on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jul 2017 10:02:17 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contribute</title>
+      <link>http://www.giraffeacademy.com/contribute/</link>
+      <pubDate>Thu, 20 Jul 2017 10:02:24 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/contribute/</guid>
+      <description>Help Giraffe Academy grow! We make it super easy to support the site, select your favorite method from the list below to contribute. * Venmo, Google Wallet and Square Cash are 3rd party apps, you&#39;ll have to use the corrisponding app on your phone to leave a donation
+ 
+Credit Card or PayPal Click the Donate button above to make a contribution using a Credit Card or PayPal     Venmo Donate using Venmo by sending your contribution to @giraffe-holding</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://www.giraffeacademy.com/about/</link>
+      <pubDate>Thu, 20 Jul 2017 10:02:20 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/about/</guid>
+      <description>Giraffe Academy has one simple goal, to create the highest quality and entertaining educational content on the internet. Let&amp;rsquo;s face it, now-a-day&amp;rsquo;s you can learn how to do just about anything online. But far too often the really good content is either hidden behind paywalls or buried under hundreds of hours of poorly made content.
+Giraffe Academy’s videos, articles and informative images are meticulously thought out, consistently well produced, and always created with love.</description>
+    </item>
+    
+  </channel>
+</rss>
