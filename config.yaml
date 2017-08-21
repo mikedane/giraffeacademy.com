@@ -1,0 +1,7 @@
+baseURL : http://www.giraffeacademy.com/
+languageCode : en-us
+title : Giraffe Academy
+author : Mike Dane
+taxonomies: ""
+pygmentsstyle: friendly
+PygmentsCodeFences: true

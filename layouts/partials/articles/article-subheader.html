@@ -1,0 +1,15 @@
+<span class="grey-text">
+     Lesson {{.Params.weight}}
+{{- if .Params.author -}}
+     <br />
+     Author : {{.Params.author}}
+{{- end -}}
+{{- if .Params.Lastmod -}}
+<br />
+     Last Updated : {{.Lastmod.Month}}, {{.Lastmod.Year}}
+{{- end -}}
+</span>
+
+
+
+
