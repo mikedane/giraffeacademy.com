@@ -3,6 +3,126 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/</loc>
+    <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</loc>
+    <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
+    <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/hugo-directory-structure/</loc>
+    <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
+    <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/content-organization/</loc>
+    <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
+    <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/archetypes/</loc>
+    <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
+    <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/taxonomies/</loc>
+    <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
+    <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/list-page-templates/</loc>
+    <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/single-page-templates/</loc>
+    <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</loc>
+    <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</loc>
+    <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/block-templates/</loc>
+    <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/variables/</loc>
+    <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/functions/</loc>
+    <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/conditionals/</loc>
+    <lastmod>2017-09-07T20:24:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/data-templates/</loc>
+    <lastmod>2017-09-07T20:24:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/partial-templates/</loc>
+    <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcode-templates/</loc>
+    <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/hugo/building--hosting/</loc>
+    <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/</loc>
+    <lastmod>2017-09-11T11:55:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/contribute/</loc>
     <lastmod>2017-07-20T10:02:24-04:00</lastmod>
   </url>
