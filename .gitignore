@@ -27,8 +27,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
-icon
+Icon
+icon
 
 
 # Thumbnails
@@ -44,7 +44,7 @@ icon
 .com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
-.AppleDB
+.AppleDBs
 .AppleDesktop
 Network Trash Folder
 Temporary Items
@@ -53,8 +53,11 @@ Temporary Items
 # Hugo
 public
 generate_hugo_pages.py
+raw/
 
 # Node js
 helpers
+
+Icon
 
 code-samples
