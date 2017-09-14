@@ -56,7 +56,7 @@ generate_hugo_pages.py
 raw/
 
 # Node js
-helpers
+_helpers
 
 Icon
 
