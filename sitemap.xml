@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/</loc>
+    <lastmod>2017-09-18T17:36:01-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/</loc>
     <lastmod>2017-09-14T17:26:11-04:00</lastmod>
   </url>
@@ -10,6 +15,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/</loc>
     <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/windows-installation/</loc>
+    <lastmod>2017-09-18T17:36:01-04:00</lastmod>
   </url>
   
   <url>
@@ -23,6 +33,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/mac-installation/</loc>
+    <lastmod>2017-09-18T17:36:01-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/creating-a-new-hexo-site/</loc>
     <lastmod>2017-09-14T17:26:11-04:00</lastmod>
   </url>
@@ -30,6 +45,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/creating-a-new-middleman-site/</loc>
+    <lastmod>2017-09-18T17:36:01-04:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +63,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/creating-content/</loc>
+    <lastmod>2017-09-18T17:36:01-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/front-matter/</loc>
     <lastmod>2017-09-14T17:26:11-04:00</lastmod>
   </url>
@@ -50,6 +75,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/front-matter/</loc>
+    <lastmod>2017-09-18T17:36:01-04:00</lastmod>
   </url>
   
   <url>
@@ -63,6 +93,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/helper-methods/</loc>
+    <lastmod>2017-09-18T17:36:01-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/tags--categories/</loc>
     <lastmod>2017-09-14T17:26:12-04:00</lastmod>
   </url>
@@ -70,6 +105,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/layouts/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
   
   <url>
@@ -83,6 +123,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/partials/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/asset-folders/</loc>
     <lastmod>2017-09-14T17:26:12-04:00</lastmod>
   </url>
@@ -90,6 +135,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/data-files/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
   
   <url>
@@ -103,6 +153,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/conditionals/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/creating-a-hexo-theme/</loc>
     <lastmod>2017-09-14T17:26:12-04:00</lastmod>
   </url>
@@ -110,6 +165,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/sitemap/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
   
   <url>
@@ -123,6 +183,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/blogging/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/partials/</loc>
     <lastmod>2017-09-14T17:26:12-04:00</lastmod>
   </url>
@@ -130,6 +195,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/single-page-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/project-templates/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
   
   <url>
@@ -143,6 +213,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/pretty-urls/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/if-statements/</loc>
     <lastmod>2017-09-14T17:26:12-04:00</lastmod>
   </url>
@@ -153,6 +228,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/plugins/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hexo/for-loops/</loc>
     <lastmod>2017-09-14T17:26:12-04:00</lastmod>
   </url>
@@ -160,6 +240,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/block-templates/</loc>
     <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/middleman/generating-your-site/</loc>
+    <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
   
   <url>

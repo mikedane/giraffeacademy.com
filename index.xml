@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/windows-installation/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mac &amp; Windows Installation</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/mac--windows-installation/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:11 -0400</pubDate>
@@ -28,6 +37,15 @@
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
       <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/mac-installation/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/mac-installation/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -50,6 +68,15 @@ Step 1 : Installing Homebrew Installing programs on mac isn’t the same as inst
     </item>
     
     <item>
+      <title>Creating A New Middleman Site</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/creating-a-new-middleman-site/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/creating-a-new-middleman-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Writing &amp; Organizing Content</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/writing--organizing-content/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:11 -0400</pubDate>
@@ -69,6 +96,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
     </item>
     
     <item>
+      <title>Creating Content</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/creating-content/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/creating-content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Front Matter</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/front-matter/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:11 -0400</pubDate>
@@ -84,6 +120,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</guid>
       <description>Themes are collections of hugo layouts that take all the hassle out of building your site. If you’re not inclined to learn how to write HTML and CSS, or if you simply want to get your blog or content site up as soon as possible then themes are for you. There are dozens of publicly available pre-built themes available for download that developers in the hugo community have built. Using a pre-built theme takes all the hassle out of designing and organizing your hugo site.</description>
+    </item>
+    
+    <item>
+      <title>Front Matter</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/front-matter/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/front-matter/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -106,6 +151,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     </item>
     
     <item>
+      <title>Helper Methods</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/helper-methods/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/helper-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tags &amp; Categories</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/tags--categories/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:12 -0400</pubDate>
@@ -122,6 +176,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</guid>
       <description>Hugo makes it really easy to write static content for the web. But not only is hugo easy to use, it’s also super powerful. In this lesson we’re gonna look at one of the most powerful tools Hugo has in it’s arsenal, front matter.
 Front matter When you create a new content page using the hugo new filename command, hugo automatically creates a new file and fills it with some default information.</description>
+    </item>
+    
+    <item>
+      <title>Layouts</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/layouts/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/layouts/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -143,6 +206,15 @@ Front matter When you create a new content page using the hugo new filename comm
     </item>
     
     <item>
+      <title>Partials</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/partials/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/partials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Asset Folders</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/asset-folders/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:12 -0400</pubDate>
@@ -158,6 +230,15 @@ Front matter When you create a new content page using the hugo new filename comm
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</guid>
       <description>Built-in Shortcodes Hugo has a collection of built-in shortcodes which you can use right out of the box. For a full listing of built in shortcodes check out the official hugo documentation page: https://gohugo.io/content-management/shortcodes/#using-shortcodes</description>
+    </item>
+    
+    <item>
+      <title>Data Files</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/data-files/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/data-files/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -180,6 +261,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Conditionals</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/conditionals/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/conditionals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Creating A Hexo Theme</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/creating-a-hexo-theme/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:12 -0400</pubDate>
@@ -194,6 +284,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:14 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sitemap</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/sitemap/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/sitemap/</guid>
       <description></description>
     </item>
     
@@ -216,6 +315,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Blogging</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/blogging/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Partials</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/partials/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:12 -0400</pubDate>
@@ -230,6 +338,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/single-page-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Templates</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/project-templates/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/project-templates/</guid>
       <description></description>
     </item>
     
@@ -252,6 +369,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Pretty Urls</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/pretty-urls/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/pretty-urls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>If Statements</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/if-statements/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:12 -0400</pubDate>
@@ -266,6 +392,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plugins</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/plugins/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/plugins/</guid>
       <description></description>
     </item>
     
@@ -286,6 +421,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/block-templates/</guid>
       <description>Block templates give developers a way to supercharge the amount of control they have over templates and layouts. By incorporating block templates into your hugo website design, you’ll seriously increase the scalability and modularity of your site.
 Block temples are an advanced type of hugo template that allows you to build high level templates by specifying specific blocks of content which can be implemented by lower level templates. It’s a very powerful feature for building complex layouts and template structures.</description>
+    </item>
+    
+    <item>
+      <title>Generating Your Site</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/middleman/generating-your-site/</link>
+      <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/middleman/generating-your-site/</guid>
+      <description></description>
     </item>
     
     <item>
