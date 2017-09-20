@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/middleman/</loc>
     <lastmod>2017-09-18T17:36:01-04:00</lastmod>
   </url>
@@ -15,6 +20,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/</loc>
     <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/windows--mac-installation/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
   </url>
   
   <url>
@@ -33,6 +43,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/creating-a-new-site/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/middleman/mac-installation/</loc>
     <lastmod>2017-09-18T17:36:01-04:00</lastmod>
   </url>
@@ -45,6 +60,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/adding-content/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
   </url>
   
   <url>
@@ -63,6 +83,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/linking-pages/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/middleman/creating-content/</loc>
     <lastmod>2017-09-18T17:36:01-04:00</lastmod>
   </url>
@@ -75,6 +100,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/interactive-pages/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
   </url>
   
   <url>
@@ -93,6 +123,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/building-your-site/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/middleman/helper-methods/</loc>
     <lastmod>2017-09-18T17:36:01-04:00</lastmod>
   </url>
@@ -105,6 +140,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/components/</loc>
+    <lastmod>2017-09-19T15:05:14-04:00</lastmod>
   </url>
   
   <url>
@@ -123,6 +163,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/installing-plugins/</loc>
+    <lastmod>2017-09-19T15:05:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/middleman/partials/</loc>
     <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
@@ -135,6 +180,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/layouts/</loc>
+    <lastmod>2017-09-19T15:05:15-04:00</lastmod>
   </url>
   
   <url>
@@ -153,6 +203,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/site-data/</loc>
+    <lastmod>2017-09-19T15:05:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/middleman/conditionals/</loc>
     <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
@@ -168,6 +223,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/file-data/</loc>
+    <lastmod>2017-09-19T15:05:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/middleman/sitemap/</loc>
     <lastmod>2017-09-18T17:36:02-04:00</lastmod>
   </url>
@@ -180,6 +240,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/list-page-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/gatsby/working-with-markdown/</loc>
+    <lastmod>2017-09-19T15:05:15-04:00</lastmod>
   </url>
   
   <url>
