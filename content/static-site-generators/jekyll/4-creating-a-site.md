@@ -1,0 +1,14 @@
+---
+date: 2017-09-25T13:11:59-04:00
+title: "Creating A Site"
+seo_title: "Creating A Site | Jekyll | Giraffe Academy"
+subheader:
+     greeting: Jekyll - Static Site Generator
+     description: This course covers the basics of using Jekyll - Static Site Generator. Work your way through the videos and we'll teach you everything you need to know to create a professional and scalable website or blog!
+description: This tutorial covers how to use creating a site in Jekyll -  Static Site Generator.
+author: Mike Dane
+image: creating-a-site.png
+video: 90-0N2Qh8BU
+url: /static-site-generators/jekyll/creating-a-site/
+weight: 4
+---
