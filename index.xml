@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/mac-installation/</link>
+      <pubDate>Mon, 25 Sep 2017 13:11:59 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/mac-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows &amp; Mac Installation</title>
       <link>http://www.giraffeacademy.com/static-site-generators/gatsby/windows--mac-installation/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
@@ -46,6 +55,15 @@
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
       <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/windows-installation/</link>
+      <pubDate>Mon, 25 Sep 2017 13:11:59 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/windows-installation/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -86,6 +104,15 @@ Step 1 : Installing Homebrew Installing programs on mac isn’t the same as inst
     </item>
     
     <item>
+      <title>Creating A Site</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/creating-a-site/</link>
+      <pubDate>Mon, 25 Sep 2017 13:11:59 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/creating-a-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Adding Content</title>
       <link>http://www.giraffeacademy.com/static-site-generators/gatsby/adding-content/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
@@ -123,6 +150,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
     </item>
     
     <item>
+      <title>Front Matter</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/front-matter/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/front-matter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linking Pages</title>
       <link>http://www.giraffeacademy.com/static-site-generators/gatsby/linking-pages/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
@@ -156,6 +192,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</guid>
       <description>Themes are collections of hugo layouts that take all the hassle out of building your site. If you’re not inclined to learn how to write HTML and CSS, or if you simply want to get your blog or content site up as soon as possible then themes are for you. There are dozens of publicly available pre-built themes available for download that developers in the hugo community have built. Using a pre-built theme takes all the hassle out of designing and organizing your hugo site.</description>
+    </item>
+    
+    <item>
+      <title>Writing Posts</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/writing-posts/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/writing-posts/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -196,6 +241,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     </item>
     
     <item>
+      <title>Writing Drafts</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/writing-drafts/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/writing-drafts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Building Your Site</title>
       <link>http://www.giraffeacademy.com/static-site-generators/gatsby/building-your-site/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
@@ -230,6 +284,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</guid>
       <description>Hugo makes it really easy to write static content for the web. But not only is hugo easy to use, it’s also super powerful. In this lesson we’re gonna look at one of the most powerful tools Hugo has in it’s arsenal, front matter.
 Front matter When you create a new content page using the hugo new filename command, hugo automatically creates a new file and fills it with some default information.</description>
+    </item>
+    
+    <item>
+      <title>Creating Pages</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/creating-pages/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/creating-pages/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -269,6 +332,15 @@ Front matter When you create a new content page using the hugo new filename comm
     </item>
     
     <item>
+      <title>Permalink</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/permalink/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/permalink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Installing Plugins</title>
       <link>http://www.giraffeacademy.com/static-site-generators/gatsby/installing-plugins/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
@@ -302,6 +374,15 @@ Front matter When you create a new content page using the hugo new filename comm
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</guid>
       <description>Built-in Shortcodes Hugo has a collection of built-in shortcodes which you can use right out of the box. For a full listing of built in shortcodes check out the official hugo documentation page: https://gohugo.io/content-management/shortcodes/#using-shortcodes</description>
+    </item>
+    
+    <item>
+      <title>Front Matter Defaults</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/front-matter-defaults/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/front-matter-defaults/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -342,6 +423,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Plugins</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/plugins/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Site Data</title>
       <link>http://www.giraffeacademy.com/static-site-generators/gatsby/site-data/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
@@ -374,6 +464,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:14 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/themes/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/themes/</guid>
       <description></description>
     </item>
     
@@ -414,6 +513,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Templates</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/templates/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Working With Markdown</title>
       <link>http://www.giraffeacademy.com/static-site-generators/gatsby/working-with-markdown/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
@@ -450,6 +558,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/variables/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Project Templates</title>
       <link>http://www.giraffeacademy.com/static-site-generators/middleman/project-templates/</link>
       <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
@@ -477,6 +594,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Includes</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/includes/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:00 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/includes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pretty Urls</title>
       <link>http://www.giraffeacademy.com/static-site-generators/middleman/pretty-urls/</link>
       <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
@@ -500,6 +626,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Looping Through Pages</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/looping-through-pages/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/looping-through-pages/</guid>
       <description></description>
     </item>
     
@@ -532,6 +667,15 @@ Block temples are an advanced type of hugo template that allows you to build hig
     </item>
     
     <item>
+      <title>Conditionals</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/conditionals/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/conditionals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generating Your Site</title>
       <link>http://www.giraffeacademy.com/static-site-generators/middleman/generating-your-site/</link>
       <pubDate>Mon, 18 Sep 2017 17:36:02 -0400</pubDate>
@@ -560,6 +704,15 @@ Image of the go programming language logo with the hugo logo</description>
     </item>
     
     <item>
+      <title>Data Files</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/data-files/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/data-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Folder</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/data-folder/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:13 -0400</pubDate>
@@ -580,6 +733,15 @@ Copy{{ func-name arg1, arg2, … , argX }} Inside double curly brackets, you put
     </item>
     
     <item>
+      <title>Static Files</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/static-files/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/static-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Using Plugins</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hexo/using-plugins/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:13 -0400</pubDate>
@@ -596,6 +758,15 @@ Copy{{ func-name arg1, arg2, … , argX }} Inside double curly brackets, you put
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/conditionals/</guid>
       <description>Conditionals are a common tool used in programming to help the computer make decisions. In our case we can use conditionals to tell hugo when we want it to do certain things. Conditionals are realized in the form of if statements. If statements are pieces of code that we use to tell hugo what we want it to do in certain situations.
 A good example of a conditional is when you go to an amusement park.</description>
+    </item>
+    
+    <item>
+      <title>Deploying To Github Pages</title>
+      <link>http://www.giraffeacademy.com/static-site-generators/jekyll/deploying-to-github-pages/</link>
+      <pubDate>Mon, 25 Sep 2017 13:12:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/static-site-generators/jekyll/deploying-to-github-pages/</guid>
+      <description></description>
     </item>
     
     <item>
