@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction To Html on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/web-development/html/</link>
+    <description>Recent content in Introduction To Html on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Oct 2017 15:35:15 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/web-development/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Choosing A Text Editor</title>
+      <link>http://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating An Html File</title>
+      <link>http://www.giraffeacademy.com/web-development/html/creating-an-html-file/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/creating-an-html-file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basic Tags</title>
+      <link>http://www.giraffeacademy.com/web-development/html/basic-tags/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/basic-tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/web-development/html/comments/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Style &amp; Color</title>
+      <link>http://www.giraffeacademy.com/web-development/html/style--color/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/style--color/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formatting A Page</title>
+      <link>http://www.giraffeacademy.com/web-development/html/formatting-a-page/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/formatting-a-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>http://www.giraffeacademy.com/web-development/html/links/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>http://www.giraffeacademy.com/web-development/html/images/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>http://www.giraffeacademy.com/web-development/html/videos/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>http://www.giraffeacademy.com/web-development/html/lists/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/lists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tables</title>
+      <link>http://www.giraffeacademy.com/web-development/html/tables/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/tables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Divs &amp; Spans</title>
+      <link>http://www.giraffeacademy.com/web-development/html/divs--spans/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/divs--spans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inputs &amp; Forms</title>
+      <link>http://www.giraffeacademy.com/web-development/html/inputs--forms/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/inputs--forms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iframes</title>
+      <link>http://www.giraffeacademy.com/web-development/html/iframes/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/iframes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta Tags</title>
+      <link>http://www.giraffeacademy.com/web-development/html/meta-tags/</link>
+      <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/html/meta-tags/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

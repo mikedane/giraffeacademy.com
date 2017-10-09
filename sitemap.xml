@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/</loc>
     <lastmod>2017-09-25T13:11:59-04:00</lastmod>
   </url>
@@ -23,8 +28,18 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/</loc>
+    <lastmod>2017-09-11T11:55:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/</loc>
     <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
   
   <url>
@@ -48,8 +63,18 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/static-site-generators/</loc>
+    <lastmod>2017-09-11T11:55:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</loc>
     <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/creating-an-html-file/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
   
   <url>
@@ -78,6 +103,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/basic-tags/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/creating-a-site/</loc>
     <lastmod>2017-09-25T13:11:59-04:00</lastmod>
   </url>
@@ -100,6 +130,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/hugo-directory-structure/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/comments/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
   
   <url>
@@ -128,6 +163,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/style--color/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/writing-posts/</loc>
     <lastmod>2017-09-25T13:12:00-04:00</lastmod>
   </url>
@@ -150,6 +190,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/content-organization/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/formatting-a-page/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
   
   <url>
@@ -178,6 +223,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/links/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/creating-pages/</loc>
     <lastmod>2017-09-25T13:12:00-04:00</lastmod>
   </url>
@@ -200,6 +250,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/archetypes/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/images/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
   
   <url>
@@ -228,6 +283,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/videos/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/front-matter-defaults/</loc>
     <lastmod>2017-09-25T13:12:00-04:00</lastmod>
   </url>
@@ -250,6 +310,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/taxonomies/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/lists/</loc>
+    <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
   
   <url>
@@ -278,6 +343,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/tables/</loc>
+    <lastmod>2017-10-09T15:35:16-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/themes/</loc>
     <lastmod>2017-09-25T13:12:00-04:00</lastmod>
   </url>
@@ -300,6 +370,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/list-page-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/divs--spans/</loc>
+    <lastmod>2017-10-09T15:35:16-04:00</lastmod>
   </url>
   
   <url>
@@ -328,6 +403,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/inputs--forms/</loc>
+    <lastmod>2017-10-09T15:35:16-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/variables/</loc>
     <lastmod>2017-09-25T13:12:00-04:00</lastmod>
   </url>
@@ -348,6 +428,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/iframes/</loc>
+    <lastmod>2017-10-09T15:35:16-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/includes/</loc>
     <lastmod>2017-09-25T13:12:00-04:00</lastmod>
   </url>
@@ -365,6 +450,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/html/meta-tags/</loc>
+    <lastmod>2017-10-09T15:35:16-04:00</lastmod>
   </url>
   
   <url>
@@ -465,11 +555,6 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/building--hosting/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.giraffeacademy.com/static-site-generators/</loc>
-    <lastmod>2017-09-11T11:55:00-04:00</lastmod>
   </url>
   
   <url>
