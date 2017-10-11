@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/</loc>
+    <lastmod>2017-10-10T22:46:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/</loc>
     <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
@@ -35,6 +50,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/</loc>
     <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/windows-installation/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/mac--windows-installation/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/basic-inline-styling/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
   </url>
   
   <url>
@@ -73,6 +103,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/mac-installation/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/first-less-file/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/colors/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/creating-an-html-file/</loc>
     <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
@@ -100,6 +145,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/sass-vs-scss/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/variables/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/margins--padding/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
   </url>
   
   <url>
@@ -133,6 +193,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/pre-processing/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/mixins/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/display--floats/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/comments/</loc>
     <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
@@ -160,6 +235,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/variables/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/mixin-guards/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/position/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
   </url>
   
   <url>
@@ -193,6 +283,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/nesting/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/nesting--scope/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/advanced-styling/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/formatting-a-page/</loc>
     <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
@@ -220,6 +325,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/partials/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/operators/</loc>
+    <lastmod>2017-10-10T22:41:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/text--fonts/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
   </url>
   
   <url>
@@ -253,6 +373,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/mixins/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/functions/</loc>
+    <lastmod>2017-10-10T22:41:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/style-tags/</loc>
+    <lastmod>2017-10-10T22:35:48-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/images/</loc>
     <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
@@ -280,6 +415,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/extends/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/less/imports/</loc>
+    <lastmod>2017-10-10T22:41:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/external-style-sheets/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
   
   <url>
@@ -313,6 +463,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/operators/</loc>
+    <lastmod>2017-10-10T22:46:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/ids--classes/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/lists/</loc>
     <lastmod>2017-10-09T15:35:15-04:00</lastmod>
   </url>
@@ -340,6 +500,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/sass/if-statements/</loc>
+    <lastmod>2017-10-10T22:46:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/css-selectors/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
   
   <url>
@@ -373,6 +543,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/flexbox/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/divs--spans/</loc>
     <lastmod>2017-10-09T15:35:16-04:00</lastmod>
   </url>
@@ -403,6 +578,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/animations/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/inputs--forms/</loc>
     <lastmod>2017-10-09T15:35:16-04:00</lastmod>
   </url>
@@ -425,6 +605,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/imports/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
   
   <url>
@@ -453,6 +638,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/browser-support/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/html/meta-tags/</loc>
     <lastmod>2017-10-09T15:35:16-04:00</lastmod>
   </url>
@@ -475,6 +665,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/block-templates/</loc>
     <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/css/css-frameworks/</loc>
+    <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
   
   <url>

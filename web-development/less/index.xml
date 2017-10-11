@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Less on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/web-development/less/</link>
+    <description>Recent content in Less on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Oct 2017 22:41:26 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/web-development/less/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac &amp; Windows Installation</title>
+      <link>http://www.giraffeacademy.com/web-development/less/mac--windows-installation/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/mac--windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Less File</title>
+      <link>http://www.giraffeacademy.com/web-development/less/first-less-file/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/first-less-file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/web-development/less/variables/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixins</title>
+      <link>http://www.giraffeacademy.com/web-development/less/mixins/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/mixins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixin Guards</title>
+      <link>http://www.giraffeacademy.com/web-development/less/mixin-guards/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/mixin-guards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nesting &amp; Scope</title>
+      <link>http://www.giraffeacademy.com/web-development/less/nesting--scope/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/nesting--scope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operators</title>
+      <link>http://www.giraffeacademy.com/web-development/less/operators/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/operators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/web-development/less/functions/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imports</title>
+      <link>http://www.giraffeacademy.com/web-development/less/imports/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/imports/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

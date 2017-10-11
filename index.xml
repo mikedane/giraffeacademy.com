@@ -12,6 +12,33 @@
     
     
     <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/windows-installation/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac &amp; Windows Installation</title>
+      <link>http://www.giraffeacademy.com/web-development/less/mac--windows-installation/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/mac--windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basic Inline Styling</title>
+      <link>http://www.giraffeacademy.com/web-development/css/basic-inline-styling/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/basic-inline-styling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Choosing A Text Editor</title>
       <link>http://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
@@ -64,6 +91,33 @@
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
       <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/mac-installation/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/mac-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Less File</title>
+      <link>http://www.giraffeacademy.com/web-development/less/first-less-file/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/first-less-file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Colors</title>
+      <link>http://www.giraffeacademy.com/web-development/css/colors/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/colors/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -122,6 +176,33 @@ Step 1 : Installing Homebrew Installing programs on mac isn’t the same as inst
     </item>
     
     <item>
+      <title>Sass Vs Scss</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/sass-vs-scss/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/sass-vs-scss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/web-development/less/variables/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Margins &amp; Padding</title>
+      <link>http://www.giraffeacademy.com/web-development/css/margins--padding/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/margins--padding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Basic Tags</title>
       <link>http://www.giraffeacademy.com/web-development/html/basic-tags/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
@@ -177,6 +258,33 @@ Preparing your workspace Once you have everything installed and ready to go it�
     </item>
     
     <item>
+      <title>Pre Processing</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/pre-processing/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/pre-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixins</title>
+      <link>http://www.giraffeacademy.com/web-development/less/mixins/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/mixins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Display &amp; Floats</title>
+      <link>http://www.giraffeacademy.com/web-development/css/display--floats/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/display--floats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Comments</title>
       <link>http://www.giraffeacademy.com/web-development/html/comments/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
@@ -228,6 +336,33 @@ Preparing your workspace Once you have everything installed and ready to go it�
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</guid>
       <description>Themes are collections of hugo layouts that take all the hassle out of building your site. If you’re not inclined to learn how to write HTML and CSS, or if you simply want to get your blog or content site up as soon as possible then themes are for you. There are dozens of publicly available pre-built themes available for download that developers in the hugo community have built. Using a pre-built theme takes all the hassle out of designing and organizing your hugo site.</description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/variables/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixin Guards</title>
+      <link>http://www.giraffeacademy.com/web-development/less/mixin-guards/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/mixin-guards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Position</title>
+      <link>http://www.giraffeacademy.com/web-development/css/position/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/position/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -286,6 +421,33 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     </item>
     
     <item>
+      <title>Nesting</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/nesting/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/nesting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nesting &amp; Scope</title>
+      <link>http://www.giraffeacademy.com/web-development/less/nesting--scope/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/nesting--scope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced Styling</title>
+      <link>http://www.giraffeacademy.com/web-development/css/advanced-styling/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/advanced-styling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Formatting A Page</title>
       <link>http://www.giraffeacademy.com/web-development/html/formatting-a-page/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
@@ -338,6 +500,33 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</guid>
       <description>Hugo makes it really easy to write static content for the web. But not only is hugo easy to use, it’s also super powerful. In this lesson we’re gonna look at one of the most powerful tools Hugo has in it’s arsenal, front matter.
 Front matter When you create a new content page using the hugo new filename command, hugo automatically creates a new file and fills it with some default information.</description>
+    </item>
+    
+    <item>
+      <title>Partials</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/partials/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/partials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operators</title>
+      <link>http://www.giraffeacademy.com/web-development/less/operators/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:26 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/operators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text &amp; Fonts</title>
+      <link>http://www.giraffeacademy.com/web-development/css/text--fonts/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/text--fonts/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -395,6 +584,33 @@ Front matter When you create a new content page using the hugo new filename comm
     </item>
     
     <item>
+      <title>Mixins</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/mixins/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/mixins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/web-development/less/functions/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Style Tags</title>
+      <link>http://www.giraffeacademy.com/web-development/css/style-tags/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/style-tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Images</title>
       <link>http://www.giraffeacademy.com/web-development/html/images/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
@@ -446,6 +662,33 @@ Front matter When you create a new content page using the hugo new filename comm
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</guid>
       <description>Built-in Shortcodes Hugo has a collection of built-in shortcodes which you can use right out of the box. For a full listing of built in shortcodes check out the official hugo documentation page: https://gohugo.io/content-management/shortcodes/#using-shortcodes</description>
+    </item>
+    
+    <item>
+      <title>Extends</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/extends/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/extends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imports</title>
+      <link>http://www.giraffeacademy.com/web-development/less/imports/</link>
+      <pubDate>Tue, 10 Oct 2017 22:41:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/less/imports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Style Sheets</title>
+      <link>http://www.giraffeacademy.com/web-development/css/external-style-sheets/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/external-style-sheets/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -504,6 +747,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Operators</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/operators/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/operators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ids &amp; Classes</title>
+      <link>http://www.giraffeacademy.com/web-development/css/ids--classes/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/ids--classes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lists</title>
       <link>http://www.giraffeacademy.com/web-development/html/lists/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
@@ -554,6 +815,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:14 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/sass/if-statements/</link>
+      <pubDate>Tue, 10 Oct 2017 22:46:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/sass/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css Selectors</title>
+      <link>http://www.giraffeacademy.com/web-development/css/css-selectors/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/css-selectors/</guid>
       <description></description>
     </item>
     
@@ -612,6 +891,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Flexbox</title>
+      <link>http://www.giraffeacademy.com/web-development/css/flexbox/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/flexbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Divs &amp; Spans</title>
       <link>http://www.giraffeacademy.com/web-development/html/divs--spans/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
@@ -666,6 +954,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Animations</title>
+      <link>http://www.giraffeacademy.com/web-development/css/animations/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/animations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inputs &amp; Forms</title>
       <link>http://www.giraffeacademy.com/web-development/html/inputs--forms/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
@@ -707,6 +1004,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imports</title>
+      <link>http://www.giraffeacademy.com/web-development/css/imports/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/imports/</guid>
       <description></description>
     </item>
     
@@ -756,6 +1062,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Browser Support</title>
+      <link>http://www.giraffeacademy.com/web-development/css/browser-support/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/browser-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Meta Tags</title>
       <link>http://www.giraffeacademy.com/web-development/html/meta-tags/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
@@ -799,6 +1114,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/block-templates/</guid>
       <description>Block templates give developers a way to supercharge the amount of control they have over templates and layouts. By incorporating block templates into your hugo website design, you’ll seriously increase the scalability and modularity of your site.
 Block temples are an advanced type of hugo template that allows you to build high level templates by specifying specific blocks of content which can be implemented by lower level templates. It’s a very powerful feature for building complex layouts and template structures.</description>
+    </item>
+    
+    <item>
+      <title>Css Frameworks</title>
+      <link>http://www.giraffeacademy.com/web-development/css/css-frameworks/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/css-frameworks/</guid>
+      <description></description>
     </item>
     
     <item>

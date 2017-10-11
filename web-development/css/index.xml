@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/web-development/css/</link>
+    <description>Recent content in CSS on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Oct 2017 22:35:48 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/web-development/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Inline Styling</title>
+      <link>http://www.giraffeacademy.com/web-development/css/basic-inline-styling/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/basic-inline-styling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Colors</title>
+      <link>http://www.giraffeacademy.com/web-development/css/colors/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/colors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Margins &amp; Padding</title>
+      <link>http://www.giraffeacademy.com/web-development/css/margins--padding/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/margins--padding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Display &amp; Floats</title>
+      <link>http://www.giraffeacademy.com/web-development/css/display--floats/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/display--floats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Position</title>
+      <link>http://www.giraffeacademy.com/web-development/css/position/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/position/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced Styling</title>
+      <link>http://www.giraffeacademy.com/web-development/css/advanced-styling/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/advanced-styling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text &amp; Fonts</title>
+      <link>http://www.giraffeacademy.com/web-development/css/text--fonts/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/text--fonts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Style Tags</title>
+      <link>http://www.giraffeacademy.com/web-development/css/style-tags/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/style-tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Style Sheets</title>
+      <link>http://www.giraffeacademy.com/web-development/css/external-style-sheets/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/external-style-sheets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ids &amp; Classes</title>
+      <link>http://www.giraffeacademy.com/web-development/css/ids--classes/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/ids--classes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css Selectors</title>
+      <link>http://www.giraffeacademy.com/web-development/css/css-selectors/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/css-selectors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flexbox</title>
+      <link>http://www.giraffeacademy.com/web-development/css/flexbox/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/flexbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animations</title>
+      <link>http://www.giraffeacademy.com/web-development/css/animations/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/animations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imports</title>
+      <link>http://www.giraffeacademy.com/web-development/css/imports/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/imports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Browser Support</title>
+      <link>http://www.giraffeacademy.com/web-development/css/browser-support/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/browser-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css Frameworks</title>
+      <link>http://www.giraffeacademy.com/web-development/css/css-frameworks/</link>
+      <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/css/css-frameworks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
