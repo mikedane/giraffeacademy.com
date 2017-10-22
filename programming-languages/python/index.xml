@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/programming-languages/python/</link>
+    <description>Recent content in Python on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Oct 2017 11:58:01 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/programming-languages/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/installation/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/hello-world/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Shape</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/drawing-a-shape/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/drawing-a-shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/variables/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/strings/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/math/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/getting-user-input/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/getting-user-input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/creating-a-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/building-a-mad-libs-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/lists/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/lists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>List Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/list-functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/list-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tuples</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/tuples/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/tuples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/return-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/return-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/if-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Cont)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/if-statements-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Better Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/better-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dictionaries</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/dictionaries/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/dictionaries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/while-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/guessing-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/for-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/exponent-function/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Translator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/building-a-translator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/building-a-translator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/comments/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Try Except</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/try-except/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/try-except/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/reading-files/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/reading-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/writing-files/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/writing-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/modules/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/modules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/classes--objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Quiz</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/building-a-quiz/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/building-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/class-methods/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/class-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance (Extends)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python Interpreter</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/python-interpreter/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/python-interpreter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/web-development/javascript/</link>
+    <description>Recent content in Javascript on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Oct 2017 11:23:33 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/web-development/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Choosing An Ide</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/choosing-an-ide/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:33 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/choosing-an-ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/hello-world/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Files</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/external-files/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/external-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Shape</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/drawing-a-shape/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/drawing-a-shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/variables/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/strings/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/math/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/getting-user-input/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/getting-user-input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Calculator</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/arrays/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accessing Html Elements</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/accessing-html-elements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/accessing-html-elements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trigger Events</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/trigger-events/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/trigger-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Messaging App</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-messaging-app/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-messaging-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/if-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Cont)</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/if-statements-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/switch-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Objects</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real World Objects</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/real-world-objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/real-world-objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/while-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Password Checker</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-password-checker/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-password-checker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/for-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Quiz</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/2d-arrays--nested-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/2d-arrays--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Each Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timing</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/timing/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/timing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Storage</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/web-storage/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:36 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/web-storage/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

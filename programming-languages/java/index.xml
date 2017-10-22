@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/programming-languages/java/</link>
+    <description>Recent content in Java on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Oct 2017 11:34:27 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/programming-languages/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Jdk</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/installing-jdk/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/installing-jdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/hello-world/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Shape</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/drawing-a-shape/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/drawing-a-shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/variables/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/data-types/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/strings/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/math/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/getting-user-input/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/getting-user-input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/creating-a-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/building-a-mad-libs-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/arrays/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/return/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/return/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/if-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Cont)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/if-statements-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Better Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/better-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/switch-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/while-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/building-a-guessing-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/for-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/exponent-function/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/comments/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Try Catch</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/try-catch/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/try-catch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/classes--objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects (Cont)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/classes--objects-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/classes--objects-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructor Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/constructor-function/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/constructor-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Quiz</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/class-methods/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/class-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getters And Setters</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Class Attributes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Methods In Classes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/static-methods-in-classes/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/static-methods-in-classes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance (Extends)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance (Implements)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/inheritance-implements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/inheritance-implements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Access Modifiers</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/access-modifiers/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/access-modifiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Main Method</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/main-method/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/main-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Packages &amp; Imports</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/packages--imports/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/packages--imports/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

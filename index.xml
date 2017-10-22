@@ -12,6 +12,33 @@
     
     
     <item>
+      <title>Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/installation/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:01 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installing Jdk</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/installing-jdk/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/installing-jdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Choosing An Ide</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/choosing-an-ide/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:33 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/choosing-an-ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows Installation</title>
       <link>http://www.giraffeacademy.com/web-development/sass/windows-installation/</link>
       <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
@@ -91,6 +118,33 @@
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
       <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/hello-world/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/hello-world/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:27 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/hello-world/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/hello-world/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -176,6 +230,33 @@ Step 1 : Installing Homebrew Installing programs on mac isn’t the same as inst
     </item>
     
     <item>
+      <title>Drawing A Shape</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/drawing-a-shape/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/drawing-a-shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Shape</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/drawing-a-shape/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/drawing-a-shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Files</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/external-files/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/external-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sass Vs Scss</title>
       <link>http://www.giraffeacademy.com/web-development/sass/sass-vs-scss/</link>
       <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
@@ -258,6 +339,33 @@ Preparing your workspace Once you have everything installed and ready to go it�
     </item>
     
     <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/variables/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/variables/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Shape</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/drawing-a-shape/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/drawing-a-shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pre Processing</title>
       <link>http://www.giraffeacademy.com/web-development/sass/pre-processing/</link>
       <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
@@ -336,6 +444,33 @@ Preparing your workspace Once you have everything installed and ready to go it�
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</guid>
       <description>Themes are collections of hugo layouts that take all the hassle out of building your site. If you’re not inclined to learn how to write HTML and CSS, or if you simply want to get your blog or content site up as soon as possible then themes are for you. There are dozens of publicly available pre-built themes available for download that developers in the hugo community have built. Using a pre-built theme takes all the hassle out of designing and organizing your hugo site.</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/strings/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/data-types/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/variables/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/variables/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -421,6 +556,33 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     </item>
     
     <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/math/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/strings/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/strings/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nesting</title>
       <link>http://www.giraffeacademy.com/web-development/sass/nesting/</link>
       <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
@@ -500,6 +662,33 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</guid>
       <description>Hugo makes it really easy to write static content for the web. But not only is hugo easy to use, it’s also super powerful. In this lesson we’re gonna look at one of the most powerful tools Hugo has in it’s arsenal, front matter.
 Front matter When you create a new content page using the hugo new filename command, hugo automatically creates a new file and fills it with some default information.</description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/getting-user-input/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/getting-user-input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/math/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/math/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/math/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -584,6 +773,33 @@ Front matter When you create a new content page using the hugo new filename comm
     </item>
     
     <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/creating-a-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/getting-user-input/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/getting-user-input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/getting-user-input/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/getting-user-input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mixins</title>
       <link>http://www.giraffeacademy.com/web-development/sass/mixins/</link>
       <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
@@ -662,6 +878,33 @@ Front matter When you create a new content page using the hugo new filename comm
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</guid>
       <description>Built-in Shortcodes Hugo has a collection of built-in shortcodes which you can use right out of the box. For a full listing of built in shortcodes check out the official hugo documentation page: https://gohugo.io/content-management/shortcodes/#using-shortcodes</description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/building-a-mad-libs-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/creating-a-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Calculator</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-calculator/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -747,6 +990,33 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Lists</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/lists/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/lists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/building-a-mad-libs-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/arrays/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Operators</title>
       <link>http://www.giraffeacademy.com/web-development/sass/operators/</link>
       <pubDate>Tue, 10 Oct 2017 22:46:04 -0400</pubDate>
@@ -815,6 +1085,33 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:14 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>List Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/list-functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/list-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/arrays/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/functions/</guid>
       <description></description>
     </item>
     
@@ -891,6 +1188,33 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Tuples</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/tuples/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/tuples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accessing Html Elements</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/accessing-html-elements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/accessing-html-elements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Flexbox</title>
       <link>http://www.giraffeacademy.com/web-development/css/flexbox/</link>
       <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
@@ -954,6 +1278,33 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/functions/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/return/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/return/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trigger Events</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/trigger-events/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/trigger-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Animations</title>
       <link>http://www.giraffeacademy.com/web-development/css/animations/</link>
       <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
@@ -1008,6 +1359,33 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Return Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/return-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/return-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/if-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Messaging App</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-messaging-app/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-messaging-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Imports</title>
       <link>http://www.giraffeacademy.com/web-development/css/imports/</link>
       <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
@@ -1058,6 +1436,33 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/if-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Cont)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/if-statements-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/if-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/if-statements/</guid>
       <description></description>
     </item>
     
@@ -1117,6 +1522,33 @@ Block temples are an advanced type of hugo template that allows you to build hig
     </item>
     
     <item>
+      <title>If Statements (Cont)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/if-statements-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Better Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/better-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Cont)</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/if-statements-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Css Frameworks</title>
       <link>http://www.giraffeacademy.com/web-development/css/css-frameworks/</link>
       <pubDate>Tue, 10 Oct 2017 22:35:49 -0400</pubDate>
@@ -1163,6 +1595,33 @@ Image of the go programming language logo with the hugo logo</description>
     </item>
     
     <item>
+      <title>Better Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/better-calculator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/switch-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/switch-statements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Files</title>
       <link>http://www.giraffeacademy.com/static-site-generators/jekyll/data-files/</link>
       <pubDate>Mon, 25 Sep 2017 13:12:01 -0400</pubDate>
@@ -1189,6 +1648,33 @@ Image of the go programming language logo with the hugo logo</description>
       <description>Go template functions give you a series of useful functions that you can use to add logic into your templates. These functions perform a variety of tasks like adding numbers, splicing strings or looping through lists of values.
 How functions work Functions are formatted as follows
 Copy{{ func-name arg1, arg2, … , argX }} Inside double curly brackets, you put the name of the function and then pass the function arguments.</description>
+    </item>
+    
+    <item>
+      <title>Dictionaries</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/dictionaries/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/dictionaries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/while-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Objects</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/objects/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1220,6 +1706,33 @@ A good example of a conditional is when you go to an amusement park.</descriptio
     </item>
     
     <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/while-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/building-a-guessing-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real World Objects</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/real-world-objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/real-world-objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deploying To Github Pages</title>
       <link>http://www.giraffeacademy.com/static-site-generators/jekyll/deploying-to-github-pages/</link>
       <pubDate>Mon, 25 Sep 2017 13:12:01 -0400</pubDate>
@@ -1248,6 +1761,33 @@ All Hugo data is stored in the Data folder at the root of the site.</description
     </item>
     
     <item>
+      <title>Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/guessing-game/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/for-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/while-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Partial Templates</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hugo/partial-templates/</link>
       <pubDate>Thu, 07 Sep 2017 20:24:18 -0400</pubDate>
@@ -1256,6 +1796,33 @@ All Hugo data is stored in the Data folder at the root of the site.</description
       <description>One of the most important factors in building any website is scalability. If your website can’t scale to accommodate hundreds or thousands of pages then it will eventually fail. Modularity is the answer to building a site that scales well and hugo’s answer to modularity is partial templates.
 Modularity Modularity is a concept which relates to breaking your website into a series of parts.
 For example on a normal website you have three main sections:</description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/for-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/exponent-function/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Password Checker</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-password-checker/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-password-checker/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1268,6 +1835,33 @@ For example on a normal website you have three main sections:</description>
     </item>
     
     <item>
+      <title>Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/exponent-function/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/for-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Building &amp; Hosting</title>
       <link>http://www.giraffeacademy.com/static-site-generators/hugo/building--hosting/</link>
       <pubDate>Thu, 07 Sep 2017 20:24:18 -0400</pubDate>
@@ -1275,6 +1869,294 @@ For example on a normal website you have three main sections:</description>
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/building--hosting/</guid>
       <description>Up until this point you’ve most likely been running and testing your hugo website using the hugo server command. Hugo server is a great way to test and track changes locally, but what about when you’re ready to display your creation to the world.
 When you&amp;rsquo;re creating all of your layouts, partials and content pages your website is scattered into a bunch of pieces. But when you build your website all of those pieces get put together is exactly the way you want by hugo.</description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/comments/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Quiz</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Translator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/building-a-translator/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/building-a-translator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Try Catch</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/try-catch/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/try-catch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/2d-arrays--nested-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/2d-arrays--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/comments/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/classes--objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Each Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Try Except</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/try-except/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/try-except/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects (Cont)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/classes--objects-cont/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/classes--objects-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timing</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/timing/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/timing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/reading-files/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/reading-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructor Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/constructor-function/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/constructor-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Storage</title>
+      <link>http://www.giraffeacademy.com/web-development/javascript/web-storage/</link>
+      <pubDate>Sun, 22 Oct 2017 11:23:36 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/javascript/web-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/writing-files/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/writing-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Quiz</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/modules/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/modules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/class-methods/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/class-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/classes--objects/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getters And Setters</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Quiz</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/building-a-quiz/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/building-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Class Attributes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/class-methods/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/class-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Methods In Classes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/static-methods-in-classes/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/static-methods-in-classes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance (Extends)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance (Extends)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python Interpreter</title>
+      <link>http://www.giraffeacademy.com/programming-languages/python/python-interpreter/</link>
+      <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/python/python-interpreter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance (Implements)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/inheritance-implements/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/inheritance-implements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Access Modifiers</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/access-modifiers/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/access-modifiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Main Method</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/main-method/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/main-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Packages &amp; Imports</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/packages--imports/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/packages--imports/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/</loc>
+    <lastmod>2017-10-22T11:58:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/</loc>
+    <lastmod>2017-10-22T11:34:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/</loc>
+    <lastmod>2017-10-22T11:23:33-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/sass/</loc>
     <lastmod>2017-10-10T22:46:03-04:00</lastmod>
   </url>
@@ -43,6 +58,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/</loc>
+    <lastmod>2017-09-11T11:55:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/</loc>
     <lastmod>2017-09-11T11:55:00-04:00</lastmod>
   </url>
@@ -50,6 +70,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/</loc>
     <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/installation/</loc>
+    <lastmod>2017-10-22T11:58:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/installing-jdk/</loc>
+    <lastmod>2017-10-22T11:34:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/choosing-an-ide/</loc>
+    <lastmod>2017-10-22T11:23:33-04:00</lastmod>
   </url>
   
   <url>
@@ -103,6 +138,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/hello-world/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/hello-world/</loc>
+    <lastmod>2017-10-22T11:34:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/hello-world/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/sass/mac-installation/</loc>
     <lastmod>2017-10-10T22:46:04-04:00</lastmod>
   </url>
@@ -145,6 +195,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/drawing-a-shape/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/drawing-a-shape/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/external-files/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
   </url>
   
   <url>
@@ -193,6 +258,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/variables/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/variables/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/drawing-a-shape/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/sass/pre-processing/</loc>
     <lastmod>2017-10-10T22:46:04-04:00</lastmod>
   </url>
@@ -235,6 +315,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/strings/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/data-types/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/variables/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
   </url>
   
   <url>
@@ -283,6 +378,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/math/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/strings/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/strings/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/sass/nesting/</loc>
     <lastmod>2017-10-10T22:46:04-04:00</lastmod>
   </url>
@@ -325,6 +435,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/getting-user-input/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/math/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/math/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
   </url>
   
   <url>
@@ -373,6 +498,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/creating-a-calculator/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/getting-user-input/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/getting-user-input/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/sass/mixins/</loc>
     <lastmod>2017-10-10T22:46:04-04:00</lastmod>
   </url>
@@ -415,6 +555,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/building-a-mad-libs-game/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/creating-a-calculator/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/building-a-calculator/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
   </url>
   
   <url>
@@ -463,6 +618,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/lists/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/building-a-mad-libs-game/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/arrays/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/sass/operators/</loc>
     <lastmod>2017-10-10T22:46:04-04:00</lastmod>
   </url>
@@ -500,6 +670,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/list-functions/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/arrays/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/functions/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
   </url>
   
   <url>
@@ -543,6 +728,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/tuples/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/functions/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/accessing-html-elements/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/css/flexbox/</loc>
     <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
@@ -578,6 +778,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/functions/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/return/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/trigger-events/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/css/animations/</loc>
     <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
@@ -605,6 +820,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/return-statements/</loc>
+    <lastmod>2017-10-22T11:58:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/if-statements/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/building-a-messaging-app/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
   </url>
   
   <url>
@@ -638,6 +868,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/if-statements/</loc>
+    <lastmod>2017-10-22T11:58:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/if-statements-cont/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/if-statements/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/css/browser-support/</loc>
     <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
@@ -668,6 +913,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/if-statements-cont/</loc>
+    <lastmod>2017-10-22T11:58:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/better-calculator/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/if-statements-cont/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/css/css-frameworks/</loc>
     <lastmod>2017-10-10T22:35:49-04:00</lastmod>
   </url>
@@ -693,6 +953,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/better-calculator/</loc>
+    <lastmod>2017-10-22T11:58:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/switch-statements/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/switch-statements/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/data-files/</loc>
     <lastmod>2017-09-25T13:12:01-04:00</lastmod>
   </url>
@@ -705,6 +980,21 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/functions/</loc>
     <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/dictionaries/</loc>
+    <lastmod>2017-10-22T11:58:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/while-loops/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/objects/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
   </url>
   
   <url>
@@ -723,6 +1013,21 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/while-loops/</loc>
+    <lastmod>2017-10-22T11:58:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/building-a-guessing-game/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/real-world-objects/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/jekyll/deploying-to-github-pages/</loc>
     <lastmod>2017-09-25T13:12:01-04:00</lastmod>
   </url>
@@ -738,8 +1043,38 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/guessing-game/</loc>
+    <lastmod>2017-10-22T11:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/for-loops/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/while-loops/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/partial-templates/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/for-loops/</loc>
+    <lastmod>2017-10-22T11:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/exponent-function/</loc>
+    <lastmod>2017-10-22T11:34:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/building-a-password-checker/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
   </url>
   
   <url>
@@ -748,8 +1083,183 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/exponent-function/</loc>
+    <lastmod>2017-10-22T11:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/for-loops/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/building--hosting/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</loc>
+    <lastmod>2017-10-22T11:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/comments/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/building-a-translator/</loc>
+    <lastmod>2017-10-22T11:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/try-catch/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/2d-arrays--nested-loops/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/comments/</loc>
+    <lastmod>2017-10-22T11:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/classes--objects/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/try-except/</loc>
+    <lastmod>2017-10-22T11:58:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/classes--objects-cont/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/timing/</loc>
+    <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/reading-files/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/constructor-function/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/web-storage/</loc>
+    <lastmod>2017-10-22T11:23:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/writing-files/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/modules/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/class-methods/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/classes--objects/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</loc>
+    <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/building-a-quiz/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</loc>
+    <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/class-methods/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/static-methods-in-classes/</loc>
+    <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</loc>
+    <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/python-interpreter/</loc>
+    <lastmod>2017-10-22T11:58:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/inheritance-implements/</loc>
+    <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/access-modifiers/</loc>
+    <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/main-method/</loc>
+    <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/packages--imports/</loc>
+    <lastmod>2017-10-22T11:34:31-04:00</lastmod>
   </url>
   
   <url>
