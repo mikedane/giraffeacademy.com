@@ -1,0 +1,14 @@
+---
+date: 2017-11-01T00:17:52-04:00
+title: "Pointers"
+seo_title: "Pointers | C | Giraffe Academy"
+subheader:
+     greeting: C - Programming Language
+     description: This course covers the basics of programming in C. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+description: This tutorial covers pointers in C.
+author: Mike Dane
+image: pointers.png
+video: RjwD1jdOHBc
+url: /programming-languages/c/pointers/
+weight: 27
+---
