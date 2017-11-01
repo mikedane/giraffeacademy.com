@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/programming-languages/c/</link>
+    <description>Recent content in C on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Nov 2017 00:17:31 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/programming-languages/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/windows-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:32 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/mac-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:32 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/mac-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/hello-world/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:32 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Pyramid</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/drawing-a-pyramid/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:33 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/drawing-a-pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/variables/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/data-types/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Printf</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/printf/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/printf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/math/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:36 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/comments/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:37 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constants</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/constants/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:39 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/constants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Input From Users</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/getting-input-from-users/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:39 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/getting-input-from-users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/creating-a-calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/arrays/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/functions/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/return-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/return-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/if-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Better Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/building-a-better-calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/building-a-better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/switch-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structs</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/structs/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/structs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/while-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:47 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/building-a-guessing-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/for-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/2d-arrays--nested-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/2d-arrays--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accessing Memory Address</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/accessing-memory-address/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:51 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/accessing-memory-address/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pointers</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/pointers/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:52 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/pointers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dereferencing Pointers</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/dereferencing-pointers/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:52 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/dereferencing-pointers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing To External Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/writing-to-external-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:52 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/writing-to-external-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading From External Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/reading-from-external-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:54 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/reading-from-external-files/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

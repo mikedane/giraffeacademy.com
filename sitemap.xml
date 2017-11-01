@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/</loc>
+    <lastmod>2017-11-01T00:17:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/</loc>
+    <lastmod>2017-11-01T00:12:40-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/</loc>
     <lastmod>2017-10-22T11:58:01-04:00</lastmod>
   </url>
@@ -73,6 +83,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/windows-installation/</loc>
+    <lastmod>2017-11-01T00:17:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/windows-installation/</loc>
+    <lastmod>2017-11-01T00:12:40-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/installation/</loc>
     <lastmod>2017-10-22T11:58:01-04:00</lastmod>
   </url>
@@ -138,6 +158,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/mac-installation/</loc>
+    <lastmod>2017-11-01T00:17:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/mac-installation/</loc>
+    <lastmod>2017-11-01T00:12:40-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/hello-world/</loc>
     <lastmod>2017-10-22T11:58:02-04:00</lastmod>
   </url>
@@ -195,6 +225,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/hello-world/</loc>
+    <lastmod>2017-11-01T00:17:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/hello-world-setup/</loc>
+    <lastmod>2017-11-01T00:12:40-04:00</lastmod>
   </url>
   
   <url>
@@ -258,6 +298,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/drawing-a-pyramid/</loc>
+    <lastmod>2017-11-01T00:17:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/drawing-a-pyramid/</loc>
+    <lastmod>2017-11-01T00:12:40-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/variables/</loc>
     <lastmod>2017-10-22T11:58:02-04:00</lastmod>
   </url>
@@ -315,6 +365,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/variables/</loc>
+    <lastmod>2017-11-01T00:17:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/variables/</loc>
+    <lastmod>2017-11-01T00:12:41-04:00</lastmod>
   </url>
   
   <url>
@@ -378,6 +438,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/data-types/</loc>
+    <lastmod>2017-11-01T00:17:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/data-types/</loc>
+    <lastmod>2017-11-01T00:12:41-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/math/</loc>
     <lastmod>2017-10-22T11:58:02-04:00</lastmod>
   </url>
@@ -435,6 +505,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/printf/</loc>
+    <lastmod>2017-11-01T00:17:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/strings/</loc>
+    <lastmod>2017-11-01T00:12:41-04:00</lastmod>
   </url>
   
   <url>
@@ -498,6 +578,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/math/</loc>
+    <lastmod>2017-11-01T00:17:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/math/</loc>
+    <lastmod>2017-11-01T00:12:41-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/creating-a-calculator/</loc>
     <lastmod>2017-10-22T11:58:02-04:00</lastmod>
   </url>
@@ -555,6 +645,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/comments/</loc>
+    <lastmod>2017-11-01T00:17:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/getting-user-input/</loc>
+    <lastmod>2017-11-01T00:12:41-04:00</lastmod>
   </url>
   
   <url>
@@ -618,6 +718,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/constants/</loc>
+    <lastmod>2017-11-01T00:17:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-calculator/</loc>
+    <lastmod>2017-11-01T00:12:42-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/lists/</loc>
     <lastmod>2017-10-22T11:58:02-04:00</lastmod>
   </url>
@@ -670,6 +780,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/getting-input-from-users/</loc>
+    <lastmod>2017-11-01T00:17:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/building-a-mad-libs-game/</loc>
+    <lastmod>2017-11-01T00:12:42-04:00</lastmod>
   </url>
   
   <url>
@@ -728,6 +848,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/creating-a-calculator/</loc>
+    <lastmod>2017-11-01T00:17:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/arrays/</loc>
+    <lastmod>2017-11-01T00:12:42-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/tuples/</loc>
     <lastmod>2017-10-22T11:58:02-04:00</lastmod>
   </url>
@@ -778,6 +908,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/building-a-mad-libs-game/</loc>
+    <lastmod>2017-11-01T00:17:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/hashes/</loc>
+    <lastmod>2017-11-01T00:12:42-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/functions/</loc>
     <lastmod>2017-10-22T11:58:02-04:00</lastmod>
   </url>
@@ -820,6 +960,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/arrays/</loc>
+    <lastmod>2017-11-01T00:17:43-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/methods/</loc>
+    <lastmod>2017-11-01T00:12:42-04:00</lastmod>
   </url>
   
   <url>
@@ -868,6 +1018,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/functions/</loc>
+    <lastmod>2017-11-01T00:17:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/return/</loc>
+    <lastmod>2017-11-01T00:12:42-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/if-statements/</loc>
     <lastmod>2017-10-22T11:58:03-04:00</lastmod>
   </url>
@@ -913,6 +1073,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/return-statements/</loc>
+    <lastmod>2017-11-01T00:17:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/if-statements/</loc>
+    <lastmod>2017-11-01T00:12:43-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/if-statements-cont/</loc>
     <lastmod>2017-10-22T11:58:03-04:00</lastmod>
   </url>
@@ -953,6 +1123,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/if-statements/</loc>
+    <lastmod>2017-11-01T00:17:44-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/if-statements-cont/</loc>
+    <lastmod>2017-11-01T00:12:43-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/better-calculator/</loc>
     <lastmod>2017-10-22T11:58:03-04:00</lastmod>
   </url>
@@ -980,6 +1160,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/functions/</loc>
     <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/building-a-better-calculator/</loc>
+    <lastmod>2017-11-01T00:17:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/calculator/</loc>
+    <lastmod>2017-11-01T00:12:43-04:00</lastmod>
   </url>
   
   <url>
@@ -1013,6 +1203,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/switch-statements/</loc>
+    <lastmod>2017-11-01T00:17:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/switch-statements/</loc>
+    <lastmod>2017-11-01T00:12:43-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/while-loops/</loc>
     <lastmod>2017-10-22T11:58:03-04:00</lastmod>
   </url>
@@ -1043,6 +1243,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/structs/</loc>
+    <lastmod>2017-11-01T00:17:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/while-loops/</loc>
+    <lastmod>2017-11-01T00:12:43-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/guessing-game/</loc>
     <lastmod>2017-10-22T11:58:04-04:00</lastmod>
   </url>
@@ -1060,6 +1270,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/partial-templates/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/while-loops/</loc>
+    <lastmod>2017-11-01T00:17:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/building-a-guessing-game/</loc>
+    <lastmod>2017-11-01T00:12:43-04:00</lastmod>
   </url>
   
   <url>
@@ -1083,6 +1303,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/building-a-guessing-game/</loc>
+    <lastmod>2017-11-01T00:17:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/for-loops/</loc>
+    <lastmod>2017-11-01T00:12:44-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/exponent-function/</loc>
     <lastmod>2017-10-22T11:58:04-04:00</lastmod>
   </url>
@@ -1103,6 +1333,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/for-loops/</loc>
+    <lastmod>2017-11-01T00:17:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/building-an-exponent-function/</loc>
+    <lastmod>2017-11-01T00:12:44-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</loc>
     <lastmod>2017-10-22T11:58:04-04:00</lastmod>
   </url>
@@ -1115,6 +1355,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</loc>
     <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/2d-arrays--nested-loops/</loc>
+    <lastmod>2017-11-01T00:17:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/comments/</loc>
+    <lastmod>2017-11-01T00:12:44-04:00</lastmod>
   </url>
   
   <url>
@@ -1133,6 +1383,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/accessing-memory-address/</loc>
+    <lastmod>2017-11-01T00:17:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/reading-files/</loc>
+    <lastmod>2017-11-01T00:12:44-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/comments/</loc>
     <lastmod>2017-10-22T11:58:04-04:00</lastmod>
   </url>
@@ -1145,6 +1405,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</loc>
     <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/pointers/</loc>
+    <lastmod>2017-11-01T00:17:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/writing-files/</loc>
+    <lastmod>2017-11-01T00:12:44-04:00</lastmod>
   </url>
   
   <url>
@@ -1163,6 +1433,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/dereferencing-pointers/</loc>
+    <lastmod>2017-11-01T00:17:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/handling-errors/</loc>
+    <lastmod>2017-11-01T00:12:44-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/reading-files/</loc>
     <lastmod>2017-10-22T11:58:05-04:00</lastmod>
   </url>
@@ -1178,6 +1458,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/writing-to-external-files/</loc>
+    <lastmod>2017-11-01T00:17:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/classes--objects/</loc>
+    <lastmod>2017-11-01T00:12:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/writing-files/</loc>
     <lastmod>2017-10-22T11:58:05-04:00</lastmod>
   </url>
@@ -1185,6 +1475,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</loc>
     <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/reading-from-external-files/</loc>
+    <lastmod>2017-11-01T00:17:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/initialize-method/</loc>
+    <lastmod>2017-11-01T00:12:45-04:00</lastmod>
   </url>
   
   <url>
@@ -1198,6 +1498,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/object-methods/</loc>
+    <lastmod>2017-11-01T00:12:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/classes--objects/</loc>
     <lastmod>2017-10-22T11:58:05-04:00</lastmod>
   </url>
@@ -1205,6 +1510,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</loc>
     <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-quiz/</loc>
+    <lastmod>2017-11-01T00:12:45-04:00</lastmod>
   </url>
   
   <url>
@@ -1218,6 +1528,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/inheritance/</loc>
+    <lastmod>2017-11-01T00:12:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/class-methods/</loc>
     <lastmod>2017-10-22T11:58:05-04:00</lastmod>
   </url>
@@ -1228,6 +1543,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/modules/</loc>
+    <lastmod>2017-11-01T00:12:46-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</loc>
     <lastmod>2017-10-22T11:58:05-04:00</lastmod>
   </url>
@@ -1235,6 +1555,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</loc>
     <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/interactive-ruby/</loc>
+    <lastmod>2017-11-01T00:12:46-04:00</lastmod>
   </url>
   
   <url>

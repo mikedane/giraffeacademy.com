@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/windows-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:32 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/windows-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Installation</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/installation/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:01 -0400</pubDate>
@@ -118,6 +136,24 @@
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
       <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/mac-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:32 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/mac-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/mac-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/mac-installation/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -230,6 +266,24 @@ Step 1 : Installing Homebrew Installing programs on mac isn’t the same as inst
     </item>
     
     <item>
+      <title>Hello World</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/hello-world/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:32 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World Setup</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/hello-world-setup/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/hello-world-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Drawing A Shape</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/drawing-a-shape/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
@@ -339,6 +393,24 @@ Preparing your workspace Once you have everything installed and ready to go it�
     </item>
     
     <item>
+      <title>Drawing A Pyramid</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/drawing-a-pyramid/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:33 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/drawing-a-pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Pyramid</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/drawing-a-pyramid/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/drawing-a-pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Variables</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/variables/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
@@ -444,6 +516,24 @@ Preparing your workspace Once you have everything installed and ready to go it�
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</guid>
       <description>Themes are collections of hugo layouts that take all the hassle out of building your site. If you’re not inclined to learn how to write HTML and CSS, or if you simply want to get your blog or content site up as soon as possible then themes are for you. There are dozens of publicly available pre-built themes available for download that developers in the hugo community have built. Using a pre-built theme takes all the hassle out of designing and organizing your hugo site.</description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/variables/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:34 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/variables/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/variables/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -556,6 +646,24 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     </item>
     
     <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/data-types/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/data-types/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Math</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/math/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
@@ -662,6 +770,24 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</guid>
       <description>Hugo makes it really easy to write static content for the web. But not only is hugo easy to use, it’s also super powerful. In this lesson we’re gonna look at one of the most powerful tools Hugo has in it’s arsenal, front matter.
 Front matter When you create a new content page using the hugo new filename command, hugo automatically creates a new file and fills it with some default information.</description>
+    </item>
+    
+    <item>
+      <title>Printf</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/printf/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:35 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/printf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/strings/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/strings/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -773,6 +899,24 @@ Front matter When you create a new content page using the hugo new filename comm
     </item>
     
     <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/math/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:36 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/math/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Creating A Calculator</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/creating-a-calculator/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
@@ -878,6 +1022,24 @@ Front matter When you create a new content page using the hugo new filename comm
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</guid>
       <description>Built-in Shortcodes Hugo has a collection of built-in shortcodes which you can use right out of the box. For a full listing of built in shortcodes check out the official hugo documentation page: https://gohugo.io/content-management/shortcodes/#using-shortcodes</description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/comments/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:37 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/getting-user-input/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/getting-user-input/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -990,6 +1152,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Constants</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/constants/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:39 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/constants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lists</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/lists/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
@@ -1085,6 +1265,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:14 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Input From Users</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/getting-input-from-users/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:39 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/getting-input-from-users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/building-a-mad-libs-game/</guid>
       <description></description>
     </item>
     
@@ -1188,6 +1386,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/creating-a-calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/arrays/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tuples</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/tuples/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
@@ -1278,6 +1494,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hashes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/hashes/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/hashes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Functions</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/functions/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
@@ -1359,6 +1593,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/arrays/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/methods/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Return Statements</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/return-statements/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
@@ -1436,6 +1688,24 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/functions/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/return/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/return/</guid>
       <description></description>
     </item>
     
@@ -1522,6 +1792,24 @@ Block temples are an advanced type of hugo template that allows you to build hig
     </item>
     
     <item>
+      <title>Return Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/return-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/return-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/if-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>If Statements (Cont)</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/if-statements-cont/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
@@ -1595,6 +1883,24 @@ Image of the go programming language logo with the hugo logo</description>
     </item>
     
     <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/if-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Con&#39;T)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/if-statements-cont/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Better Calculator</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/better-calculator/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
@@ -1648,6 +1954,24 @@ Image of the go programming language logo with the hugo logo</description>
       <description>Go template functions give you a series of useful functions that you can use to add logic into your templates. These functions perform a variety of tasks like adding numbers, splicing strings or looping through lists of values.
 How functions work Functions are formatted as follows
 Copy{{ func-name arg1, arg2, … , argX }} Inside double curly brackets, you put the name of the function and then pass the function arguments.</description>
+    </item>
+    
+    <item>
+      <title>Building A Better Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/building-a-better-calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/building-a-better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/calculator/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1706,6 +2030,24 @@ A good example of a conditional is when you go to an amusement park.</descriptio
     </item>
     
     <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/switch-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/switch-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>While Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/while-loops/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
@@ -1761,6 +2103,24 @@ All Hugo data is stored in the Data folder at the root of the site.</description
     </item>
     
     <item>
+      <title>Structs</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/structs/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/structs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/while-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Guessing Game</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/guessing-game/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
@@ -1799,6 +2159,24 @@ For example on a normal website you have three main sections:</description>
     </item>
     
     <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/while-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:47 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/building-a-guessing-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>For Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/for-loops/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
@@ -1832,6 +2210,24 @@ For example on a normal website you have three main sections:</description>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcode-templates/</guid>
       <description>Often times when you’re writing content for your blog or website, there will be certain components that you are using multiple times across all your posts. Maybe you like to surround all your images with a stylish CSS border, or you embed youtube videos into your posts. These components all use the same code and logic. Instead of having to copy and paste this code whenever we want to include one of these component, it would be easier to just put the code in one central place and have hugo insert it into our pages when it builds our site.</description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/building-a-guessing-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:48 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/for-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/for-loops/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1872,6 +2268,24 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/for-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building An Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/building-an-exponent-function/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/building-an-exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>2d Arrays &amp; Nested Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
@@ -1895,6 +2309,24 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/2d-arrays--nested-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:49 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/2d-arrays--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/comments/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/comments/</guid>
       <description></description>
     </item>
     
@@ -1926,6 +2358,24 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Accessing Memory Address</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/accessing-memory-address/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:51 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/accessing-memory-address/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/reading-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/reading-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Comments</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/comments/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
@@ -1949,6 +2399,24 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pointers</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/pointers/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:52 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/pointers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/writing-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/writing-files/</guid>
       <description></description>
     </item>
     
@@ -1980,6 +2448,24 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Dereferencing Pointers</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/dereferencing-pointers/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:52 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/dereferencing-pointers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handling Errors</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/handling-errors/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/handling-errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reading Files</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/reading-files/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
@@ -2007,6 +2493,24 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Writing To External Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/writing-to-external-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:52 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/writing-to-external-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/classes--objects/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Writing Files</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/writing-files/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
@@ -2021,6 +2525,24 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading From External Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c/reading-from-external-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:17:54 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c/reading-from-external-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Initialize Method</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/initialize-method/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/initialize-method/</guid>
       <description></description>
     </item>
     
@@ -2043,6 +2565,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Object Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/object-methods/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/object-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Classes &amp; Objects</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/classes--objects/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
@@ -2057,6 +2588,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Quiz</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-quiz/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-quiz/</guid>
       <description></description>
     </item>
     
@@ -2079,6 +2619,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Inheritance</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/inheritance/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/inheritance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Class Methods</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/class-methods/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
@@ -2097,6 +2646,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Modules</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/modules/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/modules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inheritance (Extends)</title>
       <link>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
@@ -2111,6 +2669,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Ruby</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/interactive-ruby/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/interactive-ruby/</guid>
       <description></description>
     </item>
     

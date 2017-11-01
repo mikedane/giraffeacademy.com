@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/programming-languages/ruby/</link>
+    <description>Recent content in Ruby on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Nov 2017 00:12:40 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/programming-languages/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/windows-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/mac-installation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/mac-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World Setup</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/hello-world-setup/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/hello-world-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Pyramid</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/drawing-a-pyramid/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/drawing-a-pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/variables/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/data-types/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/strings/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/math/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting User Input</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/getting-user-input/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/getting-user-input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/arrays/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hashes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/hashes/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/hashes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/methods/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/return/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/return/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/if-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Con&#39;T)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/if-statements-cont/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/calculator/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/switch-statements/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/while-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/building-a-guessing-game/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/for-loops/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building An Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/building-an-exponent-function/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/building-an-exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/comments/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/reading-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/reading-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing Files</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/writing-files/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/writing-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handling Errors</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/handling-errors/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/handling-errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/classes--objects/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Initialize Method</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/initialize-method/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/initialize-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/object-methods/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/object-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Quiz</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-quiz/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/inheritance/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/inheritance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/modules/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/modules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Ruby</title>
+      <link>http://www.giraffeacademy.com/programming-languages/ruby/interactive-ruby/</link>
+      <pubDate>Wed, 01 Nov 2017 00:12:46 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/ruby/interactive-ruby/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
