@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Nov 2017 01:21:24 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/programming-languages/c++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/windows-installation/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/mac-installation/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/mac-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World &amp; Setup</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/hello-world--setup/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/hello-world--setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Pyramid</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/variables/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/data-types/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/strings/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/math/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Input From Users</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getting-input-from-users/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getting-input-from-users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/creating-a-calculator/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-mad-libs-game/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/arrays/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/methods/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/return/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/return/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Cont)</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements-cont/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/calculator/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/switch-statements/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/while-loops/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/for-loops/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building An Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-an-exponent-function/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-an-exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays &amp; Nested Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/2d-arrays--nested-loops/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/2d-arrays--nested-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/comments/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory &amp; Pointers</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/memory--pointers/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/memory--pointers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/classes--objects/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructor Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/constructor-function/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/constructor-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Functions</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/object-functions/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/object-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getters And Setters</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getters-and-setters/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/inheritance/</link>
+      <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/inheritance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

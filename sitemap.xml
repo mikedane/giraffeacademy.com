@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/</loc>
+    <lastmod>2017-11-07T01:21:24-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/</loc>
     <lastmod>2017-11-01T00:17:31-04:00</lastmod>
   </url>
@@ -83,6 +88,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/windows-installation/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/windows-installation/</loc>
     <lastmod>2017-11-01T00:17:32-04:00</lastmod>
   </url>
@@ -158,6 +168,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/mac-installation/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/mac-installation/</loc>
     <lastmod>2017-11-01T00:17:32-04:00</lastmod>
   </url>
@@ -225,6 +240,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/hello-world--setup/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
   </url>
   
   <url>
@@ -298,6 +318,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/drawing-a-pyramid/</loc>
     <lastmod>2017-11-01T00:17:33-04:00</lastmod>
   </url>
@@ -365,6 +390,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/variables/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
   </url>
   
   <url>
@@ -438,6 +468,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/data-types/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/data-types/</loc>
     <lastmod>2017-11-01T00:17:35-04:00</lastmod>
   </url>
@@ -505,6 +540,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/strings/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
   </url>
   
   <url>
@@ -578,6 +618,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/math/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/math/</loc>
     <lastmod>2017-11-01T00:17:36-04:00</lastmod>
   </url>
@@ -645,6 +690,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getting-input-from-users/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
   </url>
   
   <url>
@@ -718,6 +768,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/creating-a-calculator/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/constants/</loc>
     <lastmod>2017-11-01T00:17:39-04:00</lastmod>
   </url>
@@ -780,6 +835,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-mad-libs-game/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
   </url>
   
   <url>
@@ -848,6 +908,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/arrays/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/creating-a-calculator/</loc>
     <lastmod>2017-11-01T00:17:41-04:00</lastmod>
   </url>
@@ -908,6 +973,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/methods/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/building-a-mad-libs-game/</loc>
     <lastmod>2017-11-01T00:17:41-04:00</lastmod>
   </url>
@@ -960,6 +1030,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/return/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
   </url>
   
   <url>
@@ -1018,6 +1093,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/functions/</loc>
     <lastmod>2017-11-01T00:17:44-04:00</lastmod>
   </url>
@@ -1073,6 +1153,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements-cont/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/return-statements/</loc>
     <lastmod>2017-11-01T00:17:44-04:00</lastmod>
   </url>
@@ -1123,6 +1208,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/calculator/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/if-statements/</loc>
     <lastmod>2017-11-01T00:17:44-04:00</lastmod>
   </url>
@@ -1160,6 +1250,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/functions/</loc>
     <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/switch-statements/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
   </url>
   
   <url>
@@ -1203,6 +1298,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/while-loops/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/switch-statements/</loc>
     <lastmod>2017-11-01T00:17:46-04:00</lastmod>
   </url>
@@ -1243,6 +1343,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/structs/</loc>
     <lastmod>2017-11-01T00:17:46-04:00</lastmod>
   </url>
@@ -1270,6 +1375,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/partial-templates/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/for-loops/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
   </url>
   
   <url>
@@ -1303,6 +1413,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-an-exponent-function/</loc>
+    <lastmod>2017-11-07T01:21:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/building-a-guessing-game/</loc>
     <lastmod>2017-11-01T00:17:48-04:00</lastmod>
   </url>
@@ -1333,6 +1448,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/2d-arrays--nested-loops/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/for-loops/</loc>
     <lastmod>2017-11-01T00:17:49-04:00</lastmod>
   </url>
@@ -1355,6 +1475,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</loc>
     <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/comments/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
   </url>
   
   <url>
@@ -1383,6 +1508,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/memory--pointers/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/accessing-memory-address/</loc>
     <lastmod>2017-11-01T00:17:51-04:00</lastmod>
   </url>
@@ -1405,6 +1535,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</loc>
     <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/classes--objects/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
   </url>
   
   <url>
@@ -1433,6 +1568,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/constructor-function/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/dereferencing-pointers/</loc>
     <lastmod>2017-11-01T00:17:52-04:00</lastmod>
   </url>
@@ -1458,6 +1598,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/object-functions/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/writing-to-external-files/</loc>
     <lastmod>2017-11-01T00:17:52-04:00</lastmod>
   </url>
@@ -1478,6 +1623,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getters-and-setters/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/c/reading-from-external-files/</loc>
     <lastmod>2017-11-01T00:17:54-04:00</lastmod>
   </url>
@@ -1495,6 +1645,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/class-methods/</loc>
     <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/inheritance/</loc>
+    <lastmod>2017-11-07T01:21:27-05:00</lastmod>
   </url>
   
   <url>
