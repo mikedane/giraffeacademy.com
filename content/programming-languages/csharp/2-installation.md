@@ -1,0 +1,14 @@
+---
+date: 2017-11-08T18:34:44-05:00
+title: "Installation"
+seo_title: "Installation | C# | Giraffe Academy"
+subheader:
+     greeting: C# - Programming Language
+     description: This course covers the basics of programming in C#. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+description: This tutorial covers installation in C#.
+author: Mike Dane
+image: installation.png
+video: samkJ9LOMWY
+url: /programming-languages/csharp/installation/
+weight: 2
+---
