@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/installation/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows Installation</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/windows-installation/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
@@ -145,6 +154,15 @@
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
       <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Drawing A Pyramid</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/drawing-a-pyramid/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/drawing-a-pyramid/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -284,6 +302,15 @@ Step 1 : Installing Homebrew Installing programs on mac isn’t the same as inst
     </item>
     
     <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/variables/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hello World &amp; Setup</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/hello-world--setup/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
@@ -420,6 +447,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
     </item>
     
     <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/data-types/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Drawing A Pyramid</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
@@ -552,6 +588,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</guid>
       <description>Themes are collections of hugo layouts that take all the hassle out of building your site. If you’re not inclined to learn how to write HTML and CSS, or if you simply want to get your blog or content site up as soon as possible then themes are for you. There are dozens of publicly available pre-built themes available for download that developers in the hugo community have built. Using a pre-built theme takes all the hassle out of designing and organizing your hugo site.</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/strings/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/strings/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -691,6 +736,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     </item>
     
     <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/math/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Types</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/data-types/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
@@ -824,6 +878,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</guid>
       <description>Hugo makes it really easy to write static content for the web. But not only is hugo easy to use, it’s also super powerful. In this lesson we’re gonna look at one of the most powerful tools Hugo has in it’s arsenal, front matter.
 Front matter When you create a new content page using the hugo new filename command, hugo automatically creates a new file and fills it with some default information.</description>
+    </item>
+    
+    <item>
+      <title>Getting Input From Users</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/getting-input-from-users/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/getting-input-from-users/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -962,6 +1025,15 @@ Front matter When you create a new content page using the hugo new filename comm
     </item>
     
     <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/creating-a-calculator/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Math</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/math/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
@@ -1094,6 +1166,15 @@ Front matter When you create a new content page using the hugo new filename comm
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</guid>
       <description>Built-in Shortcodes Hugo has a collection of built-in shortcodes which you can use right out of the box. For a full listing of built in shortcodes check out the official hugo documentation page: https://gohugo.io/content-management/shortcodes/#using-shortcodes</description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/building-a-mad-libs-game/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1233,6 +1314,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/arrays/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Creating A Calculator</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/creating-a-calculator/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
@@ -1355,6 +1445,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:14 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/methods/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/methods/</guid>
       <description></description>
     </item>
     
@@ -1485,6 +1584,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Return</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/return/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/return/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Arrays</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/arrays/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -1602,6 +1710,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/if-statements/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Methods</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/methods/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -1710,6 +1827,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>If Statements Cont</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/if-statements-cont/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Return</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/return/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -1814,6 +1940,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/calculator/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/calculator/</guid>
       <description></description>
     </item>
     
@@ -1927,6 +2062,15 @@ Block temples are an advanced type of hugo template that allows you to build hig
     </item>
     
     <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/switch-statements/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>If Statements (Cont)</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements-cont/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -2027,6 +2171,15 @@ Image of the go programming language logo with the hugo logo</description>
     </item>
     
     <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/while-loops/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Calculator</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/calculator/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -2107,6 +2260,15 @@ Image of the go programming language logo with the hugo logo</description>
       <description>Go template functions give you a series of useful functions that you can use to add logic into your templates. These functions perform a variety of tasks like adding numbers, splicing strings or looping through lists of values.
 How functions work Functions are formatted as follows
 Copy{{ func-name arg1, arg2, … , argX }} Inside double curly brackets, you put the name of the function and then pass the function arguments.</description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/building-a-guessing-game/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/building-a-guessing-game/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -2192,6 +2354,15 @@ A good example of a conditional is when you go to an amusement park.</descriptio
     </item>
     
     <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/for-loops/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>While Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/while-loops/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -2274,6 +2445,15 @@ All Hugo data is stored in the Data folder at the root of the site.</description
     </item>
     
     <item>
+      <title>Building An Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/building-an-exponent-function/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/building-an-exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Building A Guessing Game</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -2339,6 +2519,15 @@ For example on a normal website you have three main sections:</description>
     </item>
     
     <item>
+      <title>2d Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/2d-arrays/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/2d-arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>For Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/for-loops/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
@@ -2399,6 +2588,15 @@ For example on a normal website you have three main sections:</description>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcode-templates/</guid>
       <description>Often times when you’re writing content for your blog or website, there will be certain components that you are using multiple times across all your posts. Maybe you like to surround all your images with a stylish CSS border, or you embed youtube videos into your posts. These components all use the same code and logic. Instead of having to copy and paste this code whenever we want to include one of these component, it would be easier to just put the code in one central place and have hugo insert it into our pages when it builds our site.</description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/comments/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/comments/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -2466,6 +2664,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Try &amp; Catch</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/try--catch/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/try--catch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>2d Arrays &amp; Nested Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/2d-arrays--nested-loops/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
@@ -2516,6 +2723,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/classes--objects/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/classes--objects/</guid>
       <description></description>
     </item>
     
@@ -2574,6 +2790,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Constructor Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/constructor-function/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/constructor-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Memory &amp; Pointers</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/memory--pointers/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
@@ -2624,6 +2849,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/class-methods/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/class-methods/</guid>
       <description></description>
     </item>
     
@@ -2682,6 +2916,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Getters And Setters</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/getters-and-setters/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Constructor Function</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/constructor-function/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
@@ -2736,6 +2979,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Static Class Attributes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/static-class-attributes/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/static-class-attributes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Object Functions</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/object-functions/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
@@ -2781,6 +3033,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Static Methods In Classes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/static-methods-in-classes/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/static-methods-in-classes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Getters And Setters</title>
       <link>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getters-and-setters/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
@@ -2822,6 +3083,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/class-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/inheritance/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/inheritance/</guid>
       <description></description>
     </item>
     

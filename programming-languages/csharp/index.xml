@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/programming-languages/csharp/</link>
+    <description>Recent content in C# on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Nov 2017 18:34:44 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/programming-languages/csharp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installation</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/installation/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drawing A Pyramid</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/drawing-a-pyramid/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/drawing-a-pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/variables/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/data-types/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/strings/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/math/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Input From Users</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/getting-input-from-users/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/getting-input-from-users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/creating-a-calculator/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/arrays/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/methods/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/return/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/return/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/if-statements/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements Cont</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/if-statements-cont/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/if-statements-cont/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calculator</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/calculator/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/switch-statements/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/while-loops/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Guessing Game</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/building-a-guessing-game/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/building-a-guessing-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/for-loops/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building An Exponent Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/building-an-exponent-function/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/building-an-exponent-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2d Arrays</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/2d-arrays/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/2d-arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/comments/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Try &amp; Catch</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/try--catch/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/try--catch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes &amp; Objects</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/classes--objects/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/classes--objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructor Function</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/constructor-function/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/constructor-function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class Methods</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/class-methods/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/class-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getters And Setters</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/getters-and-setters/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Class Attributes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/static-class-attributes/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/static-class-attributes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Methods In Classes</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/static-methods-in-classes/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/static-methods-in-classes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>http://www.giraffeacademy.com/programming-languages/csharp/inheritance/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/csharp/inheritance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
