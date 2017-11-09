@@ -9,6 +9,6 @@ description: This tutorial covers how to use divs & spans in HTML.
 author: Mike Dane
 image: divs-&-spans.png
 video: lyVwVgiRNIU
-url: /web-development/html/divs-&-spans/
+url: /web-development/html/divs-spans/
 weight: 13
 ---

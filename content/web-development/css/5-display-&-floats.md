@@ -9,6 +9,6 @@ description: This tutorial covers how to use display & floats in CSS.
 author: Mike Dane
 image: display-&-floats.png
 video: Bzd1Pnxqeic
-url: /web-development/css/display-&-floats/
+url: /web-development/css/display-floats/
 weight: 5
 ---

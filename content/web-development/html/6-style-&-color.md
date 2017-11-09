@@ -9,6 +9,6 @@ description: This tutorial covers how to use style & color in HTML.
 author: Mike Dane
 image: style-&-color.png
 video: eN72Ft-CCg4
-url: /web-development/html/style-&-color/
+url: /web-development/html/style-color/
 weight: 6
 ---

@@ -9,6 +9,6 @@ description: This tutorial covers how to use margins & padding in CSS.
 author: Mike Dane
 image: margins-&-padding.png
 video: k4xA_Olo_Uo
-url: /web-development/css/margins-&-padding/
+url: /web-development/css/margins-padding/
 weight: 4
 ---

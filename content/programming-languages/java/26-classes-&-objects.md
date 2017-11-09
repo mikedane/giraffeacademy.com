@@ -9,6 +9,6 @@ description: This tutorial covers classes & objects in Java.
 author: Mike Dane
 image: classes-&-objects.png
 video: Mm06BuD3PlY
-url: /programming-languages/java/classes-&-objects/
+url: /programming-languages/java/classes-objects/
 weight: 26
 ---

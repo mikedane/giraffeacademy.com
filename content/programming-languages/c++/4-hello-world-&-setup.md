@@ -9,6 +9,6 @@ description: This tutorial covers hello world & setup in C++.
 author: Mike Dane
 image: hello-world-&-setup.png
 video: q4zIPCmPlqI
-url: /programming-languages/c++/hello-world-&-setup/
+url: /programming-languages/c++/hello-world-setup/
 weight: 4
 ---

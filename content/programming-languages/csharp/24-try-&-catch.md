@@ -9,6 +9,6 @@ description: This tutorial covers try & catch in C#.
 author: Mike Dane
 image: try-&-catch.png
 video: ZJRg8nrNeeA
-url: /programming-languages/csharp/try-&-catch/
+url: /programming-languages/csharp/try-catch/
 weight: 24
 ---

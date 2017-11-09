@@ -9,6 +9,6 @@ description: This tutorial covers how to use nesting & scope in Less.
 author: Mike Dane
 image: nesting-&-scope.png
 video: sCeQwpRGCUQ
-url: /web-development/less/nesting-&-scope/
+url: /web-development/less/nesting-scope/
 weight: 7
 ---

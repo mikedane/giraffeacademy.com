@@ -9,6 +9,6 @@ description: This tutorial covers classes & objects in C++.
 author: Mike Dane
 image: classes-&-objects.png
 video: wGyCsWXVD9E
-url: /programming-languages/c++/classes-&-objects/
+url: /programming-languages/c++/classes-objects/
 weight: 27
 ---

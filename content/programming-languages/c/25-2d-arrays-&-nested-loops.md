@@ -9,6 +9,6 @@ description: This tutorial covers 2d arrays & nested loops in C.
 author: Mike Dane
 image: 2d-arrays-&-nested-loops.png
 video: kh6nWhD6QKQ
-url: /programming-languages/c/2d-arrays-&-nested-loops/
+url: /programming-languages/c/2d-arrays-nested-loops/
 weight: 25
 ---

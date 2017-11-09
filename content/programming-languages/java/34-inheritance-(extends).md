@@ -9,6 +9,6 @@ description: This tutorial covers inheritance (extends) in Java.
 author: Mike Dane
 image: inheritance-(extends).png
 video: ePFWoOnyYHc
-url: /programming-languages/java/inheritance-(extends)/
+url: /programming-languages/java/inheritance-extends/
 weight: 34
 ---

@@ -9,6 +9,6 @@ description: This tutorial covers inheritance (implements) in Java.
 author: Mike Dane
 image: inheritance-(implements).png
 video: mSjAJn4hUqg
-url: /programming-languages/java/inheritance-(implements)/
+url: /programming-languages/java/inheritance-implements/
 weight: 35
 ---

@@ -9,6 +9,6 @@ description: This tutorial covers how to use writing & organizing content in Hex
 author: Mike Dane
 image: writing-&-organizing-content.png
 video: AIqBubK6ZLc
-url: /static-site-generators/hexo/writing-&-organizing-content/
+url: /static-site-generators/hexo/writing-organizing-content/
 weight: 4
 ---

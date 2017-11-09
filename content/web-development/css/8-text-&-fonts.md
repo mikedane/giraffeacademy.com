@@ -9,6 +9,6 @@ description: This tutorial covers how to use text & fonts in CSS.
 author: Mike Dane
 image: text-&-fonts.png
 video: Bc6tss3gEvU
-url: /web-development/css/text-&-fonts/
+url: /web-development/css/text-fonts/
 weight: 8
 ---

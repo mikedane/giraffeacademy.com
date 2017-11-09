@@ -9,6 +9,6 @@ description: This tutorial covers classes & objects (cont) in Java.
 author: Mike Dane
 image: classes-&-objects-(cont).png
 video: O6BVfyW8vmg
-url: /programming-languages/java/classes-&-objects-(cont)/
+url: /programming-languages/java/classes-objects-cont/
 weight: 27
 ---

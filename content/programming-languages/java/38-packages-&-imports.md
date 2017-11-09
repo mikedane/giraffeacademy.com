@@ -9,6 +9,6 @@ description: This tutorial covers packages & imports in Java.
 author: Mike Dane
 image: packages-&-imports.png
 video: ipMdsje9J6s
-url: /programming-languages/java/packages-&-imports/
+url: /programming-languages/java/packages-imports/
 weight: 38
 ---

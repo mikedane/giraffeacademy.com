@@ -9,6 +9,6 @@ description: This tutorial covers 2d arrays & nested loops in Javascript.
 author: Mike Dane
 image: 2d-arrays-&-nested-loops.png
 video: 6m6QWuhLGZc
-url: /web-development/javascript/2d-arrays-&-nested-loops/
+url: /web-development/javascript/2d-arrays-nested-loops/
 weight: 25
 ---

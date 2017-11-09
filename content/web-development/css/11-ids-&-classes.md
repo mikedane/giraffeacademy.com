@@ -9,6 +9,6 @@ description: This tutorial covers how to use ids & classes in CSS.
 author: Mike Dane
 image: ids-&-classes.png
 video: 4C_-y9dIc54
-url: /web-development/css/ids-&-classes/
+url: /web-development/css/ids-classes/
 weight: 11
 ---

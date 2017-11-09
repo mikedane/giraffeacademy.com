@@ -8,11 +8,13 @@
                <h1>{{.Title}}</h1>
 
                {{ partial "articles/article-subheader" . }}
-               {{- if .Params.video -}}{{ partial "youtube-video" . }}{{- end -}}
+               {{- if .Params.video -}}
+                    {{ partial "youtube-video" . }}
+               {{- end -}}
                <div style="font-size:18px" class="{{if or (not (isset .Params `flow_text`)) (eq .Params.flow_text true)}}flow-text{{end}}">
                     {{.Content}}
                </div>
-
+               {{ partial "nav/pagination.html" . }}
           </article>
      </div>
      <aside class="col xl2 l2 hide-on-med-and-down left-col-article" style="padding-right:0px;">

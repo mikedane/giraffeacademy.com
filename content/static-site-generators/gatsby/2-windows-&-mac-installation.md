@@ -9,6 +9,6 @@ description: This tutorial covers how to use windows & mac installation in Gatsb
 author: Mike Dane
 image: windows-&-mac-installation.png
 video: _Jvs3gyNZWw
-url: /static-site-generators/gatsby/windows-&-mac-installation/
+url: /static-site-generators/gatsby/windows-mac-installation/
 weight: 2
 ---

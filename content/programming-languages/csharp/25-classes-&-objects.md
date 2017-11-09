@@ -9,6 +9,6 @@ description: This tutorial covers classes & objects in C#.
 author: Mike Dane
 image: classes-&-objects.png
 video: -ETZ0nOCU14
-url: /programming-languages/csharp/classes-&-objects/
+url: /programming-languages/csharp/classes-objects/
 weight: 25
 ---

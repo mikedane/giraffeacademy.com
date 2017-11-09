@@ -9,6 +9,6 @@ description: This tutorial covers how to use inputs & forms in HTML.
 author: Mike Dane
 image: inputs-&-forms.png
 video: vj78j_Sy3uM
-url: /web-development/html/inputs-&-forms/
+url: /web-development/html/inputs-forms/
 weight: 14
 ---

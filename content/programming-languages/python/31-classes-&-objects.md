@@ -9,6 +9,6 @@ description: This tutorial covers classes & objects in Python.
 author: Mike Dane
 image: classes-&-objects.png
 video: 6chvxajS3yc
-url: /programming-languages/python/classes-&-objects/
+url: /programming-languages/python/classes-objects/
 weight: 31
 ---

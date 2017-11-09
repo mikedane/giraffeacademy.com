@@ -9,6 +9,6 @@ description: This tutorial covers memory & pointers in C++.
 author: Mike Dane
 image: memory-&-pointers.png
 video: 5jXDfk4OmjM
-url: /programming-languages/c++/memory-&-pointers/
+url: /programming-languages/c++/memory-pointers/
 weight: 26
 ---

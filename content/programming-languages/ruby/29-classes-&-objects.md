@@ -9,6 +9,6 @@ description: This tutorial covers classes & objects in Ruby.
 author: Mike Dane
 image: classes-&-objects.png
 video: sc5RhTIBf4c
-url: /programming-languages/ruby/classes-&-objects/
+url: /programming-languages/ruby/classes-objects/
 weight: 29
 ---
