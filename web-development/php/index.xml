@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Giraffe Academy</title>
+    <link>http://www.giraffeacademy.com/web-development/php/</link>
+    <description>Recent content in PHP on Giraffe Academy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Nov 2017 17:52:36 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.giraffeacademy.com/web-development/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/web-development/php/windows-installation/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Choosing A Text Editor</title>
+      <link>http://www.giraffeacademy.com/web-development/php/choosing-a-text-editor/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/choosing-a-text-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World Setup</title>
+      <link>http://www.giraffeacademy.com/web-development/php/hello-world-setup/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/hello-world-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing Html</title>
+      <link>http://www.giraffeacademy.com/web-development/php/writing-html/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/writing-html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/web-development/php/variables/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/web-development/php/data-types/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/web-development/php/strings/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/web-development/php/math/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Input From Users</title>
+      <link>http://www.giraffeacademy.com/web-development/php/getting-input-from-users/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/getting-input-from-users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/web-development/php/creating-a-calculator/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/web-development/php/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/building-a-mad-libs-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Url Parameters</title>
+      <link>http://www.giraffeacademy.com/web-development/php/url-parameters/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/url-parameters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post Vs Get</title>
+      <link>http://www.giraffeacademy.com/web-development/php/post-vs-get/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/post-vs-get/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/web-development/php/arrays/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Checkboxes</title>
+      <link>http://www.giraffeacademy.com/web-development/php/using-checkboxes/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/using-checkboxes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Associative Arrays</title>
+      <link>http://www.giraffeacademy.com/web-development/php/associative-arrays/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/associative-arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/web-development/php/functions/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/php/return-statements/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/return-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/php/if-statements/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If Statements (Continued)</title>
+      <link>http://www.giraffeacademy.com/web-development/php/if-statements-continued/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/if-statements-continued/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Better Calculator</title>
+      <link>http://www.giraffeacademy.com/web-development/php/building-a-better-calculator/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/building-a-better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/php/switch-statements/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/switch-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/php/while-loops/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/php/for-loops/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/for-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/web-development/php/comments/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Including Html</title>
+      <link>http://www.giraffeacademy.com/web-development/php/including-html/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/including-html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Including Php</title>
+      <link>http://www.giraffeacademy.com/web-development/php/including-php/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/including-php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classes And Objects</title>
+      <link>http://www.giraffeacademy.com/web-development/php/classes-and-objects/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/classes-and-objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructors</title>
+      <link>http://www.giraffeacademy.com/web-development/php/constructors/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/constructors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Methods</title>
+      <link>http://www.giraffeacademy.com/web-development/php/object-methods/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/object-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getters And Setters</title>
+      <link>http://www.giraffeacademy.com/web-development/php/getters-and-setters/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>http://www.giraffeacademy.com/web-development/php/inheritance/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/inheritance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

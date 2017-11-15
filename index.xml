@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Windows Installation</title>
+      <link>http://www.giraffeacademy.com/web-development/php/windows-installation/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/windows-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Installation</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/installation/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
@@ -154,6 +163,15 @@
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
       <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
+    </item>
+    
+    <item>
+      <title>Choosing A Text Editor</title>
+      <link>http://www.giraffeacademy.com/web-development/php/choosing-a-text-editor/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/choosing-a-text-editor/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -302,6 +320,15 @@ Step 1 : Installing Homebrew Installing programs on mac isn’t the same as inst
     </item>
     
     <item>
+      <title>Hello World Setup</title>
+      <link>http://www.giraffeacademy.com/web-development/php/hello-world-setup/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/hello-world-setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Variables</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/variables/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
@@ -447,6 +474,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
     </item>
     
     <item>
+      <title>Writing Html</title>
+      <link>http://www.giraffeacademy.com/web-development/php/writing-html/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/writing-html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Types</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/data-types/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
@@ -588,6 +624,15 @@ Preparing your workspace Once you have everything installed and ready to go it�
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</guid>
       <description>Themes are collections of hugo layouts that take all the hassle out of building your site. If you’re not inclined to learn how to write HTML and CSS, or if you simply want to get your blog or content site up as soon as possible then themes are for you. There are dozens of publicly available pre-built themes available for download that developers in the hugo community have built. Using a pre-built theme takes all the hassle out of designing and organizing your hugo site.</description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://www.giraffeacademy.com/web-development/php/variables/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/variables/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -736,6 +781,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     </item>
     
     <item>
+      <title>Data Types</title>
+      <link>http://www.giraffeacademy.com/web-development/php/data-types/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/data-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Math</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/math/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
@@ -878,6 +932,15 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</guid>
       <description>Hugo makes it really easy to write static content for the web. But not only is hugo easy to use, it’s also super powerful. In this lesson we’re gonna look at one of the most powerful tools Hugo has in it’s arsenal, front matter.
 Front matter When you create a new content page using the hugo new filename command, hugo automatically creates a new file and fills it with some default information.</description>
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>http://www.giraffeacademy.com/web-development/php/strings/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/strings/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1025,6 +1088,15 @@ Front matter When you create a new content page using the hugo new filename comm
     </item>
     
     <item>
+      <title>Math</title>
+      <link>http://www.giraffeacademy.com/web-development/php/math/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Creating A Calculator</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/creating-a-calculator/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
@@ -1166,6 +1238,15 @@ Front matter When you create a new content page using the hugo new filename comm
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</guid>
       <description>Built-in Shortcodes Hugo has a collection of built-in shortcodes which you can use right out of the box. For a full listing of built in shortcodes check out the official hugo documentation page: https://gohugo.io/content-management/shortcodes/#using-shortcodes</description>
+    </item>
+    
+    <item>
+      <title>Getting Input From Users</title>
+      <link>http://www.giraffeacademy.com/web-development/php/getting-input-from-users/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/getting-input-from-users/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1314,6 +1395,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Creating A Calculator</title>
+      <link>http://www.giraffeacademy.com/web-development/php/creating-a-calculator/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/creating-a-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Arrays</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/arrays/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
@@ -1445,6 +1535,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:14 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building A Mad Libs Game</title>
+      <link>http://www.giraffeacademy.com/web-development/php/building-a-mad-libs-game/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/building-a-mad-libs-game/</guid>
       <description></description>
     </item>
     
@@ -1584,6 +1683,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Url Parameters</title>
+      <link>http://www.giraffeacademy.com/web-development/php/url-parameters/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/url-parameters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Return</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/return/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
@@ -1710,6 +1818,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Post Vs Get</title>
+      <link>http://www.giraffeacademy.com/web-development/php/post-vs-get/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/post-vs-get/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>If Statements</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/if-statements/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
@@ -1827,6 +1944,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
     </item>
     
     <item>
+      <title>Arrays</title>
+      <link>http://www.giraffeacademy.com/web-development/php/arrays/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>If Statements Cont</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/if-statements-cont/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
@@ -1940,6 +2066,15 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Thu, 07 Sep 2017 20:24:15 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/section-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Checkboxes</title>
+      <link>http://www.giraffeacademy.com/web-development/php/using-checkboxes/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/using-checkboxes/</guid>
       <description></description>
     </item>
     
@@ -2062,6 +2197,15 @@ Block temples are an advanced type of hugo template that allows you to build hig
     </item>
     
     <item>
+      <title>Associative Arrays</title>
+      <link>http://www.giraffeacademy.com/web-development/php/associative-arrays/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/associative-arrays/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Switch Statements</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/switch-statements/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
@@ -2171,6 +2315,15 @@ Image of the go programming language logo with the hugo logo</description>
     </item>
     
     <item>
+      <title>Functions</title>
+      <link>http://www.giraffeacademy.com/web-development/php/functions/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>While Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/while-loops/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
@@ -2260,6 +2413,15 @@ Image of the go programming language logo with the hugo logo</description>
       <description>Go template functions give you a series of useful functions that you can use to add logic into your templates. These functions perform a variety of tasks like adding numbers, splicing strings or looping through lists of values.
 How functions work Functions are formatted as follows
 Copy{{ func-name arg1, arg2, … , argX }} Inside double curly brackets, you put the name of the function and then pass the function arguments.</description>
+    </item>
+    
+    <item>
+      <title>Return Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/php/return-statements/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/return-statements/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -2354,6 +2516,15 @@ A good example of a conditional is when you go to an amusement park.</descriptio
     </item>
     
     <item>
+      <title>If Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/php/if-statements/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/if-statements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>For Loops</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/for-loops/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
@@ -2445,6 +2616,15 @@ All Hugo data is stored in the Data folder at the root of the site.</description
     </item>
     
     <item>
+      <title>If Statements (Continued)</title>
+      <link>http://www.giraffeacademy.com/web-development/php/if-statements-continued/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/if-statements-continued/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Building An Exponent Function</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/building-an-exponent-function/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
@@ -2519,6 +2699,15 @@ For example on a normal website you have three main sections:</description>
     </item>
     
     <item>
+      <title>Building A Better Calculator</title>
+      <link>http://www.giraffeacademy.com/web-development/php/building-a-better-calculator/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/building-a-better-calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>2d Arrays</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/2d-arrays/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
@@ -2588,6 +2777,15 @@ For example on a normal website you have three main sections:</description>
       
       <guid>http://www.giraffeacademy.com/static-site-generators/hugo/shortcode-templates/</guid>
       <description>Often times when you’re writing content for your blog or website, there will be certain components that you are using multiple times across all your posts. Maybe you like to surround all your images with a stylish CSS border, or you embed youtube videos into your posts. These components all use the same code and logic. Instead of having to copy and paste this code whenever we want to include one of these component, it would be easier to just put the code in one central place and have hugo insert it into our pages when it builds our site.</description>
+    </item>
+    
+    <item>
+      <title>Switch Statements</title>
+      <link>http://www.giraffeacademy.com/web-development/php/switch-statements/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/switch-statements/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -2664,6 +2862,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>While Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/php/while-loops/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/while-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Try &amp; Catch</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/try-catch/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
@@ -2723,6 +2930,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>For Loops</title>
+      <link>http://www.giraffeacademy.com/web-development/php/for-loops/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/for-loops/</guid>
       <description></description>
     </item>
     
@@ -2790,6 +3006,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Comments</title>
+      <link>http://www.giraffeacademy.com/web-development/php/comments/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/comments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Constructor Function</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/constructor-function/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
@@ -2849,6 +3074,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Including Html</title>
+      <link>http://www.giraffeacademy.com/web-development/php/including-html/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/including-html/</guid>
       <description></description>
     </item>
     
@@ -2916,6 +3150,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Including Php</title>
+      <link>http://www.giraffeacademy.com/web-development/php/including-php/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/including-php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Getters And Setters</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/getters-and-setters/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
@@ -2979,6 +3222,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Classes And Objects</title>
+      <link>http://www.giraffeacademy.com/web-development/php/classes-and-objects/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/classes-and-objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Static Class Attributes</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/static-class-attributes/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
@@ -3029,6 +3281,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constructors</title>
+      <link>http://www.giraffeacademy.com/web-development/php/constructors/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/constructors/</guid>
       <description></description>
     </item>
     
@@ -3087,6 +3348,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Object Methods</title>
+      <link>http://www.giraffeacademy.com/web-development/php/object-methods/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/object-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inheritance</title>
       <link>http://www.giraffeacademy.com/programming-languages/csharp/inheritance/</link>
       <pubDate>Wed, 08 Nov 2017 18:34:48 -0500</pubDate>
@@ -3132,6 +3402,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
     </item>
     
     <item>
+      <title>Getters And Setters</title>
+      <link>http://www.giraffeacademy.com/web-development/php/getters-and-setters/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/getters-and-setters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Creating A Quiz</title>
       <link>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-quiz/</link>
       <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
@@ -3155,6 +3434,15 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>http://www.giraffeacademy.com/web-development/php/inheritance/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/inheritance/</guid>
       <description></description>
     </item>
     

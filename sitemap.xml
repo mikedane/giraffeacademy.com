@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/</loc>
+    <lastmod>2017-11-15T17:52:36-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/</loc>
     <lastmod>2017-11-08T18:34:44-05:00</lastmod>
   </url>
@@ -93,6 +98,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/windows-installation/</loc>
+    <lastmod>2017-11-15T17:52:36-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/installation/</loc>
     <lastmod>2017-11-08T18:34:44-05:00</lastmod>
   </url>
@@ -178,6 +188,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/choosing-a-text-editor/</loc>
+    <lastmod>2017-11-15T17:52:36-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/drawing-a-pyramid/</loc>
     <lastmod>2017-11-08T18:34:44-05:00</lastmod>
   </url>
@@ -255,6 +270,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/hello-world-setup/</loc>
+    <lastmod>2017-11-15T17:52:36-05:00</lastmod>
   </url>
   
   <url>
@@ -338,6 +358,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/writing-html/</loc>
+    <lastmod>2017-11-15T17:52:36-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/data-types/</loc>
     <lastmod>2017-11-08T18:34:44-05:00</lastmod>
   </url>
@@ -415,6 +440,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing--using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/variables/</loc>
+    <lastmod>2017-11-15T17:52:36-05:00</lastmod>
   </url>
   
   <url>
@@ -498,6 +528,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/data-types/</loc>
+    <lastmod>2017-11-15T17:52:36-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/math/</loc>
     <lastmod>2017-11-08T18:34:44-05:00</lastmod>
   </url>
@@ -575,6 +610,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/strings/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
   
   <url>
@@ -658,6 +698,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/math/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/creating-a-calculator/</loc>
     <lastmod>2017-11-08T18:34:45-05:00</lastmod>
   </url>
@@ -735,6 +780,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/getting-input-from-users/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
   
   <url>
@@ -818,6 +868,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/creating-a-calculator/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/arrays/</loc>
     <lastmod>2017-11-08T18:34:45-05:00</lastmod>
   </url>
@@ -890,6 +945,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/building-a-mad-libs-game/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
   
   <url>
@@ -968,6 +1028,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/url-parameters/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/return/</loc>
     <lastmod>2017-11-08T18:34:45-05:00</lastmod>
   </url>
@@ -1038,6 +1103,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/post-vs-get/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/if-statements/</loc>
     <lastmod>2017-11-08T18:34:45-05:00</lastmod>
   </url>
@@ -1100,6 +1170,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/arrays/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
   
   <url>
@@ -1168,6 +1243,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/using-checkboxes/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/calculator/</loc>
     <lastmod>2017-11-08T18:34:46-05:00</lastmod>
   </url>
@@ -1233,6 +1313,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/associative-arrays/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/switch-statements/</loc>
     <lastmod>2017-11-08T18:34:46-05:00</lastmod>
   </url>
@@ -1293,6 +1378,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/functions/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/while-loops/</loc>
     <lastmod>2017-11-08T18:34:46-05:00</lastmod>
   </url>
@@ -1340,6 +1430,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/functions/</loc>
     <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/return-statements/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
   </url>
   
   <url>
@@ -1393,6 +1488,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/if-statements/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/for-loops/</loc>
     <lastmod>2017-11-08T18:34:46-05:00</lastmod>
   </url>
@@ -1443,6 +1543,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/if-statements-continued/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/building-an-exponent-function/</loc>
     <lastmod>2017-11-08T18:34:46-05:00</lastmod>
   </url>
@@ -1480,6 +1585,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/partial-templates/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/building-a-better-calculator/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
   </url>
   
   <url>
@@ -1523,6 +1633,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/switch-statements/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/comments/</loc>
     <lastmod>2017-11-08T18:34:47-05:00</lastmod>
   </url>
@@ -1563,6 +1678,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/while-loops/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/try-catch/</loc>
     <lastmod>2017-11-08T18:34:47-05:00</lastmod>
   </url>
@@ -1595,6 +1715,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/web-development/javascript/building-a-quiz/</loc>
     <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/for-loops/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
   </url>
   
   <url>
@@ -1633,6 +1758,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/comments/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/constructor-function/</loc>
     <lastmod>2017-11-08T18:34:47-05:00</lastmod>
   </url>
@@ -1665,6 +1795,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/web-development/javascript/for-each-loops/</loc>
     <lastmod>2017-10-22T11:23:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/including-html/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
   </url>
   
   <url>
@@ -1703,6 +1838,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/including-php/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/getters-and-setters/</loc>
     <lastmod>2017-11-08T18:34:48-05:00</lastmod>
   </url>
@@ -1738,6 +1878,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/classes-and-objects/</loc>
+    <lastmod>2017-11-15T17:52:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/static-class-attributes/</loc>
     <lastmod>2017-11-08T18:34:48-05:00</lastmod>
   </url>
@@ -1765,6 +1910,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</loc>
     <lastmod>2017-10-22T11:34:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/constructors/</loc>
+    <lastmod>2017-11-15T17:52:39-05:00</lastmod>
   </url>
   
   <url>
@@ -1798,6 +1948,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/object-methods/</loc>
+    <lastmod>2017-11-15T17:52:39-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/csharp/inheritance/</loc>
     <lastmod>2017-11-08T18:34:48-05:00</lastmod>
   </url>
@@ -1823,6 +1978,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/getters-and-setters/</loc>
+    <lastmod>2017-11-15T17:52:39-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/ruby/creating-a-quiz/</loc>
     <lastmod>2017-11-01T00:12:45-04:00</lastmod>
   </url>
@@ -1835,6 +1995,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</loc>
     <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/inheritance/</loc>
+    <lastmod>2017-11-15T17:52:39-05:00</lastmod>
   </url>
   
   <url>
