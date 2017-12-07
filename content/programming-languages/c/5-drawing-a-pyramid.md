@@ -12,3 +12,12 @@ video: iM6WdmDyS-g
 url: /programming-languages/c/drawing-a-pyramid/
 weight: 5
 ---
+
+## Code
+
+{{< code lang="c" >}}
+printf("   /|\n");
+printf("  / |\n");
+printf(" /  |\n");
+printf("/___|\n");
+{{< /code >}}

@@ -12,3 +12,13 @@ video: jUFjErKxIPo
 url: /web-development/css/colors/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<header>
+     <h1 style="color: CornflowerBlue;">Color Names</h1>
+     <h1 style="color: #ff0000;">Hex Color Codes</h1>
+     <h1 style="color: rgb(255, 0, 0);">RGB Color Codes</h1>
+</header>
+{{< /code >}}

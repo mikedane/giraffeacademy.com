@@ -12,3 +12,9 @@ video: B7Y3t2a5mTA
 url: /web-development/css/browser-support/
 weight: 16
 ---
+
+## Code
+
+{{< code lang="css" >}}
+
+{{< /code >}}

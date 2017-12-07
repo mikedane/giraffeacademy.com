@@ -12,3 +12,17 @@ video: QtyEndC2d78
 url: /programming-languages/python/for-loops/
 weight: 22
 ---
+
+## Code
+
+{{< code lang="py" >}}
+for index in range(5):
+    print(index)
+
+lucky_nums = [4, 8, 15, 16, 23, 42]
+for lucky_num in lucky_nums:
+    print(lucky_num)
+
+for letter in "Giraffe":
+    print(letter)
+{{< /code >}}

@@ -12,3 +12,9 @@ video: kfUsT3-M3_k
 url: /web-development/css/imports/
 weight: 15
 ---
+
+## Code
+
+{{< code lang="css" >}}
+@import "file.css"
+{{< /code >}}

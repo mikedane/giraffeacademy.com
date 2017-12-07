@@ -12,3 +12,23 @@ video: M_vEI64hbso
 url: /web-development/html/videos/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<iframe width="560"
+        height="315"
+        src="https://www.youtube.com/embed/M_vEI64hbso"
+        frameborder="0"
+        gesture="media"
+        allow="encrypted-media"
+        allowfullscreen>
+</iframe>
+
+<video src="myvideo.mp4"
+       autoplay
+       controls
+       width="300"
+       poster="video-poster.jpg">
+</video>
+{{< /code >}}

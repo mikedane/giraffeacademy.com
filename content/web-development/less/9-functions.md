@@ -12,3 +12,13 @@ video: U9mJmy0YhmQ
 url: /web-development/less/functions/
 weight: 9
 ---
+
+## Code
+
+{{< code lang="css" >}}
+button {
+     font-size: 40px;
+     background-color;
+     desaturate(red, 50%) ;
+}
+{{< /code >}}

@@ -12,3 +12,11 @@ video: bTzzA0K6Qh4
 url: /web-development/php/writing-html/
 weight: 5
 ---
+
+## Code
+
+{{< code lang="php" >}}
+echo "<h1>Hello World</h1>");
+print "<hr/>";                           // returns 1
+echo  "<p>This is a php tutorial</p>";
+{{< /code >}}

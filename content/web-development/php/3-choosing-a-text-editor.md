@@ -12,3 +12,9 @@ video: Z0zx5pA9lqI
 url: /web-development/php/choosing-a-text-editor/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="php" >}}
+
+{{< /code >}}

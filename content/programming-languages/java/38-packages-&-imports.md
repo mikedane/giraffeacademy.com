@@ -12,3 +12,10 @@ video: ipMdsje9J6s
 url: /programming-languages/java/packages-imports/
 weight: 38
 ---
+
+## Code
+
+{{< code lang="java" >}}
+
+
+{{< /code >}}

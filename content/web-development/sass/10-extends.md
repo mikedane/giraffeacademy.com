@@ -12,3 +12,22 @@ video: n8Mx6aZ0TYc
 url: /web-development/sass/extends/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="css" >}}
+.message {
+     font-size: 20px;
+     border: 1px solid black;
+}
+
+.warning {
+     @extend .message;
+     color: yellow;
+}
+
+.error {
+     @extend .message;
+     color: red;
+}
+{{< /code >}}

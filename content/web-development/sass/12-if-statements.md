@@ -12,3 +12,21 @@ video: Vm50HFOcKTQ
 url: /web-development/sass/if-statements/
 weight: 12
 ---
+
+## Code
+
+{{< code lang="css" >}}
+@mixin text-style($size) {
+     font-size: $size;
+@if $size > 20px {
+     color: blue;
+} @elseif $size = 20px {
+     color: red;
+} @else {
+     color:green;
+}
+
+header {
+     @include text-style(21px);
+}
+{{< /code >}}

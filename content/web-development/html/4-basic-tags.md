@@ -12,3 +12,26 @@ video: YTxrjJS6rpE
 url: /web-development/html/basic-tags/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<html>
+     <head>
+     </head>
+          <meta charset="UTF-8">
+          <meta name="description" content="This is a great website">
+          <title>My Website Title</title>
+     <body>
+          <h1>My Website</h1>
+          <hr/>
+          <p>
+               <big>This</big> is <small>my</small> <b><i>paragraph</i></b>
+          </p>
+
+          <p>
+               10<sup>2</sup>
+          </p>
+     </body>
+</html>
+{{< /code >}}

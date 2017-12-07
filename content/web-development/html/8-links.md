@@ -12,3 +12,13 @@ video: pTpkvZhoZM4
 url: /web-development/html/links/
 weight: 8
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<a href="https://www.google.com"> Google's Homepage </a>
+
+<a href="page2.html"> Page on same website </a>
+
+<a href="ebook.pdf"> PDF File </a>
+{{< /code >}}

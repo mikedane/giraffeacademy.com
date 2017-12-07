@@ -12,3 +12,37 @@ video: mSjAJn4hUqg
 url: /programming-languages/java/inheritance-implements/
 weight: 35
 ---
+
+## Code
+
+{{< code lang="java" >}}
+interface Animal{
+     public void speak();
+}
+
+class Cat implements Animal{
+     @Override
+     public void speak(){
+          System.out.println("Meow Meow");
+     }
+}
+
+class Dog implements Animal{
+     @Override
+     public void speak(){
+          System.out.println("Woof Woof");
+     }
+}
+
+public class App{
+     public static void main(String [] args){
+          Animal [] animals = {
+               new Dog(),
+               new Cat()
+          };
+          for(Animal animal : animals){
+               animal.speak();
+          }     
+     }
+}
+{{< /code >}}

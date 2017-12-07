@@ -12,3 +12,17 @@ video: tOHJmm_SsAM
 url: /programming-languages/java/return/
 weight: 14
 ---
+
+## Code
+
+{{< code lang="java" >}}
+public static void main(String [] args){
+     int sum = addNumbers(4, 60);
+     System.out.println(sum);
+}
+
+public static int addNumbers(int num1, int num2){
+     return num1 + num2;
+}
+
+{{< /code >}}

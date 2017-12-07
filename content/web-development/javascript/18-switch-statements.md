@@ -12,3 +12,19 @@ video: in_At_MyLiA
 url: /web-development/javascript/switch-statements/
 weight: 18
 ---
+
+## Code
+
+{{< code lang="js" >}}
+var myGrade = "A";
+switch(myGrade){
+     case "A":
+          document.write("You Pass");
+          break;
+     case "F":
+          document.write("You fail");
+          break;
+     default:
+          document.write("Invalid grade");
+}
+{{< /code >}}

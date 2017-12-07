@@ -12,3 +12,15 @@ video: Bc6tss3gEvU
 url: /web-development/css/text-fonts/
 weight: 8
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<p style="font-size:2em;
+          font-family: 'Ariel Black', Gadget, sans-serif;
+          font-style: italic;
+          font-variant: small-caps;
+          font-weight: bold;">
+     This is some text
+</p>
+{{< /code >}}

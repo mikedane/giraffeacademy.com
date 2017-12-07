@@ -12,3 +12,10 @@ video: 1gEZi0uJ3sw
 url: /programming-languages/python/getting-user-input/
 weight: 8
 ---
+
+## Code
+
+{{< code lang="py" >}}
+name = input("Enter your name: ")
+print("Hello", name + "!")
+{{< /code >}}

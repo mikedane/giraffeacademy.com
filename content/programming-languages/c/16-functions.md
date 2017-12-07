@@ -12,3 +12,20 @@ video: GhsfjfgJY0E
 url: /programming-languages/c/functions/
 weight: 16
 ---
+
+## Code
+
+{{< code lang="c" >}}
+int addNumbers(int num1, int num2);
+
+int main(){
+     int sum = addNumbers(4, 60);
+     printf("%d \n", sum);
+
+     return 0;
+}
+
+int addNumbers(int num1, int num2){
+     return num1 + num2;
+}
+{{< /code >}}

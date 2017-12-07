@@ -12,3 +12,31 @@ video: 6RE5vCsPOS4
 url: /web-development/html/tables/
 weight: 12
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<table>
+     <caption>My Table</caption>
+     <thead>
+          <tr>
+               <th>num1</th>
+               <th>num2</th>
+               <th>num3</th>
+          </tr>
+     </thead>
+     <tbody>
+          <tr>
+               <td colspan="2">one</td>
+               <td>two</td>
+               <td>three</td>
+               <td>three and a half</td>
+          </tr>
+          <tr>
+               <td>four</td>
+               <td>five</td>
+               <td>six</td>
+          </tr>
+     </tbody>
+</table>
+{{< /code >}}

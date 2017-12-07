@@ -12,3 +12,12 @@ video: -AllFkNLDKk
 url: /programming-languages/ruby/drawing-a-pyramid/
 weight: 5
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+puts "   /|"
+puts "  / |"
+puts " /  |"
+puts "/___|"
+{{< /code >}}

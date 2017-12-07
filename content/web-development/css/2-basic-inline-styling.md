@@ -12,3 +12,17 @@ video: jH_WY-sQ8Lg
 url: /web-development/css/basic-inline-styling/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<body style="color: blue; font-size:20px">
+     <header>
+          <h1 style="color: red;">CSS Tutorial</h1>
+     </header>
+
+     <main style="border: 1px solid black; width: 80%; max-width:500px">
+          <p>This is a paragraph</p>
+     </main>
+</body>
+{{< /code >}}

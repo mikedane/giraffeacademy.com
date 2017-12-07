@@ -12,3 +12,13 @@ video: 3bXd6h8Zsfk
 url: /programming-languages/ruby/while-loops/
 weight: 21
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+index = 1
+while index <= 5
+	puts index
+	index += 1
+end
+{{< /code >}}

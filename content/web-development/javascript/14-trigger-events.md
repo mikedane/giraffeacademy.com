@@ -12,3 +12,33 @@ video: jrI0WFCCLWY
 url: /web-development/javascript/trigger-events/
 weight: 14
 ---
+
+## Code
+
+### Inline Event Listeners
+
+{{< code lang="html" file="index.html">}}
+<h1 id="myHeader" onclick="handleClick(this)">Giraffe Academy</h1>
+<script src="script.js"></script>
+{{< /code >}}
+
+{{< code lang="js" file="script.js">}}
+function handleClick(element){
+     alert("Clicked " + element.id);
+}
+{{< /code >}}
+
+### Programatic Event Listeners
+
+{{< code lang="html" file="index.html">}}
+<h1 id="myHeader">Giraffe Academy</h1>
+<script src="script.js"></script>
+{{< /code >}}
+
+{{< code lang="js" file="script.js">}}
+var header = document.getElementById("myHeader");
+
+header.addEventListener("click", function(){
+     alert("You clicked " + header.id);
+});
+{{< /code >}}

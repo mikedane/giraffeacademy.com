@@ -12,3 +12,17 @@ video: EmvuLmaKkQk
 url: /programming-languages/c++/creating-a-calculator/
 weight: 11
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+int num1, num2;
+
+cout << "Enter first num: ";
+cin >> num1;
+
+cout << "Enter second num: ";
+cin >> num2;
+
+cout << "Answer: " << num1 + num2 << endl;
+{{< /code >}}

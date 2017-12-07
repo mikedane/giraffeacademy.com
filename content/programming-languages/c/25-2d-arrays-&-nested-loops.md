@@ -12,3 +12,20 @@ video: kh6nWhD6QKQ
 url: /programming-languages/c/2d-arrays-nested-loops/
 weight: 25
 ---
+
+## Code
+
+{{< code lang="c" >}}
+// int  numberGrid[2][3];
+int numberGrid[2][3] = { {1, 2, 3}, {4, 5, 6} };
+
+numberGrid[0][1] = 99;
+cout << numberGrid[0][0] << endl;
+cout << numberGrid[0][1] << endl;
+
+for(int i = 0; i < 2; i++){
+     for(int j = 0; j < 3; j++){
+          printf("%d", numberGrid[i][j]);
+     }
+}
+{{< /code >}}

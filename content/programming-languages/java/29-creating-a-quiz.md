@@ -12,3 +12,10 @@ video: nCIjHTlztNg
 url: /programming-languages/java/creating-a-quiz/
 weight: 29
 ---
+
+## Code
+
+{{< code lang="java" >}}
+
+
+{{< /code >}}

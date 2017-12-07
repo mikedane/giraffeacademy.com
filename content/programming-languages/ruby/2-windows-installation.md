@@ -12,3 +12,9 @@ video: FTMpGNDw1_8
 url: /programming-languages/ruby/windows-installation/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+
+{{< /code >}}

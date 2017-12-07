@@ -12,3 +12,20 @@ video: aaL-mc2BLSI
 url: /programming-languages/java/while-loops/
 weight: 19
 ---
+
+## Code
+
+{{< code lang="java" >}}
+int index = 1;
+while(index <= 5){
+     System.out.println(index);
+     index++;
+}
+
+index = 1;
+do{
+     System.out.println(index);
+     index++;
+}while(index <= 5);
+
+{{< /code >}}

@@ -12,3 +12,31 @@ video: SHs2k3GfS0M
 url: /programming-languages/c/getting-input-from-users/
 weight: 12
 ---
+
+## Code
+
+{{< code lang="c" >}}
+// strings
+char name[10];
+printf("Enter your name: ");
+fgets(name, 10, stdin);
+printf("Hello %s! \n", name);
+
+// ints
+int age;
+printf("Enter your age: ");
+scanf("%d", &age);
+printf("You are %d \n", age);
+
+// chars
+char grade;
+printf("Enter your grade: ");
+scanf("%c", &grade);
+printf("You got an %c on the test \n", grade);
+
+// doubles
+double gpa;
+printf("Enter your gpa: ");
+scanf("%lf", &gpa);
+printf("Your gpa is %f \n", gpa);
+{{< /code >}}

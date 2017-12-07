@@ -12,3 +12,18 @@ video: uqMbyuATj2Y
 url: /programming-languages/csharp/while-loops/
 weight: 18
 ---
+## Code
+
+{{< code lang="csharp" >}}
+int index = 1;
+while(index <= 5){
+     Console.WriteLine(index);
+     index++;
+}
+
+index = 1;
+do{
+   Console.WriteLine(index);
+   index++;
+}while(index <= 5);
+{{< /code >}}

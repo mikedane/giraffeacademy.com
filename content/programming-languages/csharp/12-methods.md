@@ -12,3 +12,15 @@ video: MkDroqxS8LY
 url: /programming-languages/csharp/methods/
 weight: 12
 ---
+## Code
+
+{{< code lang="csharp" >}}
+public static void Main(string [] args){
+     int sum = AddNumbers(4, 60);
+     Console.WriteLine(sum);
+}
+
+public static int AddNumbers(int num1, int num2){
+     return num1 + num2;
+}
+{{< /code >}}

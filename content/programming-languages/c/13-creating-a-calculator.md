@@ -12,3 +12,17 @@ video: v4L07CTb9j8
 url: /programming-languages/c/creating-a-calculator/
 weight: 13
 ---
+
+## Code
+
+{{< code lang="c" >}}
+double num1, num2;
+
+printf("num1: ");
+scanf("%lf", &num1);
+
+printf("num2: ");
+scanf("%lf", &num2);
+
+printf("%f", num1 + num2);
+{{< /code >}}

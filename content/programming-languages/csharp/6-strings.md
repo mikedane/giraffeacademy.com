@@ -12,3 +12,16 @@ video: h6_x9Rxh5rU
 url: /programming-languages/csharp/strings/
 weight: 6
 ---
+## Code
+
+{{< code lang="csharp" >}}
+string greeting = "Hello";
+//      indexes:   01234
+
+Console.WriteLine( greeting.Length );
+Console.WriteLine( greeting[0] );
+Console.WriteLine( greeting.IndexOf("llo") );
+Console.WriteLine( greeting.IndexOf("z") );
+Console.WriteLine( greeting.Substring(2) );
+Console.WriteLine( greeting.Substring(1, 3) );
+{{< /code >}}

@@ -12,3 +12,27 @@ video: EbW-1fPhXQE
 url: /programming-languages/csharp/getters-and-setters/
 weight: 28
 ---
+## Code
+
+{{< code lang="csharp" >}}
+public class Movie{
+     private String title;
+     private String rating;
+
+     public Movie(String title, String rating){
+          this.title = title;
+          this.setRating(rating);
+     }
+
+     public String getRating(){
+          return this.rating;
+     }
+     public void setRating(String rating){
+          if (rating == "G" || rating == "PG" || rating == "PG-13" || rating == "R" || rating == "NR"){
+               this.rating = rating;
+          } else {
+               this.rating = "NR";
+          }
+     }
+}
+{{< /code >}}

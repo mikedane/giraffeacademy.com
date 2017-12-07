@@ -12,3 +12,33 @@ video: UoM7SqWIrtA
 url: /programming-languages/java/getters-and-setters/
 weight: 31
 ---
+
+## Code
+
+{{< code lang="java" >}}
+
+public class Movie{
+     public String title;
+     private String rating;
+     public int duration;
+
+     public Movie(String title, String rating, int duration){
+          this.title = title;
+          this.setRating(rating);
+          this.duration = duration;
+     }
+
+     public String getRating(){
+          return this.rating;
+     }
+
+     public void setRating(String rating){
+          if(rating.equals("G") || rating.equals("PG") || rating.equals("PG-13") || rating.equals("R") || rating.equals("NR")){
+               this.rating = rating;
+          } else {
+               this.rating = "NR";
+          }
+     }
+}
+
+{{< /code >}}

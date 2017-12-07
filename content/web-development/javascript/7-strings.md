@@ -12,3 +12,17 @@ video: 3JJyYmkXMSA
 url: /web-development/javascript/strings/
 weight: 7
 ---
+
+## Code
+
+{{< code lang="js" >}}
+var greeting = "Hello";
+//   indexes:   01234
+
+document.write( greeting.length + "<br>" );
+document.write( greeting.charAt(0) + "<br>"  );
+document.write( greeting.indexOf("llo") + "<br>"  );
+document.write( greeting.indexOf("z") + "<br>"  );
+document.write( greeting.substring(2) + "<br>"  );
+document.write( greeting.substring(1, 3) + "<br>"  );
+{{< /code >}}

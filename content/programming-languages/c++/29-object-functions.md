@@ -12,3 +12,17 @@ video: eRhXgan1FFQ
 url: /programming-languages/c++/object-functions/
 weight: 29
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+class Book{
+     public:
+          string title;
+          string author;
+
+          void readBook(){
+               cout << "Reading " + this->title + " by " + this->author << endl;
+          }
+};
+{{< /code >}}

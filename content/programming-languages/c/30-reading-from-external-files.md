@@ -12,3 +12,15 @@ video: aiJj4mLS9oI
 url: /programming-languages/c/reading-from-external-files/
 weight: 30
 ---
+
+## Code
+
+{{< code lang="c" >}}
+char line[255];
+FILE * fpointer = fopen("employees.txt", "r");
+
+fgets(line, 255, fpointer);
+printf("%s", line);
+
+fclose(fpointer);
+{{< /code >}}

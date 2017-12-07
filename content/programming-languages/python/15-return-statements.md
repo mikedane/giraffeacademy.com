@@ -12,3 +12,13 @@ video: nuNXiEDnM44
 url: /programming-languages/python/return-statements/
 weight: 15
 ---
+
+## Code
+
+{{< code lang="py" >}}
+def add_numbers(num1, num2=99):
+     return num1 + num2
+
+sum = add_numbers(4, 3)
+print(sum)
+{{< /code >}}

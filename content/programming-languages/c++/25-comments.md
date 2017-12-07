@@ -12,3 +12,17 @@ video: jqD6hd7p_no
 url: /programming-languages/c++/comments/
 weight: 25
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+/*
+multi
+line
+comment
+*/
+
+// single
+// line
+// comment
+{{< /code >}}

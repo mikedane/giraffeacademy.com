@@ -12,3 +12,9 @@ video: IXyPLDJDxcM
 url: /programming-languages/ruby/mac-installation/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+
+{{< /code >}}

@@ -12,3 +12,12 @@ video: Au7JCqkVq9M
 url: /web-development/javascript/for-each-loops/
 weight: 26
 ---
+
+## Code
+
+{{< code lang="js" >}}
+var luckyNums = [4, 8, 15, 16, 23, 42];
+luckyNums.forEach(function(luckyNum){
+     document.write(luckyNum + "<br>");
+});
+{{< /code >}}

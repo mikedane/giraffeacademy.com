@@ -12,3 +12,11 @@ video: q4zIPCmPlqI
 url: /programming-languages/c++/hello-world-setup/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+cout << "Hello" << endl;
+cout << "World";
+cout << "!" << endl;
+{{< /code >}}

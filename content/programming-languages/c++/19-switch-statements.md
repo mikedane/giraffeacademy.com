@@ -12,3 +12,19 @@ video: gjAN71oqvFI
 url: /programming-languages/c++/switch-statements/
 weight: 19
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+char myGrade = 'A';
+switch(myGrade){
+     case 'A':
+          cout << "You Pass" << endl;
+          break;
+     case 'F':
+          cout << "You fail" << endl;
+          break;
+     default:
+          cout << "Invalid grade" << endl;
+}
+{{< /code >}}

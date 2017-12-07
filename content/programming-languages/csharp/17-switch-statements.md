@@ -12,3 +12,18 @@ video: Te43aPhxycs
 url: /programming-languages/csharp/switch-statements/
 weight: 17
 ---
+## Code
+
+{{< code lang="csharp" >}}
+char myGrade = 'A';
+switch(myGrade){
+     case 'A':
+          Console.WriteLine("You Pass");
+          break;
+     case 'F':
+          Console.WriteLine("You fail");
+          break;
+     default:
+          Console.WriteLine("Invalid grade");
+}
+{{< /code >}}

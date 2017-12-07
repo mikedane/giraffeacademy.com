@@ -12,3 +12,14 @@ video: v_kHaR6QMIY
 url: /programming-languages/c/dereferencing-pointers/
 weight: 28
 ---
+
+## Code
+
+{{< code lang="c" >}}
+int num = 10;
+printf("%p \n", &num);
+
+int *pNum = &num;
+printf("%p \n", pNum);
+printf("%d \n", *pNum);
+{{< /code >}}

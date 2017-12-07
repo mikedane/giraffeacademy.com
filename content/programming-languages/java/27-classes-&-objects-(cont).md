@@ -12,3 +12,29 @@ video: O6BVfyW8vmg
 url: /programming-languages/java/classes-objects-cont/
 weight: 27
 ---
+
+## Code
+
+{{< code lang="java" >}}
+class Book{
+     public String title;
+     public String author;
+}
+
+public class App{
+     public static void main(String [] args){
+          Book book1 = new Book();
+          book1.title = "Harry Potter";
+          book1.author = "JK Rowling";
+
+          System.out.println(book1.title);
+
+          Book book2 = new Book();
+          book2.title = "Lord of the Rings";
+          book2.author = "JRR Tolkien";
+
+          System.out.println(book2.title);
+     }
+}
+
+{{< /code >}}

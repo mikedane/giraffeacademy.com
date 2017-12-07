@@ -12,3 +12,15 @@ video: sizFeSlGMt4
 url: /programming-languages/java/getting-user-input/
 weight: 9
 ---
+
+## Code
+
+{{< code lang="java" >}}
+// import java.util.Scanner;
+Scanner keyboardInput = new Scanner(System.in);
+
+System.out.print("Enter username: ");
+String username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()
+System.out.println("Hello, " + username);
+
+{{< /code >}}

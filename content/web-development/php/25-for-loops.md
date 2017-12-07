@@ -12,3 +12,16 @@ video: eP5GADljZcE
 url: /web-development/php/for-loops/
 weight: 25
 ---
+
+## Code
+
+{{< code lang="php" >}}
+for($i = 0; $i < 5; $i++){
+     echo $i;
+}
+
+$luckyNums = [4, 8, 15, 16, 23, 42];
+foreach($luckyNums as $luckyNum){
+     echo $luckyNum."<br>";
+}
+{{< /code >}}

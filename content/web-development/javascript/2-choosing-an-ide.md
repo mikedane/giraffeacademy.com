@@ -12,3 +12,9 @@ video: a1HuOeMto2c
 url: /web-development/javascript/choosing-an-ide/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="js" >}}
+
+{{< /code >}}

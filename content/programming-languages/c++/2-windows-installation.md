@@ -12,3 +12,9 @@ video: zTOQylmn2u8
 url: /programming-languages/c++/windows-installation/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+
+{{< /code >}}

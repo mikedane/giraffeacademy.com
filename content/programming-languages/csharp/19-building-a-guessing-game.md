@@ -12,3 +12,28 @@ video: sFe6BrtS-vw
 url: /programming-languages/csharp/building-a-guessing-game/
 weight: 19
 ---
+## Code
+
+{{< code lang="csharp" >}}
+string secretWord = "giraffe";
+string guess = "";
+int guessCount = 0;
+int guessLimit = 3;
+bool outOfGuesses = false;
+
+while(!guess == secretWord && !outOfGuesses){
+     if(guessCount < guessLimit){
+          Console.Write("Enter a guess: ");
+          guess = Console.ReadLine();
+          guessCount++;
+     } else {
+          outOfGuesses = true;
+     }
+}
+
+if(outOfGuesses){
+     Console.WriteLine("You Lose!");
+} else {
+     Console.WriteLine("You Win!");
+}
+{{< /code >}}

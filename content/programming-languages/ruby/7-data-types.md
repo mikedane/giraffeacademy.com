@@ -12,3 +12,17 @@ video: rjLB_bD3SLU
 url: /programming-languages/ruby/data-types/
 weight: 7
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+name = "Mike"     # Strings
+age = 30          # Integer
+gpa = 3.5         # Decimal
+is_tall = true    # Boolean -> true/false
+
+name = "John"
+
+puts "Your name is #{name}"
+puts "Your name is " + name
+{{< /code >}}

@@ -12,3 +12,13 @@ video: lyVwVgiRNIU
 url: /web-development/html/divs-spans/
 weight: 13
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<div>Div1</div>
+<div>Div2</div>
+
+<span>Span1</span>
+<span>Span2</span>
+{{< /code >}}

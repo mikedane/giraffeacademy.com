@@ -12,3 +12,22 @@ video: 62Rbtc5gpsw
 url: /programming-languages/python/better-calculator/
 weight: 18
 ---
+
+## Code
+
+{{< code lang="py" >}}
+num1 = int(input("num1: "))
+op = input("Operator: ")
+num1 = int(input("num1: "))
+
+if op == "+":
+     print(num1 + num2)
+elif op == "-":
+     print(num1 - num2)
+elif op == "/":
+     print(num1 / num2)
+elif op == "*":
+     print(num1 * num2)
+else:
+     print("Invalid Operator")
+{{< /code >}}

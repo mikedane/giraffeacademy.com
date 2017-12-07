@@ -12,3 +12,11 @@ video: hw90WDwk-xY
 url: /programming-languages/csharp/drawing-a-pyramid/
 weight: 3
 ---
+## Code
+
+{{< code lang="csharp" >}}
+Console.WriteLine("   /|");
+Console.WriteLine("  / |");
+Console.WriteLine(" /  |");
+Console.WriteLine("/___|");
+{{< /code >}}

@@ -12,3 +12,22 @@ video: 976zsZc7Cv0
 url: /web-development/php/constructors/
 weight: 30
 ---
+
+## Code
+
+{{< code lang="php" >}}
+class Book{
+     var $title;
+     public $author;
+
+     function __construct($title, $author){
+          $this->title = $title;
+          $this->author = $author;
+     }
+};
+
+$book1 = new Book("Harry Potter", "JK Rowling");
+// $book1->title = "Half-Blood Prince";
+
+echo $book1->title."<br>";
+{{< /code >}}

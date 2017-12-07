@@ -12,3 +12,15 @@ video: yK5eMYUww6k
 url: /programming-languages/ruby/building-an-exponent-function/
 weight: 24
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+def pow(base_num, pow_num)
+     result = 1
+     pow_num.times do |index|
+          result = result * base_num
+     end
+     return result
+end
+{{< /code >}}

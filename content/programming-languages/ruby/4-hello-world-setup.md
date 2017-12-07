@@ -12,3 +12,11 @@ video: wGlXK-gXj6Y
 url: /programming-languages/ruby/hello-world-setup/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+puts "Hello"
+print "World"
+puts "!"
+{{< /code >}}

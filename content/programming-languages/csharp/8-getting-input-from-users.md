@@ -12,3 +12,10 @@ video: WYuIOcdtwdg
 url: /programming-languages/csharp/getting-input-from-users/
 weight: 8
 ---
+## Code
+
+{{< code lang="csharp" >}}
+Console.Write("Enter username: ");
+string username = Console.ReadLine();
+Console.WriteLine($"Hello {username}");
+{{< /code >}}

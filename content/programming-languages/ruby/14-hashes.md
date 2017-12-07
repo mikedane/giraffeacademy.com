@@ -12,3 +12,19 @@ video: BtHKhsDUPwQ
 url: /programming-languages/ruby/hashes/
 weight: 14
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+test_grades = {
+    "Andy" => "B+",
+    :Stanley => "C",
+    "Ryan" => "A",
+    3 => 95.2
+}
+
+test_grades["Andy"] = "B-"
+puts test_grades["Andy"]
+puts test_grades[:Stanley]
+puts test_grades[3]
+{{< /code >}}

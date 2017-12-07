@@ -12,3 +12,17 @@ video: RqJKIyd1JYE
 url: /web-development/sass/mixins/
 weight: 9
 ---
+
+## Code
+
+{{< code lang="css" >}}
+@mixin fancy-border($size: 1px, $color: black) {
+     border: $size dashed $color;
+     border-radius: 5px;
+}
+
+header {
+     @include fancy-border(10px, blue);
+     background-color: yellow;
+}
+{{< /code >}}

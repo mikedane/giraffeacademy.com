@@ -12,3 +12,34 @@ video: dVvifZurBcY
 url: /web-development/html/formatting-a-page/
 weight: 7
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<body>
+     <header>
+          Header
+          <nav>
+               Nav
+          </nav>
+     </header>
+     <main>
+          Main
+          <article>
+               Article
+               <section>
+                    Section 1
+                    <aside>
+                         Aside
+                    </aside>
+               </section>
+               <section>
+                    Section 2
+               </section>
+          </article>
+     </main>
+     <footer>
+          Footer
+     </footer>
+</body>
+{{< /code >}}

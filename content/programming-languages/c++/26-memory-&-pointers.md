@@ -12,3 +12,14 @@ video: 5jXDfk4OmjM
 url: /programming-languages/c++/memory-pointers/
 weight: 26
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+int num = 10;
+cout << &num << endl;
+
+int *pNum = &num;
+cout << pNum << endl;
+cout << *pNum << endl;
+{{< /code >}}

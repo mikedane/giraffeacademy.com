@@ -12,3 +12,10 @@ video: LldhjFkwfmI
 url: /programming-languages/java/hello-world/
 weight: 3
 ---
+## Code
+
+{{< code lang="java" >}}
+System.out.println("Hello");
+System.out.print("World");
+System.out.println("!");
+{{< /code >}}

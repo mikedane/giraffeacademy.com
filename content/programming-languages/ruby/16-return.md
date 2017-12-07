@@ -12,3 +12,14 @@ video: eG14yPuy0vk
 url: /programming-languages/ruby/return/
 weight: 16
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+def add_numbers(num1, num2=99)
+     return num1 + num2
+end
+
+sum = add_numbers(4, 3)
+puts sum
+{{< /code >}}

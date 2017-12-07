@@ -12,3 +12,9 @@ video: 41xCHM1gE5o
 url: /programming-languages/c/mac-installation/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="c" >}}
+
+{{< /code >}}

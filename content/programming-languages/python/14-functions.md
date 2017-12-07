@@ -12,3 +12,13 @@ video: LbOwv6y6xjo
 url: /programming-languages/python/functions/
 weight: 14
 ---
+
+## Code
+
+{{< code lang="py" >}}
+def add_numbers(num1, num2=99):
+     return num1 + num2
+
+sum = add_numbers(4, 3)
+print(sum)
+{{< /code >}}

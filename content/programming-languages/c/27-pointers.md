@@ -12,3 +12,13 @@ video: RjwD1jdOHBc
 url: /programming-languages/c/pointers/
 weight: 27
 ---
+
+## Code
+
+{{< code lang="c" >}}
+int num = 10;
+printf("%p \n", &num);
+
+int *pNum = &num;
+printf("%p \n", pNum);
+{{< /code >}}

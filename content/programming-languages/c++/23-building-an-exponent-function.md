@@ -12,3 +12,15 @@ video: ZZ2VFnBLRmE
 url: /programming-languages/c++/building-an-exponent-function/
 weight: 23
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+int power(int baseNum, powNum){
+     int result = 1;
+     for(int i = 0; i < powNum; i++){
+          result = result * baseNum;
+     }
+     return result;
+}
+{{< /code >}}

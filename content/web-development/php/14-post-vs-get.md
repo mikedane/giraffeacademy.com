@@ -12,3 +12,16 @@ video: TGbG3pHW4Po
 url: /web-development/php/post-vs-get/
 weight: 14
 ---
+
+## Code
+
+{{< code lang="php" file="site.php" >}}
+<form action="App.php" method="POST">
+     Password: <input type="password" name="password">
+     <input type="submit">
+</form>
+
+<?php
+echo $_POST["password"];
+?>
+{{< /code >}}

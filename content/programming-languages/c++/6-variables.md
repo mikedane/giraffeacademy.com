@@ -12,3 +12,26 @@ video: K8Rqul0V8_U
 url: /programming-languages/c++/variables/
 weight: 6
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+/*
+Names are case-sensitive and may begin with:
+     letters, _
+After, may include
+     letters, numbers, _
+Convention says
+     Start with a lowercase word, then additional words are capitalized
+     ex. myFirstVariable
+*/
+
+// #include <string>
+string characterName = "George";
+int characterAge = 70;
+
+cout << "There once was a man named " << characterName << endl;
+cout << "He was " << characterAge << " years old" << endl;
+cout << "He really liked the name " << characterName << endl;
+cout << "But didn't like being " << characterAge << endl;
+{{< /code >}}

@@ -6,9 +6,36 @@ subheader:
      greeting: C++ - Programming Language
      description: This course covers the basics of programming in C++. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers getters and setters in C++.
-author: Mike Dane
+rating: Mike Dane
 image: getters-and-setters.png
 video: vFIxFMNNejA
 url: /programming-languages/c++/getters-and-setters/
 weight: 30
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+class Movie{
+     private:
+          string title;
+     public:
+          string rating;
+
+          Book(string title, string rating){
+               this->title = title;
+               this->setRating(rating);
+          }
+
+          string getRating(){
+               return this->rating;
+          }
+          void setRating(string rating){
+               if(rating == "G" || rating == "PG" || rating == "PG-13" || rating == "R" || rating == "NR" || ){
+                    this->rating = rating;
+               } else {
+                    this->rating = "NR";
+               }     
+          }
+};
+{{< /code >}}

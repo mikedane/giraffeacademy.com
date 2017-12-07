@@ -12,3 +12,25 @@ video: TVSj_N2Rmfo
 url: /programming-languages/java/variables/
 weight: 5
 ---
+
+
+## Code
+
+{{< code lang="java" >}}
+/*
+ Names are case-sensitive and may begin with:
+     letters, $, _
+ After, may include
+     letters, numbers, $, _
+ Convention says
+     Start with a lowercase word, then additional words are capitalized
+     ex. myFirstVariable
+*/
+String characterName = "George";
+int characterAge = 70;
+
+System.out.println("There once was a man named " + characterName);
+System.out.println("He was " + characterAge + " years old");
+System.out.println("He really liked the name " + characterName);
+System.out.println("But didn't like being " + characterAge);
+{{< /code >}}

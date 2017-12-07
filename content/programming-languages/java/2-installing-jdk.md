@@ -12,3 +12,10 @@ video: uYV-lNX7gKs
 url: /programming-languages/java/installing-jdk/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="java" >}}
+
+
+{{< /code >}}

@@ -12,3 +12,13 @@ video: OGkEwGNI9O8
 url: /web-development/html/comments/
 weight: 5
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<!--
+this is a comment
+
+it can be multi-line
+-->
+{{< /code >}}

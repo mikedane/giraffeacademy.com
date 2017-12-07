@@ -12,3 +12,15 @@ video: wZ5zl4i68Hg
 url: /programming-languages/csharp/class-methods/
 weight: 27
 ---
+## Code
+
+{{< code lang="csharp" >}}
+public class Book{
+     public string title;
+     public string author;
+
+     public void ReadBook(){
+       Console.WriteLine($"Reading {this.title} by {this.author}");
+     }
+}
+{{< /code >}}

@@ -12,3 +12,16 @@ video: 3kWAba3hZbg
 url: /web-development/php/data-types/
 weight: 7
 ---
+
+## Code
+
+{{< code lang="php" >}}
+$name = "Mike";    // Strings
+$age = 30;         // Integer
+$gpa = 3.5;        // Decimal
+$isTall = true;    // Boolean -> true/false
+
+$name = "John";
+
+echo  "Your name is $name <br>";
+{{< /code >}}

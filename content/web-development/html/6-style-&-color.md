@@ -12,3 +12,17 @@ video: eN72Ft-CCg4
 url: /web-development/html/style-color/
 weight: 6
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<body style="background-color:lightblue">
+     <h2 style="color:green">
+          Style and Colors
+     </h2>
+
+     <p style="color: red; background-color:blue">
+          paragraph text
+     </p>
+</body>
+{{< /code >}}

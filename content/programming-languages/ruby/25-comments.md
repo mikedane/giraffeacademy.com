@@ -12,3 +12,17 @@ video: 7wbX3OMgqn0
 url: /programming-languages/ruby/comments/
 weight: 25
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+=begin
+multi
+line
+comment
+=end
+
+# single
+# line
+# comment
+{{< /code >}}

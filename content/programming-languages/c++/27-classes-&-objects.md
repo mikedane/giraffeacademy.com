@@ -12,3 +12,30 @@ video: wGyCsWXVD9E
 url: /programming-languages/c++/classes-objects/
 weight: 27
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+class Book{
+     public:
+          string title;
+          string author;
+};
+
+int main(){
+
+     Book book1;
+     book1.title = "Harry Potter";
+     book1.author = "JK Rowling";
+
+     cout << book1.title << endl;
+
+     Book book2;
+     book2.title = "Lord of the Rings";
+     book2.author = "JRR Tolkien";
+
+     cout << book2.title << endl;
+
+     return 0;
+}
+{{< /code >}}

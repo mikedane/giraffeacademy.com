@@ -8,7 +8,7 @@ subheader:
 description: This tutorial covers how to use creating a site in Jekyll -  Static Site Generator.
 author: Mike Dane
 image: creating-a-site.png
-video: 90-0N2Qh8BU
+video: pxua_1vyFck
 url: /static-site-generators/jekyll/creating-a-site/
 weight: 4
 ---

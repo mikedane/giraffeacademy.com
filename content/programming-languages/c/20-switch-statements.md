@@ -12,3 +12,19 @@ video: LI_WqX7yVc8
 url: /programming-languages/c/switch-statements/
 weight: 20
 ---
+
+## Code
+
+{{< code lang="c" >}}
+char myGrade = 'A';
+switch(myGrade){
+     case 'A':
+          printf("You Pass\n");
+          break;
+     case 'F':
+          printf("You fail\n");
+          break;
+     default:
+          printf("Invalid grade\n");
+}
+{{< /code >}}

@@ -12,3 +12,18 @@ video: JTjeGpSUL2M
 url: /programming-languages/java/try-catch/
 weight: 25
 ---
+
+## Code
+
+{{< code lang="java" >}}
+try{
+     int division = 10/0;
+}catch(ArithmeticException e){
+     System.out.println(e);
+}catch(Exception e){
+     // Not best practice to use general Exception
+}
+
+// throws exception
+throw new ArithmeticException("can't add numbers");
+{{< /code >}}

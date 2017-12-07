@@ -12,3 +12,17 @@ video: htK4tLcwk_I
 url: /web-development/php/comments/
 weight: 26
 ---
+
+## Code
+
+{{< code lang="php" >}}
+/*
+multi
+line
+comment
+*/
+
+// single
+// line
+// comment
+{{< /code >}}

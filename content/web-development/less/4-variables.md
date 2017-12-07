@@ -12,3 +12,21 @@ video: 8hmHxmDWO4k
 url: /web-development/less/variables/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="css" >}}
+@theme-color: blue;
+
+header{
+     color: @theme-color;
+}
+
+footer {
+     color: @theme-color;
+}
+
+button {
+     background-color: @theme-color;
+}
+{{< /code >}}

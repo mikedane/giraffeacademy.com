@@ -12,3 +12,10 @@ video: L3N2CyYUR5c
 url: /programming-languages/java/access-modifiers/
 weight: 36
 ---
+
+## Code
+
+{{< code lang="java" >}}
+
+
+{{< /code >}}

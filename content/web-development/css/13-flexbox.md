@@ -12,3 +12,28 @@ video: 6FedyF0F2i8
 url: /web-development/css/flexbox/
 weight: 13
 ---
+
+## Code
+
+{{< code lang="html" file="site.html">}}
+<!-- classes 'box', 'box2' and 'container' (not shown) are used for styling the elements -->
+<div class="flex-container container">
+     <div class="box flex-item"><h1>1</h1></div>
+     <div class="box2 flex-item"><h1>2</h1></div>
+     <div class="box flex-item"><h1>3</h1></div>
+     <div style="align-self:center;" class="box"><h1>4</h1></div>
+     <div class="box flex-item"><h1>5</h1></div>
+</div>
+{{< /code >}}
+
+
+{{< code lang="css" file="style.css">}}
+.flex-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     align-items: center;
+     align-content: space-between;
+}
+{{< /code >}}

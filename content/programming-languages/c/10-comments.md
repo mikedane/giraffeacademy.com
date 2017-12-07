@@ -12,3 +12,17 @@ video: GmKZTrQZFWQ
 url: /programming-languages/c/comments/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="c" >}}
+/*
+multi
+line
+comment
+*/
+
+// single
+// line
+// comment
+{{< /code >}}

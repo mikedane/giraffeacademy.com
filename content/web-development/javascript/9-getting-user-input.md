@@ -12,3 +12,10 @@ video: 15oNAHVuwIE
 url: /web-development/javascript/getting-user-input/
 weight: 9
 ---
+
+## Code
+
+{{< code lang="js" >}}
+var name = window.prompt("Enter your name: ");
+alert("Your name is " + name);
+{{< /code >}}

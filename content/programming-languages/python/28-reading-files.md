@@ -12,3 +12,14 @@ video: jC7CPoSDNzE
 url: /programming-languages/python/reading-files/
 weight: 28
 ---
+
+## Code
+
+{{< code lang="py" >}}
+employee_file = open("employees.txt", "r")
+
+for employee in employee_file.read_lines():
+     print(employee)
+
+employee_file.close()
+{{< /code >}}

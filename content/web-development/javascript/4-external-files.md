@@ -12,3 +12,9 @@ video: CRRcYpxb_bY
 url: /web-development/javascript/external-files/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="js" >}}
+
+{{< /code >}}

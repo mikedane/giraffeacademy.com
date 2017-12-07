@@ -12,3 +12,12 @@ video: Ghz4YwOXtTA
 url: /programming-languages/python/while-loops/
 weight: 20
 ---
+
+## Code
+
+{{< code lang="py" >}}
+index = 1
+while index <= 5:
+	print(index)
+	index += 1
+{{< /code >}}

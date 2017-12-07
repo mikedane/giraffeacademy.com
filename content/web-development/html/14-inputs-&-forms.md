@@ -12,3 +12,20 @@ video: vj78j_Sy3uM
 url: /web-development/html/inputs-forms/
 weight: 14
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<input type="text" />
+<input type="password" />
+<input type="number" />
+<input type="checkbox" />
+<input type="color" />
+<input type="date" />
+<input type="email" />
+<input type="file" />
+<input type="radio" />
+<input type="submit" />
+<input type="time" />
+<input type="url" />
+{{< /code >}}

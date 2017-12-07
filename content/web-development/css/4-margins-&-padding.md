@@ -12,3 +12,33 @@ video: k4xA_Olo_Uo
 url: /web-development/css/margins-padding/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<!-- Padding -->
+<div style="padding: 50px;">
+     Overall padding
+</div>
+
+<div style="padding-left: 50px; padding-right: 50px;">
+     Individual side padding
+</div>
+
+<div style="padding: 50px 25px 50px 25px;">
+     Four side padding in same line
+</div>
+
+<!-- Margin -->
+<div style="margin: 50px;">
+     Overall margin
+</div>
+
+<div style="margin-left: 50px; margin-right: 50px;">
+     Individual side margin
+</div>
+
+<div style="margin: 50px 25px 50px 25px;">
+     Four side margin in same line
+</div>
+{{< /code >}}

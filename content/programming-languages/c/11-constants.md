@@ -12,3 +12,9 @@ video: hczLbLt9nak
 url: /programming-languages/c/constants/
 weight: 11
 ---
+
+## Code
+
+{{< code lang="c" >}}
+const int FAV_NUM = 4;
+{{< /code >}}

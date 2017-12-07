@@ -12,3 +12,11 @@ video: FW9hDsMY1is
 url: /programming-languages/ruby/writing-files/
 weight: 27
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+FILE.open("employees.txt", "r+") do |file|
+     file.write("writing some text")
+end
+{{< /code >}}

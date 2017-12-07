@@ -12,3 +12,24 @@ video: NjyCERHbxRY
 url: /web-development/php/object-methods/
 weight: 31
 ---
+
+## Code
+
+{{< code lang="php" >}}
+class Student{
+     public $name;
+     public $gpa;
+
+     function __construct($name, $gpa){
+          $this->name = $name;
+          $this->gpa = $gpa;
+     }
+
+     function hasHonors(){
+          if($this->gpa >= 3.5){
+               return true;
+          }
+          return false;
+     }
+};
+{{< /code >}}

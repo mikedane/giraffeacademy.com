@@ -12,3 +12,16 @@ video: GmtkYHfAFOo
 url: /programming-languages/java/arrays/
 weight: 12
 ---
+
+## Code
+
+{{< code lang="java" >}}
+// int [] luckyNumbers = new int[10];
+int [] luckyNumbers = {4, 8, 15, 16, 23, 42};
+//         indexes:    0  1  2   3   4   5
+
+luckyNumbers[0] = 90;
+System.out.println(luckyNumbers[0]);
+System.out.println(luckyNumbers[1]);
+System.out.println(luckyNumbers.length);
+{{< /code >}}

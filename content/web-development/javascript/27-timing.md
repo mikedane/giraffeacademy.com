@@ -12,3 +12,10 @@ video: TxR0I9HHwag
 url: /web-development/javascript/timing/
 weight: 27
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<button onClick="setTimeout(funcName, 3000)">Click Me</button>
+<button onClick="setInterval(funcName, 3000)">Click Me</button>
+{{< /code >}}

@@ -12,3 +12,13 @@ video: E1gDJU9Q4kg
 url: /programming-languages/python/writing-files/
 weight: 29
 ---
+
+## Code
+
+{{< code lang="py" >}}
+employee_file = open("employees.txt", "w") # also try "a" for append
+
+employee_file.write("\nKelly - Customer Service")
+
+employee_file.close()
+{{< /code >}}

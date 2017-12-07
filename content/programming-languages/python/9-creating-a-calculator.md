@@ -12,3 +12,11 @@ video: HBbrSDGGOkw
 url: /programming-languages/python/creating-a-calculator/
 weight: 9
 ---
+
+## Code
+
+{{< code lang="py" >}}
+num1 = int(input("Enter First Num: "))
+num2 = int(input("Enter Second Num: "))
+print(num1 + num2)
+{{< /code >}}

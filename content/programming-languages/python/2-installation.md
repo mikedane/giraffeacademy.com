@@ -12,3 +12,9 @@ video: HJj9CP-qEIM
 url: /programming-languages/python/installation/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="py" >}}
+
+{{< /code >}}

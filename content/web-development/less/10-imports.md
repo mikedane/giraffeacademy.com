@@ -12,3 +12,9 @@ video: QHM1vJaKs6Q
 url: /web-development/less/imports/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="css" >}}
+@import "filename"
+{{< /code >}}

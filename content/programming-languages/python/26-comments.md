@@ -12,3 +12,17 @@ video: YpmwehJOudw
 url: /programming-languages/python/comments/
 weight: 26
 ---
+
+## Code
+
+{{< code lang="py" >}}
+'''
+multi
+line
+comment
+'''
+
+# single
+# line
+# comment 
+{{< /code >}}

@@ -12,3 +12,11 @@ video: 3t2I9HsSWSc
 url: /programming-languages/c++/for-loops/
 weight: 22
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+for(int i = 0; i < 5; i++){
+     cout << i << endl;
+}
+{{< /code >}}

@@ -12,3 +12,25 @@ video: ucbEjsXfyh4
 url: /programming-languages/c/structs/
 weight: 21
 ---
+
+## Code
+
+{{< code lang="c" >}}
+
+struct Book{
+     char title[100];
+     char author[100];
+}
+
+int main(){
+
+      struct Book book1;
+      book1.numPages = 600;
+      strcpy( book1.title, "Harry Potter" );
+      strcpy( book1.author, "JK Rowling");
+
+      printf("%s \n", book1.title);
+
+      return 0;
+}
+{{< /code >}}

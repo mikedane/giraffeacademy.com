@@ -12,3 +12,19 @@ video: 59zEgKb4p0k
 url: /web-development/php/while-loops/
 weight: 24
 ---
+
+## Code
+
+{{< code lang="php" >}}
+$index = 1;
+while ($index <= 5){
+     echo $index;
+     $index += 1;
+}
+
+index = 1;
+do{
+     echo $index;
+     $index += 1;
+}while ($index <= 5);
+{{< /code >}}

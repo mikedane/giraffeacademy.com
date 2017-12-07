@@ -12,3 +12,8 @@ video: samkJ9LOMWY
 url: /programming-languages/csharp/installation/
 weight: 2
 ---
+## Code
+
+{{< code lang="csharp" >}}
+
+{{< /code >}}

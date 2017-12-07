@@ -3,5 +3,5 @@ languageCode : en-us
 title : Giraffe Academy
 author : Mike Dane
 taxonomies: ""
-pygmentsstyle: friendly
+pygmentsstyle: default
 PygmentsCodeFences: true

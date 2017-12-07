@@ -12,3 +12,16 @@ video: 4oaFjESw50k
 url: /programming-languages/java/creating-a-calculator/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="java" >}}
+// import java.util.Scanner;
+Scanner keyboardInput = new Scanner(System.in);
+
+System.out.print("Enter num1: ");
+int num1 = keyboardInput.nextDouble(); // .nextDouble(), .nextInt()
+System.out.print("Enter num2: ");
+int num2 = keyboardInput.nextDouble();
+System.out.println(num1 + num2);
+{{< /code >}}

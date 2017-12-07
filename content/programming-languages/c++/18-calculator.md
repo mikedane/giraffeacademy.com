@@ -12,3 +12,31 @@ video: HpU4_AMhN54
 url: /programming-languages/c++/calculator/
 weight: 18
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+int num1, num2;
+char op;
+
+cout << "Enter num1: ";
+cin >> num1;
+
+cout << "Enter Operator: ";
+cin >> op;
+
+cout << "Enter num2: ";
+cin >> num2;
+
+if(op == '+'){
+     cout << num1 + num2 << endl;
+} else if(op == '-'){
+     cout << num1 - num2 << endl;
+} else if(op == '/'){
+     cout << num1 / num2 << endl;
+} else if(op == '*'){
+     cout << num1 * num2 << endl;
+} else {
+     cout << "Invalid Operator" << endl;
+}
+{{< /code >}}

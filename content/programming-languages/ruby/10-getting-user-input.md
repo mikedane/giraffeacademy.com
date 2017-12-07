@@ -12,3 +12,11 @@ video: GnuCA8eedNs
 url: /programming-languages/ruby/getting-user-input/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+puts "Enter your name: "
+name = gets.chomp
+puts "Hello #{name}, how are you"
+{{< /code >}}

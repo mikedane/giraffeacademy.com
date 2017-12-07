@@ -12,3 +12,17 @@ video: q4Mxv3gr5mc
 url: /web-development/css/style-tags/
 weight: 9
 ---
+
+## Code
+
+{{< code lang="css" >}}
+<style>
+     body {
+          color:blue;
+     }
+
+     h1 {
+          color:green;
+     }
+</style>
+{{< /code >}}

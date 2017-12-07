@@ -12,3 +12,9 @@ video: OfrC6ZCJpeQ
 url: /programming-languages/c++/mac-installation/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+
+{{< /code >}}

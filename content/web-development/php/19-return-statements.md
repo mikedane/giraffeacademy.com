@@ -12,3 +12,14 @@ video: 4cf4Qtpnmt4
 url: /web-development/php/return-statements/
 weight: 19
 ---
+
+## Code
+
+{{< code lang="php" >}}
+function addNumbers($num1, $num2=99){
+     return $num1 + $num2;
+}
+
+$sum = addNumbers(4, 3);
+echo $sum;
+{{< /code >}}

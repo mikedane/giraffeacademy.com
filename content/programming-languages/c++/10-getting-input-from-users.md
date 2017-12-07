@@ -12,3 +12,12 @@ video: Rse1FiIDp4I
 url: /programming-languages/c++/getting-input-from-users/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+string name;
+cout << "Enter your name: ";
+cin >> name;
+cout << "Hello " << name << endl;
+{{< /code >}}

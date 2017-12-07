@@ -12,3 +12,18 @@ video: MCMcmL3Lm54
 url: /programming-languages/java/class-methods/
 weight: 30
 ---
+
+## Code
+
+{{< code lang="java" >}}
+
+class Book{
+     public String title;
+     public String author;
+
+     public void readBook(){
+          System.out.println("Reading " + this.title + " by " + this.author);
+     }
+}
+
+{{< /code >}}

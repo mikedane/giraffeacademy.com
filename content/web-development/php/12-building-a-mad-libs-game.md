@@ -12,3 +12,24 @@ video: r9MP_Gy5r4Y
 url: /web-development/php/building-a-mad-libs-game/
 weight: 12
 ---
+
+## Code
+
+{{< code lang="php" file="site.php">}}
+<form action="site.php" method="GET">
+     Color: <input type="text" name="color">
+     Plural Noun: <input type="text" name="pluralNoun">
+     Celebrity: <input type="text" name="celebrity">
+     <input type="submit">
+</form>
+
+<?php
+     $color = $_GET["color"];
+     $pluralNoun = $_GET["pluralNoun"];
+     $celebrity = $_GET["celebrity"];
+
+     echo "Roses are $color";
+     echo "$pluralNoun are blue";
+     echo "I love $celebrity";
+?>
+{{< /code >}}

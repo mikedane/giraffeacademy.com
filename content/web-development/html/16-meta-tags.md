@@ -12,3 +12,15 @@ video: Luo_wCcWAaw
 url: /web-development/html/meta-tags/
 weight: 16
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Teaching HTML for free">
+  <meta name="keywords" content="HTML, Giraffe Academy">
+  <meta name="author" content="Giraffe Academy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+{{< /code >}}

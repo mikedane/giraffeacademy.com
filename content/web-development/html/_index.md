@@ -1,6 +1,6 @@
 ---
 date: 2017-10-09T15:35:15-04:00
-title: "Introduction To Html"
+title: "Html"
 seo_title: "HTML | Giraffe Academy"
 subheader:
      greeting: HTML - Build a Website

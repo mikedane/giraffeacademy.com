@@ -12,3 +12,19 @@ video: QneahuoJ41A
 url: /programming-languages/java/switch-statements/
 weight: 18
 ---
+
+## Code
+
+{{< code lang="java" >}}
+char myGrade = 'A';
+switch(myGrade){
+     case 'A':
+          System.out.println("You Pass");
+          break;
+     case 'F':
+          System.out.println("You fail");
+          break;
+     default:
+          System.out.println("Invalid grade");
+}
+{{< /code >}}

@@ -12,3 +12,27 @@ video: C3aWV0cTfpY
 url: /programming-languages/java/math/
 weight: 8
 ---
+
+## Code
+
+{{< code lang="java" >}}
+System.out.println( 2 * 3 );       // Basic Arithmetic: +, -, /, *
+System.out.println( 10 % 3 );      // Modulus Op. : returns remainder of 10/3
+System.out.println( 1 + 2 * 3 );   // order of operations
+System.out.println(10 / 3.0);      // int's and doubles
+
+
+int num = 10;
+num += 100; // +=, -=, /=, *=
+System.out.println(num);
+
+num++;
+System.out.println(num);
+
+// Math class has useful math methods
+System.out.println( Math.pow(2, 3) );
+System.out.println( Math.sqrt(144) );
+System.out.println( Math.round(2.7) );
+
+
+{{< /code >}}

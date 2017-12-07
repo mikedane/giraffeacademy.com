@@ -12,3 +12,15 @@ video: yysUerUhxOE
 url: /programming-languages/csharp/static-methods-in-classes/
 weight: 30
 ---
+## Code
+
+{{< code lang="csharp" >}}
+static class MyStaticClass{
+
+     public static int usefulAttribute = 99;
+
+     public static void usefulFunction(){
+          // do something useful
+     }
+}
+{{< /code >}}

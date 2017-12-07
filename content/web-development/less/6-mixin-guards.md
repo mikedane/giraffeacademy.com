@@ -12,3 +12,21 @@ video: cC_v7ytYH6M
 url: /web-development/less/mixin-guards/
 weight: 6
 ---
+
+## Code
+
+{{< code lang="css" >}}
+.p-style(@size) when (@size <= 20) {
+     font-size: @size;
+     color: red
+}
+
+.p-style(@size) when (@size > 20) {
+     font-size: @size;
+     color: blue
+}
+
+p{
+     .p-style(30px); 
+}
+{{< /code >}}

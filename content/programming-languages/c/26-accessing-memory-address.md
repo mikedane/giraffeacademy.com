@@ -12,3 +12,10 @@ video: mEaMpbVGRaQ
 url: /programming-languages/c/accessing-memory-address/
 weight: 26
 ---
+
+## Code
+
+{{< code lang="c" >}}
+int num = 10;
+printf("%p \n", &num);
+{{< /code >}}

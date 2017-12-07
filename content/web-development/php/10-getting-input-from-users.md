@@ -12,3 +12,16 @@ video: XZeFP-CXQj4
 url: /web-development/php/getting-input-from-users/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="html" file="site.php">}}
+<form action="site.php" method="GET">
+     Username: <input type="text" name="username">
+     <input type="submit">
+</form>
+
+<?php
+     echo $_GET["username"];
+?>
+{{< /code >}}

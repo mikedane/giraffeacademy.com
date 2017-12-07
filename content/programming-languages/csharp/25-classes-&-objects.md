@@ -12,3 +12,30 @@ video: -ETZ0nOCU14
 url: /programming-languages/csharp/classes-objects/
 weight: 25
 ---
+## Code
+
+{{< code lang="csharp" >}}
+public class Book{
+     public string title;
+     public string author;
+}
+
+public class App
+{
+     public static void Main(string[] args)
+     {
+          Book book1 = new Book();
+          book1.title = "Harry Potter";
+          book1.author = "JK Rowling";
+
+          Console.WriteLine(book1.title);
+
+          Book book2 = new Book();
+          book2.title = "Lord of the Rings";
+          book2.author = "JRR Tolkien";
+
+          Console.WriteLine(book2.title);
+     }
+}
+
+{{< /code >}}

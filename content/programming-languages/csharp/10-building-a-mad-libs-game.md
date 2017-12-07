@@ -12,3 +12,20 @@ video: juANFo-PbsY
 url: /programming-languages/csharp/building-a-mad-libs-game/
 weight: 10
 ---
+
+## Code
+
+{{< code lang="csharp" >}}
+Console.Write("Enter color: ");
+string color = Console.ReadLine();
+
+Console.Write("Enter plural noun: ");
+string pluralNoun = Console.ReadLine();
+
+Console.Write("Enter celebrity: ");
+string celebrity = Console.ReadLine();
+
+Console.WriteLine($"Roses are {color}");
+Console.WriteLine($"{pluralNoun} are blue");
+Console.WriteLine($"I love {celebrity}");
+{{< /code >}}

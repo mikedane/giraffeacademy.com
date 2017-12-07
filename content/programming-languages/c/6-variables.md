@@ -12,3 +12,25 @@ video: 17DnxMHEtMU
 url: /programming-languages/c/variables/
 weight: 6
 ---
+
+## Code
+
+{{< code lang="c" >}}
+/*
+Names are case-sensitive and may begin with:
+     letters, _
+After, may include
+     letters, numbers, _
+Convention says
+     Start with a lowercase word, then additional words are capitalized
+     ex. myFirstVariable
+*/
+
+char characterName[] = "George";
+int characterAge = 70;
+
+printf("There once was a man named %s", characterName);
+printf("He was %d years old", characterAge);
+printf("He really liked the name %s", characterName);
+printf("But didn't like being %d", characterAge);
+{{< /code >}}

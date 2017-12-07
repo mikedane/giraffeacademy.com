@@ -12,3 +12,23 @@ video: 92li0A8d4io
 url: /programming-languages/ruby/reading-files/
 weight: 26
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+FILE.open("employees.txt", "r") do |file|
+     for line in file.readlines()
+          puts line
+     end
+end
+
+# ---------------
+# or
+# ---------------
+
+file = FILE.open("employees.txt", "r")
+
+puts file.read
+
+file.close()
+{{< /code >}}

@@ -12,3 +12,16 @@ video: tJT_YFvGT5g
 url: /programming-languages/csharp/comments/
 weight: 23
 ---
+## Code
+
+{{< code lang="csharp" >}}
+/*
+multi
+line
+comment
+*/
+
+// single
+// line
+// comment
+{{< /code >}}

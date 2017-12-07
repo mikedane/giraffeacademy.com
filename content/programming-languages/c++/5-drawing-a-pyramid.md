@@ -12,3 +12,12 @@ video: diSAbQewP7c
 url: /programming-languages/c++/drawing-a-pyramid/
 weight: 5
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+cout << "   /|" << endl;
+cout << "  / |" << endl;
+cout << " /  |" << endl;
+cout << "/___|" << endl;
+{{< /code >}}

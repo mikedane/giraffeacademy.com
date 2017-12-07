@@ -12,3 +12,15 @@ video: XxKABkLsJcg
 url: /programming-languages/csharp/arrays/
 weight: 11
 ---
+## Code
+
+{{< code lang="csharp" >}}
+//int [] luckyNumbers = new int[10];
+int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 };
+//         indexes:    0  1  2   3   4   5
+
+luckyNumbers[0] = 90;
+Console.WriteLine(luckyNumbers[0]);
+Console.WriteLine(luckyNumbers[1]);
+Console.WriteLine(luckyNumbers.Length);
+{{< /code >}}

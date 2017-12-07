@@ -12,3 +12,19 @@ video: nUTqC1Qtnmo
 url: /web-development/php/switch-statements/
 weight: 23
 ---
+
+## Code
+
+{{< code lang="php" >}}
+$myGrade = "A";
+switch($myGrade){
+     case "A":
+          echo "You Pass";
+          break;
+     case "F":
+          echo "You fail";
+          break;
+     default:
+          echo "Invalid grade";
+}
+{{< /code >}}

@@ -12,3 +12,12 @@ video: ITOgTeudi1s
 url: /programming-languages/java/drawing-a-shape/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="java" >}}
+System.out.println("   /|");
+System.out.println("  / |");
+System.out.println(" /  |");
+System.out.println("/___|");
+{{< /code >}}

@@ -12,3 +12,9 @@ video: XHeowlnLufU
 url: /web-development/php/including-html/
 weight: 27
 ---
+
+## Code
+
+{{< code lang="php" >}}
+include "filename.ext"
+{{< /code >}}

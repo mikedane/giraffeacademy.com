@@ -12,3 +12,20 @@ video: 9uRW8MRWccA
 url: /web-development/less/operators/
 weight: 8
 ---
+
+## Code
+
+{{< code lang="css" >}}
+@base-size: 20px;
+@base-color: red;
+
+p{
+     font-size: @base-size;
+     color: @base-color;
+}
+
+button {
+     font-size: @base-size * 2;
+     background-color: @base-color + 200;
+}
+{{< /code >}}

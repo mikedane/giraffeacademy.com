@@ -12,3 +12,17 @@ video: gLjv4gp8IAg
 url: /web-development/php/associative-arrays/
 weight: 17
 ---
+
+## Code
+
+{{< code lang="php" >}}
+test_grades = {
+    "Andy" => "B+",
+    "Stanley" => "C",
+    "Ryan" => "A",
+    3 => 95.2
+}
+echo  test_grades["Andy"]."<br>";
+echo  test_grades["Ryan"]."<br>";
+echo  test_grades[3]."<br>";
+{{< /code >}}

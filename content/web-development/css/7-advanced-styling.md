@@ -12,3 +12,20 @@ video: kZAlp-MDvlI
 url: /web-development/css/advanced-styling/
 weight: 7
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<h1 style="text-shadow: 2px 2px 2px red;  
+           position: relative;
+           top:125px;
+           left:15px">
+     CSS Tutorial
+</h1>
+
+<img style="opacity:0.4;
+            border-radius: 50%;"
+     src="logo.jpeg"
+     alt="CSS3 logo"
+/>
+{{< /code >}}

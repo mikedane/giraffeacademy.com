@@ -12,3 +12,16 @@ video: Bzd1Pnxqeic
 url: /web-development/css/display-floats/
 weight: 5
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<ul style="float:left; background-color:lightblue;">
+     <li style="display:inline;">Home</li>
+     <li style="display:inline;">About</li>
+     <li style="display:inline;">Contact Us</li>
+     <li style="display:inline;">Blogs</li>
+</ul>
+
+<p>You can use the display and float CSS attributes to change the way that element on your website are displayed on the screen</p>
+{{< /code >}}

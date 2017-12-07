@@ -12,3 +12,23 @@ video: _RuW7zIdVWI
 url: /programming-languages/ruby/object-methods/
 weight: 31
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+class Student
+     attr_accessor :name, :major, :gpa
+     def initialize(name, major, gpa)
+          @name = title
+          @major = author
+          @gpa = gpa
+     end
+
+     def has_honors()
+          if self.gpa >= 3.5
+               return true
+          end
+          return false
+     end
+end
+{{< /code >}}

@@ -12,3 +12,16 @@ video: JQ-wmaarWTQ
 url: /web-development/javascript/arrays/
 weight: 11
 ---
+
+## Code
+
+{{< code lang="js" >}}
+// luckyNumbers = [];
+luckyNumbers = [4, 8, 15, 16, "twenty", false];
+//  indexes:    0  1  2   3      4        5
+
+luckyNumbers[0] = 90;
+document.write(luckyNumbers[0] + "<br>");
+document.write(luckyNumbers[1] + "<br>");
+document.write(luckyNumbers.length);
+{{< /code >}}

@@ -12,3 +12,10 @@ video: j7t-HNEIFkM
 url: /programming-languages/python/modules/
 weight: 30
 ---
+
+## Code
+
+{{< code lang="py" >}}
+import module_name
+import module2_name as module2
+{{< /code >}}

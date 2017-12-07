@@ -12,3 +12,11 @@ video: B1CUhnjJ5N4
 url: /programming-languages/c/hello-world/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="c" >}}
+printf("Hello\n");
+printf("World");
+printf("!\n");
+{{< /code >}}

@@ -12,3 +12,24 @@ video: uGY59pKh3rU
 url: /web-development/html/lists/
 weight: 11
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<ul>
+     <li>Apples</li>
+     <li>Oranges</li>
+     <li>Pears</li>
+</ul>
+
+<ol type="A">
+     <li>One</li>
+     <li>Two</li>
+     <li>Three</li>
+</ol>
+
+<dl>
+     <dt>Giraffe Academy</dt>
+     <dd>Website with programming tutorials</dd>
+</dl>
+{{< /code >}}

@@ -12,3 +12,25 @@ video: u4b0sL8jRbU
 url: /web-development/javascript/real-world-objects/
 weight: 20
 ---
+
+## Code
+
+{{< code lang="js" >}}
+var myMovie = {
+     title: "The Social Network",
+     releaseYear: "2010",
+     duration: 2.0,
+     actors: [
+          {
+               name: "Jessie Eisenberg",
+               birthday: new Date("October 5, 1983"),
+               hometown: "New York, New York"
+          },
+          {
+               name: "Roonie Mara",
+               birthday: new Date("April 17, 1985"),
+               hometown: "Bedford New York"
+          }
+     ]
+};
+{{< /code >}}

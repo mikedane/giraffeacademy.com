@@ -12,3 +12,10 @@ video: nt9ZrbJsLB0
 url: /web-development/javascript/hello-world/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="js" >}}
+alert("Hello World");
+document.write("Hello World");
+{{< /code >}}

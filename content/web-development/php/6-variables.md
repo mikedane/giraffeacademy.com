@@ -12,3 +12,26 @@ video: -1iErfiYpBU
 url: /web-development/php/variables/
 weight: 6
 ---
+
+## Code
+
+{{< code lang="php" >}}
+/*
+Names are case-sensitive and must start with '$' then:
+   letters, _
+After, may include
+   letters, numbers, _
+Convention says
+   There is no set convention, people will use camel case but also underscores
+   ex. myFirstVariable
+   ex. my_first_variable
+*/
+
+$characterName = "George";
+$characterAge = 70;
+
+echo "There once was a man named $characterName <br>";
+echo "He was $characterAge years old <br>";
+echo "He really liked the name $characterName <br>";
+echo "But didn't like being $characterAge <br>";
+{{< /code >}}

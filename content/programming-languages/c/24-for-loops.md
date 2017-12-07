@@ -12,3 +12,11 @@ video: 3CAFJ3jRIQ8
 url: /programming-languages/c/for-loops/
 weight: 24
 ---
+
+## Code
+
+{{< code lang="c" >}}
+for(int i = 0; i < 5; i++){
+     printf("%d \n", i);
+}
+{{< /code >}}

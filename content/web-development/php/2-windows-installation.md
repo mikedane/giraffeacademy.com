@@ -12,3 +12,9 @@ video: 7oUeCXstB8w
 url: /web-development/php/windows-installation/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="php" >}}
+
+{{< /code >}}

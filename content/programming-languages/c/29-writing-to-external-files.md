@@ -12,3 +12,13 @@ video: TFVJNKax_Bs
 url: /programming-languages/c/writing-to-external-files/
 weight: 29
 ---
+
+## Code
+
+{{< code lang="c" >}}
+FILE * fpointer = fopen("employees.txt", "w"); // also try "a" for append
+
+fprint(fpointer, "employee");
+
+fclose(fpointer);
+{{< /code >}}

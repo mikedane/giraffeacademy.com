@@ -12,3 +12,25 @@ video: ZOOrhOJQ4q0
 url: /web-development/javascript/building-a-messaging-app/
 weight: 15
 ---
+
+## Code
+
+{{< code lang="html" file="index.html">}}
+<ul id="messages"></ul>
+<input id="textbox" type="text">
+<button id="button">Send</button>
+<script src="script.js"></script>
+{{< /code >}}
+
+{{< code lang="js" file="script.js">}}
+var messages = document.getElementById("messages");
+var textbox = document.getElementById("textbox");
+var button = document.getElementById("button");
+
+button.addEventListener("click", function(){
+     var newMessage = document.createElement("li");
+     newMessage.innerHTML = textbox.value;
+     messages.appendChild(newMessage);
+     textbox.value = "";
+});
+{{< /code >}}

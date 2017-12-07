@@ -12,3 +12,35 @@ video: 5JG3eGaqT-c
 url: /web-development/php/inheritance/
 weight: 33
 ---
+
+## Code
+
+{{< code lang="php" >}}
+class Chef{
+     function makeChicken(){
+          echo "The chef makes chicken";
+     }
+     function makeSalad(){
+          echo "The chef makes salad";
+     }
+     function makeSpecialDish(){
+          echo "The chef makes bbq ribs";
+     }
+};
+
+class ItalianChef extends Chef{
+     function makePasta(){
+          echo "The chef makes pasta";
+     }
+     function makeSpecialDish(){
+          echo "The chef makes chicken parm";
+     }
+};
+
+
+$chef = new Chef();
+$chef->makeChicken();
+echo "<br>";
+$italianChef = new ItalianChef();
+$italianChef->makeChicken();
+{{< /code >}}

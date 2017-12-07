@@ -12,3 +12,10 @@ video: 3DZzdvUHydg
 url: /programming-languages/java/main-method/
 weight: 37
 ---
+
+## Code
+
+{{< code lang="java" >}}
+
+
+{{< /code >}}

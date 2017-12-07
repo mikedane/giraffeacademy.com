@@ -12,3 +12,11 @@ video: yuc3RQ5a6Jg
 url: /programming-languages/python/hello-world/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="py" >}}
+print("Hello")
+print("World")
+print("!")
+{{< /code >}}

@@ -12,3 +12,28 @@ video: Reeefq-Nxkk
 url: /programming-languages/csharp/constructor-function/
 weight: 26
 ---
+## Code
+
+{{< code lang="csharp" >}}
+public class Book{
+     public String title;
+     public String author;
+
+     public Book(String title, String author){
+          this.title = title;
+          this.author = author;
+     }
+}
+
+public class App
+{
+     public static void Main(string[] args)
+     {
+          Book book1 = new Book("Harry Potter", "JK Rowling");
+          Console.WriteLine(book1.title);
+
+          Book book2 = new Book("Lord of the Rings", "JRR Tolkien");
+          Console.WriteLine(book2.title);
+     }
+}
+{{< /code >}}

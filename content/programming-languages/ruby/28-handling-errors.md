@@ -12,3 +12,20 @@ video: J7R94i2bhlI
 url: /programming-languages/ruby/handling-errors/
 weight: 28
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+begin
+     # puts bad_variable
+     num = 10/0
+rescue ZeroDivisionError
+     puts "Error"
+rescue
+     puts "All other errors"
+end
+
+# or raise an exception
+
+raise "Made Up Exception"
+{{< /code >}}

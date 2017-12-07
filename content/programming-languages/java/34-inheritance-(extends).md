@@ -12,3 +12,43 @@ video: ePFWoOnyYHc
 url: /programming-languages/java/inheritance-extends/
 weight: 34
 ---
+
+## Code
+
+{{< code lang="java" >}}
+class Chef{
+     public void makeChicken(){
+          System.out.println("The chef makes chicken");
+     }
+
+     public void makeSalad(){
+          System.out.println("The chef makes salad");
+     }
+
+     public void makeSpecialDish(){
+          System.out.println("The chef makes a special dish");
+     }
+}
+
+class ItalianChef extends Chef{
+     public void makePasta(){
+          System.out.println("The chef makes pasta");
+     }
+
+     @Override
+     public void makeSpecialDish(){
+          System.out.println("The chef makes chicken parm");
+     }
+}
+
+public class App{
+     public static void main(String [] args){
+          Chef myChef = new Chef();
+          myChef.makeChicken();
+
+          ItalianChef myItalianChef = new ItalianChef();
+          myItalianChef.makeChicken();
+     }
+}
+
+{{< /code >}}

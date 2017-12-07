@@ -12,3 +12,12 @@ video: NCOjp_WNfFw
 url: /programming-languages/python/drawing-a-shape/
 weight: 4
 ---
+
+## Code
+
+{{< code lang="py" >}}
+print("   /|")
+print("  / |")
+print(" /  |")
+print("/___|")
+{{< /code >}}

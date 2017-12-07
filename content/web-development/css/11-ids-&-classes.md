@@ -12,3 +12,26 @@ video: 4C_-y9dIc54
 url: /web-development/css/ids-classes/
 weight: 11
 ---
+
+## Code
+
+{{< code lang="html" file="site.html">}}
+<h1 id="my-id">CSS Tutorial</h1>
+<main class="fancy-border">
+     <p class="blue-text"> Classes and ID's are awesome!</p>
+</main>
+{{< /code >}}
+
+{{< code lang="css" file="style.css">}}
+#my-id {
+     color:blue;
+}
+
+.fancy-border {
+     border: 3px dashed red;
+}
+
+.blue-text {
+     color:blue;
+}
+{{< /code >}}

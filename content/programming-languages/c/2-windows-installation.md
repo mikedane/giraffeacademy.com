@@ -12,3 +12,9 @@ video: klv1losxLbY
 url: /programming-languages/c/windows-installation/
 weight: 2
 ---
+
+## Code
+
+{{< code lang="c" >}}
+
+{{< /code >}}

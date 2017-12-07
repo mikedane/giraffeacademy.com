@@ -12,3 +12,21 @@ video: L7QXYr47dns
 url: /programming-languages/c++/2d-arrays-nested-loops/
 weight: 24
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+// int  numberGrid[2][3];
+int numberGrid[2][3] = { {1, 2, 3}, {4, 5, 6} };
+
+numberGrid[0][1] = 99;
+cout << numberGrid[0][0] << endl;
+cout << numberGrid[0][1] << endl;
+
+for(int i = 0; i < 2; i++){
+     for(int j = 0; j < 3; j++){
+          cout << numberGrid[i][j] << endl;
+     }
+}
+
+{{< /code >}}

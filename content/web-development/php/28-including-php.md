@@ -12,3 +12,9 @@ video: KqUd5WSjKKI
 url: /web-development/php/including-php/
 weight: 28
 ---
+
+## Code
+
+{{< code lang="php" >}}
+include "filename.php"
+{{< /code >}}

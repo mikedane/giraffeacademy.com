@@ -12,3 +12,16 @@ video: RH9xRe7lwfg
 url: /programming-languages/java/exponent-function/
 weight: 22
 ---
+
+## Code
+
+{{< code lang="java" >}}
+public static int pow(int baseNum, int powNum){
+     int result = 1;
+     for(int i = 0; i < powNum; i++){
+          result = result * baseNum;
+     }
+     return result;
+}
+
+{{< /code >}}

@@ -12,3 +12,20 @@ video: TyBThFwGaaA
 url: /web-development/sass/operators/
 weight: 11
 ---
+
+## Code
+
+{{< code lang="css" >}}
+$base-size: 20px;
+$base-color: red;
+
+p{
+     font-size: $base-size;
+     color: $base-color;
+}
+
+button {
+     font-size: $base-size * 2;
+     background-color: $base-color + 200;
+}
+{{< /code >}}

@@ -12,3 +12,19 @@ video: EBjQytpLt0o
 url: /web-development/javascript/objects/
 weight: 19
 ---
+
+## Code
+
+{{< code lang="js" >}}
+var student = {
+     name: "Jim",
+     major: "Business",
+     age: 19,
+     gpa: 2.5
+};
+
+student.name = "Andy"
+document.write( student.name + "<br>" );
+document.write( student.major + "<br>" );
+document.write( student.gpa + "<br>" );
+{{< /code >}}

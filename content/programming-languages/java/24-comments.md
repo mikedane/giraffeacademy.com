@@ -12,3 +12,18 @@ video: ow9CNUr6jWg
 url: /programming-languages/java/comments/
 weight: 24
 ---
+
+## Code
+
+{{< code lang="java" >}}
+/*
+multi
+line
+comment
+*/
+
+// single
+// line
+// comment
+
+{{< /code >}}

@@ -12,3 +12,17 @@ video: zKRHZ092ICM
 url: /web-development/html/creating-an-html-file/
 weight: 3
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<!DOCTYPE html>
+<html>
+     <head>
+     </head>
+          <title>My Website Title</title>
+     <body>
+          Hello World
+     </body>
+</html>
+{{< /code >}}

@@ -12,3 +12,19 @@ video: 25JxBoPwmkQ
 url: /programming-languages/c++/while-loops/
 weight: 20
 ---
+
+## Code
+
+{{< code lang="cpp" >}}
+int index = 1;
+while(index <= 5){
+     cout << index << endl;
+     index++;
+}
+
+index = 1;
+do{
+     cout << index << endl;
+     index++;
+}while(index <= 5);
+{{< /code >}}

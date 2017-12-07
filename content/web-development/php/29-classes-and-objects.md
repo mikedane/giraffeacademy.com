@@ -12,3 +12,19 @@ video: Y-EnZys5WBk
 url: /web-development/php/classes-and-objects/
 weight: 29
 ---
+
+## Code
+
+{{< code lang="php" >}}
+class Book{
+     var $title;
+     public $author;
+};
+
+
+$book1 = new Book;
+$book1->title = "Harry Potter";
+$book1->author = "JK Rowling";
+
+echo $book1->title."<br>";
+{{< /code >}}

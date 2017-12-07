@@ -12,3 +12,20 @@ video: zGJDLINQx2Q
 url: /web-development/sass/nesting/
 weight: 7
 ---
+
+## Code
+
+{{< code lang="css" >}}
+main {
+     background-color: blue;
+     p {
+          color: red;
+     }
+     article {
+          background-color: yellow;
+          p{
+               color: green;
+          }
+     }
+}
+{{< /code >}}

@@ -12,3 +12,19 @@ video: DMoDZPNJ-ZQ
 url: /programming-languages/c/while-loops/
 weight: 22
 ---
+
+## Code
+
+{{< code lang="c" >}}
+int index = 1;
+while(index <= 5){
+     printf("%d \n", index);
+     index++;
+}
+
+index = 1;
+do{
+     printf("%d \n", index);
+     index++;
+}while(index <= 5);
+{{< /code >}}

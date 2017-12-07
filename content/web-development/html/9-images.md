@@ -12,3 +12,11 @@ video: u2BtHQwxq7E
 url: /web-development/html/images/
 weight: 9
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<img src="http://www.giraffeacademy.com/web-development/html/"
+     alt="Giraffe Academy HTML Course"
+     width="200">
+{{< /code >}}

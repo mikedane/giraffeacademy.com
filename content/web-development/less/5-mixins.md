@@ -12,3 +12,17 @@ video: 09NGUbqzkX4
 url: /web-development/less/mixins/
 weight: 5
 ---
+
+## Code
+
+{{< code lang="css" >}}
+.fancy-border(@size: 1px, @color: black) {
+     border: @size dashed @color;
+}
+
+.fancier-border {
+     .fancy-border(10px, blue);
+     background-color: yellow;
+     border-radius: 5px;
+}
+{{< /code >}}

@@ -12,3 +12,17 @@ video: sc5RhTIBf4c
 url: /programming-languages/ruby/classes-objects/
 weight: 29
 ---
+
+## Code
+
+{{< code lang="rb" >}}
+class Book
+     attr_accessor :title, :author
+end
+
+book1 = Book.new()
+book1.title = "Harry Potter"
+book1.author = "JK Rowling"
+
+puts book1.title
+{{< /code >}}

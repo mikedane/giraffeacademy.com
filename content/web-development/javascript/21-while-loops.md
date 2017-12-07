@@ -12,3 +12,19 @@ video: 6fDBz8u1MkE
 url: /web-development/javascript/while-loops/
 weight: 21
 ---
+
+## Code
+
+{{< code lang="js" >}}
+index = 1;
+while(index <= 5){
+     document.write(index);
+     index++;
+}
+
+index = 1;
+do{
+	document.write(index);
+	index++;
+}while(index <= 5);
+{{< /code >}}

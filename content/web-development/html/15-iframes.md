@@ -12,3 +12,14 @@ video: -25g1wgJwfY
 url: /web-development/html/iframes/
 weight: 15
 ---
+
+## Code
+
+{{< code lang="html" >}}
+<iframe src="http://www.giraffeacademy.com/"
+         frameborder="0"
+         width="1000"
+         height="800">
+     sorry iframe not supported
+</iframe>
+{{< /code >}}

@@ -12,3 +12,19 @@ video: 1d-_p-64HNM
 url: /web-development/php/using-checkboxes/
 weight: 16
 ---
+
+## Code
+
+{{< code lang="php" file="site.php">}}
+<form action="site.php" method="POST">
+     Apples: <input type="checkbox" name="fruits[]" value="apples">
+     Oranges: <input type="checkbox" name="fruits[]" value="oranges">
+     Pears: <input type="checkbox" name="fruits[]" value="pears">
+     <input type="submit">
+</form>
+
+<?php
+$fruits = _POST["fruits"];
+echo $fruits[1];
+?>
+{{< /code >}}
