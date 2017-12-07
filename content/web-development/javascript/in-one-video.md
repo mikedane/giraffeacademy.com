@@ -55,7 +55,7 @@ imported into HTML.
 ## Code
 
 ### Printing
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 document.write("<h1>Hello World</h1>");
 document.write("<hr>");
 document.write("<p>This is a javascript tutorial</p>");
@@ -64,7 +64,7 @@ console.log("Logging to the console");
 {{< /code >}}
 
 ### Variables and Data Types
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 /*
 Names are case-sensitive and may begin with:
      letters, $, _
@@ -89,7 +89,7 @@ document.write("Your name is " + name);
 {{< /code >}}
 
 ### Casting and Converting
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 document.write( 100 + Number("25") + "<br>");
 document.write( 100 + parseInt("50") + "<br>");
 document.write( 100 + parseFloat("50.99") + "<br>");
@@ -97,7 +97,7 @@ document.write( 100 + parseFloat("50.99") + "<br>");
 {{< /code >}}
 
 ### Strings
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 var greeting = "Hello";
 //   indexes:   01234
 
@@ -111,7 +111,7 @@ document.write( greeting.substring(1, 3) + "<br>"  );
 {{< /code >}}
 
 ### Numbers
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 document.write( 2 * 3 + "<br>" );       // Basic Arithmetic: +, -, /, *
 document.write( 2**3 + "<br>" );        // Exponents
 document.write( 10 % 3 + "<br>" );      // Modulus Op. : returns remainder of 10/3
@@ -134,7 +134,7 @@ document.write( Math.round(2.7) + "<br>" );
 {{< /code >}}
 
 ### User Input
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 var name = window.prompt("Enter your name: ");
 alert("Your name is " + name);
 {{< /code >}}
@@ -153,7 +153,7 @@ header.innerHTML = "Elephant Academy";
 {{< /code >}}
 
 ### Arrays
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 // luckyNumbers = [];
 luckyNumbers = [4, 8, 15, 16, "twenty", false];
 //  indexes:    0  1  2   3      4        5
@@ -165,7 +165,7 @@ document.write(luckyNumbers.length);
 {{< /code >}}
 
 ### 2 Dimensional Arrays
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 numberGrid = [ [1, 2], [3, 4] ];
 numberGrid[0][1] = 99;
 
@@ -174,7 +174,7 @@ document.write(numberGrid[0][1] + "<br>");
 {{< /code >}}
 
 ### Array Functions
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 friends = new Array();
 friends.push("Oscar");
 friends.push("Angela");
@@ -189,7 +189,7 @@ document.write( friends.sort() + "<br>" );
 {{< /code >}}
 
 ### Objects
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 var student = {
      name: "Jim",
      major: "Business",
@@ -204,7 +204,7 @@ document.write( student.gpa + "<br>" );
 {{< /code >}}
 
 ### Functions
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 var sum = addNumbers(4, 60);
 document.write(sum);
 
@@ -245,7 +245,7 @@ header.addEventListener("click", function(){
 });
 
 ### If Statements
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 var isStudent = false;
 var isSmart = false;
 
@@ -270,7 +270,7 @@ if("dog" != "dog"){
 {{< /code >}}
 
 ### Switch Statements
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 var myGrade = "A";
 switch(myGrade){
      case "A":
@@ -285,7 +285,7 @@ switch(myGrade){
 {{< /code >}}
 
 ### While Loops
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 var index = 1;
 while(index <= 5){
      document.write(index);
@@ -300,7 +300,7 @@ do{
 {{< /code >}}
 
 ### For Loops
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 for(var i = 0; i < 5; i++){
      document.write(i);
 }
@@ -312,7 +312,7 @@ luckyNums.forEach(function(luckyNum){
 {{< /code >}}
 
 ### Exception Catching
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 try{
      // throw "Something went wrong"
      var x = y + 9;
@@ -324,7 +324,7 @@ try{
 {{< /code >}}
 
 ### Classes and Objects
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 class Book{
      constructor(title, author){
           this.title = title;
@@ -343,7 +343,7 @@ book1.readBook();
 {{< /code >}}
 
 ### Getters and Setters
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 class Book{
      constructor(title, author){
           this.title = title;
@@ -372,7 +372,7 @@ book1.readBook();
 {{< /code >}}
 
 ### Inheritance
-{{< code lang="java" >}}
+{{< code lang="js" >}}
 class Chef{
 
      constructor(name, age){

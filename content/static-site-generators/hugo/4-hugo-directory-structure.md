@@ -1,7 +1,7 @@
 ---
 date: 2017-09-07T20:24:11-04:00
-title: "Hugo Directory Structure"
-seo_title: "Hugo Directory Structure | Hugo | Giraffe Academy"
+title: "Creating A New Site"
+seo_title: "Creating A New Site | Hugo | Giraffe Academy"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!

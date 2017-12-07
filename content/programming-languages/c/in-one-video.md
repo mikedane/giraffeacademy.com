@@ -37,7 +37,7 @@ you have to compile it first.
 C relies on the  user to manage the program's memory, and the
 syntax of C is largly influenced by the B programming language.
 
-## Choosing an IDE
+### Choosing an IDE
 
 Many developers choose to write C using a basic text editor, but there are also
 more specilized integrated development enviornments, some of the most popular

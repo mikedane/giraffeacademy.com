@@ -5,11 +5,11 @@ seo_title: "Installing & Using Themes | Hugo | Giraffe Academy"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
-description: This tutorial covers how to use installing & using themes in Hugo -  Static Site Generator.
+description: Themes are collections of hugo layouts that take all the hassle out of building your site. 
 author: Mike Dane
 image: installing-&-using-themes.png
 video: L34JL_3Jkyc
-url: /static-site-generators/hugo/installing-&-using-themes/
+url: /static-site-generators/hugo/installing-using-themes/
 weight: 5
 ---
 

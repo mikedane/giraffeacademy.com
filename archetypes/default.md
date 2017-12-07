@@ -12,3 +12,10 @@ video: {{ .TranslationBaseName }}.mp4
 url: /{{.Dir}}{{ .TranslationBaseName }}/
 weight: 33
 ---
+
+## Code
+
+{{< code lang="js" >}}
+
+{{< /code >}}
+
