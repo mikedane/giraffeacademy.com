@@ -393,7 +393,7 @@
   </url>
   
   <url>
-    <loc>http://www.giraffeacademy.com/web-development/javascript/drawing-a-shape/</loc>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/writing-html/</loc>
     <lastmod>2017-10-22T11:23:34-04:00</lastmod>
   </url>
   
@@ -1508,7 +1508,7 @@
   </url>
   
   <url>
-    <loc>http://www.giraffeacademy.com/programming-languages/ruby/switch-statements/</loc>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/case-expressions/</loc>
     <lastmod>2017-11-01T00:12:43-04:00</lastmod>
   </url>
   
@@ -1663,7 +1663,7 @@
   </url>
   
   <url>
-    <loc>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</loc>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/2d-arrays-nested-loops/</loc>
     <lastmod>2017-10-22T11:34:30-04:00</lastmod>
   </url>
   
@@ -1703,7 +1703,7 @@
   </url>
   
   <url>
-    <loc>http://www.giraffeacademy.com/programming-languages/python/2d-lists--nested-loops/</loc>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/2d-lists-nested-loops/</loc>
     <lastmod>2017-10-22T11:58:04-04:00</lastmod>
   </url>
   
@@ -1913,6 +1913,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/javascript/in-one-video/</loc>
+    <lastmod>2017-10-22T11:23:34-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/constructors/</loc>
     <lastmod>2017-11-15T17:52:39-05:00</lastmod>
   </url>
@@ -1963,6 +1968,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c/in-one-video/</loc>
+    <lastmod>2017-11-01T00:17:37-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/ruby/object-methods/</loc>
     <lastmod>2017-11-01T00:12:45-04:00</lastmod>
   </url>
@@ -1980,6 +1990,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/web-development/php/getters-and-setters/</loc>
     <lastmod>2017-11-15T17:52:39-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/csharp/in-one-video/</loc>
+    <lastmod>2017-11-08T18:34:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/c&#43;&#43;/in-one-video/</loc>
+    <lastmod>2017-11-07T01:21:25-05:00</lastmod>
   </url>
   
   <url>
@@ -2018,12 +2038,17 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/web-development/php/in-one-video/</loc>
+    <lastmod>2017-11-15T17:52:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/ruby/modules/</loc>
     <lastmod>2017-11-01T00:12:46-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.giraffeacademy.com/programming-languages/python/inheritance-extends/</loc>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/inheritance/</loc>
     <lastmod>2017-10-22T11:58:05-04:00</lastmod>
   </url>
   
@@ -2048,6 +2073,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/ruby/in-one-video/</loc>
+    <lastmod>2017-11-01T00:12:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/python/in-one-video/</loc>
+    <lastmod>2017-10-22T11:58:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/access-modifiers/</loc>
     <lastmod>2017-10-22T11:34:31-04:00</lastmod>
   </url>
@@ -2060,6 +2095,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/programming-languages/java/packages-imports/</loc>
     <lastmod>2017-10-22T11:34:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/programming-languages/java/in-one-video/</loc>
+    <lastmod>2017-10-22T11:34:28-04:00</lastmod>
   </url>
   
   <url>

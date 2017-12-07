@@ -17,7 +17,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:27 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/installing-jdk/</guid>
-      <description></description>
+      <description> Code Copy </description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:27 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/hello-world/</guid>
-      <description></description>
+      <description> Code CopySystem.out.println(&amp;#34;Hello&amp;#34;); System.out.print(&amp;#34;World&amp;#34;); System.out.println(&amp;#34;!&amp;#34;); </description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/drawing-a-shape/</guid>
-      <description></description>
+      <description> Code CopySystem.out.println(&amp;#34; /|&amp;#34;); System.out.println(&amp;#34; / |&amp;#34;); System.out.println(&amp;#34; / |&amp;#34;); System.out.println(&amp;#34;/___|&amp;#34;); </description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/variables/</guid>
-      <description></description>
+      <description> Code Copy/* Names are case-sensitive and may begin with: letters, $, _ After, may include letters, numbers, $, _ Convention says Start with a lowercase word, then additional words are capitalized ex. myFirstVariable */ String characterName = &amp;#34;George&amp;#34;; int characterAge = 70; System.out.println(&amp;#34;There once was a man named &amp;#34; &amp;#43; characterName); System.out.println(&amp;#34;He was &amp;#34; &amp;#43; characterAge &amp;#43; &amp;#34; years old&amp;#34;); System.out.println(&amp;#34;He really liked the name &amp;#34; &amp;#43; characterName); System.out.println(&amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;#43; characterAge); </description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/data-types/</guid>
-      <description></description>
+      <description>Code CopyString name = &amp;#34;Mike&amp;#34;; // String&amp;#39;s are objects not primitives char testGrade = &amp;#39;A&amp;#39;; // single 16-bit Unicode character. byte age0 = 0; // 8-bit signed two&amp;#39;s complement integer short age1 = 10; // 16-bit signed two&amp;#39;s complement integer. int age2 = 20; // 32-bit signed two&amp;#39;s complement integer long age3 = 30L; // 64-bit optionally signed two&amp;#39;s complement integer float gpa0 = 2.5f; // 32-bit floating point double gpa1 = 3.</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/strings/</guid>
-      <description></description>
+      <description> Code CopyString greeting = &amp;#34;Hello&amp;#34;; // indexes: 01234 System.out.println( greeting.length() ); System.out.println( greeting.charAt(0) ); System.out.println( greeting.indexOf(&amp;#34;llo&amp;#34;) ); System.out.println( greeting.indexOf(&amp;#34;z&amp;#34;) ); System.out.println( greeting.substring(2) ); System.out.println( greeting.substring(1, 3) ); </description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/math/</guid>
-      <description></description>
+      <description>Code CopySystem.out.println( 2 * 3 ); // Basic Arithmetic: &amp;#43;, -, /, * System.out.println( 10 % 3 ); // Modulus Op. : returns remainder of 10/3 System.out.println( 1 &amp;#43; 2 * 3 ); // order of operations System.out.println(10 / 3.0); // int&amp;#39;s and doubles int num = 10; num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= System.out.println(num); num&amp;#43;&amp;#43;; System.out.println(num); // Math class has useful math methods System.out.println( Math.pow(2, 3) ); System.</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/getting-user-input/</guid>
-      <description></description>
+      <description> Code Copy// import java.util.Scanner; Scanner keyboardInput = new Scanner(System.in); System.out.print(&amp;#34;Enter username: &amp;#34;); String username = keyboardInput.nextLine(); // .nextDouble(), .nextInt() System.out.println(&amp;#34;Hello, &amp;#34; &amp;#43; username); </description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-calculator/</guid>
-      <description></description>
+      <description> Code Copy// import java.util.Scanner; Scanner keyboardInput = new Scanner(System.in); System.out.print(&amp;#34;Enter num1: &amp;#34;); int num1 = keyboardInput.nextDouble(); // .nextDouble(), .nextInt() System.out.print(&amp;#34;Enter num2: &amp;#34;); int num2 = keyboardInput.nextDouble(); System.out.println(num1 &amp;#43; num2); </description>
     </item>
     
     <item>
@@ -98,7 +98,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/building-a-mad-libs-game/</guid>
-      <description></description>
+      <description> Code Copy// import java.util.Scanner; Scanner keyboardInput = new Scanner(System.in); System.out.print(&amp;#34;Enter color: &amp;#34;); String color = keyboardInput.nextLine(); System.out.print(&amp;#34;Enter plural noun: &amp;#34;); String pluralNoun = keyboardInput.nextLine(); System.out.print(&amp;#34;Enter celebrity: &amp;#34;); String celebrity = keyboardInput.nextLine(); System.out.println(&amp;#34;Roses are &amp;#34; &amp;#43; color); System.out.println(pluralNoun &amp;#43; &amp;#34; are blue&amp;#34;); System.out.println(&amp;#34;I love &amp;#34; &amp;#43; celebrity); </description>
     </item>
     
     <item>
@@ -107,16 +107,16 @@
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/arrays/</guid>
-      <description></description>
+      <description> Code Copy// int [] luckyNumbers = new int[10]; int [] luckyNumbers = {4, 8, 15, 16, 23, 42}; // indexes: 0 1 2 3 4 5 luckyNumbers[0] = 90; System.out.println(luckyNumbers[0]); System.out.println(luckyNumbers[1]); System.out.println(luckyNumbers.length); </description>
     </item>
     
     <item>
-      <title>Functions</title>
+      <title>Methods</title>
       <link>http://www.giraffeacademy.com/programming-languages/java/functions/</link>
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/functions/</guid>
-      <description></description>
+      <description> Code Copypublic static void main(String [] args){ int sum = addNumbers(4, 60); System.out.println(sum); } public static int addNumbers(int num1, int num2){ return num1 &amp;#43; num2; } </description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/return/</guid>
-      <description></description>
+      <description> Code Copypublic static void main(String [] args){ int sum = addNumbers(4, 60); System.out.println(sum); } public static int addNumbers(int num1, int num2){ return num1 &amp;#43; num2; } </description>
     </item>
     
     <item>
@@ -134,7 +134,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/if-statements/</guid>
-      <description></description>
+      <description> Code Copyboolean isStudent = false; boolean isSmart = false; if(isStudent &amp;amp;&amp;amp; isSmart){ System.out.println(&amp;#34;You are a student&amp;#34;); } else if(isStudent &amp;amp;&amp;amp; !isSmart){ System.out.println(&amp;#34;You are not a smart student&amp;#34;); } else { System.out.println(&amp;#34;You are not a student and not smart&amp;#34;); } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, ==, String.equals() if(1 &amp;gt; 3){ System.out.println(&amp;#34;number comparison was true&amp;#34;); } if(&amp;#39;a&amp;#39; &amp;gt; &amp;#39;b&amp;#39;){ System.out.println(&amp;#34;character comparison was true&amp;#34;); } if(&amp;#34;dog&amp;#34;.equals(&amp;#34;cat&amp;#34;)){ System.out.println(&amp;#34;string comparison was true&amp;#34;); } </description>
     </item>
     
     <item>
@@ -143,7 +143,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/if-statements-cont/</guid>
-      <description></description>
+      <description> Code Copyboolean isStudent = false; boolean isSmart = false; if(isStudent &amp;amp;&amp;amp; isSmart){ System.out.println(&amp;#34;You are a student&amp;#34;); } else if(isStudent &amp;amp;&amp;amp; !isSmart){ System.out.println(&amp;#34;You are not a smart student&amp;#34;); } else { System.out.println(&amp;#34;You are not a student and not smart&amp;#34;); } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, ==, String.equals() if(1 &amp;gt; 3){ System.out.println(&amp;#34;number comparison was true&amp;#34;); } if(&amp;#39;a&amp;#39; &amp;gt; &amp;#39;b&amp;#39;){ System.out.println(&amp;#34;character comparison was true&amp;#34;); } if(&amp;#34;dog&amp;#34;.equals(&amp;#34;cat&amp;#34;)){ System.out.println(&amp;#34;string comparison was true&amp;#34;); } </description>
     </item>
     
     <item>
@@ -152,7 +152,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/better-calculator/</guid>
-      <description></description>
+      <description> Code Copy// import java.util.Scanner; Scanner keyboardInput = new Scanner(System.in); System.out.print(&amp;#34;Enter num1: &amp;#34;); int num1 = keyboardInput.nextDouble(); // .nextDouble(), .nextInt() System.out.print(&amp;#34;Enter Operator: &amp;#34;); String op = keyboardInput.nextLine(); System.out.print(&amp;#34;Enter num2: &amp;#34;); int num2 = keyboardInput.nextDouble(); if(op.equals(&amp;#34;&amp;#43;&amp;#34;)){ System.out.println(num1 &amp;#43; num2); } else if(op.equals(&amp;#34;-&amp;#34;)){ System.out.println(num1 - num2); } else if(op.equals(&amp;#34;/&amp;#34;)){ System.out.println(num1 / num2); } else if(op.equals(&amp;#34;*&amp;#34;)){ System.out.println(num1 * num2); } else { System.out.println(&amp;#34;Invalid Operator&amp;#34;); } System.out.println(num1 &amp;#43; num2); </description>
     </item>
     
     <item>
@@ -161,7 +161,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/switch-statements/</guid>
-      <description></description>
+      <description> Code Copychar myGrade = &amp;#39;A&amp;#39;; switch(myGrade){ case &amp;#39;A&amp;#39;: System.out.println(&amp;#34;You Pass&amp;#34;); break; case &amp;#39;F&amp;#39;: System.out.println(&amp;#34;You fail&amp;#34;); break; default: System.out.println(&amp;#34;Invalid grade&amp;#34;); } </description>
     </item>
     
     <item>
@@ -170,7 +170,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/while-loops/</guid>
-      <description></description>
+      <description> Code Copyint index = 1; while(index &amp;lt;= 5){ System.out.println(index); index&amp;#43;&amp;#43;; } index = 1; do{ System.out.println(index); index&amp;#43;&amp;#43;; }while(index &amp;lt;= 5); </description>
     </item>
     
     <item>
@@ -179,7 +179,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/building-a-guessing-game/</guid>
-      <description></description>
+      <description> Code Copy// import java.util.Scanner; Scanner keyboardInput = new Scanner(System.in); String secretWord = &amp;#34;giraffe&amp;#34;; String guess = &amp;#34;&amp;#34;; int guessCount = 0; int guessLimit = 3; boolean outOfGuesses = false; while(!guess.equals(secretWord) &amp;amp;&amp;amp; !outOfGuesses){ if(guessCount &amp;lt; guessLimit){ System.out.print(&amp;#34;Enter a guess: &amp;#34;); guess = keyboardInput.nextLine(); guessCount&amp;#43;&amp;#43;; } else { outOfGuesses = true; } } if(outOfGuesses){ System.out.println(&amp;#34;You Lose!&amp;#34;); } else { System.out.println(&amp;#34;You Win!&amp;#34;); } </description>
     </item>
     
     <item>
@@ -188,7 +188,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/for-loops/</guid>
-      <description></description>
+      <description> Code Copyfor(int i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){ System.out.println(i); } int luckyNums[] = {4, 8, 15, 16, 23, 42}; for(int luckyNum : luckyNums){ System.out.println(luckyNum); } </description>
     </item>
     
     <item>
@@ -197,16 +197,16 @@
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/exponent-function/</guid>
-      <description></description>
+      <description> Code Copypublic static int pow(int baseNum, int powNum){ int result = 1; for(int i = 0; i &amp;lt; powNum; i&amp;#43;&amp;#43;){ result = result * baseNum; } return result; } </description>
     </item>
     
     <item>
       <title>2d Arrays &amp; Nested Loops</title>
-      <link>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</link>
+      <link>http://www.giraffeacademy.com/programming-languages/java/2d-arrays-nested-loops/</link>
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/programming-languages/java/2d-arrays--nested-loops/</guid>
-      <description></description>
+      <guid>http://www.giraffeacademy.com/programming-languages/java/2d-arrays-nested-loops/</guid>
+      <description> Code Copy// int [][] numberGrid = new int[2][3]; int [][] numberGrid = { {1, 2}, {3, 4} }; numberGrid[0][1] = 99; System.out.println(numberGrid[0][0]); System.out.println(numberGrid[0][1]); for(int i = 0; i &amp;lt; numberGrid.length; i&amp;#43;&amp;#43;){ for(int j = 0; j &amp;lt; numberGrid[i].length; j&amp;#43;&amp;#43;){ System.out.println(numberGrid[i][j]); } System.out.println(); } </description>
     </item>
     
     <item>
@@ -215,7 +215,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/comments/</guid>
-      <description></description>
+      <description> Code Copy/* multi line comment */ // single // line // comment </description>
     </item>
     
     <item>
@@ -224,7 +224,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/try-catch/</guid>
-      <description></description>
+      <description> Code Copytry{ int division = 10/0; }catch(ArithmeticException e){ System.out.println(e); }catch(Exception e){ // Not best practice to use general Exception } // throws exception throw new ArithmeticException(&amp;#34;can&amp;#39;t add numbers&amp;#34;); </description>
     </item>
     
     <item>
@@ -233,7 +233,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/classes-objects/</guid>
-      <description></description>
+      <description> Code Copyclass Book{ public String title; public String author; } public class App{ public static void main(String [] args){ Book book1 = new Book(); book1.title = &amp;#34;Harry Potter&amp;#34;; book1.author = &amp;#34;JK Rowling&amp;#34;; System.out.println(book1.title); Book book2 = new Book(); book2.title = &amp;#34;Lord of the Rings&amp;#34;; book2.author = &amp;#34;JRR Tolkien&amp;#34;; System.out.println(book2.title); } } </description>
     </item>
     
     <item>
@@ -242,7 +242,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/classes-objects-cont/</guid>
-      <description></description>
+      <description> Code Copyclass Book{ public String title; public String author; } public class App{ public static void main(String [] args){ Book book1 = new Book(); book1.title = &amp;#34;Harry Potter&amp;#34;; book1.author = &amp;#34;JK Rowling&amp;#34;; System.out.println(book1.title); Book book2 = new Book(); book2.title = &amp;#34;Lord of the Rings&amp;#34;; book2.author = &amp;#34;JRR Tolkien&amp;#34;; System.out.println(book2.title); } } </description>
     </item>
     
     <item>
@@ -251,7 +251,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/constructor-function/</guid>
-      <description></description>
+      <description> Code Copyclass Book{ public String title; public String author; public Book(String title, String author){ this.title = title; this.author = author; } } public class App{ public static void main(String [] args){ Book book1 = new Book(&amp;#34;Harry Potter&amp;#34;, &amp;#34;JK Rowling&amp;#34;); System.out.println(book1.title); Book book2 = new Book(&amp;#34;Lord of the Rings&amp;#34;, &amp;#34;JRR Tolkien&amp;#34;); System.out.println(book2.title); } } </description>
     </item>
     
     <item>
@@ -260,7 +260,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/creating-a-quiz/</guid>
-      <description></description>
+      <description> Code Copy </description>
     </item>
     
     <item>
@@ -269,7 +269,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/class-methods/</guid>
-      <description></description>
+      <description> Code Copyclass Book{ public String title; public String author; public void readBook(){ System.out.println(&amp;#34;Reading &amp;#34; &amp;#43; this.title &amp;#43; &amp;#34; by &amp;#34; &amp;#43; this.author); } } </description>
     </item>
     
     <item>
@@ -278,7 +278,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/getters-and-setters/</guid>
-      <description></description>
+      <description> Code Copypublic class Movie{ public String title; private String rating; public int duration; public Movie(String title, String rating, int duration){ this.title = title; this.setRating(rating); this.duration = duration; } public String getRating(){ return this.rating; } public void setRating(String rating){ if(rating.equals(&amp;#34;G&amp;#34;) || rating.equals(&amp;#34;PG&amp;#34;) || rating.equals(&amp;#34;PG-13&amp;#34;) || rating.equals(&amp;#34;R&amp;#34;) || rating.equals(&amp;#34;NR&amp;#34;)){ this.rating = rating; } else { this.rating = &amp;#34;NR&amp;#34;; } } } </description>
     </item>
     
     <item>
@@ -287,7 +287,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/static-class-attributes/</guid>
-      <description></description>
+      <description> Code Copyclass Song{ public String title; public String artist; public static int songCount = 0; public Song(String title, String artist){ this.title = title; this.artist = artist; songCount&amp;#43;&amp;#43;; } } public class App{ public static void main(String [] args){ Song mySong = new Song(&amp;#34;Holiday&amp;#34;, &amp;#34;Green Day&amp;#34;); System.out.println(Song.songCount); } } </description>
     </item>
     
     <item>
@@ -296,7 +296,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/static-methods-in-classes/</guid>
-      <description></description>
+      <description> Code Copypublic static class MyStaticClass{ public static int usefulAttribute = 99; public static void usefulFunction(){ // do something useful } } </description>
     </item>
     
     <item>
@@ -305,7 +305,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/inheritance-extends/</guid>
-      <description></description>
+      <description>Code Copyclass Chef{ public void makeChicken(){ System.out.println(&amp;#34;The chef makes chicken&amp;#34;); } public void makeSalad(){ System.out.println(&amp;#34;The chef makes salad&amp;#34;); } public void makeSpecialDish(){ System.out.println(&amp;#34;The chef makes a special dish&amp;#34;); } } class ItalianChef extends Chef{ public void makePasta(){ System.out.println(&amp;#34;The chef makes pasta&amp;#34;); } @Override public void makeSpecialDish(){ System.out.println(&amp;#34;The chef makes chicken parm&amp;#34;); } } public class App{ public static void main(String [] args){ Chef myChef = new Chef(); myChef.makeChicken(); ItalianChef myItalianChef = new ItalianChef(); myItalianChef.</description>
     </item>
     
     <item>
@@ -314,7 +314,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/inheritance-implements/</guid>
-      <description></description>
+      <description> Code Copyinterface Animal{ public void speak(); } class Cat implements Animal{ @Override public void speak(){ System.out.println(&amp;#34;Meow Meow&amp;#34;); } } class Dog implements Animal{ @Override public void speak(){ System.out.println(&amp;#34;Woof Woof&amp;#34;); } } public class App{ public static void main(String [] args){ Animal [] animals = { new Dog(), new Cat() }; for(Animal animal : animals){ animal.speak(); } } } </description>
     </item>
     
     <item>
@@ -323,7 +323,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/access-modifiers/</guid>
-      <description></description>
+      <description> Code Copy </description>
     </item>
     
     <item>
@@ -332,7 +332,7 @@
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/main-method/</guid>
-      <description></description>
+      <description> Code Copy </description>
     </item>
     
     <item>
@@ -341,7 +341,18 @@
       <pubDate>Sun, 22 Oct 2017 11:34:31 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/java/packages-imports/</guid>
-      <description></description>
+      <description> Code Copy </description>
+    </item>
+    
+    <item>
+      <title>In One Video</title>
+      <link>http://www.giraffeacademy.com/programming-languages/java/in-one-video/</link>
+      <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/programming-languages/java/in-one-video/</guid>
+      <description>Java Overview Java is a general purpose, staticly typed, object oriented programming language that was founded in June 1991. The project was initiated by three developers - James Gosling, Mike Sheridan, and Patrick Naughton, but was officially released by Sun Microsystems in 1995.
+Java&amp;rsquo;s tagline is &amp;ldquo;Write once, run anywhere&amp;rdquo;, and the language was founded on 5 principles
+ It must be &amp;ldquo;simple, object-oriented, and familiar&amp;rdquo;. It must be &amp;ldquo;robust and secure&amp;rdquo;.</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/windows-installation/</guid>
-      <description></description>
+      <description> Code Copy </description>
     </item>
     
     <item>
@@ -26,16 +26,16 @@
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/choosing-a-text-editor/</guid>
-      <description></description>
+      <description> Code Copy </description>
     </item>
     
     <item>
-      <title>Hello World Setup</title>
+      <title>Hello World / Setup</title>
       <link>http://www.giraffeacademy.com/web-development/php/hello-world-setup/</link>
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/hello-world-setup/</guid>
-      <description></description>
+      <description> Code Copyecho &amp;#34;Hello World&amp;#34;; </description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/writing-html/</guid>
-      <description></description>
+      <description> Code Copyecho &amp;#34;&amp;lt;h1&amp;gt;Hello World&amp;lt;/h1&amp;gt;&amp;#34;); print &amp;#34;&amp;lt;hr/&amp;gt;&amp;#34;; // returns 1 echo &amp;#34;&amp;lt;p&amp;gt;This is a php tutorial&amp;lt;/p&amp;gt;&amp;#34;; </description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/variables/</guid>
-      <description></description>
+      <description> Code Copy/* Names are case-sensitive and must start with &amp;#39;$&amp;#39; then: letters, _ After, may include letters, numbers, _ Convention says There is no set convention, people will use camel case but also underscores ex. myFirstVariable ex. my_first_variable */ $characterName = &amp;#34;George&amp;#34;; $characterAge = 70; echo &amp;#34;There once was a man named $characterName &amp;lt;br&amp;gt;&amp;#34;; echo &amp;#34;He was $characterAge years old &amp;lt;br&amp;gt;&amp;#34;; echo &amp;#34;He really liked the name $characterName &amp;lt;br&amp;gt;&amp;#34;; echo &amp;#34;But didn&amp;#39;t like being $characterAge &amp;lt;br&amp;gt;&amp;#34;; </description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/data-types/</guid>
-      <description></description>
+      <description> Code Copy$name = &amp;#34;Mike&amp;#34;; // Strings $age = 30; // Integer $gpa = 3.5; // Decimal $isTall = true; // Boolean -&amp;gt; true/false $name = &amp;#34;John&amp;#34;; echo &amp;#34;Your name is $name &amp;lt;br&amp;gt;&amp;#34;; </description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/strings/</guid>
-      <description></description>
+      <description> Code Copy$greeting = &amp;#34;Hello&amp;#34;; //indexes: 01234 echo strlen($greeting).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo $greeting[0].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo $greeting[-1].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo str_replace(&amp;#34;l&amp;#34;, &amp;#34;Z&amp;#34;, $greeting).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo strchr($greeting, &amp;#34;ll&amp;#34;).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;;  </description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/math/</guid>
-      <description></description>
+      <description>Code Copyecho (2 * 3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // Basic Arithmetic: &amp;#43;, -, /, * echo (2**3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // Basic Arithmetic: &amp;#43;, -, /, * echo (10 % 3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // Modulus Op. : returns remainder of 10/3 echo (1 &amp;#43; 2 * 3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // order of operations echo (10 / 3.0).&amp;#34;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;#34;; // int&amp;#39;s and doubles $num = 10; $num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= echo $num.&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; $num&amp;#43;&amp;#43;; echo $num.&amp;#34;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;#34;; // useful math methods echo max(2, 3).</description>
     </item>
     
     <item>
@@ -89,7 +89,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/getting-input-from-users/</guid>
-      <description></description>
+      <description> Code site.phpCopy&amp;lt;form action=&amp;#34;site.php&amp;#34; method=&amp;#34;GET&amp;#34;&amp;gt; Username: &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;username&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;?php echo $_GET[&amp;#34;username&amp;#34;]; ?&amp;gt; </description>
     </item>
     
     <item>
@@ -98,7 +98,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/creating-a-calculator/</guid>
-      <description></description>
+      <description> Code site.phpCopy&amp;lt;form action=&amp;#34;site.php&amp;#34; method=&amp;#34;GET&amp;#34;&amp;gt; Num1: &amp;lt;input type=&amp;#34;number&amp;#34; name=&amp;#34;num1&amp;#34;&amp;gt; Num2: &amp;lt;input type=&amp;#34;number&amp;#34; name=&amp;#34;num2&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;?php $num1 = $_GET[&amp;#34;num1&amp;#34;]; $num2 = $_GET[&amp;#34;num2&amp;#34;]; echo $num1 &amp;#43; $num2; ?&amp;gt; </description>
     </item>
     
     <item>
@@ -107,7 +107,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/building-a-mad-libs-game/</guid>
-      <description></description>
+      <description> Code site.phpCopy&amp;lt;form action=&amp;#34;site.php&amp;#34; method=&amp;#34;GET&amp;#34;&amp;gt; Color: &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;color&amp;#34;&amp;gt; Plural Noun: &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;pluralNoun&amp;#34;&amp;gt; Celebrity: &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;celebrity&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;?php $color = $_GET[&amp;#34;color&amp;#34;]; $pluralNoun = $_GET[&amp;#34;pluralNoun&amp;#34;]; $celebrity = $_GET[&amp;#34;celebrity&amp;#34;]; echo &amp;#34;Roses are $color&amp;#34;; echo &amp;#34;$pluralNoun are blue&amp;#34;; echo &amp;#34;I love $celebrity&amp;#34;; ?&amp;gt; </description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/post-vs-get/</guid>
-      <description></description>
+      <description> Code site.phpCopy&amp;lt;form action=&amp;#34;App.php&amp;#34; method=&amp;#34;POST&amp;#34;&amp;gt; Password: &amp;lt;input type=&amp;#34;password&amp;#34; name=&amp;#34;password&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;?php echo $_POST[&amp;#34;password&amp;#34;]; ?&amp;gt; </description>
     </item>
     
     <item>
@@ -134,7 +134,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/arrays/</guid>
-      <description></description>
+      <description> Code Copy// $lucky_numbers = []; // $lucky_numbers = array(4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0); $lucky_numbers = [4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0]; // indexes 0 1 2 3 4 5 $lucky_numbers[0] = 90; echo $lucky_numbers[0].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo $lucky_numbers[1].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo count($lucky_numbers).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; </description>
     </item>
     
     <item>
@@ -143,7 +143,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/using-checkboxes/</guid>
-      <description></description>
+      <description> Code site.phpCopy&amp;lt;form action=&amp;#34;site.php&amp;#34; method=&amp;#34;POST&amp;#34;&amp;gt; Apples: &amp;lt;input type=&amp;#34;checkbox&amp;#34; name=&amp;#34;fruits[]&amp;#34; value=&amp;#34;apples&amp;#34;&amp;gt; Oranges: &amp;lt;input type=&amp;#34;checkbox&amp;#34; name=&amp;#34;fruits[]&amp;#34; value=&amp;#34;oranges&amp;#34;&amp;gt; Pears: &amp;lt;input type=&amp;#34;checkbox&amp;#34; name=&amp;#34;fruits[]&amp;#34; value=&amp;#34;pears&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;?php $fruits = _POST[&amp;#34;fruits&amp;#34;]; echo $fruits[1]; ?&amp;gt; </description>
     </item>
     
     <item>
@@ -152,7 +152,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/associative-arrays/</guid>
-      <description></description>
+      <description> Code Copytest_grades = { &amp;#34;Andy&amp;#34; =&amp;gt; &amp;#34;B&amp;#43;&amp;#34;, &amp;#34;Stanley&amp;#34; =&amp;gt; &amp;#34;C&amp;#34;, &amp;#34;Ryan&amp;#34; =&amp;gt; &amp;#34;A&amp;#34;, 3 =&amp;gt; 95.2 } echo test_grades[&amp;#34;Andy&amp;#34;].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo test_grades[&amp;#34;Ryan&amp;#34;].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo test_grades[3].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; </description>
     </item>
     
     <item>
@@ -161,7 +161,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/functions/</guid>
-      <description></description>
+      <description> Code Copyfunction addNumbers($num1, $num2=99){ return $num1 &amp;#43; $num2; } $sum = addNumbers(4, 3); echo $sum; </description>
     </item>
     
     <item>
@@ -170,7 +170,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/return-statements/</guid>
-      <description></description>
+      <description> Code Copyfunction addNumbers($num1, $num2=99){ return $num1 &amp;#43; $num2; } $sum = addNumbers(4, 3); echo $sum; </description>
     </item>
     
     <item>
@@ -179,7 +179,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/if-statements/</guid>
-      <description></description>
+      <description> Code Copy$isStudent = false; $isSmart = false; if($isStudent &amp;amp;&amp;amp; $isSmart){ echo &amp;#34;You are a student&amp;#34;; } elseif($isStudent &amp;amp;&amp;amp; !$isSmart){ echo &amp;#34;You are not a smart student&amp;#34;; } else { echo &amp;#34;You are not a student and not smart&amp;#34;; } echo &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ echo &amp;#34;number comparison was true&amp;#34;; } echo &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; if(&amp;#34;dog&amp;#34; == &amp;#34;cat&amp;#34;){ echo &amp;#34;string comparison was true&amp;#34;; } </description>
     </item>
     
     <item>
@@ -188,7 +188,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/if-statements-continued/</guid>
-      <description></description>
+      <description> Code Copy$isStudent = false; $isSmart = false; if($isStudent &amp;amp;&amp;amp; $isSmart){ echo &amp;#34;You are a student&amp;#34;; } elseif($isStudent &amp;amp;&amp;amp; !$isSmart){ echo &amp;#34;You are not a smart student&amp;#34;; } else { echo &amp;#34;You are not a student and not smart&amp;#34;; } echo &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ echo &amp;#34;number comparison was true&amp;#34;; } echo &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; if(&amp;#34;dog&amp;#34; == &amp;#34;cat&amp;#34;){ echo &amp;#34;string comparison was true&amp;#34;; } </description>
     </item>
     
     <item>
@@ -197,7 +197,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/building-a-better-calculator/</guid>
-      <description></description>
+      <description> Code site.phpCopy&amp;lt;form action=&amp;#34;site.php&amp;#34; method=&amp;#34;GET&amp;#34;&amp;gt; Num1: &amp;lt;input type=&amp;#34;number&amp;#34; name=&amp;#34;num1&amp;#34;&amp;gt; Operator: &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;op&amp;#34;&amp;gt; Num2: &amp;lt;input type=&amp;#34;number&amp;#34; name=&amp;#34;num2&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;?php $num1 = $_GET[&amp;#34;num1&amp;#34;]; $num2 = $_GET[&amp;#34;num2&amp;#34;]; $op = $_GET[&amp;#34;op&amp;#34;]; if($op == &amp;#34;&amp;#43;&amp;#34;){ echo $num1 &amp;#43; $num2; } elseif($op == &amp;#34;-&amp;#34;){ echo $num1 - $num2; } elseif($op == &amp;#34;/&amp;#34;){ echo $num1 / $num2; } elseif($op == &amp;#34;*&amp;#34;){ echo $num1 * $num2; } else { echo &amp;#34;Invalid Operator&amp;#34;; } ?&amp;gt; </description>
     </item>
     
     <item>
@@ -206,7 +206,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/switch-statements/</guid>
-      <description></description>
+      <description> Code Copy$myGrade = &amp;#34;A&amp;#34;; switch($myGrade){ case &amp;#34;A&amp;#34;: echo &amp;#34;You Pass&amp;#34;; break; case &amp;#34;F&amp;#34;: echo &amp;#34;You fail&amp;#34;; break; default: echo &amp;#34;Invalid grade&amp;#34;; } </description>
     </item>
     
     <item>
@@ -215,7 +215,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/while-loops/</guid>
-      <description></description>
+      <description> Code Copy$index = 1; while ($index &amp;lt;= 5){ echo $index; $index &amp;#43;= 1; } index = 1; do{ echo $index; $index &amp;#43;= 1; }while ($index &amp;lt;= 5); </description>
     </item>
     
     <item>
@@ -224,7 +224,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/for-loops/</guid>
-      <description></description>
+      <description> Code Copyfor($i = 0; $i &amp;lt; 5; $i&amp;#43;&amp;#43;){ echo $i; } $luckyNums = [4, 8, 15, 16, 23, 42]; foreach($luckyNums as $luckyNum){ echo $luckyNum.&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; } </description>
     </item>
     
     <item>
@@ -233,7 +233,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/comments/</guid>
-      <description></description>
+      <description> Code Copy/* multi line comment */ // single // line // comment </description>
     </item>
     
     <item>
@@ -242,7 +242,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/including-html/</guid>
-      <description></description>
+      <description> Code Copyinclude &amp;#34;filename.ext&amp;#34; </description>
     </item>
     
     <item>
@@ -251,7 +251,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/including-php/</guid>
-      <description></description>
+      <description> Code Copyinclude &amp;#34;filename.php&amp;#34; </description>
     </item>
     
     <item>
@@ -260,7 +260,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/classes-and-objects/</guid>
-      <description></description>
+      <description> Code Copyclass Book{ var $title; public $author; }; $book1 = new Book; $book1-&amp;gt;title = &amp;#34;Harry Potter&amp;#34;; $book1-&amp;gt;author = &amp;#34;JK Rowling&amp;#34;; echo $book1-&amp;gt;title.&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; </description>
     </item>
     
     <item>
@@ -269,7 +269,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/constructors/</guid>
-      <description></description>
+      <description> Code Copyclass Book{ var $title; public $author; function __construct($title, $author){ $this-&amp;gt;title = $title; $this-&amp;gt;author = $author; } }; $book1 = new Book(&amp;#34;Harry Potter&amp;#34;, &amp;#34;JK Rowling&amp;#34;); // $book1-&amp;gt;title = &amp;#34;Half-Blood Prince&amp;#34;; echo $book1-&amp;gt;title.&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; </description>
     </item>
     
     <item>
@@ -278,7 +278,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/object-methods/</guid>
-      <description></description>
+      <description> Code Copyclass Student{ public $name; public $gpa; function __construct($name, $gpa){ $this-&amp;gt;name = $name; $this-&amp;gt;gpa = $gpa; } function hasHonors(){ if($this-&amp;gt;gpa &amp;gt;= 3.5){ return true; } return false; } }; </description>
     </item>
     
     <item>
@@ -287,7 +287,7 @@
       <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/getters-and-setters/</guid>
-      <description></description>
+      <description> Code Copyclass Movie{ public $title; private $rating; function __construct($title, $rating){ $this-&amp;gt;title = $title; $this-&amp;gt;setRating($rating); } function getRating(){ return $this-&amp;gt;rating; } function setRating($rating){ if($rating == &amp;#34;G&amp;#34; || $rating == &amp;#34;PG&amp;#34; || $rating == &amp;#34;PG-13&amp;#34; || $rating == &amp;#34;R&amp;#34; || $rating == &amp;#34;NR&amp;#34;){ $this-&amp;gt;rating = $rating; } else { $this-&amp;gt;rating = &amp;#34;NR&amp;#34;; } } }; </description>
     </item>
     
     <item>
@@ -296,7 +296,17 @@
       <pubDate>Wed, 15 Nov 2017 17:52:39 -0500</pubDate>
       
       <guid>http://www.giraffeacademy.com/web-development/php/inheritance/</guid>
-      <description></description>
+      <description> Code Copyclass Chef{ function makeChicken(){ echo &amp;#34;The chef makes chicken&amp;#34;; } function makeSalad(){ echo &amp;#34;The chef makes salad&amp;#34;; } function makeSpecialDish(){ echo &amp;#34;The chef makes bbq ribs&amp;#34;; } }; class ItalianChef extends Chef{ function makePasta(){ echo &amp;#34;The chef makes pasta&amp;#34;; } function makeSpecialDish(){ echo &amp;#34;The chef makes chicken parm&amp;#34;; } }; $chef = new Chef(); $chef-&amp;gt;makeChicken(); echo &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; $italianChef = new ItalianChef(); $italianChef-&amp;gt;makeChicken(); </description>
+    </item>
+    
+    <item>
+      <title>In One Video</title>
+      <link>http://www.giraffeacademy.com/web-development/php/in-one-video/</link>
+      <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
+      
+      <guid>http://www.giraffeacademy.com/web-development/php/in-one-video/</guid>
+      <description>PHP Overview Php is a server side scripting language, designed primarily for use on web servers, but also used as a general purpose programming language. Php was created in the 1990s by Rasmus Lerdorf, and is fully Object Oriented.
+The most common use case for PHP is in web development. Because PHP can be written along side HTML, and also because it integrates so well with HTML and other web technologies, you&amp;rsquo;ll often find it running on a web server.</description>
     </item>
     
   </channel>
