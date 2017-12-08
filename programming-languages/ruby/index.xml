@@ -233,7 +233,7 @@
       <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/ruby/reading-files/</guid>
-      <description> Code CopyFILE.open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#34;) do |file| for line in file.readlines() puts line end end # --------------- # or # --------------- file = FILE.open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#34;) puts file.read file.close() </description>
+      <description> Code CopyFile.open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#34;) do |file| for line in file.readlines() puts line end end # --------------- # or # --------------- file = File.open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#34;) puts file.read file.close() </description>
     </item>
     
     <item>
@@ -242,7 +242,7 @@
       <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
       
       <guid>http://www.giraffeacademy.com/programming-languages/ruby/writing-files/</guid>
-      <description> Code CopyFILE.open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#43;&amp;#34;) do |file| file.write(&amp;#34;writing some text&amp;#34;) end </description>
+      <description> Code CopyFile.open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#43;&amp;#34;) do |file| file.write(&amp;#34;writing some text&amp;#34;) end </description>
     </item>
     
     <item>
