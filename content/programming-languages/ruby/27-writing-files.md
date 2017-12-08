@@ -16,7 +16,7 @@ weight: 27
 ## Code
 
 {{< code lang="rb" >}}
-FILE.open("employees.txt", "r+") do |file|
+File.open("employees.txt", "r+") do |file|
      file.write("writing some text")
 end
 {{< /code >}}

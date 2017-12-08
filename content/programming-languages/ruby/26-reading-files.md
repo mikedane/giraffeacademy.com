@@ -16,7 +16,7 @@ weight: 26
 ## Code
 
 {{< code lang="rb" >}}
-FILE.open("employees.txt", "r") do |file|
+File.open("employees.txt", "r") do |file|
      for line in file.readlines()
           puts line
      end
@@ -26,7 +26,7 @@ end
 # or
 # ---------------
 
-file = FILE.open("employees.txt", "r")
+file = File.open("employees.txt", "r")
 
 puts file.read
 
