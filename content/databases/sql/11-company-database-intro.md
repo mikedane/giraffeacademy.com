@@ -13,6 +13,6 @@ url: /databases/sql/company-database-intro/
 weight: 11
 ---
 
-
-{{< image abs-path="http://www.giraffeacademy.com/databases/sql/company-database.png" alt="A database schema for a company">}}
+[Click Here to Download PDF](http://www.giraffeacademy.com/databases/sql/company-database.pdf)
+{{< article-image abs-path="true" src="http://www.giraffeacademy.com/databases/sql/company-database.png" alt="A database schema for a company">}}
 

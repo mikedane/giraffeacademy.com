@@ -13,5 +13,5 @@ url: /databases/sql/er-diagram-mapping/
 weight: 23
 ---
 ## Company Database Schema
-{{< image abs-path="http://www.giraffeacademy.com/databases/sql/company-relations.png" alt="A database schema for a company">}}
+{{< article-image abs-path="true" src="http://www.giraffeacademy.com/databases/sql/company-relations.png" alt="A database schema for a company">}}
 

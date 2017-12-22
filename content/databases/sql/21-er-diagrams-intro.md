@@ -13,7 +13,7 @@ url: /databases/sql/er-diagrams-intro/
 weight: 21
 ---
 ## ER Diagram Template
-{{< image abs-path="http://www.giraffeacademy.com/databases/sql/erd-template.png" alt="A template for an ER Diagram">}}
+{{< article-image abs-path="true" src="http://www.giraffeacademy.com/databases/sql/erd-template.png" alt="A template for an ER Diagram">}}
 
 ## Student Diagram
-{{< image abs-path="http://www.giraffeacademy.com/databases/sql/student-erd.png" alt="An ER Diagram for a school">}}
+{{< article-image abs-path="true" src="http://www.giraffeacademy.com/databases/sql/student-erd.png" alt="An ER Diagram for a school">}}
