@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/</loc>
+    <lastmod>2017-12-22T11:54:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/</loc>
     <lastmod>2017-11-15T17:52:36-05:00</lastmod>
   </url>
@@ -83,6 +93,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/</loc>
+    <lastmod>2017-09-11T11:55:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/programming-languages/</loc>
     <lastmod>2017-09-11T11:55:00-04:00</lastmod>
   </url>
@@ -95,6 +110,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/</loc>
     <lastmod>2017-09-07T20:24:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/mac-installation/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/tables-keys/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
   </url>
   
   <url>
@@ -188,6 +213,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/windows-installation/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/sql-basics/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/choosing-a-text-editor/</loc>
     <lastmod>2017-11-15T17:52:36-05:00</lastmod>
   </url>
@@ -270,6 +305,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/creating-collections/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/mysql-windows-installation/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
   </url>
   
   <url>
@@ -358,6 +403,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/inserting/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/mysql-mac-installation/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/writing-html/</loc>
     <lastmod>2017-11-15T17:52:36-05:00</lastmod>
   </url>
@@ -440,6 +495,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/installing-using-themes/</loc>
     <lastmod>2017-09-07T20:24:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/finding-documents/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/creating-tables/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
   </url>
   
   <url>
@@ -528,6 +593,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/updating-deleting-documents/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/inserting-data/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/data-types/</loc>
     <lastmod>2017-11-15T17:52:36-05:00</lastmod>
   </url>
@@ -610,6 +685,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/front-matter/</loc>
     <lastmod>2017-09-07T20:24:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/bulk-actions/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/constraints/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
   </url>
   
   <url>
@@ -698,6 +783,16 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/text-indexing/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/update-delete/</loc>
+    <lastmod>2017-12-22T11:48:55-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/math/</loc>
     <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
@@ -780,6 +875,16 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcodes/</loc>
     <lastmod>2017-09-07T20:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/mongodb/aggregation/</loc>
+    <lastmod>2017-12-22T11:54:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/basic-queries/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
   </url>
   
   <url>
@@ -868,6 +973,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/company-database-intro/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/creating-a-calculator/</loc>
     <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
@@ -945,6 +1055,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/introduction-to-templates/</loc>
     <lastmod>2017-09-07T20:24:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/creating-company-database/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
   </url>
   
   <url>
@@ -1028,6 +1143,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/more-basic-queries/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/url-parameters/</loc>
     <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
@@ -1103,6 +1223,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/functions/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/post-vs-get/</loc>
     <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
@@ -1170,6 +1295,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/home-page-templates/</loc>
     <lastmod>2017-09-07T20:24:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/wildcards/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
   </url>
   
   <url>
@@ -1243,6 +1373,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/union/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/using-checkboxes/</loc>
     <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
@@ -1313,6 +1448,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/joins/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/associative-arrays/</loc>
     <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
@@ -1378,6 +1518,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/nested-queries/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/functions/</loc>
     <lastmod>2017-11-15T17:52:37-05:00</lastmod>
   </url>
@@ -1430,6 +1575,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/functions/</loc>
     <lastmod>2017-09-07T20:24:16-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/on-delete/</loc>
+    <lastmod>2017-12-22T11:48:56-05:00</lastmod>
   </url>
   
   <url>
@@ -1488,6 +1638,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/triggers/</loc>
+    <lastmod>2017-12-22T11:48:57-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/if-statements/</loc>
     <lastmod>2017-11-15T17:52:38-05:00</lastmod>
   </url>
@@ -1543,6 +1698,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/er-diagrams-intro/</loc>
+    <lastmod>2017-12-22T11:48:57-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/if-statements-continued/</loc>
     <lastmod>2017-11-15T17:52:38-05:00</lastmod>
   </url>
@@ -1588,6 +1748,11 @@
   </url>
   
   <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/designing-an-er-diagram/</loc>
+    <lastmod>2017-12-22T11:48:57-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.giraffeacademy.com/web-development/php/building-a-better-calculator/</loc>
     <lastmod>2017-11-15T17:52:38-05:00</lastmod>
   </url>
@@ -1630,6 +1795,11 @@
   <url>
     <loc>http://www.giraffeacademy.com/static-site-generators/hugo/shortcode-templates/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.giraffeacademy.com/databases/sql/er-diagram-mapping/</loc>
+    <lastmod>2017-12-22T11:48:57-05:00</lastmod>
   </url>
   
   <url>
