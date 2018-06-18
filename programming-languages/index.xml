@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming Languages on Giraffe Academy</title>
-    <link>http://www.giraffeacademy.com/programming-languages/</link>
+    <link>https://www.giraffeacademy.com/programming-languages/</link>
     <description>Recent content in Programming Languages on Giraffe Academy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Sep 2017 11:55:00 -0400</lastBuildDate>
     
-	<atom:link href="http://www.giraffeacademy.com/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.giraffeacademy.com/programming-languages/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,147 +2,147 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on Giraffe Academy</title>
-    <link>http://www.giraffeacademy.com/web-development/html/</link>
+    <link>https://www.giraffeacademy.com/web-development/html/</link>
     <description>Recent content in Html on Giraffe Academy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Oct 2017 15:35:15 -0400</lastBuildDate>
     
-	<atom:link href="http://www.giraffeacademy.com/web-development/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.giraffeacademy.com/web-development/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Choosing A Text Editor</title>
-      <link>http://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/choosing-a-text-editor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Creating An Html File</title>
-      <link>http://www.giraffeacademy.com/web-development/html/creating-an-html-file/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/creating-an-html-file/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/creating-an-html-file/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/creating-an-html-file/</guid>
       <description> Code Copy&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;title&amp;gt;My Website Title&amp;lt;/title&amp;gt; &amp;lt;body&amp;gt; Hello World &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
     </item>
     
     <item>
       <title>Basic Tags</title>
-      <link>http://www.giraffeacademy.com/web-development/html/basic-tags/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/basic-tags/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/basic-tags/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/basic-tags/</guid>
       <description> Code Copy&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;This is a great website&amp;#34;&amp;gt; &amp;lt;title&amp;gt;My Website Title&amp;lt;/title&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;My Website&amp;lt;/h1&amp;gt; &amp;lt;hr/&amp;gt; &amp;lt;p&amp;gt; &amp;lt;big&amp;gt;This&amp;lt;/big&amp;gt; is &amp;lt;small&amp;gt;my&amp;lt;/small&amp;gt; &amp;lt;b&amp;gt;&amp;lt;i&amp;gt;paragraph&amp;lt;/i&amp;gt;&amp;lt;/b&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; 10&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
     </item>
     
     <item>
       <title>Comments</title>
-      <link>http://www.giraffeacademy.com/web-development/html/comments/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/comments/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/comments/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/comments/</guid>
       <description> Code Copy&amp;lt;!-- this is a comment it can be multi-line --&amp;gt; </description>
     </item>
     
     <item>
       <title>Style &amp; Color</title>
-      <link>http://www.giraffeacademy.com/web-development/html/style-color/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/style-color/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/style-color/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/style-color/</guid>
       <description> Code Copy&amp;lt;body style=&amp;#34;background-color:lightblue&amp;#34;&amp;gt; &amp;lt;h2 style=&amp;#34;color:green&amp;#34;&amp;gt; Style and Colors &amp;lt;/h2&amp;gt; &amp;lt;p style=&amp;#34;color: red; background-color:blue&amp;#34;&amp;gt; paragraph text &amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; </description>
     </item>
     
     <item>
       <title>Formatting A Page</title>
-      <link>http://www.giraffeacademy.com/web-development/html/formatting-a-page/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/formatting-a-page/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/formatting-a-page/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/formatting-a-page/</guid>
       <description> Code Copy&amp;lt;body&amp;gt; &amp;lt;header&amp;gt; Header &amp;lt;nav&amp;gt; Nav &amp;lt;/nav&amp;gt; &amp;lt;/header&amp;gt; &amp;lt;main&amp;gt; Main &amp;lt;article&amp;gt; Article &amp;lt;section&amp;gt; Section 1 &amp;lt;aside&amp;gt; Aside &amp;lt;/aside&amp;gt; &amp;lt;/section&amp;gt; &amp;lt;section&amp;gt; Section 2 &amp;lt;/section&amp;gt; &amp;lt;/article&amp;gt; &amp;lt;/main&amp;gt; &amp;lt;footer&amp;gt; Footer &amp;lt;/footer&amp;gt; &amp;lt;/body&amp;gt; </description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://www.giraffeacademy.com/web-development/html/links/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/links/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/links/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/links/</guid>
       <description> Code Copy&amp;lt;a href=&amp;#34;https://www.google.com&amp;#34;&amp;gt; Google&amp;#39;s Homepage &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;page2.html&amp;#34;&amp;gt; Page on same website &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;ebook.pdf&amp;#34;&amp;gt; PDF File &amp;lt;/a&amp;gt; </description>
     </item>
     
     <item>
       <title>Images</title>
-      <link>http://www.giraffeacademy.com/web-development/html/images/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/images/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/images/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/images/</guid>
       <description> Code Copy&amp;lt;img src=&amp;#34;http://www.giraffeacademy.com/web-development/html/&amp;#34; alt=&amp;#34;Giraffe Academy HTML Course&amp;#34; width=&amp;#34;200&amp;#34;&amp;gt; </description>
     </item>
     
     <item>
       <title>Videos</title>
-      <link>http://www.giraffeacademy.com/web-development/html/videos/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/videos/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/videos/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/videos/</guid>
       <description> Code Copy&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34; src=&amp;#34;https://www.youtube.com/embed/M_vEI64hbso&amp;#34; frameborder=&amp;#34;0&amp;#34; gesture=&amp;#34;media&amp;#34; allow=&amp;#34;encrypted-media&amp;#34; allowfullscreen&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;video src=&amp;#34;myvideo.mp4&amp;#34; autoplay controls width=&amp;#34;300&amp;#34; poster=&amp;#34;video-poster.jpg&amp;#34;&amp;gt; &amp;lt;/video&amp;gt; </description>
     </item>
     
     <item>
       <title>Lists</title>
-      <link>http://www.giraffeacademy.com/web-development/html/lists/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/lists/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/lists/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/lists/</guid>
       <description> Code Copy&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Apples&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Oranges&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Pears&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol type=&amp;#34;A&amp;#34;&amp;gt; &amp;lt;li&amp;gt;One&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Two&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Three&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;Giraffe Academy&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt;Website with programming tutorials&amp;lt;/dd&amp;gt; &amp;lt;/dl&amp;gt; </description>
     </item>
     
     <item>
       <title>Tables</title>
-      <link>http://www.giraffeacademy.com/web-development/html/tables/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/tables/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/tables/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/tables/</guid>
       <description> Code Copy&amp;lt;table&amp;gt; &amp;lt;caption&amp;gt;My Table&amp;lt;/caption&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;num1&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;num2&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;num3&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td colspan=&amp;#34;2&amp;#34;&amp;gt;one&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;two&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;three&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;three and a half&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;four&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;five&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;six&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt; </description>
     </item>
     
     <item>
       <title>Divs &amp; Spans</title>
-      <link>http://www.giraffeacademy.com/web-development/html/divs-spans/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/divs-spans/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/divs-spans/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/divs-spans/</guid>
       <description> Code Copy&amp;lt;div&amp;gt;Div1&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;Div2&amp;lt;/div&amp;gt; &amp;lt;span&amp;gt;Span1&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Span2&amp;lt;/span&amp;gt; </description>
     </item>
     
     <item>
       <title>Inputs &amp; Forms</title>
-      <link>http://www.giraffeacademy.com/web-development/html/inputs-forms/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/inputs-forms/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/inputs-forms/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/inputs-forms/</guid>
       <description> Code Copy&amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;number&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;color&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;date&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;email&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;file&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;radio&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;time&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;url&amp;#34; /&amp;gt; </description>
     </item>
     
     <item>
       <title>Iframes</title>
-      <link>http://www.giraffeacademy.com/web-development/html/iframes/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/iframes/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/iframes/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/iframes/</guid>
       <description> Code Copy&amp;lt;iframe src=&amp;#34;http://www.giraffeacademy.com/&amp;#34; frameborder=&amp;#34;0&amp;#34; width=&amp;#34;1000&amp;#34; height=&amp;#34;800&amp;#34;&amp;gt; sorry iframe not supported &amp;lt;/iframe&amp;gt; </description>
     </item>
     
     <item>
       <title>Meta Tags</title>
-      <link>http://www.giraffeacademy.com/web-development/html/meta-tags/</link>
+      <link>https://www.giraffeacademy.com/web-development/html/meta-tags/</link>
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
-      <guid>http://www.giraffeacademy.com/web-development/html/meta-tags/</guid>
+      <guid>https://www.giraffeacademy.com/web-development/html/meta-tags/</guid>
       <description> Code Copy&amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Teaching HTML for free&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;keywords&amp;#34; content=&amp;#34;HTML, Giraffe Academy&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;author&amp;#34; content=&amp;#34;Giraffe Academy&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;/head&amp;gt; </description>
     </item>
     
