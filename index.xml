@@ -179,7 +179,7 @@
       <pubDate>Thu, 07 Sep 2017 20:24:10 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-windows/</guid>
-      <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
+      <description>Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Mike Dane is here to guide you through every step.
 Step 1 : Preparing Your Windows File System The first step when installing Hugo on windows is to make a space for it on your hard drive.</description>
     </item>
     
@@ -351,7 +351,7 @@ Step 1 : Preparing Your Windows File System The first step when installing Hugo 
       <pubDate>Thu, 07 Sep 2017 20:24:11 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/static-site-generators/hugo/installing-hugo-on-mac/</guid>
-      <description>Often times, trying to install and setup programs can be a mess, either the instructions aren&amp;rsquo;t clear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Mac Installation is really easy, and Giraffe Academy is here to guide you through every step.
+      <description>Often times, trying to install and setup programs can be a mess, either the instructions aren&amp;rsquo;t clear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Mac Installation is really easy, and Mike Dane is here to guide you through every step.
 Step 1 : Installing Homebrew Installing programs on mac isn’t the same as installing them on Windows.</description>
     </item>
     
@@ -1337,7 +1337,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/html/images/</guid>
-      <description> Code Copy&amp;lt;img src=&amp;#34;http://www.giraffeacademy.com/web-development/html/&amp;#34; alt=&amp;#34;Giraffe Academy HTML Course&amp;#34; width=&amp;#34;200&amp;#34;&amp;gt; </description>
+      <description> Code Copy&amp;lt;img src=&amp;#34;http://www.mikedane.com/web-development/html/&amp;#34; alt=&amp;#34;Mike Dane HTML Course&amp;#34; width=&amp;#34;200&amp;#34;&amp;gt; </description>
     </item>
     
     <item>
@@ -1662,7 +1662,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/html/lists/</guid>
-      <description> Code Copy&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Apples&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Oranges&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Pears&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol type=&amp;#34;A&amp;#34;&amp;gt; &amp;lt;li&amp;gt;One&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Two&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Three&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;Giraffe Academy&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt;Website with programming tutorials&amp;lt;/dd&amp;gt; &amp;lt;/dl&amp;gt; </description>
+      <description> Code Copy&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Apples&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Oranges&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Pears&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol type=&amp;#34;A&amp;#34;&amp;gt; &amp;lt;li&amp;gt;One&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Two&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Three&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;Mike Dane&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt;Website with programming tutorials&amp;lt;/dd&amp;gt; &amp;lt;/dl&amp;gt; </description>
     </item>
     
     <item>
@@ -1941,7 +1941,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/javascript/accessing-html-elements/</guid>
-      <description> Code index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; giraffe=&amp;#34;Giraffe Attr&amp;#34;&amp;gt;Giraffe Academy&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.style=&amp;#34;color:blue; background-color:red;&amp;#34; document.write( header.getAttribute(&amp;#34;giraffe&amp;#34;) ); header.innerHTML = &amp;#34;Elephant Academy&amp;#34;; </description>
+      <description> Code index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; giraffe=&amp;#34;Giraffe Attr&amp;#34;&amp;gt;Mike Dane&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.style=&amp;#34;color:blue; background-color:red;&amp;#34; document.write( header.getAttribute(&amp;#34;giraffe&amp;#34;) ); header.innerHTML = &amp;#34;Elephant Academy&amp;#34;; </description>
     </item>
     
     <item>
@@ -2085,7 +2085,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/javascript/trigger-events/</guid>
-      <description> Code Inline Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; onclick=&amp;#34;handleClick(this)&amp;#34;&amp;gt;Giraffe Academy&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyfunction handleClick(element){ alert(&amp;#34;Clicked &amp;#34; &amp;#43; element.id); } Programatic Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34;&amp;gt;Giraffe Academy&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.addEventListener(&amp;#34;click&amp;#34;, function(){ alert(&amp;#34;You clicked &amp;#34; &amp;#43; header.id); }); </description>
+      <description> Code Inline Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; onclick=&amp;#34;handleClick(this)&amp;#34;&amp;gt;Mike Dane&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyfunction handleClick(element){ alert(&amp;#34;Clicked &amp;#34; &amp;#43; element.id); } Programatic Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34;&amp;gt;Mike Dane&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.addEventListener(&amp;#34;click&amp;#34;, function(){ alert(&amp;#34;You clicked &amp;#34; &amp;#43; header.id); }); </description>
     </item>
     
     <item>
@@ -2238,7 +2238,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/html/iframes/</guid>
-      <description> Code Copy&amp;lt;iframe src=&amp;#34;http://www.giraffeacademy.com/&amp;#34; frameborder=&amp;#34;0&amp;#34; width=&amp;#34;1000&amp;#34; height=&amp;#34;800&amp;#34;&amp;gt; sorry iframe not supported &amp;lt;/iframe&amp;gt; </description>
+      <description> Code Copy&amp;lt;iframe src=&amp;#34;http://www.mikedane.com/&amp;#34; frameborder=&amp;#34;0&amp;#34; width=&amp;#34;1000&amp;#34; height=&amp;#34;800&amp;#34;&amp;gt; sorry iframe not supported &amp;lt;/iframe&amp;gt; </description>
     </item>
     
     <item>
@@ -2373,7 +2373,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/html/meta-tags/</guid>
-      <description> Code Copy&amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Teaching HTML for free&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;keywords&amp;#34; content=&amp;#34;HTML, Giraffe Academy&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;author&amp;#34; content=&amp;#34;Giraffe Academy&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;/head&amp;gt; </description>
+      <description> Code Copy&amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Teaching HTML for free&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;keywords&amp;#34; content=&amp;#34;HTML, Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;author&amp;#34; content=&amp;#34;Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;/head&amp;gt; </description>
     </item>
     
     <item>
@@ -3927,7 +3927,7 @@ Java&amp;rsquo;s tagline is &amp;ldquo;Write once, run anywhere&amp;rdquo;, and 
       <pubDate>Thu, 20 Jul 2017 10:02:24 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/contribute/</guid>
-      <description>Help Giraffe Academy grow! We make it super easy to support the site!  
+      <description>Help me keep making awesome content! It&#39;s super easy to support the site!  
 Credit Card or PayPal Click the Donate button above to make a contribution using a Credit Card or PayPal      Patreon Click the Patreon image above to contribute using their awesome platform
    --  </description>
     </item>
@@ -3938,8 +3938,8 @@ Credit Card or PayPal Click the Donate button above to make a contribution using
       <pubDate>Thu, 20 Jul 2017 10:02:20 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/about/</guid>
-      <description>Giraffe Academy has one simple goal, to create the highest quality and entertaining educational content on the internet. Let&amp;rsquo;s face it, now-a-day&amp;rsquo;s you can learn how to do just about anything online. But far too often the really good content is either hidden behind paywalls or buried under hundreds of hours of poorly made content.
-Giraffe Academy’s videos, articles and informative images are meticulously thought out, consistently well produced, and always created with love.</description>
+      <description>Hey! My name&amp;rsquo;s Mike Dane, and I&amp;rsquo;ve got one simple goal, to create the highest quality and entertaining educational content on the internet. Let&amp;rsquo;s face it, now-a-day&amp;rsquo;s you can learn how to do just about anything online. But far too often the really good content is either hidden behind paywalls or buried under hundreds of hours of poorly made content.
+All of my videos, articles and informative images are meticulously thought out, consistently well produced, and always created with love.</description>
     </item>
     
   </channel>

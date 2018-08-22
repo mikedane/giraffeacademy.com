@@ -116,7 +116,7 @@
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/javascript/accessing-html-elements/</guid>
-      <description> Code index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; giraffe=&amp;#34;Giraffe Attr&amp;#34;&amp;gt;Giraffe Academy&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.style=&amp;#34;color:blue; background-color:red;&amp;#34; document.write( header.getAttribute(&amp;#34;giraffe&amp;#34;) ); header.innerHTML = &amp;#34;Elephant Academy&amp;#34;; </description>
+      <description> Code index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; giraffe=&amp;#34;Giraffe Attr&amp;#34;&amp;gt;Mike Dane&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.style=&amp;#34;color:blue; background-color:red;&amp;#34; document.write( header.getAttribute(&amp;#34;giraffe&amp;#34;) ); header.innerHTML = &amp;#34;Elephant Academy&amp;#34;; </description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/javascript/trigger-events/</guid>
-      <description> Code Inline Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; onclick=&amp;#34;handleClick(this)&amp;#34;&amp;gt;Giraffe Academy&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyfunction handleClick(element){ alert(&amp;#34;Clicked &amp;#34; &amp;#43; element.id); } Programatic Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34;&amp;gt;Giraffe Academy&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.addEventListener(&amp;#34;click&amp;#34;, function(){ alert(&amp;#34;You clicked &amp;#34; &amp;#43; header.id); }); </description>
+      <description> Code Inline Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34; onclick=&amp;#34;handleClick(this)&amp;#34;&amp;gt;Mike Dane&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyfunction handleClick(element){ alert(&amp;#34;Clicked &amp;#34; &amp;#43; element.id); } Programatic Event Listeners index.htmlCopy&amp;lt;h1 id=&amp;#34;myHeader&amp;#34;&amp;gt;Mike Dane&amp;lt;/h1&amp;gt; &amp;lt;script src=&amp;#34;script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; script.jsCopyvar header = document.getElementById(&amp;#34;myHeader&amp;#34;); header.addEventListener(&amp;#34;click&amp;#34;, function(){ alert(&amp;#34;You clicked &amp;#34; &amp;#43; header.id); }); </description>
     </item>
     
     <item>
