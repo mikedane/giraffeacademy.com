@@ -1,7 +1,7 @@
 ---
 date: 2017-10-22T11:23:34-04:00
 title: "In One Video"
-seo_title: "In One Video | Javascript | Giraffe Academy"
+seo_title: "In One Video | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
@@ -141,7 +141,7 @@ alert("Your name is " + name);
 
 ### Accessing HTML
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader" giraffe="Giraffe Attr">Giraffe Academy</h1>
+<h1 id="myHeader" giraffe="Giraffe Attr">Mike Dane</h1>
 <script src="script.js"></script>
 {{< /code >}}
 
@@ -218,7 +218,7 @@ function addNumbers(num1, num2){
 https://www.w3schools.com/jsref/dom_obj_event.asp
 
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader" onclick="handleClick(this)">Giraffe Academy</h1>
+<h1 id="myHeader" onclick="handleClick(this)">Mike Dane</h1>
 <script src="script.js"></script>
 {{< /code >}}
 
@@ -233,7 +233,7 @@ function handleClick(element){
 https://www.w3schools.com/jsref/dom_obj_event.asp
 
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader">Giraffe Academy</h1>
+<h1 id="myHeader">Mike Dane</h1>
 <script src="script.js"></script>
 {{< /code >}}
 

@@ -1,7 +1,7 @@
 ---
 date: 2017-10-10T22:46:04-04:00
 title: "Partials"
-seo_title: "Partials | Sass | Giraffe Academy"
+seo_title: "Partials | Sass | Mike Dane"
 subheader:
      greeting: Sass - Style a Website
      description: This course covers the basics of styling a website using Sass. Work your way through the videos and we'll teach you everything you need to know to style a basic website!

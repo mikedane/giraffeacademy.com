@@ -1,7 +1,7 @@
 ---
 date: 2017-12-22T11:48:57-05:00
 title: "Designing An Er Diagram"
-seo_title: "Designing An Er Diagram | SQL | Giraffe Academy"
+seo_title: "Designing An Er Diagram | SQL | Mike Dane"
 subheader:
      greeting: SQL - Database Programming Language
      description: This course covers the basics of working with SQL. Work your way through the videos and we'll teach you everything you need to know to interact with database management systems and create powerful relational databases!
@@ -30,4 +30,4 @@ Employees can work with clients controlled by their branch to sell them stuff. I
 
 Many branches will need to work with suppliers to buy inventory. For each supplier we'll keep track of their name and the type of product they're selling the branch. A single supplier may supply products to multiple branches.
 ## Company ER Diagram
-{{< article-image abs-path="true" src="http://www.giraffeacademy.com/databases/sql/company-erd.png" alt="An ER Diagram for a company">}}
+{{< article-image abs-path="true" src="http://www.mikedane.com/databases/sql/company-erd.png" alt="An ER Diagram for a company">}}

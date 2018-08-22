@@ -10,7 +10,7 @@ author: Mike Dane
 image: {{ .TranslationBaseName }}.png
 video: {{ .TranslationBaseName }}.mp4
 url: /{{.Dir}}{{ .TranslationBaseName }}/
-weight: 10
+weight: 2
 ---
 
 ## Code

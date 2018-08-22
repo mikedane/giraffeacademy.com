@@ -1,7 +1,7 @@
 ---
 date: 2017-10-10T22:46:05-04:00
 title: "If Statements"
-seo_title: "If Statements | Sass | Giraffe Academy"
+seo_title: "If Statements | Sass | Mike Dane"
 subheader:
      greeting: Sass - Style a Website
      description: This course covers the basics of styling a website using Sass. Work your way through the videos and we'll teach you everything you need to know to style a basic website!

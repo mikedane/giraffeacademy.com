@@ -1,7 +1,7 @@
 ---
 date: 2017-09-07T20:24:10-04:00
 title: "Windows Installation"
-seo_title: "Windows Installation | Hugo | Giraffe Academy"
+seo_title: "Windows Installation | Hugo | Mike Dane"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
@@ -13,7 +13,7 @@ url: /static-site-generators/hugo/installing-hugo-on-windows/
 weight: 2
 ---
 
-Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Giraffe Academy is here to guide you through every step.
+Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Mike Dane is here to guide you through every step.
 
 ## Step 1 : Preparing Your Windows File System
 The first step when installing Hugo on windows is to make a space for it on your hard drive.

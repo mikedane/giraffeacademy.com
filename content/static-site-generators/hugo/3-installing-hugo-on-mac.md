@@ -1,7 +1,7 @@
 ---
 date: 2017-09-07T20:24:11-04:00
 title: "Mac Installation"
-seo_title: "Mac Installation | Hugo | Giraffe Academy"
+seo_title: "Mac Installation | Hugo | Mike Dane"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
@@ -13,7 +13,7 @@ url: /static-site-generators/hugo/installing-hugo-on-mac/
 weight: 3
 ---
 
-Often times, trying to install and setup programs can be a mess, either the instructions aren't clear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Mac Installation is really easy, and Giraffe Academy is here to guide you through every step.
+Often times, trying to install and setup programs can be a mess, either the instructions aren't clear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Mac Installation is really easy, and Mike Dane is here to guide you through every step.
 
 {{< article-image src="hugo-mac.png" alt="This tutorial will teach you how to install hugo on mac." >}}
 

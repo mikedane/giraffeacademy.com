@@ -1,7 +1,7 @@
 ---
 date: 2017-11-01T00:17:37-04:00
 title: "Comments"
-seo_title: "Comments | C | Giraffe Academy"
+seo_title: "Comments | C | Mike Dane"
 subheader:
      greeting: C - Programming Language
      description: This course covers the basics of programming in C. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!

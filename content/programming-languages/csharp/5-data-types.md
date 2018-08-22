@@ -1,7 +1,7 @@
 ---
 date: 2017-11-08T18:34:44-05:00
 title: "Data Types"
-seo_title: "Data Types | C# | Giraffe Academy"
+seo_title: "Data Types | C# | Mike Dane"
 subheader:
      greeting: C# - Programming Language
      description: This course covers the basics of programming in C#. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!

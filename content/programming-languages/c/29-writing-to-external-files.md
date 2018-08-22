@@ -1,7 +1,7 @@
 ---
 date: 2017-11-01T00:17:52-04:00
 title: "Writing To External Files"
-seo_title: "Writing To External Files | C | Giraffe Academy"
+seo_title: "Writing To External Files | C | Mike Dane"
 subheader:
      greeting: C - Programming Language
      description: This course covers the basics of programming in C. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!

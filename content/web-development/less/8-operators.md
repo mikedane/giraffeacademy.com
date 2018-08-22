@@ -1,7 +1,7 @@
 ---
 date: 2017-10-10T22:41:26-04:00
 title: "Operators"
-seo_title: "Operators | Less | Giraffe Academy"
+seo_title: "Operators | Less | Mike Dane"
 subheader:
      greeting: Less - Style a Website
      description: This course covers the basics of styling a website using Less. Work your way through the videos and we'll teach you everything you need to know to style a basic website!

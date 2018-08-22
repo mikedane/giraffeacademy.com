@@ -1,7 +1,7 @@
 ---
 date: 2017-09-25T13:12:01-04:00
 title: "Static Files"
-seo_title: "Static Files | Jekyll | Giraffe Academy"
+seo_title: "Static Files | Jekyll | Mike Dane"
 subheader:
      greeting: Jekyll - Static Site Generator
      description: This course covers the basics of using Jekyll - Static Site Generator. Work your way through the videos and we'll teach you everything you need to know to create a professional and scalable website or blog!

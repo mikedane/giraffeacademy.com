@@ -1,7 +1,7 @@
 ---
 date: 2017-09-25T13:12:01-04:00
 title: "Looping Through Pages"
-seo_title: "Looping Through Pages | Jekyll | Giraffe Academy"
+seo_title: "Looping Through Pages | Jekyll | Mike Dane"
 subheader:
      greeting: Jekyll - Static Site Generator
      description: This course covers the basics of using Jekyll - Static Site Generator. Work your way through the videos and we'll teach you everything you need to know to create a professional and scalable website or blog!

@@ -1,7 +1,7 @@
 ---
 date: 2017-12-22T11:48:56-05:00
 title: "Union"
-seo_title: "Union | SQL | Giraffe Academy"
+seo_title: "Union | SQL | Mike Dane"
 subheader:
      greeting: SQL - Database Programming Language
      description: This course covers the basics of working with SQL. Work your way through the videos and we'll teach you everything you need to know to interact with database management systems and create powerful relational databases!

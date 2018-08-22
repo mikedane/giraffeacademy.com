@@ -1,10 +1,10 @@
 ---
 date: 2017-09-14T17:26:11-04:00
 title: "Hexo"
-seo_title: "Introduction To Hexo | Hexo | Giraffe Academy"
+seo_title: "Introduction To Hexo | Hexo | Mike Dane"
 subheader:
      greeting: Hexo - Static Site Generator
-     description: Learn Hexo from this awesome Giraffe Academy course.
+     description: Learn Hexo from this awesome Mike Dane course.
 description: This tutorial covers how to use introduction to hexo in Hexo -  Static Site Generator.
 author: Mike Dane
 image: introduction-to-hexo.png

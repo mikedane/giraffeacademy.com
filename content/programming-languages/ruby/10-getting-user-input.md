@@ -1,7 +1,7 @@
 ---
 date: 2017-11-01T00:12:41-04:00
 title: "Getting User Input"
-seo_title: "Getting User Input | Ruby | Giraffe Academy"
+seo_title: "Getting User Input | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
      description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!

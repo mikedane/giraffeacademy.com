@@ -1,7 +1,7 @@
 ---
 date: 2017-12-22T11:54:13-05:00
 title: "Finding Documents"
-seo_title: "Finding Documents | MongoDB | Giraffe Academy"
+seo_title: "Finding Documents | MongoDB | Mike Dane"
 subheader:
      greeting: MongoDB - noSQL Database
      description: This course covers the basics of working with MongoDB. Work your way through the videos and we'll teach you everything you need to know to interact with Mongo's flexible document database management system and create powerful document databases!

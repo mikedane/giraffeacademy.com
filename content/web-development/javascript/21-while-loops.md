@@ -1,7 +1,7 @@
 ---
 date: 2017-10-22T11:23:35-04:00
 title: "While Loops"
-seo_title: "While Loops | Javascript | Giraffe Academy"
+seo_title: "While Loops | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!

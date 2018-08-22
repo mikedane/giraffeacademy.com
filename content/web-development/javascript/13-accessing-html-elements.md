@@ -1,7 +1,7 @@
 ---
 date: 2017-10-22T11:23:34-04:00
 title: "Accessing Html Elements"
-seo_title: "Accessing Html Elements | Javascript | Giraffe Academy"
+seo_title: "Accessing Html Elements | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
@@ -16,7 +16,7 @@ weight: 13
 ## Code
 
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader" giraffe="Giraffe Attr">Giraffe Academy</h1>
+<h1 id="myHeader" giraffe="Giraffe Attr">Mike Dane</h1>
 <script src="script.js"></script>
 {{< /code >}}
 
