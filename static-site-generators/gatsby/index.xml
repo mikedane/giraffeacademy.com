@@ -1,121 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gatsby on Giraffe Academy</title>
-    <link>https://www.giraffeacademy.com/static-site-generators/gatsby/</link>
-    <description>Recent content in Gatsby on Giraffe Academy</description>
+    <title>Gatsby on Mike Dane</title>
+    <link>https://www.mikedane.com/static-site-generators/gatsby/</link>
+    <description>Recent content in Gatsby on Mike Dane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Sep 2017 15:05:14 -0400</lastBuildDate>
     
-	<atom:link href="https://www.giraffeacademy.com/static-site-generators/gatsby/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.mikedane.com/static-site-generators/gatsby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows &amp; Mac Installation</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/windows-mac-installation/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/windows-mac-installation/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/windows-mac-installation/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/windows-mac-installation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Creating A New Site</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/creating-a-new-site/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/creating-a-new-site/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/creating-a-new-site/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/creating-a-new-site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adding Content</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/adding-content/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/adding-content/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/adding-content/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/adding-content/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linking Pages</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/linking-pages/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/linking-pages/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/linking-pages/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/linking-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Pages</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/interactive-pages/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/interactive-pages/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/interactive-pages/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/interactive-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building Your Site</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/building-your-site/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/building-your-site/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/building-your-site/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/building-your-site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Components</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/components/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/components/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:14 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/components/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/components/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Installing Plugins</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/installing-plugins/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/installing-plugins/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/installing-plugins/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/installing-plugins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Layouts</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/layouts/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/layouts/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/layouts/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/layouts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Site Data</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/site-data/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/site-data/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/site-data/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/site-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File Data</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/file-data/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/file-data/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/file-data/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/file-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Working With Markdown</title>
-      <link>https://www.giraffeacademy.com/static-site-generators/gatsby/working-with-markdown/</link>
+      <link>https://www.mikedane.com/static-site-generators/gatsby/working-with-markdown/</link>
       <pubDate>Tue, 19 Sep 2017 15:05:15 -0400</pubDate>
       
-      <guid>https://www.giraffeacademy.com/static-site-generators/gatsby/working-with-markdown/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/gatsby/working-with-markdown/</guid>
       <description></description>
     </item>
     

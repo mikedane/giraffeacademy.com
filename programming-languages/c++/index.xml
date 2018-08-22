@@ -1,292 +1,292 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>C&#43;&#43; on Giraffe Academy</title>
-    <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/</link>
-    <description>Recent content in C&#43;&#43; on Giraffe Academy</description>
+    <title>C&#43;&#43; on Mike Dane</title>
+    <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Mike Dane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Nov 2017 01:21:24 -0500</lastBuildDate>
     
-	<atom:link href="https://www.giraffeacademy.com/programming-languages/c++/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.mikedane.com/programming-languages/c++/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows Installation</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/windows-installation/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/windows-installation/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/windows-installation/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/windows-installation/</guid>
       <description> Code Copy </description>
     </item>
     
     <item>
       <title>Mac Installation</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/mac-installation/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/mac-installation/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/mac-installation/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/mac-installation/</guid>
       <description> Code Copy </description>
     </item>
     
     <item>
       <title>Hello World &amp; Setup</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/hello-world-setup/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/hello-world-setup/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/hello-world-setup/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/hello-world-setup/</guid>
       <description> Code Copycout &amp;lt;&amp;lt; &amp;#34;Hello&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;World&amp;#34;; cout &amp;lt;&amp;lt; &amp;#34;!&amp;#34; &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Drawing A Pyramid</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</guid>
       <description> Code Copycout &amp;lt;&amp;lt; &amp;#34; /|&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34; / |&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34; / |&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;/___|&amp;#34; &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Variables</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/variables/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/variables/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/variables/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/variables/</guid>
       <description> Code Copy/* Names are case-sensitive and may begin with: letters, _ After, may include letters, numbers, _ Convention says Start with a lowercase word, then additional words are capitalized ex. myFirstVariable */ // #include &amp;lt;string&amp;gt; string characterName = &amp;#34;George&amp;#34;; int characterAge = 70; cout &amp;lt;&amp;lt; &amp;#34;There once was a man named &amp;#34; &amp;lt;&amp;lt; characterName &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;He was &amp;#34; &amp;lt;&amp;lt; characterAge &amp;lt;&amp;lt; &amp;#34; years old&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;He really liked the name &amp;#34; &amp;lt;&amp;lt; characterName &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;lt;&amp;lt; characterAge &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Data Types</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/data-types/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/data-types/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/data-types/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/data-types/</guid>
       <description>Code Copy// #include &amp;lt;string&amp;gt; string name = &amp;#34;Mike&amp;#34;; // string of characters, not primitive char testGrade = &amp;#39;A&amp;#39;; // single 8-bit character. // you can make them unsigned by adding &amp;#34;unsigned&amp;#34; prefix short age0 = 10; // atleast 16-bits signed integer int age1 = 20; // atleast 16-bits signed integer (not smaller than short) long age2 = 30; // atleast 32-bits signed integer long long age3 = 40; // atleast 64-bits signed integer float gpa0 = 2.</description>
     </item>
     
     <item>
       <title>Strings</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/strings/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/strings/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/strings/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/strings/</guid>
       <description> Code Copy// #include &amp;lt;string&amp;gt; string greeting = &amp;#34;Hello&amp;#34;; // indexes: 01234 cout &amp;lt;&amp;lt; greeting.length(); cout &amp;lt;&amp;lt; greeting[0] &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; greeting.find(&amp;#34;llo&amp;#34;) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; greeting.substr(2) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; greeting.substr(1, 3) &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/math/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/math/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/math/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/math/</guid>
       <description>Code Copycout &amp;lt;&amp;lt; 2 * 3 &amp;lt;&amp;lt; endl; // Basic Arithmetic: &amp;#43;, -, /, * cout &amp;lt;&amp;lt; 10 % 3 &amp;lt;&amp;lt; endl; // Modulus Op. : returns remainder of 10/3 cout &amp;lt;&amp;lt; 1 &amp;#43; 2 * 3 &amp;lt;&amp;lt; endl; // order of operations cout &amp;lt;&amp;lt; 10 / 3.0 &amp;lt;&amp;lt; endl; // int&amp;#39;s and doubles int num = 10; num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= cout &amp;lt;&amp;lt; num &amp;lt;&amp;lt; endl; num&amp;#43;&amp;#43;; cout &amp;lt;&amp;lt; num &amp;lt;&amp;lt; endl; // #include &amp;lt;cmath&amp;gt; cout &amp;lt;&amp;lt; pow(2, 3) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; sqrt(144) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; round(2.</description>
     </item>
     
     <item>
       <title>Getting Input From Users</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getting-input-from-users/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/getting-input-from-users/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getting-input-from-users/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/getting-input-from-users/</guid>
       <description> Code Copystring name; cout &amp;lt;&amp;lt; &amp;#34;Enter your name: &amp;#34;; cin &amp;gt;&amp;gt; name; cout &amp;lt;&amp;lt; &amp;#34;Hello &amp;#34; &amp;lt;&amp;lt; name &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Creating A Calculator</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/creating-a-calculator/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/creating-a-calculator/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/creating-a-calculator/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/creating-a-calculator/</guid>
       <description> Code Copyint num1, num2; cout &amp;lt;&amp;lt; &amp;#34;Enter first num: &amp;#34;; cin &amp;gt;&amp;gt; num1; cout &amp;lt;&amp;lt; &amp;#34;Enter second num: &amp;#34;; cin &amp;gt;&amp;gt; num2; cout &amp;lt;&amp;lt; &amp;#34;Answer: &amp;#34; &amp;lt;&amp;lt; num1 &amp;#43; num2 &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Building A Mad Libs Game</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-mad-libs-game/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/building-a-mad-libs-game/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-mad-libs-game/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/building-a-mad-libs-game/</guid>
       <description> Code Copystring color, pluralNoun, celebrity; cout &amp;lt;&amp;lt; &amp;#34;Enter color: &amp;#34;; cin &amp;gt;&amp;gt; color; cout &amp;lt;&amp;lt; &amp;#34;Enter plural noun: &amp;#34;; cin &amp;gt;&amp;gt; pluralNoun; cout &amp;lt;&amp;lt; &amp;#34;Enter celebrity: &amp;#34;; cin &amp;gt;&amp;gt; celebrity; cout &amp;lt;&amp;lt; &amp;#34;Roses are &amp;#34; &amp;lt;&amp;lt; color &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; pluralNoun &amp;lt;&amp;lt; &amp;#34; are blue&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;I love &amp;#34; &amp;lt;&amp;lt; celebrity &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Arrays</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/arrays/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/arrays/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/arrays/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/arrays/</guid>
       <description> Code Copy// int luckyNumbers[6]; int luckyNumbers[] = {4, 8, 15, 16, 23, 42}; // indexes: 0 1 2 3 4 5 luckyNumbers[0] = 90; cout &amp;lt;&amp;lt; luckyNumbers[0] &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; luckyNumbers[1] &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Methods</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/methods/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/methods/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/methods/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/methods/</guid>
       <description> Code Copyint addNumbers(int num1, int num2); int main() { int sum = addNumbers(4, 60); cout &amp;lt;&amp;lt; sum &amp;lt;&amp;lt; endl; return 0; } int addNumbers(int num1, int num2){ return num1 &amp;#43; num2; } </description>
     </item>
     
     <item>
       <title>Return</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/return/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/return/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/return/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/return/</guid>
       <description> Code Copyint addNumbers(int num1, int num2); int main() { int sum = addNumbers(4, 60); cout &amp;lt;&amp;lt; sum &amp;lt;&amp;lt; endl; return 0; } int addNumbers(int num1, int num2){ return num1 &amp;#43; num2; } </description>
     </item>
     
     <item>
       <title>If Statements</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/if-statements/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/if-statements/</guid>
       <description>Code Copybool isStudent = false; bool isSmart = false; if(isStudent &amp;amp;&amp;amp; isSmart){ cout &amp;lt;&amp;lt; &amp;#34;You are a student&amp;#34; &amp;lt;&amp;lt; endl; } else if(isStudent &amp;amp;&amp;amp; !isSmart){ cout &amp;lt;&amp;lt; &amp;#34;You are not a smart student&amp;#34; &amp;lt;&amp;lt; endl; } else { cout &amp;lt;&amp;lt; &amp;#34;You are not a student and not smart&amp;#34; &amp;lt;&amp;lt; endl; } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ cout &amp;lt;&amp;lt; &amp;#34;number comparison was true&amp;#34; &amp;lt;&amp;lt; endl; } if(&amp;#39;a&amp;#39; &amp;gt; &amp;#39;b&amp;#39;){ cout &amp;lt;&amp;lt; &amp;#34;character comparison was true&amp;#34; &amp;lt;&amp;lt; endl; } string myString = &amp;#34;cat&amp;#34;; if(myString.</description>
     </item>
     
     <item>
       <title>If Statements (Cont)</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements-cont/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/if-statements-cont/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/if-statements-cont/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/if-statements-cont/</guid>
       <description>Code Copybool isStudent = false; bool isSmart = false; if(isStudent &amp;amp;&amp;amp; isSmart){ cout &amp;lt;&amp;lt; &amp;#34;You are a student&amp;#34; &amp;lt;&amp;lt; endl; } else if(isStudent &amp;amp;&amp;amp; !isSmart){ cout &amp;lt;&amp;lt; &amp;#34;You are not a smart student&amp;#34; &amp;lt;&amp;lt; endl; } else { cout &amp;lt;&amp;lt; &amp;#34;You are not a student and not smart&amp;#34; &amp;lt;&amp;lt; endl; } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ cout &amp;lt;&amp;lt; &amp;#34;number comparison was true&amp;#34; &amp;lt;&amp;lt; endl; } if(&amp;#39;a&amp;#39; &amp;gt; &amp;#39;b&amp;#39;){ cout &amp;lt;&amp;lt; &amp;#34;character comparison was true&amp;#34; &amp;lt;&amp;lt; endl; } string myString = &amp;#34;cat&amp;#34;; if(myString.</description>
     </item>
     
     <item>
       <title>Calculator</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/calculator/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/calculator/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/calculator/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/calculator/</guid>
       <description> Code Copyint num1, num2; char op; cout &amp;lt;&amp;lt; &amp;#34;Enter num1: &amp;#34;; cin &amp;gt;&amp;gt; num1; cout &amp;lt;&amp;lt; &amp;#34;Enter Operator: &amp;#34;; cin &amp;gt;&amp;gt; op; cout &amp;lt;&amp;lt; &amp;#34;Enter num2: &amp;#34;; cin &amp;gt;&amp;gt; num2; if(op == &amp;#39;&amp;#43;&amp;#39;){ cout &amp;lt;&amp;lt; num1 &amp;#43; num2 &amp;lt;&amp;lt; endl; } else if(op == &amp;#39;-&amp;#39;){ cout &amp;lt;&amp;lt; num1 - num2 &amp;lt;&amp;lt; endl; } else if(op == &amp;#39;/&amp;#39;){ cout &amp;lt;&amp;lt; num1 / num2 &amp;lt;&amp;lt; endl; } else if(op == &amp;#39;*&amp;#39;){ cout &amp;lt;&amp;lt; num1 * num2 &amp;lt;&amp;lt; endl; } else { cout &amp;lt;&amp;lt; &amp;#34;Invalid Operator&amp;#34; &amp;lt;&amp;lt; endl; } </description>
     </item>
     
     <item>
       <title>Switch Statements</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/switch-statements/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/switch-statements/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/switch-statements/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/switch-statements/</guid>
       <description> Code Copychar myGrade = &amp;#39;A&amp;#39;; switch(myGrade){ case &amp;#39;A&amp;#39;: cout &amp;lt;&amp;lt; &amp;#34;You Pass&amp;#34; &amp;lt;&amp;lt; endl; break; case &amp;#39;F&amp;#39;: cout &amp;lt;&amp;lt; &amp;#34;You fail&amp;#34; &amp;lt;&amp;lt; endl; break; default: cout &amp;lt;&amp;lt; &amp;#34;Invalid grade&amp;#34; &amp;lt;&amp;lt; endl; } </description>
     </item>
     
     <item>
       <title>While Loops</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/while-loops/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/while-loops/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/while-loops/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/while-loops/</guid>
       <description> Code Copyint index = 1; while(index &amp;lt;= 5){ cout &amp;lt;&amp;lt; index &amp;lt;&amp;lt; endl; index&amp;#43;&amp;#43;; } index = 1; do{ cout &amp;lt;&amp;lt; index &amp;lt;&amp;lt; endl; index&amp;#43;&amp;#43;; }while(index &amp;lt;= 5); </description>
     </item>
     
     <item>
       <title>Building A Guessing Game</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/building-a-guessing-game/</guid>
       <description> Code Copyint secretNum = 7; int guess; int guessCount = 0; int guessLimit = 3; bool outOfGuesses = false; while(guess != secretNum &amp;amp;&amp;amp; !outOfGuesses){ if(guessCount &amp;lt; guessLimit){ cout &amp;lt;&amp;lt; &amp;#34;Enter a guess: &amp;#34;; cin &amp;lt;&amp;lt; guess; guessCount&amp;#43;&amp;#43;; } else { outOfGuesses = true; } } if(outOfGuesses){ cout &amp;lt;&amp;lt; &amp;#34;You Lose!&amp;#34; &amp;lt;&amp;lt; endl; } else { cout &amp;lt;&amp;lt; &amp;#34;You Win!&amp;#34; &amp;lt;&amp;lt; endl; } </description>
     </item>
     
     <item>
       <title>For Loops</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/for-loops/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/for-loops/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/for-loops/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/for-loops/</guid>
       <description> Code Copyfor(int i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){ cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; endl; } </description>
     </item>
     
     <item>
       <title>Building An Exponent Function</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-an-exponent-function/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/building-an-exponent-function/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/building-an-exponent-function/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/building-an-exponent-function/</guid>
       <description> Code Copyint power(int baseNum, powNum){ int result = 1; for(int i = 0; i &amp;lt; powNum; i&amp;#43;&amp;#43;){ result = result * baseNum; } return result; } </description>
     </item>
     
     <item>
       <title>2d Arrays &amp; Nested Loops</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/2d-arrays-nested-loops/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/2d-arrays-nested-loops/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/2d-arrays-nested-loops/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/2d-arrays-nested-loops/</guid>
       <description> Code Copy// int numberGrid[2][3]; int numberGrid[2][3] = { {1, 2, 3}, {4, 5, 6} }; numberGrid[0][1] = 99; cout &amp;lt;&amp;lt; numberGrid[0][0] &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; numberGrid[0][1] &amp;lt;&amp;lt; endl; for(int i = 0; i &amp;lt; 2; i&amp;#43;&amp;#43;){ for(int j = 0; j &amp;lt; 3; j&amp;#43;&amp;#43;){ cout &amp;lt;&amp;lt; numberGrid[i][j] &amp;lt;&amp;lt; endl; } } </description>
     </item>
     
     <item>
       <title>Comments</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/comments/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/comments/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/comments/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/comments/</guid>
       <description> Code Copy/* multi line comment */ // single // line // comment </description>
     </item>
     
     <item>
       <title>Memory &amp; Pointers</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/memory-pointers/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/memory-pointers/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/memory-pointers/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/memory-pointers/</guid>
       <description> Code Copyint num = 10; cout &amp;lt;&amp;lt; &amp;amp;num &amp;lt;&amp;lt; endl; int *pNum = &amp;amp;num; cout &amp;lt;&amp;lt; pNum &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; *pNum &amp;lt;&amp;lt; endl; </description>
     </item>
     
     <item>
       <title>Classes &amp; Objects</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/classes-objects/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/classes-objects/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/classes-objects/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/classes-objects/</guid>
       <description> Code Copyclass Book{ public: string title; string author; }; int main(){ Book book1; book1.title = &amp;#34;Harry Potter&amp;#34;; book1.author = &amp;#34;JK Rowling&amp;#34;; cout &amp;lt;&amp;lt; book1.title &amp;lt;&amp;lt; endl; Book book2; book2.title = &amp;#34;Lord of the Rings&amp;#34;; book2.author = &amp;#34;JRR Tolkien&amp;#34;; cout &amp;lt;&amp;lt; book2.title &amp;lt;&amp;lt; endl; return 0; } </description>
     </item>
     
     <item>
       <title>Constructor Function</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/constructor-function/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/constructor-function/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/constructor-function/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/constructor-function/</guid>
       <description> Code Copyclass Book{ public: string title; string author; Book(string title, string author){ this-&amp;gt;title = title; this-&amp;gt;author = author; } }; int main(){ Book book1(&amp;#34;Harry Potter&amp;#34;, &amp;#34;JK Rowling&amp;#34;); cout &amp;lt;&amp;lt; book1.title &amp;lt;&amp;lt; endl; Book book2(&amp;#34;Lord of the Rings&amp;#34;, &amp;#34;JRR Tolkien&amp;#34;); cout &amp;lt;&amp;lt; book2.title &amp;lt;&amp;lt; endl; return 0; } </description>
     </item>
     
     <item>
       <title>Object Functions</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/object-functions/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/object-functions/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/object-functions/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/object-functions/</guid>
       <description> Code Copyclass Book{ public: string title; string author; void readBook(){ cout &amp;lt;&amp;lt; &amp;#34;Reading &amp;#34; &amp;#43; this-&amp;gt;title &amp;#43; &amp;#34; by &amp;#34; &amp;#43; this-&amp;gt;author &amp;lt;&amp;lt; endl; } }; </description>
     </item>
     
     <item>
       <title>Getters And Setters</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getters-and-setters/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/getters-and-setters/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/getters-and-setters/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/getters-and-setters/</guid>
       <description> Code Copyclass Movie{ private: string title; public: string rating; Book(string title, string rating){ this-&amp;gt;title = title; this-&amp;gt;setRating(rating); } string getRating(){ return this-&amp;gt;rating; } void setRating(string rating){ if(rating == &amp;#34;G&amp;#34; || rating == &amp;#34;PG&amp;#34; || rating == &amp;#34;PG-13&amp;#34; || rating == &amp;#34;R&amp;#34; || rating == &amp;#34;NR&amp;#34; || ){ this-&amp;gt;rating = rating; } else { this-&amp;gt;rating = &amp;#34;NR&amp;#34;; } } }; </description>
     </item>
     
     <item>
       <title>Inheritance</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/inheritance/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/inheritance/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/inheritance/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/inheritance/</guid>
       <description>Code Copyclass Chef{ public: void makeChicken(){ cout &amp;lt;&amp;lt; &amp;#34;The chef makes chicken&amp;#34; &amp;lt;&amp;lt; endl; } void makeSalad(){ cout &amp;lt;&amp;lt; &amp;#34;The chef makes salad&amp;#34; &amp;lt;&amp;lt; endl; } void makeSpecialDish(){ cout &amp;lt;&amp;lt; &amp;#34;The chef makes a special dish&amp;#34; &amp;lt;&amp;lt; endl; } }; class ItalianChef : public Chef{ public: void makePasta(){ cout &amp;lt;&amp;lt; &amp;#34;The chef makes pasta&amp;#34; &amp;lt;&amp;lt; endl; } // override void makeSpecialDish(){ cout &amp;lt;&amp;lt; &amp;#34;The chef makes chicken parm&amp;#34; &amp;lt;&amp;lt; endl; } }; int main(){ Chef myChef(); myChef.</description>
     </item>
     
     <item>
       <title>In One Video</title>
-      <link>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/in-one-video/</link>
+      <link>https://www.mikedane.com/programming-languages/c&#43;&#43;/in-one-video/</link>
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
-      <guid>https://www.giraffeacademy.com/programming-languages/c&#43;&#43;/in-one-video/</guid>
+      <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/in-one-video/</guid>
       <description>C++ Overview C++ is a general purpose, staticly typed, object oriented programming language that began in 1979 by Danish Computer Scientist Bjarne Stroustrup. For several years the language evolved until it&amp;rsquo;s official release in 1985.
 C++ is essentially an extension of the C programming language. It actually began as a fork of an early pre-standardized C. And while C is not a strict subset of C++ the two languages are largly compatiable and In many instances C code can be used with little or no modification as C++ code.</description>
     </item>
