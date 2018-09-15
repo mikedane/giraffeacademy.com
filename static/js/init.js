@@ -17,7 +17,7 @@ $(document).ready(function() {
 
      if(!window.localStorage.getItem("notified-site-change")){
         generateNotificationTab("Giraffe Academy is rebranding!", 
-        "Hey! It's Mike Dane, founder of Giraffe Academy. I've decided to rebrand this site alog with my YouTube channel into a more personal brand centered around myself as a developer and teacher. Be sure to keep checking back for more updates!")
+        "Hey! It's Mike Dane, founder of Giraffe Academy. I've decided to rebrand this site along with my YouTube channel into a more personal brand centered around myself as a developer and teacher. Be sure to keep checking back for more updates!")
      }
      
 });
