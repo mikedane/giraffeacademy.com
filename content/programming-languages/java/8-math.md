@@ -4,16 +4,24 @@ title: "Math"
 seo_title: "Math | Java | Mike Dane"
 subheader:
      greeting: Java - Programming Language
-     description: This course covers the basics of programming in Java. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers math in Java.
 author: Mike Dane
 image: math.png
 video: C3aWV0cTfpY
 url: /programming-languages/java/math/
 weight: 8
+code:
+    a: |+
+          System.out.println( 2 * 3 );       // Basic Arithmetic: +, -, /, *
+          System.out.println( 10 % 3 );      // Modulus Op. : returns remainder of 10/3
+          System.out.println( 1 + 2 * 3 );   // order of operations
+          System.out.println(10 / 3.0);      // int's and doubles
 ---
 
-## Code
+{{% programming-language-articles/math lang="Java" code-lang="java" %}}
+
+## Video Code
 
 {{< code lang="java" >}}
 System.out.println( 2 * 3 );       // Basic Arithmetic: +, -, /, *

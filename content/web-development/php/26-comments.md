@@ -4,25 +4,24 @@ title: "Comments"
 seo_title: "Comments | PHP | Mike Dane"
 subheader:
      greeting: PHP - Programming Language
-     description: This course covers the basics of programming in PHP. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers comments in PHP.
 author: Mike Dane
 image: comments.png
 video: htK4tLcwk_I
 url: /web-development/php/comments/
 weight: 26
+code:
+    a: |+
+          /*
+          multi
+          line
+          comment
+          */
+
+          // single
+          // line
+          // comment
 ---
 
-## Code
-
-{{< code lang="php" >}}
-/*
-multi
-line
-comment
-*/
-
-// single
-// line
-// comment
-{{< /code >}}
+{{% programming-language-articles/comments lang="PHP" code-lang="php" comment-sym="forward slash" %}}

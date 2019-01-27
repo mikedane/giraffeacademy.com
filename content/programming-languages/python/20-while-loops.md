@@ -4,20 +4,26 @@ title: "While Loops"
 seo_title: "While Loops | Python | Mike Dane"
 subheader:
      greeting: Python - Programming Language
-     description: This course covers the basics of programming in Python. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Python. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers while loops in Python.
 author: Mike Dane
 image: while-loops.png
 video: Ghz4YwOXtTA
 url: /programming-languages/python/while-loops/
 weight: 20
+code:
+    a: |+
+          index = 1
+          while index <= 5:
+            print(index)
+            index += 1
+    b: |+
+          index = 1
+          while True:
+            print(index)
+            index += 1
+            if index > 5:
+              break;
 ---
 
-## Code
-
-{{< code lang="py" >}}
-index = 1
-while index <= 5:
-	print(index)
-	index += 1
-{{< /code >}}
+{{% programming-language-articles/while-loops lang="Python" code-lang="py" %}}

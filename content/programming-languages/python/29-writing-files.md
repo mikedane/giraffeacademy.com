@@ -4,7 +4,7 @@ title: "Writing Files"
 seo_title: "Writing Files | Python | Mike Dane"
 subheader:
      greeting: Python - Programming Language
-     description: This course covers the basics of programming in Python. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Python. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers writing files in Python.
 author: Mike Dane
 image: writing-files.png

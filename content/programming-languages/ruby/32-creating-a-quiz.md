@@ -4,7 +4,7 @@ title: "Creating A Quiz"
 seo_title: "Creating A Quiz | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
-     description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers creating a quiz in Ruby.
 author: Mike Dane
 image: creating-a-quiz.png

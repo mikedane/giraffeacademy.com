@@ -4,16 +4,29 @@ title: "Strings"
 seo_title: "Strings | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
-     description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
+     description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers strings in Javascript.
 author: Mike Dane
 image: strings.png
 video: 3JJyYmkXMSA
 url: /web-development/javascript/strings/
 weight: 7
+code:
+    a: |+
+          var greeting = "Hello";
+    b: |+
+          var greeting = "Hello";
+          //   indexes:   01234
+    c: |+
+          document.write( greeting.length + "<br>" );
+    d: |+
+          document.write( greeting.charAt(0) + "<br>"  );
 ---
 
-## Code
+{{% programming-language-articles/strings lang="JavaScript" code-lang="js" %}}
+
+
+## Video Code
 
 {{< code lang="js" >}}
 var greeting = "Hello";

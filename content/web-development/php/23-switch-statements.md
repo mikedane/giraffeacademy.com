@@ -4,27 +4,26 @@ title: "Switch Statements"
 seo_title: "Switch Statements | PHP | Mike Dane"
 subheader:
      greeting: PHP - Programming Language
-     description: This course covers the basics of programming in PHP. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers switch statements in PHP.
 author: Mike Dane
 image: switch-statements.png
 video: nUTqC1Qtnmo
 url: /web-development/php/switch-statements/
 weight: 23
+code:
+    a: |+
+          $myGrade = "A";
+          switch($myGrade){
+              case "A":
+                    echo "You Pass";
+                    break;
+              case "F":
+                    echo "You fail";
+                    break;
+              default:
+                    echo "Invalid grade";
+          }
 ---
 
-## Code
-
-{{< code lang="php" >}}
-$myGrade = "A";
-switch($myGrade){
-     case "A":
-          echo "You Pass";
-          break;
-     case "F":
-          echo "You fail";
-          break;
-     default:
-          echo "Invalid grade";
-}
-{{< /code >}}
+{{% programming-language-articles/switch-statements lang="JavaScript" code-lang="js" %}}

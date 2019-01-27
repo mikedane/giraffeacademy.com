@@ -4,7 +4,7 @@ title: "Text Indexing"
 seo_title: "Text Indexing | MongoDB | Mike Dane"
 subheader:
      greeting: MongoDB - noSQL Database
-     description: This course covers the basics of working with MongoDB. Work your way through the videos and we'll teach you everything you need to know to interact with Mongo's flexible document database management system and create powerful document databases!
+     description: This course covers the basics of working with MongoDB. Work your way through the videos/articles and I'll teach you everything you need to know to interact with Mongo's flexible document database management system and create powerful document databases!
 description: This tutorial covers text indexing in MongoDB.
 author: Mike Dane
 image: text-indexing.png

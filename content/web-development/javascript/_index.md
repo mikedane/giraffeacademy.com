@@ -4,7 +4,7 @@ title: "Javascript"
 seo_title: "Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
-     description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
+     description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers introduction in Javascript.
 author: Mike Dane
 image: introduction.png

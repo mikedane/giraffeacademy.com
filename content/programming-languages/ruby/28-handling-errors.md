@@ -4,7 +4,7 @@ title: "Handling Errors"
 seo_title: "Handling Errors | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
-     description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers handling errors in Ruby.
 author: Mike Dane
 image: handling-errors.png

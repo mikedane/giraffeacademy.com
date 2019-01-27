@@ -4,33 +4,46 @@ title: "Variables"
 seo_title: "Variables | C | Mike Dane"
 subheader:
      greeting: C - Programming Language
-     description: This course covers the basics of programming in C. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in C. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers variables in C.
 author: Mike Dane
 image: variables.png
 video: 17DnxMHEtMU
 url: /programming-languages/c/variables/
 weight: 6
+code:
+    a: |+
+          printf("There once was a man named George");
+          printf("He was 70 years old");
+          printf("He really liked the name George");
+          printf("But didn't like being 70");
+    b: |+
+          char characterName[] = "George";
+          int characterAge = 70;
+
+          printf("There once was a man named %s", characterName);
+          printf("He was %d years old", characterAge);
+          printf("He really liked the name %s", characterName);
+          printf("But didn't like being %d", characterAge);
+    c: |+
+          char characterName[] = "George";
+          int characterAge = 70;
+
+          printf("There once was a man named %s", characterName);
+          printf("He was %d years old", characterAge);
+
+          characterAge = 80;
+
+          printf("He really liked the name %s", characterName);
+          printf("But didn't like being %d", characterAge);
+    d: |+
+          Names are case-sensitive and may begin with:
+              letters, _
+          After, may include
+              letters, numbers, _
+          Convention says
+              Start with a lowercase word, then additional words are capitalized
+              ex. myFirstVariable
 ---
 
-## Code
-
-{{< code lang="c" >}}
-/*
-Names are case-sensitive and may begin with:
-     letters, _
-After, may include
-     letters, numbers, _
-Convention says
-     Start with a lowercase word, then additional words are capitalized
-     ex. myFirstVariable
-*/
-
-char characterName[] = "George";
-int characterAge = 70;
-
-printf("There once was a man named %s", characterName);
-printf("He was %d years old", characterAge);
-printf("He really liked the name %s", characterName);
-printf("But didn't like being %d", characterAge);
-{{< /code >}}
+{{% programming-language-articles/variables lang="C" code-lang="c" %}}

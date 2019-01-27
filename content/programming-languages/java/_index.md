@@ -4,7 +4,7 @@ title: "Java"
 seo_title: "Java | Mike Dane"
 subheader:
      greeting: Java - Programming Language
-     description: This course covers the basics of programming in Java. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers introduction in Java.
 author: Mike Dane
 image: introduction.png

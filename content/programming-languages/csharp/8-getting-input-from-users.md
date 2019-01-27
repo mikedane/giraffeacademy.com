@@ -4,18 +4,18 @@ title: "Getting Input From Users"
 seo_title: "Getting Input From Users | C# | Mike Dane"
 subheader:
      greeting: C# - Programming Language
-     description: This course covers the basics of programming in C#. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers getting input from users in C#.
 author: Mike Dane
 image: getting-input-from-users.png
 video: WYuIOcdtwdg
 url: /programming-languages/csharp/getting-input-from-users/
 weight: 8
+code:
+    a: |+
+          Console.Write("Enter username: ");
+          string username = Console.ReadLine();
+          Console.WriteLine($"Hello {username}");
 ---
-## Code
 
-{{< code lang="csharp" >}}
-Console.Write("Enter username: ");
-string username = Console.ReadLine();
-Console.WriteLine($"Hello {username}");
-{{< /code >}}
+{{% programming-language-articles/user-input lang="C#" code-lang="cs" %}}

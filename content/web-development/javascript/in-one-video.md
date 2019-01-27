@@ -4,7 +4,7 @@ title: "In One Video"
 seo_title: "In One Video | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
-     description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
+     description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers Javascript programming in one video.
 author: Mike Dane
 image: building-a-calculator.png

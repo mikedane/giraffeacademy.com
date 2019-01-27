@@ -4,22 +4,37 @@ title: "Methods"
 seo_title: "Methods | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
-     description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers methods in Ruby.
 author: Mike Dane
 image: methods.png
 video: e1EpXUgSfN8
 url: /programming-languages/ruby/methods/
 weight: 15
+code:
+    a: |+
+          def sayHi()
+              puts "Hello"
+    b: |+
+          def sayHi()
+              puts "Hello"
+
+          sayHi()
+    c: |+
+          def sayHi(name)
+              puts "Hello " + name
+    d: |+
+          def sayHi(name)
+              puts "Hello " + name
+          end
+
+          sayHi("Mike")
+    e: |+
+          def sayHi(name)
+              puts "Hello " + name + " you are " + age
+          end
+
+          sayHi("Mike", 24)
 ---
 
-## Code
-
-{{< code lang="rb" >}}
-def add_numbers(num1, num2=99)
-     return num1 + num2
-end
-
-sum = add_numbers(4, 3)
-puts sum
-{{< /code >}}
+{{% programming-language-articles/methods lang="Ruby" code-lang="rb" term="Method" %}}

@@ -4,7 +4,7 @@ title: "Sass Vs Scss"
 seo_title: "Sass Vs Scss | Sass | Mike Dane"
 subheader:
      greeting: Sass - Style a Website
-     description: This course covers the basics of styling a website using Sass. Work your way through the videos and we'll teach you everything you need to know to style a basic website!
+     description: This course covers the basics of styling a website using Sass. Work your way through the videos/articles and I'll teach you everything you need to know to style a basic website!
 description: This tutorial covers how to use sass vs scss in Sass.
 author: Mike Dane
 image: sass-vs-scss.png

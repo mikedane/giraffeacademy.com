@@ -4,25 +4,22 @@ title: "Arrays"
 seo_title: "Arrays | PHP | Mike Dane"
 subheader:
      greeting: PHP - Programming Language
-     description: This course covers the basics of programming in PHP. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers arrays in PHP.
 author: Mike Dane
 image: arrays.png
 video: NMJ_VWe87XM
 url: /web-development/php/arrays/
 weight: 15
+code:
+    a: |+
+          $lucky_numbers = [4, 8, "fifteen", 16, 23, 42.0];
+          //       indexes  0  1       2      3   4   5
+    b: |+
+          $lucky_numbers[0] = 90;
+          echo $lucky_numbers[0]."<br>";
+          echo $lucky_numbers[1]."<br>";
+          echo count($lucky_numbers)."<br>";
 ---
 
-## Code
-
-{{< code lang="php" >}}
-// $lucky_numbers = [];
-// $lucky_numbers = array(4, 8, "fifteen", 16, 23, 42.0);
-$lucky_numbers = [4, 8, "fifteen", 16, 23, 42.0];
-//       indexes  0  1       2      3   4   5
-
-$lucky_numbers[0] = 90;
-echo $lucky_numbers[0]."<br>";
-echo $lucky_numbers[1]."<br>";
-echo count($lucky_numbers)."<br>";
-{{< /code >}}
+{{% programming-language-articles/arrays lang="PHP" code-lang="php" %}}

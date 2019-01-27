@@ -4,7 +4,7 @@ title: "In One Video"
 seo_title: "In One Video | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
-     description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers Ruby programming in one video.
 author: Mike Dane
 image: getting-user-input.png

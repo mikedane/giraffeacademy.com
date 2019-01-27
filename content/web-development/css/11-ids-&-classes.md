@@ -4,7 +4,7 @@ title: "Ids & Classes"
 seo_title: "Ids & Classes | CSS | Mike Dane"
 subheader:
      greeting: CSS - Style a Website
-     description: This course covers the basics of styling a website using CSS. Work your way through the videos and we'll teach you everything you need to know to style a basic website!
+     description: This course covers the basics of styling a website using CSS. Work your way through the videos/articles and I'll teach you everything you need to know to style a basic website!
 description: This tutorial covers how to use ids & classes in CSS.
 author: Mike Dane
 image: ids-&-classes.png

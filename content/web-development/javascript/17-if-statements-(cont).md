@@ -4,7 +4,7 @@ title: "If Statements (Cont)"
 seo_title: "If Statements (Cont) | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
-     description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
+     description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers if statements (cont) in Javascript.
 author: Mike Dane
 image: if-statements-(cont).png

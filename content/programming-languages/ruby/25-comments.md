@@ -4,25 +4,24 @@ title: "Comments"
 seo_title: "Comments | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
-     description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers comments in Ruby.
 author: Mike Dane
 image: comments.png
 video: 7wbX3OMgqn0
 url: /programming-languages/ruby/comments/
 weight: 25
+code:
+    a: |+
+          /'''
+          multi
+          line
+          comment
+          '''
+
+          # single
+          # line
+          # comment 
 ---
 
-## Code
-
-{{< code lang="rb" >}}
-=begin
-multi
-line
-comment
-=end
-
-# single
-# line
-# comment
-{{< /code >}}
+{{% programming-language-articles/comments lang="Ruby" code-lang="rb" comment-sym="#" %}}

@@ -4,7 +4,7 @@ title: "Building A Messaging App"
 seo_title: "Building A Messaging App | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
-     description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
+     description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers building a messaging app in Javascript.
 author: Mike Dane
 image: building-a-messaging-app.png

@@ -4,16 +4,25 @@ title: "Math"
 seo_title: "Math | Javascript | Mike Dane"
 subheader:
      greeting: Javascript - Program the Web
-     description: This course covers the basics of programming in Javascript. Work your way through the videos and we'll teach you everything you need to know to make your website more responsive!
+     description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers math in Javascript.
 author: Mike Dane
 image: math.png
 video: 1qm_SSLunkw
 url: /web-development/javascript/math/
 weight: 8
+code:
+    a: |+
+          document.write( 2 * 3 + "<br>" );       // Basic Arithmetic: +, -, /, *
+          document.write( 2**3 + "<br>" );        // Exponents
+          document.write( 10 % 3 + "<br>" );      // Modulus Op. : returns remainder of 10/3
+          document.write( 1 + 2 * 3 + "<br>" );   // order of operations
+          document.write(10 / 3.0 + "<br><br>");  // int's and doubles
 ---
 
-## Code
+{{% programming-language-articles/math lang="JavaScript" code-lang="js" %}}
+
+## Video Code
 
 {{< code lang="js" >}}
 document.write( 2 * 3 + "<br>" );       // Basic Arithmetic: +, -, /, *

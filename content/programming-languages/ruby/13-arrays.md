@@ -4,16 +4,28 @@ title: "Arrays"
 seo_title: "Arrays | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
-     description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers arrays in Ruby.
 author: Mike Dane
 image: arrays.png
 video: SP3Vf2KcYeU
 url: /programming-languages/ruby/arrays/
 weight: 13
+code:
+    a: |+
+          lucky_numbers = [4, 8, "fifteen", 16, 23, 42.0]
+          #       indexes  0  1       2      3   4   5
+    b: |+
+          lucky_numbers[0] = 90
+          puts lucky_numbers[0]
+          puts lucky_numbers[1]
+          puts lucky_numbers.length
 ---
 
-## Code
+{{% programming-language-articles/arrays lang="Ruby" code-lang="rb" %}}
+
+
+## Video Code
 
 {{< code lang="rb" >}}
 lucky_numbers = [4, 8, "fifteen", 16, 23, 42.0]

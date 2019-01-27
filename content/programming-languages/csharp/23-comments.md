@@ -4,24 +4,24 @@ title: "Comments"
 seo_title: "Comments | C# | Mike Dane"
 subheader:
      greeting: C# - Programming Language
-     description: This course covers the basics of programming in C#. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers comments in C#.
 author: Mike Dane
 image: comments.png
 video: tJT_YFvGT5g
 url: /programming-languages/csharp/comments/
 weight: 23
+code:
+    a: |+
+          /*
+          multi
+          line
+          comment
+          */
+
+          // single
+          // line
+          // comment
 ---
-## Code
 
-{{< code lang="csharp" >}}
-/*
-multi
-line
-comment
-*/
-
-// single
-// line
-// comment
-{{< /code >}}
+{{% programming-language-articles/comments lang="C#" code-lang="cs" comment-sym="forward slash" %}}

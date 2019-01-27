@@ -4,21 +4,35 @@ title: "Functions"
 seo_title: "Functions | Python | Mike Dane"
 subheader:
      greeting: Python - Programming Language
-     description: This course covers the basics of programming in Python. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Python. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers functions in Python.
 author: Mike Dane
 image: functions.png
 video: LbOwv6y6xjo
 url: /programming-languages/python/functions/
 weight: 14
+code:
+    a: |+
+          def sayHi():
+              print("Hello")
+    b: |+
+          def sayHi():
+              print("Hello")
+
+          sayHi()
+    c: |+
+          def sayHi(name):
+              print("Hello " + name)
+    d: |+
+          def sayHi(name):
+              print("Hello " + name)
+
+          sayHi("Mike")
+    e: |+
+          def sayHi(name):
+              print("Hello " + name + " you are " + str(age))
+
+          sayHi("Mike", 24)
 ---
 
-## Code
-
-{{< code lang="py" >}}
-def add_numbers(num1, num2=99):
-     return num1 + num2
-
-sum = add_numbers(4, 3)
-print(sum)
-{{< /code >}}
+{{% programming-language-articles/methods lang="Python" code-lang="python" term="Function" %}}

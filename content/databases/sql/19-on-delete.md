@@ -4,7 +4,7 @@ title: "On Delete"
 seo_title: "On Delete | SQL | Mike Dane"
 subheader:
      greeting: SQL - Database Programming Language
-     description: This course covers the basics of working with SQL. Work your way through the videos and we'll teach you everything you need to know to interact with database management systems and create powerful relational databases!
+     description: This course covers the basics of working with SQL. Work your way through the videos/articles and I'll teach you everything you need to know to interact with database management systems and create powerful relational databases!
 description: This tutorial covers on delete in SQL.
 author: Mike Dane
 image: on-delete.png

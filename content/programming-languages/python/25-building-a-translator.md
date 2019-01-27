@@ -4,7 +4,7 @@ title: "Building A Translator"
 seo_title: "Building A Translator | Python | Mike Dane"
 subheader:
      greeting: Python - Programming Language
-     description: This course covers the basics of programming in Python. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Python. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers building a translator in Python.
 author: Mike Dane
 image: building-a-translator.png

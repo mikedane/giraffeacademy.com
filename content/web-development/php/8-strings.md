@@ -4,16 +4,28 @@ title: "Strings"
 seo_title: "Strings | PHP | Mike Dane"
 subheader:
      greeting: PHP - Programming Language
-     description: This course covers the basics of programming in PHP. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers strings in PHP.
 author: Mike Dane
 image: strings.png
 video: lRUljf_chOE
 url: /web-development/php/strings/
 weight: 8
+code:
+    a: |+
+          $greeting = "Hello";
+    b: |+
+          $greeting = "Hello";
+          //indexes:   01234
+    c: |+
+          echo  strlen($greeting)."<br>";
+    d: |+
+          echo  $greeting[0]."<br>";
 ---
 
-## Code
+{{% programming-language-articles/strings lang="PHP" code-lang="php" %}}
+
+## Video Code
 
 {{< code lang="php" >}}
 $greeting = "Hello";

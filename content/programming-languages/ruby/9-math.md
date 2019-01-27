@@ -4,16 +4,25 @@ title: "Math"
 seo_title: "Math | Ruby | Mike Dane"
 subheader:
      greeting: Ruby - Programming Language
-     description: This course covers the basics of programming in Ruby. Work your way through the videos and we'll teach you everything you need to know to start your programming journey!
+     description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers math in Ruby.
 author: Mike Dane
 image: math.png
 video: qDLYmBm4NF8
 url: /programming-languages/ruby/math/
 weight: 9
+code:
+    a: |+
+          puts  2 * 3         # Basic Arithmetic: +, -, /, *
+          puts  2**3          # Exponent
+          puts  10 % 3        # Modulus Op. : returns remainder of 10/3
+          puts  1 + 2 * 3     # order of operations
+          puts 10 / 3.0       # int's and doubles
 ---
 
-## Code
+{{% programming-language-articles/math lang="Ruby" code-lang="rb" %}}
+
+## Video Code
 
 {{< code lang="rb" >}}
 puts  2 * 3         # Basic Arithmetic: +, -, /, *
