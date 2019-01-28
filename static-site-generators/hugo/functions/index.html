@@ -151,7 +151,7 @@ document.body.removeChild(textArea);
                          
                               <li ><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                          
-                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                          
                
           
@@ -263,7 +263,7 @@ document.body.removeChild(textArea);
                
                     <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                
-                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                
           </ul>
      
@@ -290,7 +290,6 @@ document.body.removeChild(textArea);
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{  func-name arg1, arg2, … , argX }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{  func-name arg1, arg2, … , argX }}</code></pre>
 
-
 <p>Inside double curly brackets, you put the name of the function and then pass the function arguments. Different functions will require different arguments. Functions allow you to infuse your hugo website with a large amount of logic and make doing complex operations easier.</p>
 
 <h2 id="some-useful-functions">Some Useful Functions</h2>
@@ -309,7 +308,6 @@ document.body.removeChild(textArea);
 	{{ .Title }}
 {{ end }}</code></pre>
 
-
 <p>The above code loops through all the files in the Asia folder and prints out the title.</p>
 
 <h4 id="first">First</h4>
@@ -320,7 +318,6 @@ document.body.removeChild(textArea);
 	{{ .Title }}
 {{ end }}</code></pre>
 
-
 <h4 id="last">Last</h4>
 
 <p>Last is the same as first but reversed. It&rsquo;s used to limit the amount of items you want to loop iterate through to the last x. We could modify the above code to instead print the last 3 countries on the list.</p>
@@ -328,7 +325,6 @@ document.body.removeChild(textArea);
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ .Range last 3 .Site.Sections.Asia.Pages }}\n\t{{ .Title }}\n{{ end }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ .Range last 3 .Site.Sections.Asia.Pages }}
 	{{ .Title }}
 {{ end }}</code></pre>
-
 
 <h4 id="where">Where</h4>
 
@@ -340,14 +336,12 @@ document.body.removeChild(textArea);
 	{{ .Title }}
 {{ end }}</code></pre>
 
-
 <h3 id="truncate">Truncate</h3>
 
 <p>Truncate can be used to limit the amount of characters in long strings. This is useful for a number of styling reasons, like for example when you want to limit the size of a vertical navigation menu.</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{$longString := “This is a reall long string that should be truncated”}}\n{{ truncate $longString 20 }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{$longString := “This is a reall long string that should be truncated”}}
 {{ truncate $longString 20 }}</code></pre>
-
 
 <p>The above code will truncate the long string to only 20 characters.</p>
 
@@ -358,7 +352,6 @@ document.body.removeChild(textArea);
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\t{{ add 3 5 }} // 3 &#43; 5\n\t{{ sub 5 2 }} // 5 - 2\n\t{{ add (sub 4 2) 6 }} // (4-2) &#43; 6\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">	{{ add 3 5 }} // 3 &#43; 5
 	{{ sub 5 2 }} // 5 - 2
 	{{ add (sub 4 2) 6 }} // (4-2) &#43; 6</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -805,7 +798,7 @@ document.body.removeChild(textArea);
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

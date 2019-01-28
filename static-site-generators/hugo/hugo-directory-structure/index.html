@@ -151,7 +151,7 @@ document.body.removeChild(textArea);
                          
                               <li ><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                          
-                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                          
                
           
@@ -263,7 +263,7 @@ document.body.removeChild(textArea);
                
                     <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                
-                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                
           </ul>
      
@@ -294,8 +294,7 @@ document.body.removeChild(textArea);
 
 <p>Once you have a place to put everything, it&rsquo;s time to make your site. A lot goes into a hugo websites, and in order for things to work properly you have to organize your folders and files in a  specific way. The easiest way to get started is to let Hugo set everything up for you. For the purposes of this tutorial, imagine we were trying to create a travel blog. We would run the following command in the command line.</p>
 
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nhugo new /travel_blog\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">hugo new /travel_blog</code></pre>
-
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nhugo new /travel_blog\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">hugo new /travel_blog</code></pre>&gt;}}</p>
 
 <p>This should automatically create a new folder called travel_blog in the current directory with everything that Hugo needs to get started.</p>
 
@@ -350,8 +349,7 @@ document.body.removeChild(textArea);
 <p>Hugo server acts a lot like a kid building lego’s. It takes all the different parts of the website and puts them together to form the final product. With lego’s that could be a spaceship, but with Hugo it’s a static site. Hugo server then makes that newly generated website available to you on a port of your choosing.</p>
 
 <p>To run the hugo server and serve our website. Run the following command
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nHugo Server\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">Hugo Server</code></pre>
-</p>
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nHugo Server\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">Hugo Server</code></pre></p>
 
 <h3 id="localhost">Localhost</h3>
 
@@ -366,18 +364,15 @@ document.body.removeChild(textArea);
 <p>Port - Refers to the port that Hugo should serve the site over</p>
 
 <p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nhugo server --port 3098\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">hugo server --port 3098</code></pre>
-
 This would run hugo on localhost:3098
 Build Drafts - The &ndash;buildDrafts argument, when included will tell Hugo to build any content pages marked as drafts. This is a good way to test new content going on your site.</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nHugo server --build Drafts\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">Hugo server --build Drafts</code></pre>
 
-
 <h3 id="disable-livereload">Disable Livereload</h3>
 
 <p>By default, Hugo server will automatically reload the browser window when it detects a change to one of the files. Including the &ndash;disableLiveReload runtime argument will prevent this from happening.
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nHugo server --disableLiveReload\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">Hugo server --disableLiveReload</code></pre>
-</p>
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nHugo server --disableLiveReload\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="bash">Hugo server --disableLiveReload</code></pre></p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -1011,7 +1006,7 @@ Build Drafts - The &ndash;buildDrafts argument, when included will tell Hugo to 
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

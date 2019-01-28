@@ -197,7 +197,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">Java - Programming Language</div>
-                         <div>This course covers the basics of programming in Java. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in Java. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -344,17 +344,42 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/sizFeSlGMt4?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    
+                    <p>Throughout this course we've taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. </p>
 
-<h2 id="code">Code</h2>
+<p>But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information. Just look up at the browser search bar above this website.</p>
 
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// import java.util.Scanner;\nScanner keyboardInput = new Scanner(System.in);\n\nSystem.out.print(\&#34;Enter username: \&#34;);\nString username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()\nSystem.out.println(\&#34;Hello, \&#34; &#43; username);\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">// import java.util.Scanner;
+<p>In this lesson we'll take a look at how to write programs in Java which accept user input. </p>
+
+<h2 id="the-code">The Code</h2>
+
+<p>Programs which get input from the user need to be written in a specific way. The program will essentially prompt the user for information, and then when the user hits <em>enter</em>, will take whatever they entered and be able to use it going forward in it's execution.</p>
+
+<p>The code for accepting user input is actually not that much more complex than the code for printing. In Java, we can get user input like this:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;import java.util.Scanner;\nScanner keyboardInput = new Scanner(System.in);\n\nSystem.out.print(\&#34;Enter username: \&#34;);\nString username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()\nSystem.out.println(\&#34;Hello, \&#34; &#43; username);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">import java.util.Scanner;
 Scanner keyboardInput = new Scanner(System.in);
 
 System.out.print(&#34;Enter username: &#34;);
 String username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()
-System.out.println(&#34;Hello, &#34; &#43; username);</code></pre>
+System.out.println(&#34;Hello, &#34; &#43; username);</code></pre></p>
 
+<p>The code above simply prompts the user for information, and the prints out what they entered in. </p>
+
+<p>One of the most important things to note here is that we're storing whatever the user entered into a variable. It's vital that we do this, after all, what's the point of asking the user for something if we're not gonna keep track of it. </p>
+
+<h2 id="execution-flow">Execution flow</h2>
+
+<p>As you play around with this program you'll notice that it actually stops it's flow of execution when awaiting input from the user. In pervious programs we're written they seem to execute and be done in a matter of milliseconds. But in this case if you wait 10 minutes before you decide to input something, the computer will wait along with you.</p>
+
+<p>This is because when the computer see's that it's supposed to accept input it stops everything it's doing and waits. In a lot of cases, the input that the computer receives from the user is vital to it being able to perform it's task, whatever that may be. </p>
+
+<p>Many programs you'll encounter (and eventually write) will rely on the user to tell them what to do and when it's okay for them to stop. Once we discover more advanced topics we'll eventually be able to write programs that have menus and give the user an option of what they want to do! But this is where it all starts. </p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>Now that you have the basics down, play around for a bit and try to change the prompt, or maybe try asking the user for multiple pieces of information and use some of the string functions we talked about in the previous lessons to modify it. </p>
+
+<p>There's still a lot to learn about getting user input. As of right now we're only receiving input in the form of strings. As we move forward in the course we'll take a look at how to allow the user to enter numbers, and other types of data. </p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -554,8 +579,58 @@ System.out.println(&#34;Hello, &#34; &#43; username);</code></pre>
                
                
                
-               <a href="/programming-languages/java/getting-user-input/#code">
-                   <li>Code</li>
+               <a href="/programming-languages/java/getting-user-input/#the-code">
+                   <li>The Code</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/getting-user-input/#execution-flow">
+                   <li>Execution flow</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/getting-user-input/#wrapping-up">
+                   <li>Wrapping Up</li>
                </a>
                
                
@@ -654,7 +729,7 @@ System.out.println(&#34;Hello, &#34; &#43; username);</code></pre>
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

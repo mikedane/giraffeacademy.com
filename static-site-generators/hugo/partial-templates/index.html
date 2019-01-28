@@ -151,7 +151,7 @@ document.body.removeChild(textArea);
                          
                               <li ><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                          
-                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                          
                
           
@@ -263,7 +263,7 @@ document.body.removeChild(textArea);
                
                     <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                
-                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                
           </ul>
      
@@ -341,7 +341,6 @@ Footer
           &lt;hr&gt;
      &lt;/header&gt;</code></pre>
 
-
 <p>This header code can now be included in a layout using a simple command.</p>
 
 <h3 id="including-partials-in-a-template">Including partials in a template</h3>
@@ -349,7 +348,6 @@ Footer
 <p>To include a partial in a content layout, use the following hugo command.</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ include “partial-name.html” }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ include “partial-name.html” }}</code></pre>
-
 
 <p>This command will tell hugo to go to the partials folder and find the file inside the quotes. Then the code from that partial will be included in the layout when the website is built by Hugo.</p>
 
@@ -363,7 +361,6 @@ Footer
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ include “partial-name.html” . }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">{{ include “partial-name.html” . }}</code></pre>
 
-
 <p>Once we do that we can then access page parameters inside our partial. Taking the header partial used above we could add in certain elements. Like the title of the current blog post and the author.</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n   \u003cheader\u003e\n          \u003ch1\u003eMike&#39;s Travel Blog\u003c/h1\u003e\n          \u003ch2\u003e {{ .Title }} \u003c/h2\u003e\n          \u003chr\u003e\n\tWritten By : {{ .Params.author }}\n   \u003c/header\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">   &lt;header&gt;
@@ -372,7 +369,6 @@ Footer
           &lt;hr&gt;
 	Written By : {{ .Params.author }}
    &lt;/header&gt;</code></pre>
-
 
 <h3 id="passing-dict-s-into-partials">Passing dict’s into partials</h3>
 
@@ -387,11 +383,9 @@ Footer
           &lt;hr&gt;
      &lt;/header&gt;</code></pre>
 
-
 <p>Notice we’re accessing a variable called .color inside the style tags of our header. We can actually pass a color into the partial when we include it in our layout.</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ partial “header.html” (dict “color” “blue” )}}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ partial “header.html” (dict “color” “blue” )}}</code></pre>
-
 
 <p>In the code above, we’re including the partial and passing in a dict. The dict is made up of a series of key value pairs, in this case we have a key called color and a value of blue. You can add as many key/value pairs to a dict as you want.</p>
 
@@ -832,7 +826,7 @@ Footer
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

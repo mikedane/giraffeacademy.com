@@ -166,10 +166,10 @@
     
     <item>
       <title>Mac &amp; Windows Installation</title>
-      <link>https://www.mikedane.com/static-site-generators/hexo/mac--windows-installation/</link>
+      <link>https://www.mikedane.com/static-site-generators/hexo/mac-windows-installation/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:11 -0400</pubDate>
       
-      <guid>https://www.mikedane.com/static-site-generators/hexo/mac--windows-installation/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/hexo/mac-windows-installation/</guid>
       <description></description>
     </item>
     
@@ -216,7 +216,8 @@ Step 1 : Preparing Your Windows File System The first step when installing Hugo 
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/drawing-a-pyramid/</guid>
-      <description> Code CopyConsole.WriteLine(&amp;#34; /|&amp;#34;); Console.WriteLine(&amp;#34; / |&amp;#34;); Console.WriteLine(&amp;#34; / |&amp;#34;); Console.WriteLine(&amp;#34;/___|&amp;#34;); </description>
+      <description>As we begin our programming journey in C#, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like C#, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
+We can achieve this by using a print statement.</description>
     </item>
     
     <item>
@@ -370,7 +371,8 @@ Step 1 : Installing Homebrew Installing programs on mac isnâ€™t the same as inst
       <pubDate>Fri, 22 Dec 2017 11:48:55 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/sql/mysql-windows-installation/</guid>
-      <description> Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/  Be sure to go to the windows installer page  Run installer Choose &amp;lsquo;Custom Installation&amp;rsquo; and install the server and the shell Create a root password Go into start menu, open MySQL Shell and login Create a database CopyCREATE DATABASE giraffe_db;  Done!
+      <description> Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/  Be sure to go to the windows installer page  Run installer Choose &amp;lsquo;Custom Installation&amp;rsquo; and install the server and the shell Create a root password Go into start menu, open MySQL Shell and login Create a database CopyCREATE DATABASE giraffe_db;
+ Done!
   </description>
     </item>
     
@@ -389,7 +391,8 @@ Step 1 : Installing Homebrew Installing programs on mac isnâ€™t the same as inst
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/variables/</guid>
-      <description> Code Copy/* Names are case-sensitive and may begin with: letters, _, @ After, may include letters, numbers, _ Convention says Start with a lowercase word, then additional words are capitalized ex. myFirstVariable */ string characterName = &amp;#34;George&amp;#34;; int characterAge = 70; Console.WriteLine(&amp;#34;There once was a man named &amp;#34; &amp;#43; characterName); Console.WriteLine(&amp;#34;He was &amp;#34; &amp;#43; characterAge &amp;#43; &amp;#34; years old&amp;#34;); Console.WriteLine(&amp;#34;He really liked the name &amp;#34; &amp;#43; characterName); Console.WriteLine(&amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;#43; characterAge); </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a C# developer!
+The topic I&#39;m talking about is variables! Variables are a C# developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -425,7 +428,8 @@ Step 1 : Installing Homebrew Installing programs on mac isnâ€™t the same as inst
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/drawing-a-shape/</guid>
-      <description> Code Copyprint(&amp;#34; /|&amp;#34;) print(&amp;#34; / |&amp;#34;) print(&amp;#34; / |&amp;#34;) print(&amp;#34;/___|&amp;#34;) </description>
+      <description>As we begin our programming journey in Python, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like Python, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
+We can achieve this by using a print statement.</description>
     </item>
     
     <item>
@@ -434,7 +438,8 @@ Step 1 : Installing Homebrew Installing programs on mac isnâ€™t the same as inst
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/drawing-a-shape/</guid>
-      <description> Code CopySystem.out.println(&amp;#34; /|&amp;#34;); System.out.println(&amp;#34; / |&amp;#34;); System.out.println(&amp;#34; / |&amp;#34;); System.out.println(&amp;#34;/___|&amp;#34;); </description>
+      <description>As we begin our programming journey in Java, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like Java, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
+We can achieve this by using a print statement.</description>
     </item>
     
     <item>
@@ -543,7 +548,7 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Fri, 22 Dec 2017 11:48:55 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/sql/mysql-mac-installation/</guid>
-      <description>Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/ Run installer Write down temporary password Open &amp;lsquo;MySQL&amp;rsquo; in System Preferences and start the server Configure command line to recognize &amp;lsquo;mysql&amp;rsquo; command  echo &amp;lsquo;export PATH=/usr/local/mysql/bin:$PATH&amp;rsquo; &amp;gt;&amp;gt; ~/.bash_profile . ~/.bash_profile  mysql -u root -p  Enter temporary password from step 3 when prompted  Change temporary password CopyALTER USER &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;new_password&amp;#39;;  Test to make sure new password worked  exit mysql -u root -p  Enter new password when prompted   Create a database CopyCREATE DATABASE giraffe_db;  Done!</description>
+      <description>Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/ Run installer Write down temporary password Open &amp;lsquo;MySQL&amp;rsquo; in System Preferences and start the server Configure command line to recognize &amp;lsquo;mysql&amp;rsquo; command  echo &amp;lsquo;export PATH=/usr/local/mysql/bin:$PATH&amp;rsquo; &amp;gt;&amp;gt; ~/.bash_profile . ~/.bash_profile  mysql -u root -p  Enter temporary password from step 3 when prompted  Change temporary password CopyALTER USER &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;new_password&amp;#39;; Test to make sure new password worked  exit mysql -u root -p  Enter new password when prompted   Create a database CopyCREATE DATABASE giraffe_db; Done!</description>
     </item>
     
     <item>
@@ -552,7 +557,7 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/writing-html/</guid>
-      <description> Code Copyecho &amp;#34;&amp;lt;h1&amp;gt;Hello World&amp;lt;/h1&amp;gt;&amp;#34;); print &amp;#34;&amp;lt;hr/&amp;gt;&amp;#34;; // returns 1 echo &amp;#34;&amp;lt;p&amp;gt;This is a php tutorial&amp;lt;/p&amp;gt;&amp;#34;; </description>
+      <description>As we begin our programming journey in Python, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like Python, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!</description>
     </item>
     
     <item>
@@ -561,7 +566,7 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/data-types/</guid>
-      <description>Code Copystring name = &amp;#34;Mike&amp;#34;; // String&amp;#39;s are objects not primitives char testGrade = &amp;#39;A&amp;#39;; // single 16-bit Unicode character. // short, int, long can be pre-pended with &amp;#39;u&amp;#39; for &amp;#39;unsigned&amp;#39; byte age0 = 0; // 8-bit unsigned integer short age1 = 10; // 16-bit signed integer. int age2 = 20; // 32-bit signed integer long age3 = 30L; // 64-bit signed integer float gpa0 = 2.5F; // 32-bit floating point double gpa1 = 3.</description>
+      <description>As we write more and more complex programs in C#, we&#39;ll want to work with different types of data (data types). Maybe in one program we&#39;ll print out someone&#39;s favorite movie, in another we&#39;ll keep track of how much money a particular product costs, and maybe in another we&#39;ll ask someone if they&#39;re an organ donor. In everyday life we deal with all different types of data, so why should it be any different for programs?</description>
     </item>
     
     <item>
@@ -570,7 +575,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/drawing-a-pyramid/</guid>
-      <description> Code Copycout &amp;lt;&amp;lt; &amp;#34; /|&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34; / |&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34; / |&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;/___|&amp;#34; &amp;lt;&amp;lt; endl; </description>
+      <description>As we begin our programming journey in C&amp;#43;&amp;#43;, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like C&amp;#43;&amp;#43;, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
+We can achieve this by using a print statement.</description>
     </item>
     
     <item>
@@ -579,7 +585,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 01 Nov 2017 00:17:33 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/drawing-a-pyramid/</guid>
-      <description> Code Copyprintf(&amp;#34; /|\n&amp;#34;); printf(&amp;#34; / |\n&amp;#34;); printf(&amp;#34; / |\n&amp;#34;); printf(&amp;#34;/___|\n&amp;#34;); </description>
+      <description>As we begin our programming journey in C, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like C, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
+We can achieve this by using a print statement.</description>
     </item>
     
     <item>
@@ -588,7 +595,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 01 Nov 2017 00:12:40 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/drawing-a-pyramid/</guid>
-      <description> Code Copyputs &amp;#34; /|&amp;#34; puts &amp;#34; / |&amp;#34; puts &amp;#34; / |&amp;#34; puts &amp;#34;/___|&amp;#34; </description>
+      <description>As we begin our programming journey in C&amp;#43;&amp;#43;, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like C&amp;#43;&amp;#43;, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
+We can achieve this by using a print statement.</description>
     </item>
     
     <item>
@@ -597,7 +605,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/variables/</guid>
-      <description> Code Copy&amp;#39;&amp;#39;&amp;#39; Names are case-sensitive and may begin with: letters, $, _ After, may include letters, numbers, $, _ Convention says Start with a lowercase word, then additional words are separated by underscores ex. my_first_variable &amp;#39;&amp;#39;&amp;#39; character_name = &amp;#34;George&amp;#34; character_age = &amp;#34;70&amp;#34; print(&amp;#34;There once was a man named &amp;#34; &amp;#43; character_name) print(&amp;#34;He was &amp;#34; &amp;#43; character_age &amp;#43; &amp;#34; years old&amp;#34;) print(&amp;#34;He really liked the name &amp;#34; &amp;#43; character_name) print(&amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;#43; character_age) # You can also print variables using a &amp;#39;,&amp;#39; print(&amp;#34;My variable is&amp;#34;, character_name) </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a Python developer!
+The topic I&#39;m talking about is variables! Variables are a Python developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -606,7 +615,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/variables/</guid>
-      <description> Code Copy/* Names are case-sensitive and may begin with: letters, $, _ After, may include letters, numbers, $, _ Convention says Start with a lowercase word, then additional words are capitalized ex. myFirstVariable */ String characterName = &amp;#34;George&amp;#34;; int characterAge = 70; System.out.println(&amp;#34;There once was a man named &amp;#34; &amp;#43; characterName); System.out.println(&amp;#34;He was &amp;#34; &amp;#43; characterAge &amp;#43; &amp;#34; years old&amp;#34;); System.out.println(&amp;#34;He really liked the name &amp;#34; &amp;#43; characterName); System.out.println(&amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;#43; characterAge); </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a Java developer!
+The topic I&#39;m talking about is variables! Variables are a Java developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -615,7 +625,7 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/writing-html/</guid>
-      <description> Code Copydocument.write(&amp;#34;&amp;lt;h1&amp;gt;Hello World&amp;lt;/h1&amp;gt;&amp;#34;); document.write(&amp;#34;&amp;lt;hr&amp;gt;&amp;#34;); document.write(&amp;#34;&amp;lt;p&amp;gt;This is a javascript tutorial&amp;lt;/p&amp;gt;&amp;#34;); </description>
+      <description>As we begin our programming journey in Python, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like Python, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!</description>
     </item>
     
     <item>
@@ -723,7 +733,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/variables/</guid>
-      <description> Code Copy/* Names are case-sensitive and must start with &amp;#39;$&amp;#39; then: letters, _ After, may include letters, numbers, _ Convention says There is no set convention, people will use camel case but also underscores ex. myFirstVariable ex. my_first_variable */ $characterName = &amp;#34;George&amp;#34;; $characterAge = 70; echo &amp;#34;There once was a man named $characterName &amp;lt;br&amp;gt;&amp;#34;; echo &amp;#34;He was $characterAge years old &amp;lt;br&amp;gt;&amp;#34;; echo &amp;#34;He really liked the name $characterName &amp;lt;br&amp;gt;&amp;#34;; echo &amp;#34;But didn&amp;#39;t like being $characterAge &amp;lt;br&amp;gt;&amp;#34;; </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a PHP developer!
+The topic I&#39;m talking about is variables! Variables are a PHP developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -732,7 +743,7 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/strings/</guid>
-      <description> Code Copystring greeting = &amp;#34;Hello&amp;#34;; // indexes: 01234 Console.WriteLine( greeting.Length ); Console.WriteLine( greeting[0] ); Console.WriteLine( greeting.IndexOf(&amp;#34;llo&amp;#34;) ); Console.WriteLine( greeting.IndexOf(&amp;#34;z&amp;#34;) ); Console.WriteLine( greeting.Substring(2) ); Console.WriteLine( greeting.Substring(1, 3) ); </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of C#&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a C# developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -741,7 +752,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/variables/</guid>
-      <description> Code Copy/* Names are case-sensitive and may begin with: letters, _ After, may include letters, numbers, _ Convention says Start with a lowercase word, then additional words are capitalized ex. myFirstVariable */ // #include &amp;lt;string&amp;gt; string characterName = &amp;#34;George&amp;#34;; int characterAge = 70; cout &amp;lt;&amp;lt; &amp;#34;There once was a man named &amp;#34; &amp;lt;&amp;lt; characterName &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;He was &amp;#34; &amp;lt;&amp;lt; characterAge &amp;lt;&amp;lt; &amp;#34; years old&amp;#34; &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;He really liked the name &amp;#34; &amp;lt;&amp;lt; characterName &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; &amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;lt;&amp;lt; characterAge &amp;lt;&amp;lt; endl; </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a C&amp;#43;&amp;#43; developer!
+The topic I&#39;m talking about is variables! Variables are a C&amp;#43;&amp;#43; developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -750,7 +762,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 01 Nov 2017 00:17:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/variables/</guid>
-      <description> Code Copy/* Names are case-sensitive and may begin with: letters, _ After, may include letters, numbers, _ Convention says Start with a lowercase word, then additional words are capitalized ex. myFirstVariable */ char characterName[] = &amp;#34;George&amp;#34;; int characterAge = 70; printf(&amp;#34;There once was a man named %s&amp;#34;, characterName); printf(&amp;#34;He was %d years old&amp;#34;, characterAge); printf(&amp;#34;He really liked the name %s&amp;#34;, characterName); printf(&amp;#34;But didn&amp;#39;t like being %d&amp;#34;, characterAge); </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a C developer!
+The topic I&#39;m talking about is variables! Variables are a C developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -759,7 +772,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/variables/</guid>
-      <description> Code Copy=begin Names are case-sensitive and may begin with: letters, _ After, may include letters, numbers, _ Convention says Start with a lowercase word, then additional words are lowercase separated by an underscore ex. my_first_variable =end character_name = &amp;#34;George&amp;#34; character_age = 70 puts &amp;#34;There once was a man named &amp;#34; &amp;#43; character_name puts &amp;#34;He was &amp;#34; &amp;#43; character_age &amp;#43; &amp;#34; years old&amp;#34; puts &amp;#34;He really liked the name &amp;#34; &amp;#43; character_name puts &amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;#43; character_age # You can also print variables using &amp;#39;#{}&amp;#39; puts &amp;#34;My variable is #{character_name}&amp;#34; </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a Ruby developer!
+The topic I&#39;m talking about is variables! Variables are a Ruby developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -768,7 +782,7 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/strings/</guid>
-      <description> Code Copygreeting = &amp;#34;Hello&amp;#34; #indexes: 01234 print( len(greeting) ) print( greeting[0] ) print( greeting[-1] ) print( greeting.find(&amp;#34;llo&amp;#34;) ) print( greeting.find(&amp;#34;z&amp;#34;) ) print( greeting[2:] ) print( greeting[2:3] ) </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of Python&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a Python developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -777,7 +791,7 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/data-types/</guid>
-      <description>Code CopyString name = &amp;#34;Mike&amp;#34;; // String&amp;#39;s are objects not primitives char testGrade = &amp;#39;A&amp;#39;; // single 16-bit Unicode character. byte age0 = 0; // 8-bit signed two&amp;#39;s complement integer short age1 = 10; // 16-bit signed two&amp;#39;s complement integer. int age2 = 20; // 32-bit signed two&amp;#39;s complement integer long age3 = 30L; // 64-bit optionally signed two&amp;#39;s complement integer float gpa0 = 2.5f; // 32-bit floating point double gpa1 = 3.</description>
+      <description>As we write more and more complex programs in Java, we&#39;ll want to work with different types of data (data types). Maybe in one program we&#39;ll print out someone&#39;s favorite movie, in another we&#39;ll keep track of how much money a particular product costs, and maybe in another we&#39;ll ask someone if they&#39;re an organ donor. In everyday life we deal with all different types of data, so why should it be any different for programs?</description>
     </item>
     
     <item>
@@ -786,7 +800,8 @@ Preparing your workspace Once you have everything installed and ready to go itâ€
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/variables/</guid>
-      <description>Code Copy/* Names are case-sensitive and may begin with: letters, $, _ After, may include letters, numbers, $, _ Convention says Start with a lowercase word, then additional words are capitalized ex. myFirstVariable */ var name = &amp;#34;Mike&amp;#34;; // String w/ double quotes var occupation = &amp;#39;programmer&amp;#39;; // String w/ single quotes var age = 20; // Integer var gpa = 2.5; // Floating point number var isTall; // boolean true/false isTall = true; name = &amp;#34;John&amp;#34;; document.</description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a JavaScript developer!
+The topic I&#39;m talking about is variables! Variables are a JavaScript developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -895,7 +910,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Wed, 15 Nov 2017 17:52:36 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/data-types/</guid>
-      <description> Code Copy$name = &amp;#34;Mike&amp;#34;; // Strings $age = 30; // Integer $gpa = 3.5; // Decimal $isTall = true; // Boolean -&amp;gt; true/false $name = &amp;#34;John&amp;#34;; echo &amp;#34;Your name is $name &amp;lt;br&amp;gt;&amp;#34;; </description>
+      <description>As we write more and more complex programs in PHP, we&#39;ll want to work with different types of data (data types). Maybe in one program we&#39;ll print out someone&#39;s favorite movie, in another we&#39;ll keep track of how much money a particular product costs, and maybe in another we&#39;ll ask someone if they&#39;re an organ donor. In everyday life we deal with all different types of data, so why should it be any different for programs?</description>
     </item>
     
     <item>
@@ -904,7 +919,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Wed, 08 Nov 2017 18:34:44 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/math/</guid>
-      <description> Code CopyConsole.WriteLine(2 * 3); // Basic Arithmetic: &amp;#43;, -, /, * Console.WriteLine(10 % 3); // Modulus Op. : returns remainder of 10/3 Console.WriteLine(1 &amp;#43; 2 * 3); // order of operations Console.WriteLine(10 / 3.0); // int&amp;#39;s and doubles int num = 10; num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= Console.WriteLine(num); num&amp;#43;&amp;#43;; Console.WriteLine(num); Console.WriteLine( Math.Pow(2, 3) ); Console.WriteLine( Math.Sqrt(144) ); Console.WriteLine( Math.Round(2.7) ); </description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -913,7 +928,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/data-types/</guid>
-      <description>Code Copy// #include &amp;lt;string&amp;gt; string name = &amp;#34;Mike&amp;#34;; // string of characters, not primitive char testGrade = &amp;#39;A&amp;#39;; // single 8-bit character. // you can make them unsigned by adding &amp;#34;unsigned&amp;#34; prefix short age0 = 10; // atleast 16-bits signed integer int age1 = 20; // atleast 16-bits signed integer (not smaller than short) long age2 = 30; // atleast 32-bits signed integer long long age3 = 40; // atleast 64-bits signed integer float gpa0 = 2.</description>
+      <description>As we write more and more complex programs in C&amp;#43;&amp;#43;, we&#39;ll want to work with different types of data (data types). Maybe in one program we&#39;ll print out someone&#39;s favorite movie, in another we&#39;ll keep track of how much money a particular product costs, and maybe in another we&#39;ll ask someone if they&#39;re an organ donor. In everyday life we deal with all different types of data, so why should it be any different for programs?</description>
     </item>
     
     <item>
@@ -922,7 +937,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Wed, 01 Nov 2017 00:17:35 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/data-types/</guid>
-      <description>Code Copychar testGrade = &amp;#39;A&amp;#39;; // single 8-bit character. char name[] = &amp;#34;Mike&amp;#34;; // array of characters (string) // you can make them unsigned by adding &amp;#34;unsigned&amp;#34; prefix short age0 = 10; // atleast 16-bits signed integer int age1 = 20; // atleast 16-bits signed integer (not smaller than short) long age2 = 30; // atleast 32-bits signed integer long long age3 = 40; // atleast 64-bits signed integer float gpa0 = 2.</description>
+      <description>As we write more and more complex programs in C, we&#39;ll want to work with different types of data (data types). Maybe in one program we&#39;ll print out someone&#39;s favorite movie, in another we&#39;ll keep track of how much money a particular product costs, and maybe in another we&#39;ll ask someone if they&#39;re an organ donor. In everyday life we deal with all different types of data, so why should it be any different for programs?</description>
     </item>
     
     <item>
@@ -931,7 +946,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/data-types/</guid>
-      <description> Code Copyname = &amp;#34;Mike&amp;#34; # Strings age = 30 # Integer gpa = 3.5 # Decimal is_tall = true # Boolean -&amp;gt; true/false name = &amp;#34;John&amp;#34; puts &amp;#34;Your name is #{name}&amp;#34; puts &amp;#34;Your name is &amp;#34; &amp;#43; name </description>
+      <description>As we write more and more complex programs in Ruby, we&#39;ll want to work with different types of data (data types). Maybe in one program we&#39;ll print out someone&#39;s favorite movie, in another we&#39;ll keep track of how much money a particular product costs, and maybe in another we&#39;ll ask someone if they&#39;re an organ donor. In everyday life we deal with all different types of data, so why should it be any different for programs?</description>
     </item>
     
     <item>
@@ -940,7 +955,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/math/</guid>
-      <description>Code Copyprint( 2 * 3 ) # Basic Arithmetic: &amp;#43;, -, /, * print( 2**3 ) # Basic Arithmetic: &amp;#43;, -, /, * print( 10 % 3 ) # Modulus Op. : returns remainder of 10/3 print( 1 &amp;#43; 2 * 3 ) # order of operations print(10 / 3.0) # int&amp;#39;s and doubles num = 10 num &amp;#43;= 100 # &amp;#43;=, -=, /=, *= print(num) &amp;#43;&amp;#43;num print(num) # Math module has useful math methods import math print( pow(2, 3) ) print( math.</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -949,7 +964,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/strings/</guid>
-      <description> Code CopyString greeting = &amp;#34;Hello&amp;#34;; // indexes: 01234 System.out.println( greeting.length() ); System.out.println( greeting.charAt(0) ); System.out.println( greeting.indexOf(&amp;#34;llo&amp;#34;) ); System.out.println( greeting.indexOf(&amp;#34;z&amp;#34;) ); System.out.println( greeting.substring(2) ); System.out.println( greeting.substring(1, 3) ); </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of Java&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a Java developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -958,7 +973,7 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/strings/</guid>
-      <description> Code Copyvar greeting = &amp;#34;Hello&amp;#34;; // indexes: 01234 document.write( greeting.length &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); document.write( greeting.charAt(0) &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); document.write( greeting.indexOf(&amp;#34;llo&amp;#34;) &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); document.write( greeting.indexOf(&amp;#34;z&amp;#34;) &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); document.write( greeting.substring(2) &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); document.write( greeting.substring(1, 3) &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of JavaScript&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a JavaScript developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -1026,10 +1041,10 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
     
     <item>
       <title>Tags &amp; Categories</title>
-      <link>https://www.mikedane.com/static-site-generators/hexo/tags--categories/</link>
+      <link>https://www.mikedane.com/static-site-generators/hexo/tags-categories/</link>
       <pubDate>Thu, 14 Sep 2017 17:26:12 -0400</pubDate>
       
-      <guid>https://www.mikedane.com/static-site-generators/hexo/tags--categories/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/hexo/tags-categories/</guid>
       <description></description>
     </item>
     
@@ -1067,7 +1082,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/strings/</guid>
-      <description> Code Copy$greeting = &amp;#34;Hello&amp;#34;; //indexes: 01234 echo strlen($greeting).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo $greeting[0].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo $greeting[-1].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo str_replace(&amp;#34;l&amp;#34;, &amp;#34;Z&amp;#34;, $greeting).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo strchr($greeting, &amp;#34;ll&amp;#34;).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;;  </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of PHP&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a PHP developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -1076,7 +1091,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/getting-input-from-users/</guid>
-      <description> Code CopyConsole.Write(&amp;#34;Enter username: &amp;#34;); string username = Console.ReadLine(); Console.WriteLine($&amp;#34;Hello {username}&amp;#34;); </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1085,7 +1100,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/strings/</guid>
-      <description> Code Copy// #include &amp;lt;string&amp;gt; string greeting = &amp;#34;Hello&amp;#34;; // indexes: 01234 cout &amp;lt;&amp;lt; greeting.length(); cout &amp;lt;&amp;lt; greeting[0] &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; greeting.find(&amp;#34;llo&amp;#34;) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; greeting.substr(2) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; greeting.substr(1, 3) &amp;lt;&amp;lt; endl; </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of C&amp;#43;&amp;#43;&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a C&amp;#43;&amp;#43; developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -1103,7 +1118,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/strings/</guid>
-      <description> Code Copygreeting = &amp;#34;Hello&amp;#34; #indexes: 01234 puts greeting.length puts greeting[0] puts greeting.include? &amp;#34;llo&amp;#34; puts greeting.include? &amp;#34;z&amp;#34; puts greeting[1,3] </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of Ruby&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a Ruby developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -1112,7 +1127,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/getting-user-input/</guid>
-      <description> Code Copyname = input(&amp;#34;Enter your name: &amp;#34;) print(&amp;#34;Hello&amp;#34;, name &amp;#43; &amp;#34;!&amp;#34;) </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1121,7 +1136,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/math/</guid>
-      <description>Code CopySystem.out.println( 2 * 3 ); // Basic Arithmetic: &amp;#43;, -, /, * System.out.println( 10 % 3 ); // Modulus Op. : returns remainder of 10/3 System.out.println( 1 &amp;#43; 2 * 3 ); // order of operations System.out.println(10 / 3.0); // int&amp;#39;s and doubles int num = 10; num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= System.out.println(num); num&amp;#43;&amp;#43;; System.out.println(num); // Math class has useful math methods System.out.println( Math.pow(2, 3) ); System.</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -1130,7 +1145,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/math/</guid>
-      <description>Code Copydocument.write( 2 * 3 &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); // Basic Arithmetic: &amp;#43;, -, /, * document.write( 2**3 &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); // Exponents document.write( 10 % 3 &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); // Modulus Op. : returns remainder of 10/3 document.write( 1 &amp;#43; 2 * 3 &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34; ); // order of operations document.write(10 / 3.0 &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;#34;); // int&amp;#39;s and doubles var num = 10; num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= document.</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -1238,7 +1253,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/math/</guid>
-      <description>Code Copyecho (2 * 3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // Basic Arithmetic: &amp;#43;, -, /, * echo (2**3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // Basic Arithmetic: &amp;#43;, -, /, * echo (10 % 3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // Modulus Op. : returns remainder of 10/3 echo (1 &amp;#43; 2 * 3).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // order of operations echo (10 / 3.0).&amp;#34;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;#34;; // int&amp;#39;s and doubles $num = 10; $num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= echo $num.&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; $num&amp;#43;&amp;#43;; echo $num.&amp;#34;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;#34;; // useful math methods echo max(2, 3).</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -1256,7 +1271,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/math/</guid>
-      <description>Code Copycout &amp;lt;&amp;lt; 2 * 3 &amp;lt;&amp;lt; endl; // Basic Arithmetic: &amp;#43;, -, /, * cout &amp;lt;&amp;lt; 10 % 3 &amp;lt;&amp;lt; endl; // Modulus Op. : returns remainder of 10/3 cout &amp;lt;&amp;lt; 1 &amp;#43; 2 * 3 &amp;lt;&amp;lt; endl; // order of operations cout &amp;lt;&amp;lt; 10 / 3.0 &amp;lt;&amp;lt; endl; // int&amp;#39;s and doubles int num = 10; num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= cout &amp;lt;&amp;lt; num &amp;lt;&amp;lt; endl; num&amp;#43;&amp;#43;; cout &amp;lt;&amp;lt; num &amp;lt;&amp;lt; endl; // #include &amp;lt;cmath&amp;gt; cout &amp;lt;&amp;lt; pow(2, 3) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; sqrt(144) &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; round(2.</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -1265,7 +1280,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 01 Nov 2017 00:17:36 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/math/</guid>
-      <description>Code Copyprintf(&amp;#34;%d \n&amp;#34;, 2 * 3); // Basic Arithmetic: &amp;#43;, -, /, * printf(&amp;#34;%d \n&amp;#34;, 10 % 3); // Modulus Op. : returns remainder of 10/3 printf(&amp;#34;%d \n&amp;#34;, 1 &amp;#43; 2 * 3); // order of operations printf(&amp;#34;%f \n&amp;#34;, 10 / 3.0); // int&amp;#39;s and doubles int num = 10; num &amp;#43;= 100; // &amp;#43;=, -=, /=, *= printf(&amp;#34;%d \n&amp;#34;,num); num&amp;#43;&amp;#43;; printf(&amp;#34;%d \n&amp;#34;, num); printf(&amp;#34;%f \n&amp;#34;, pow(2, 3)); printf(&amp;#34;%f \n&amp;#34;, sqrt(144)); printf(&amp;#34;%f \n&amp;#34;, round(2.</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -1274,7 +1289,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/math/</guid>
-      <description>Code Copyputs 2 * 3 # Basic Arithmetic: &amp;#43;, -, /, * puts 2**3 # Exponent puts 10 % 3 # Modulus Op. : returns remainder of 10/3 puts 1 &amp;#43; 2 * 3 # order of operations puts 10 / 3.0 # int&amp;#39;s and doubles num = 10 num &amp;#43;= 100 # &amp;#43;=, -=, /=, *= puts num num = -36.8 puts num.abs() puts num.round() # Math class has useful math methods puts Math.</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -1292,7 +1307,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/getting-user-input/</guid>
-      <description> Code Copy// import java.util.Scanner; Scanner keyboardInput = new Scanner(System.in); System.out.print(&amp;#34;Enter username: &amp;#34;); String username = keyboardInput.nextLine(); // .nextDouble(), .nextInt() System.out.println(&amp;#34;Hello, &amp;#34; &amp;#43; username); </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1301,7 +1316,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/getting-user-input/</guid>
-      <description> Code Copyvar name = window.prompt(&amp;#34;Enter your name: &amp;#34;); alert(&amp;#34;Your name is &amp;#34; &amp;#43; name); </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1409,7 +1424,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/getting-input-from-users/</guid>
-      <description> Code site.phpCopy&amp;lt;form action=&amp;#34;site.php&amp;#34; method=&amp;#34;GET&amp;#34;&amp;gt; Username: &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;username&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;?php echo $_GET[&amp;#34;username&amp;#34;]; ?&amp;gt; </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1427,7 +1442,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Tue, 07 Nov 2017 01:21:25 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/getting-input-from-users/</guid>
-      <description> Code Copystring name; cout &amp;lt;&amp;lt; &amp;#34;Enter your name: &amp;#34;; cin &amp;gt;&amp;gt; name; cout &amp;lt;&amp;lt; &amp;#34;Hello &amp;#34; &amp;lt;&amp;lt; name &amp;lt;&amp;lt; endl; </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1436,7 +1451,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 01 Nov 2017 00:17:37 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/comments/</guid>
-      <description> Code Copy/* multi line comment */ // single // line // comment </description>
+      <description>As you continue to sharpen your C skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -1445,7 +1460,7 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Wed, 01 Nov 2017 00:12:41 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/getting-user-input/</guid>
-      <description> Code Copyputs &amp;#34;Enter your name: &amp;#34; name = gets.chomp puts &amp;#34;Hello #{name}, how are you&amp;#34; </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1581,7 +1596,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/arrays/</guid>
-      <description> Code Copy//int [] luckyNumbers = new int[10]; int[] luckyNumbers = { 4, 8, 15, 16, 23, 42 }; // indexes: 0 1 2 3 4 5 luckyNumbers[0] = 90; Console.WriteLine(luckyNumbers[0]); Console.WriteLine(luckyNumbers[1]); Console.WriteLine(luckyNumbers.Length); </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -1617,7 +1632,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/lists/</guid>
-      <description> Code Copylucky_numbers = [4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0] # indexes 0 1 2 3 4 5 lucky_numbers[0] = 90 print(lucky_numbers[0]) print(lucky_numbers[1]) print(lucky_numbers[-1]) print(lucky_numbers[2:]) print(lucky_numbers[2:4]) print(len(lucky_numbers)) </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -1635,7 +1650,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/arrays/</guid>
-      <description> Code Copy// luckyNumbers = []; luckyNumbers = [4, 8, 15, 16, &amp;#34;twenty&amp;#34;, false]; // indexes: 0 1 2 3 4 5 luckyNumbers[0] = 90; document.write(luckyNumbers[0] &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34;); document.write(luckyNumbers[1] &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34;); document.write(luckyNumbers.length); </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -1734,7 +1749,9 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/methods/</guid>
-      <description> Code Copypublic static void Main(string [] args){ int sum = AddNumbers(4, 60); Console.WriteLine(sum); } public static int AddNumbers(int num1, int num2){ return num1 &amp;#43; num2; } </description>
+      <description>In this lesson I wanna talk to you about a really important concept in C# which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Methods!
+Maybe you&#39;ve heard the word Method floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in C#.
+Methods and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -1752,7 +1769,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 01 Nov 2017 00:17:39 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/getting-input-from-users/</guid>
-      <description> Code Copy// strings char name[10]; printf(&amp;#34;Enter your name: &amp;#34;); fgets(name, 10, stdin); printf(&amp;#34;Hello %s! \n&amp;#34;, name); // ints int age; printf(&amp;#34;Enter your age: &amp;#34;); scanf(&amp;#34;%d&amp;#34;, &amp;amp;age); printf(&amp;#34;You are %d \n&amp;#34;, age); // chars char grade; printf(&amp;#34;Enter your grade: &amp;#34;); scanf(&amp;#34;%c&amp;#34;, &amp;amp;grade); printf(&amp;#34;You got an %c on the test \n&amp;#34;, grade); // doubles double gpa; printf(&amp;#34;Enter your gpa: &amp;#34;); scanf(&amp;#34;%lf&amp;#34;, &amp;amp;gpa); printf(&amp;#34;Your gpa is %f \n&amp;#34;, gpa); </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -1779,7 +1796,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:34:28 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/arrays/</guid>
-      <description> Code Copy// int [] luckyNumbers = new int[10]; int [] luckyNumbers = {4, 8, 15, 16, 23, 42}; // indexes: 0 1 2 3 4 5 luckyNumbers[0] = 90; System.out.println(luckyNumbers[0]); System.out.println(luckyNumbers[1]); System.out.println(luckyNumbers.length); </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -1788,7 +1805,9 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/functions/</guid>
-      <description> Code Copyvar sum = addNumbers(4, 60); document.write(sum); function addNumbers(num1, num2){ return num1 &amp;#43; num2; } </description>
+      <description>In this lesson I wanna talk to you about a really important concept in JavaScript which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Functions!
+Maybe you&#39;ve heard the word Function floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in JavaScript.
+Functions and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -1896,7 +1915,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/arrays/</guid>
-      <description> Code Copy// int luckyNumbers[6]; int luckyNumbers[] = {4, 8, 15, 16, 23, 42}; // indexes: 0 1 2 3 4 5 luckyNumbers[0] = 90; cout &amp;lt;&amp;lt; luckyNumbers[0] &amp;lt;&amp;lt; endl; cout &amp;lt;&amp;lt; luckyNumbers[1] &amp;lt;&amp;lt; endl; </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -1914,7 +1933,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/arrays/</guid>
-      <description> Code Copylucky_numbers = [4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0] # indexes 0 1 2 3 4 5 lucky_numbers[0] = 90 puts lucky_numbers[0] puts lucky_numbers[1] puts lucky_numbers[-1] puts &amp;#34;\n\n&amp;#34; puts lucky_numbers[2,3] puts &amp;#34;\n\n&amp;#34; puts lucky_numbers[2..4] puts &amp;#34;\n\n&amp;#34; puts lucky_numbers.length </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -1932,7 +1951,9 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/functions/</guid>
-      <description> Code Copypublic static void main(String [] args){ int sum = addNumbers(4, 60); System.out.println(sum); } public static int addNumbers(int num1, int num2){ return num1 &amp;#43; num2; } </description>
+      <description>In this lesson I wanna talk to you about a really important concept in Java which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Methods!
+Maybe you&#39;ve heard the word Method floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in Java.
+Methods and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -2031,7 +2052,8 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/if-statements/</guid>
-      <description> Code Copybool isStudent = false; bool isSmart = false; if (isStudent &amp;amp;&amp;amp; isSmart) { Console.WriteLine(&amp;#34;You are a student&amp;#34;); } else if (isStudent &amp;amp;&amp;amp; !isSmart) { Console.WriteLine(&amp;#34;You are not a smart student&amp;#34;); } else { Console.WriteLine(&amp;#34;You are not a student and not smart&amp;#34;); } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if (1 &amp;lt; 3) { Console.WriteLine(&amp;#34;number comparison was true&amp;#34;); } </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in C# where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2040,7 +2062,9 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/methods/</guid>
-      <description> Code Copyint addNumbers(int num1, int num2); int main() { int sum = addNumbers(4, 60); cout &amp;lt;&amp;lt; sum &amp;lt;&amp;lt; endl; return 0; } int addNumbers(int num1, int num2){ return num1 &amp;#43; num2; } </description>
+      <description>In this lesson I wanna talk to you about a really important concept in C&amp;#43;&amp;#43; which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Methods!
+Maybe you&#39;ve heard the word Method floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in C&amp;#43;&amp;#43;.
+Methods and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -2067,7 +2091,9 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/functions/</guid>
-      <description> Code Copydef add_numbers(num1, num2=99): return num1 &amp;#43; num2 sum = add_numbers(4, 3) print(sum) </description>
+      <description>In this lesson I wanna talk to you about a really important concept in Python which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Functions!
+Maybe you&#39;ve heard the word Function floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in Python.
+Functions and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -2157,7 +2183,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/arrays/</guid>
-      <description> Code Copy// $lucky_numbers = []; // $lucky_numbers = array(4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0); $lucky_numbers = [4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0]; // indexes 0 1 2 3 4 5 $lucky_numbers[0] = 90; echo $lucky_numbers[0].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo $lucky_numbers[1].&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; echo count($lucky_numbers).&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -2184,7 +2210,7 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 01 Nov 2017 00:17:43 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/arrays/</guid>
-      <description> Code Copy// int luckyNumbers[6]; int luckyNumbers[] = {4, 8, 15, 16, 23, 42}; // indexes: 0 1 2 3 4 5 luckyNumbers[0] = 90; printf(&amp;#34;%d \n&amp;#34;, luckyNumbers[0]); printf(&amp;#34;%d \n&amp;#34;, luckyNumbers[1]); </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -2193,7 +2219,9 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Wed, 01 Nov 2017 00:12:42 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/methods/</guid>
-      <description> Code Copydef add_numbers(num1, num2=99) return num1 &amp;#43; num2 end sum = add_numbers(4, 3) puts sum </description>
+      <description>In this lesson I wanna talk to you about a really important concept in Ruby which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Methods!
+Maybe you&#39;ve heard the word Method floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in Ruby.
+Methods and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -2211,7 +2239,8 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/if-statements/</guid>
-      <description> Code Copyboolean isStudent = false; boolean isSmart = false; if(isStudent &amp;amp;&amp;amp; isSmart){ System.out.println(&amp;#34;You are a student&amp;#34;); } else if(isStudent &amp;amp;&amp;amp; !isSmart){ System.out.println(&amp;#34;You are not a smart student&amp;#34;); } else { System.out.println(&amp;#34;You are not a student and not smart&amp;#34;); } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, ==, String.equals() if(1 &amp;gt; 3){ System.out.println(&amp;#34;number comparison was true&amp;#34;); } if(&amp;#39;a&amp;#39; &amp;gt; &amp;#39;b&amp;#39;){ System.out.println(&amp;#34;character comparison was true&amp;#34;); } if(&amp;#34;dog&amp;#34;.equals(&amp;#34;cat&amp;#34;)){ System.out.println(&amp;#34;string comparison was true&amp;#34;); } </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in Java where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2310,7 +2339,8 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/if-statements/</guid>
-      <description>Code Copybool isStudent = false; bool isSmart = false; if(isStudent &amp;amp;&amp;amp; isSmart){ cout &amp;lt;&amp;lt; &amp;#34;You are a student&amp;#34; &amp;lt;&amp;lt; endl; } else if(isStudent &amp;amp;&amp;amp; !isSmart){ cout &amp;lt;&amp;lt; &amp;#34;You are not a smart student&amp;#34; &amp;lt;&amp;lt; endl; } else { cout &amp;lt;&amp;lt; &amp;#34;You are not a student and not smart&amp;#34; &amp;lt;&amp;lt; endl; } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ cout &amp;lt;&amp;lt; &amp;#34;number comparison was true&amp;#34; &amp;lt;&amp;lt; endl; } if(&amp;#39;a&amp;#39; &amp;gt; &amp;#39;b&amp;#39;){ cout &amp;lt;&amp;lt; &amp;#34;character comparison was true&amp;#34; &amp;lt;&amp;lt; endl; } string myString = &amp;#34;cat&amp;#34;; if(myString.</description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in C&amp;#43;&amp;#43; where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2337,7 +2367,8 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/if-statements/</guid>
-      <description> Code Copyis_student = False is_smart = False if is_student and is_smart: print(&amp;#34;You are a student&amp;#34;) elif is_student and not(is_smart): print(&amp;#34;You are not a smart student&amp;#34;) else: print(&amp;#34;You are not a student and not smart&amp;#34;) # &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if 1 &amp;gt; 3: print(&amp;#34;number omparison was true&amp;#34;) if &amp;#34;dog&amp;#34; == &amp;#34;cat&amp;#34;: print(&amp;#34;string omparison was true&amp;#34;) </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in Python where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2355,7 +2386,8 @@ To really wrap your head around what taxonomies are and what they do, it will be
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/if-statements/</guid>
-      <description> Code Copyvar isStudent = false; var isSmart = false; if(isStudent &amp;amp;&amp;amp; isSmart){ document.write(&amp;#34;You are a student&amp;#34;); } else if(isStudent &amp;amp;&amp;amp; !isSmart){ document.write(&amp;#34;You are not a smart student&amp;#34;); } else { document.write(&amp;#34;You are not a student and not smart&amp;#34;); } document.write(&amp;#34;&amp;lt;br&amp;gt;&amp;#34;); // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ document.write(&amp;#34;number comparison was true&amp;#34;); } document.write(&amp;#34;&amp;lt;br&amp;gt;&amp;#34;); if(&amp;#34;dog&amp;#34; != &amp;#34;dog&amp;#34;){ document.write(&amp;#34;string comparison was true&amp;#34;); } </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in JavaScript where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2437,7 +2469,7 @@ Block temples are an advanced type of hugo template that allows you to build hig
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/switch-statements/</guid>
-      <description> Code Copychar myGrade = &amp;#39;A&amp;#39;; switch(myGrade){ case &amp;#39;A&amp;#39;: Console.WriteLine(&amp;#34;You Pass&amp;#34;); break; case &amp;#39;F&amp;#39;: Console.WriteLine(&amp;#34;You fail&amp;#34;); break; default: Console.WriteLine(&amp;#34;Invalid grade&amp;#34;); } </description>
+      <description>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of ELSE IF type statements. Let&#39;s take a look at why they&#39;re used. Sometimes, when infusing logic into your programs you&#39;ll run into a situation where given the value of a certain piece of data, you&#39;ll want to do something different.</description>
     </item>
     
     <item>
@@ -2464,7 +2496,8 @@ Block temples are an advanced type of hugo template that allows you to build hig
       <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/if-statements/</guid>
-      <description> Code Copyis_student = false is_smart = false if is_student and is_smart puts &amp;#34;You are a student&amp;#34; elsif is_student and !is_smart puts &amp;#34;You are not a smart student&amp;#34; else puts &amp;#34;You are not a student and not smart&amp;#34; end # &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if 1 &amp;gt; 3 puts &amp;#34;number comparison was true&amp;#34; end if &amp;#34;a&amp;#34; &amp;gt; &amp;#34;b&amp;#34; puts &amp;#34;string comparison was true&amp;#34; end </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in Python where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2541,6 +2574,16 @@ Image of the go programming language logo with the hugo logo</description>
     </item>
     
     <item>
+      <title>Styling a Search Bar</title>
+      <link>https://www.mikedane.com/web-development/css/styling-search-bar/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mikedane.com/web-development/css/styling-search-bar/</guid>
+      <description>Now a day&amp;rsquo;s, almost every website you&amp;rsquo;ll see has some sort of searching functionality. And intrinsic to the ability to be able to search on a website is a nice looking search bar! While almost all search bars act the same, you&amp;rsquo;ll find a bunch of different ways that people have styled them accross the web.
+So a few questions arise: How do you build and style a clean, responsive and professional looking search bar?</description>
+    </item>
+    
+    <item>
       <title>Nested Queries</title>
       <link>https://www.mikedane.com/databases/sql/nested-queries/</link>
       <pubDate>Fri, 22 Dec 2017 11:48:56 -0500</pubDate>
@@ -2555,7 +2598,9 @@ Image of the go programming language logo with the hugo logo</description>
       <pubDate>Wed, 15 Nov 2017 17:52:37 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/functions/</guid>
-      <description> Code Copyfunction addNumbers($num1, $num2=99){ return $num1 &amp;#43; $num2; } $sum = addNumbers(4, 3); echo $sum; </description>
+      <description>In this lesson I wanna talk to you about a really important concept in PHP which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Functions!
+Maybe you&#39;ve heard the word Function floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in PHP.
+Functions and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -2564,7 +2609,9 @@ Image of the go programming language logo with the hugo logo</description>
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/while-loops/</guid>
-      <description> Code Copyint index = 1; while(index &amp;lt;= 5){ Console.WriteLine(index); index&amp;#43;&amp;#43;; } index = 1; do{ Console.WriteLine(index); index&amp;#43;&amp;#43;; }while(index &amp;lt;= 5); </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -2582,7 +2629,8 @@ Image of the go programming language logo with the hugo logo</description>
       <pubDate>Wed, 01 Nov 2017 00:17:44 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/if-statements/</guid>
-      <description> Code Copyint isStudent = 0; int isSmart = 0; if(isStudent != 0 &amp;amp;&amp;amp; isSmart != 0){ printf(&amp;#34;You are a student\n&amp;#34;); } else if(isStudent != 0 &amp;amp;&amp;amp; isSmart == 0){ printf(&amp;#34;You are not a smart student\n&amp;#34;); } else { printf(&amp;#34;You are not a student and not smart\n&amp;#34;); } // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ printf(&amp;#34;number comparison was true\n&amp;#34;); } if(&amp;#39;a&amp;#39; &amp;gt; &amp;#39;b&amp;#39;){ printf(&amp;#34;character comparison was true\n&amp;#34;); } </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in C where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2609,7 +2657,7 @@ Image of the go programming language logo with the hugo logo</description>
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/switch-statements/</guid>
-      <description> Code Copychar myGrade = &amp;#39;A&amp;#39;; switch(myGrade){ case &amp;#39;A&amp;#39;: System.out.println(&amp;#34;You Pass&amp;#34;); break; case &amp;#39;F&amp;#39;: System.out.println(&amp;#34;You fail&amp;#34;); break; default: System.out.println(&amp;#34;Invalid grade&amp;#34;); } </description>
+      <description>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of ELSE IF type statements. Let&#39;s take a look at why they&#39;re used. Sometimes, when infusing logic into your programs you&#39;ll run into a situation where given the value of a certain piece of data, you&#39;ll want to do something different.</description>
     </item>
     
     <item>
@@ -2618,7 +2666,7 @@ Image of the go programming language logo with the hugo logo</description>
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/switch-statements/</guid>
-      <description> Code Copyvar myGrade = &amp;#34;A&amp;#34;; switch(myGrade){ case &amp;#34;A&amp;#34;: document.write(&amp;#34;You Pass&amp;#34;); break; case &amp;#34;F&amp;#34;: document.write(&amp;#34;You fail&amp;#34;); break; default: document.write(&amp;#34;Invalid grade&amp;#34;); } </description>
+      <description>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of ELSE IF type statements. Let&#39;s take a look at why they&#39;re used. Sometimes, when infusing logic into your programs you&#39;ll run into a situation where given the value of a certain piece of data, you&#39;ll want to do something different.</description>
     </item>
     
     <item>
@@ -2683,7 +2731,7 @@ Copy{{ func-name arg1, arg2, â€¦ , argX }} Inside double curly brackets, you put
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/switch-statements/</guid>
-      <description> Code Copychar myGrade = &amp;#39;A&amp;#39;; switch(myGrade){ case &amp;#39;A&amp;#39;: cout &amp;lt;&amp;lt; &amp;#34;You Pass&amp;#34; &amp;lt;&amp;lt; endl; break; case &amp;#39;F&amp;#39;: cout &amp;lt;&amp;lt; &amp;#34;You fail&amp;#34; &amp;lt;&amp;lt; endl; break; default: cout &amp;lt;&amp;lt; &amp;#34;Invalid grade&amp;#34; &amp;lt;&amp;lt; endl; } </description>
+      <description>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of ELSE IF type statements. Let&#39;s take a look at why they&#39;re used. Sometimes, when infusing logic into your programs you&#39;ll run into a situation where given the value of a certain piece of data, you&#39;ll want to do something different.</description>
     </item>
     
     <item>
@@ -2719,7 +2767,9 @@ Copy{{ func-name arg1, arg2, â€¦ , argX }} Inside double curly brackets, you put
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/while-loops/</guid>
-      <description> Code Copyint index = 1; while(index &amp;lt;= 5){ System.out.println(index); index&amp;#43;&amp;#43;; } index = 1; do{ System.out.println(index); index&amp;#43;&amp;#43;; }while(index &amp;lt;= 5); </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -2774,7 +2824,8 @@ A good example of a conditional is when you go to an amusement park.</descriptio
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/if-statements/</guid>
-      <description> Code Copy$isStudent = false; $isSmart = false; if($isStudent &amp;amp;&amp;amp; $isSmart){ echo &amp;#34;You are a student&amp;#34;; } elseif($isStudent &amp;amp;&amp;amp; !$isSmart){ echo &amp;#34;You are not a smart student&amp;#34;; } else { echo &amp;#34;You are not a student and not smart&amp;#34;; } echo &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; // &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if(1 &amp;gt; 3){ echo &amp;#34;number comparison was true&amp;#34;; } echo &amp;#34;&amp;lt;br&amp;gt;&amp;#34;; if(&amp;#34;dog&amp;#34; == &amp;#34;cat&amp;#34;){ echo &amp;#34;string comparison was true&amp;#34;; } </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in PHP where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -2783,7 +2834,7 @@ A good example of a conditional is when you go to an amusement park.</descriptio
       <pubDate>Wed, 08 Nov 2017 18:34:46 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/for-loops/</guid>
-      <description> Code Copyfor(int i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){ Console.WriteLine(i); } int[] luckyNums = {4, 8, 15, 16, 23, 42}; foreach(int luckyNum in luckyNums){ Console.WriteLine(luckyNum); } </description>
+      <description>The next type of loops were going to discuss are called for loops. For loops are actually just slightly modified versions of while loops which we looked at in a previous lesson. But for loops can make your life as a programmer a lot easier because they simplify a commonly used while loop structure.  The concept is the same a while loop, youâ€™re checking some boolean expression on each iteration of the loop and executing a block of code if itâ€™s true.</description>
     </item>
     
     <item>
@@ -2792,7 +2843,9 @@ A good example of a conditional is when you go to an amusement park.</descriptio
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/while-loops/</guid>
-      <description> Code Copyint index = 1; while(index &amp;lt;= 5){ cout &amp;lt;&amp;lt; index &amp;lt;&amp;lt; endl; index&amp;#43;&amp;#43;; } index = 1; do{ cout &amp;lt;&amp;lt; index &amp;lt;&amp;lt; endl; index&amp;#43;&amp;#43;; }while(index &amp;lt;= 5); </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -2801,7 +2854,7 @@ A good example of a conditional is when you go to an amusement park.</descriptio
       <pubDate>Wed, 01 Nov 2017 00:17:46 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/switch-statements/</guid>
-      <description> Code Copychar myGrade = &amp;#39;A&amp;#39;; switch(myGrade){ case &amp;#39;A&amp;#39;: printf(&amp;#34;You Pass\n&amp;#34;); break; case &amp;#39;F&amp;#39;: printf(&amp;#34;You fail\n&amp;#34;); break; default: printf(&amp;#34;Invalid grade\n&amp;#34;); } </description>
+      <description>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of ELSE IF type statements. Let&#39;s take a look at why they&#39;re used. Sometimes, when infusing logic into your programs you&#39;ll run into a situation where given the value of a certain piece of data, you&#39;ll want to do something different.</description>
     </item>
     
     <item>
@@ -2810,7 +2863,7 @@ A good example of a conditional is when you go to an amusement park.</descriptio
       <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/case-expressions/</guid>
-      <description> Code Copymy_grade = &amp;#34;A&amp;#34; case my_grade when &amp;#34;A&amp;#34; puts &amp;#34;You Pass&amp;#34; when &amp;#34;F&amp;#34; puts &amp;#34;You fail&amp;#34; else puts &amp;#34;Invalid grade&amp;#34; end </description>
+      <description>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of ELSE IF type statements. Let&#39;s take a look at why they&#39;re used. Sometimes, when infusing logic into your programs you&#39;ll run into a situation where given the value of a certain piece of data, you&#39;ll want to do something different.</description>
     </item>
     
     <item>
@@ -2819,7 +2872,9 @@ A good example of a conditional is when you go to an amusement park.</descriptio
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/while-loops/</guid>
-      <description> Code Copyindex = 1 while index &amp;lt;= 5: print(index) index &amp;#43;= 1 </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -2919,7 +2974,9 @@ All Hugo data is stored in the Data folder at the root of the site.</description
       <pubDate>Wed, 01 Nov 2017 00:12:43 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/while-loops/</guid>
-      <description> Code Copyindex = 1 while index &amp;lt;= 5 puts index index &amp;#43;= 1 end </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -2937,7 +2994,7 @@ All Hugo data is stored in the Data folder at the root of the site.</description
       <pubDate>Sun, 22 Oct 2017 11:34:29 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/for-loops/</guid>
-      <description> Code Copyfor(int i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){ System.out.println(i); } int luckyNums[] = {4, 8, 15, 16, 23, 42}; for(int luckyNum : luckyNums){ System.out.println(luckyNum); } </description>
+      <description>The next type of loops were going to discuss are called for loops. For loops are actually just slightly modified versions of while loops which we looked at in a previous lesson. But for loops can make your life as a programmer a lot easier because they simplify a commonly used while loop structure.  The concept is the same a while loop, youâ€™re checking some boolean expression on each iteration of the loop and executing a block of code if itâ€™s true.</description>
     </item>
     
     <item>
@@ -2946,7 +3003,9 @@ All Hugo data is stored in the Data folder at the root of the site.</description
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/while-loops/</guid>
-      <description> Code Copyindex = 1; while(index &amp;lt;= 5){ document.write(index); index&amp;#43;&amp;#43;; } index = 1; do{ document.write(index); index&amp;#43;&amp;#43;; }while(index &amp;lt;= 5); </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -2996,7 +3055,7 @@ An employee can work for one branch at a time, and each branch will be managed b
       <pubDate>Tue, 07 Nov 2017 01:21:26 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/for-loops/</guid>
-      <description> Code Copyfor(int i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){ cout &amp;lt;&amp;lt; i &amp;lt;&amp;lt; endl; } </description>
+      <description>The next type of loops were going to discuss are called for loops. For loops are actually just slightly modified versions of while loops which we looked at in a previous lesson. But for loops can make your life as a programmer a lot easier because they simplify a commonly used while loop structure.  The concept is the same a while loop, youâ€™re checking some boolean expression on each iteration of the loop and executing a block of code if itâ€™s true.</description>
     </item>
     
     <item>
@@ -3005,7 +3064,9 @@ An employee can work for one branch at a time, and each branch will be managed b
       <pubDate>Wed, 01 Nov 2017 00:17:47 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/while-loops/</guid>
-      <description> Code Copyint index = 1; while(index &amp;lt;= 5){ printf(&amp;#34;%d \n&amp;#34;, index); index&amp;#43;&amp;#43;; } index = 1; do{ printf(&amp;#34;%d \n&amp;#34;, index); index&amp;#43;&amp;#43;; }while(index &amp;lt;= 5); </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -3068,7 +3129,7 @@ An employee can work for one branch at a time, and each branch will be managed b
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/switch-statements/</guid>
-      <description> Code Copy$myGrade = &amp;#34;A&amp;#34;; switch($myGrade){ case &amp;#34;A&amp;#34;: echo &amp;#34;You Pass&amp;#34;; break; case &amp;#34;F&amp;#34;: echo &amp;#34;You fail&amp;#34;; break; default: echo &amp;#34;Invalid grade&amp;#34;; } </description>
+      <description>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of ELSE IF type statements. Let&#39;s take a look at why they&#39;re used. Sometimes, when infusing logic into your programs you&#39;ll run into a situation where given the value of a certain piece of data, you&#39;ll want to do something different.</description>
     </item>
     
     <item>
@@ -3077,7 +3138,7 @@ An employee can work for one branch at a time, and each branch will be managed b
       <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/comments/</guid>
-      <description> Code Copy/* multi line comment */ // single // line // comment </description>
+      <description>As you continue to sharpen your C# skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -3131,15 +3192,15 @@ An employee can work for one branch at a time, and each branch will be managed b
       <pubDate>Sun, 22 Oct 2017 11:23:35 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/for-loops/</guid>
-      <description> Code Copyfor(var i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){ document.write(i); } var luckyNums = [4, 8, 15, 16, 23, 42]; luckyNums.forEach(function(luckyNum){ document.write(luckyNum &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34;); }); </description>
+      <description>The next type of loops were going to discuss are called for loops. For loops are actually just slightly modified versions of while loops which we looked at in a previous lesson. But for loops can make your life as a programmer a lot easier because they simplify a commonly used while loop structure.  The concept is the same a while loop, youâ€™re checking some boolean expression on each iteration of the loop and executing a block of code if itâ€™s true.</description>
     </item>
     
     <item>
       <title>Building &amp; Hosting</title>
-      <link>https://www.mikedane.com/static-site-generators/hugo/building--hosting/</link>
+      <link>https://www.mikedane.com/static-site-generators/hugo/building-hosting/</link>
       <pubDate>Thu, 07 Sep 2017 20:24:18 -0400</pubDate>
       
-      <guid>https://www.mikedane.com/static-site-generators/hugo/building--hosting/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/hugo/building-hosting/</guid>
       <description>Up until this point youâ€™ve most likely been running and testing your hugo website using the hugo server command. Hugo server is a great way to test and track changes locally, but what about when youâ€™re ready to display your creation to the world.
 When you&amp;rsquo;re creating all of your layouts, partials and content pages your website is scattered into a bunch of pieces. But when you build your website all of those pieces get put together is exactly the way you want by hugo.</description>
     </item>
@@ -3150,7 +3211,9 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/while-loops/</guid>
-      <description> Code Copy$index = 1; while ($index &amp;lt;= 5){ echo $index; $index &amp;#43;= 1; } index = 1; do{ echo $index; $index &amp;#43;= 1; }while ($index &amp;lt;= 5); </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -3177,7 +3240,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Wed, 01 Nov 2017 00:17:49 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c/for-loops/</guid>
-      <description> Code Copyfor(int i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){ printf(&amp;#34;%d \n&amp;#34;, i); } </description>
+      <description>The next type of loops were going to discuss are called for loops. For loops are actually just slightly modified versions of while loops which we looked at in a previous lesson. But for loops can make your life as a programmer a lot easier because they simplify a commonly used while loop structure.  The concept is the same a while loop, youâ€™re checking some boolean expression on each iteration of the loop and executing a block of code if itâ€™s true.</description>
     </item>
     
     <item>
@@ -3204,7 +3267,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/comments/</guid>
-      <description> Code Copy/* multi line comment */ // single // line // comment </description>
+      <description>As you continue to sharpen your Java skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -3222,7 +3285,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/for-loops/</guid>
-      <description> Code Copyfor($i = 0; $i &amp;lt; 5; $i&amp;#43;&amp;#43;){ echo $i; } $luckyNums = [4, 8, 15, 16, 23, 42]; foreach($luckyNums as $luckyNum){ echo $luckyNum.&amp;#34;&amp;lt;br&amp;gt;&amp;#34;; } </description>
+      <description>The next type of loops were going to discuss are called for loops. For loops are actually just slightly modified versions of while loops which we looked at in a previous lesson. But for loops can make your life as a programmer a lot easier because they simplify a commonly used while loop structure.  The concept is the same a while loop, youâ€™re checking some boolean expression on each iteration of the loop and executing a block of code if itâ€™s true.</description>
     </item>
     
     <item>
@@ -3231,7 +3294,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Wed, 08 Nov 2017 18:34:47 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/csharp/classes-objects/</guid>
-      <description> Code Copypublic class Book{ public string title; public string author; } public class App { public static void Main(string[] args) { Book book1 = new Book(); book1.title = &amp;#34;Harry Potter&amp;#34;; book1.author = &amp;#34;JK Rowling&amp;#34;; Console.WriteLine(book1.title); Book book2 = new Book(); book2.title = &amp;#34;Lord of the Rings&amp;#34;; book2.author = &amp;#34;JRR Tolkien&amp;#34;; Console.WriteLine(book2.title); } } </description>
+      <description>One of the best things about C# is it&#39;s ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you&#39;ll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. In all major applications, being able to work with data in an organized and structured way is extremely important.</description>
     </item>
     
     <item>
@@ -3240,7 +3303,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/comments/</guid>
-      <description> Code Copy/* multi line comment */ // single // line // comment </description>
+      <description>As you continue to sharpen your C&amp;#43;&amp;#43; skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -3258,7 +3321,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Wed, 01 Nov 2017 00:12:44 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/comments/</guid>
-      <description> Code Copy=begin multi line comment =end # single # line # comment </description>
+      <description>As you continue to sharpen your Ruby skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -3294,7 +3357,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Wed, 15 Nov 2017 17:52:38 -0500</pubDate>
       
       <guid>https://www.mikedane.com/web-development/php/comments/</guid>
-      <description> Code Copy/* multi line comment */ // single // line // comment </description>
+      <description>As you continue to sharpen your PHP skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -3339,7 +3402,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/comments/</guid>
-      <description> Code Copy&amp;#39;&amp;#39;&amp;#39; multi line comment &amp;#39;&amp;#39;&amp;#39; # single # line # comment  </description>
+      <description>As you continue to sharpen your Python skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -3348,7 +3411,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Sun, 22 Oct 2017 11:34:30 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/java/classes-objects/</guid>
-      <description> Code Copyclass Book{ public String title; public String author; } public class App{ public static void main(String [] args){ Book book1 = new Book(); book1.title = &amp;#34;Harry Potter&amp;#34;; book1.author = &amp;#34;JK Rowling&amp;#34;; System.out.println(book1.title); Book book2 = new Book(); book2.title = &amp;#34;Lord of the Rings&amp;#34;; book2.author = &amp;#34;JRR Tolkien&amp;#34;; System.out.println(book2.title); } } </description>
+      <description>One of the best things about Java is it&#39;s ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you&#39;ll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. In all major applications, being able to work with data in an organized and structured way is extremely important.</description>
     </item>
     
     <item>
@@ -3384,7 +3447,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Tue, 07 Nov 2017 01:21:27 -0500</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/c&#43;&#43;/classes-objects/</guid>
-      <description> Code Copyclass Book{ public: string title; string author; }; int main(){ Book book1; book1.title = &amp;#34;Harry Potter&amp;#34;; book1.author = &amp;#34;JK Rowling&amp;#34;; cout &amp;lt;&amp;lt; book1.title &amp;lt;&amp;lt; endl; Book book2; book2.title = &amp;#34;Lord of the Rings&amp;#34;; book2.author = &amp;#34;JRR Tolkien&amp;#34;; cout &amp;lt;&amp;lt; book2.title &amp;lt;&amp;lt; endl; return 0; } </description>
+      <description>One of the best things about C&amp;#43;&amp;#43; is it&#39;s ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you&#39;ll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. In all major applications, being able to work with data in an organized and structured way is extremely important.</description>
     </item>
     
     <item>
@@ -3546,7 +3609,7 @@ When you&amp;rsquo;re creating all of your layouts, partials and content pages y
       <pubDate>Wed, 01 Nov 2017 00:12:45 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/ruby/classes-objects/</guid>
-      <description> Code Copyclass Book attr_accessor :title, :author end book1 = Book.new() book1.title = &amp;#34;Harry Potter&amp;#34; book1.author = &amp;#34;JK Rowling&amp;#34; puts book1.title </description>
+      <description>One of the best things about Ruby is it&#39;s ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you&#39;ll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. In all major applications, being able to work with data in an organized and structured way is extremely important.</description>
     </item>
     
     <item>
@@ -3693,7 +3756,7 @@ C is a low level language meaning it provides constructs which map efficiently t
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/classes-objects/</guid>
-      <description> Code Copyclass Book: def __init__(self, title, author): self.title = title self.author = author book1 = Book(&amp;#34;Harry Potter&amp;#34;, &amp;#34;JK Rowling&amp;#34;); # book1.title = &amp;#34;Half-Blood Prince&amp;#34; print(book1.title) </description>
+      <description>One of the best things about Python is it&#39;s ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you&#39;ll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. In all major applications, being able to work with data in an organized and structured way is extremely important.</description>
     </item>
     
     <item>

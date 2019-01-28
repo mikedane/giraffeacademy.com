@@ -183,7 +183,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">C# - Programming Language</div>
-                         <div>This course covers the basics of programming in C#. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in C#. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -316,33 +316,97 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/-ETZ0nOCU14?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    
+                    <p>One of the best things about C# is it's ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you'll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. </p>
 
-<h2 id="code">Code</h2>
+<p>In all major applications, being able to work with data in an organized and structured way is extremely important. Large applications are often faced with displaying, storing and managing complex pieces of information about a variety of things. </p>
 
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\npublic class Book{\n     public string title;\n     public string author;\n}\n\npublic class App\n{\n     public static void Main(string[] args)\n     {\n          Book book1 = new Book();\n          book1.title = \&#34;Harry Potter\&#34;;\n          book1.author = \&#34;JK Rowling\&#34;;\n\n          Console.WriteLine(book1.title);\n\n          Book book2 = new Book();\n          book2.title = \&#34;Lord of the Rings\&#34;;\n          book2.author = \&#34;JRR Tolkien\&#34;;\n\n          Console.WriteLine(book2.title);\n     }\n}\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">public class Book{
-     public string title;
-     public string author;
+<p>One of the limitations of our programming ability up to this point in the course is that we've only learned how to work with very limited <em>types</em> of data. In fact, if you think about it, we're only capable of representing and working with text, numbers and boolean values. </p>
+
+<p>These limited types of data are going to pose a problem to us if we want to write more and more complex programs going forward. The problem is that outside of actuall numbers, text and true/false information, most of the <em>things</em> that we interact with and use in the real world can't be easily stored in a string, number or boolean. </p>
+
+<h2 id="building-a-book">Building a book</h2>
+
+<p>Imagine for example if we were writing a program for a library. In this program we wanted to keep track of and work with a bunch of books. The question arises, how do we store these books?</p>
+
+<p>We can't store them in booleans, we might be able to store how many pages they have and their publishing dates as numbers, and maybe we could store the author's name and title in strings. But hopefully it's clear to you how there isn't an easy solution to representing a book with the limited data types we're giving. At the very least the book is spread out across several variables.</p>
+
+<h3 id="object-oriented-programming-oop">Object Oriented Programming (OOP)</h3>
+
+<p>In the early days of computer programming, developers just kinda bit the bullet and did their best to write programs in the way I just described. But eventually a better solution was devised called object oriented programming.</p>
+
+<p>Object oriented programming allows developers to create their own data types. So in addition to strings, booleans and numbers, a developer could create a custom <code>Book</code> data type. This book data type could then be stored in variables, passed into functions, printed out, and anything else that the other basic data types could do. </p>
+
+<p>By creating your own custom data types in your programs, you can theoretically model any real world item or entity and use it just like you would a string or a number.</p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Most real world applications you see, whether it&#39;s facebook, google, gruhhub, or the small programs we&#39;ll write going forward in the course, will use these custom data types to better organize complex entities like books. </div></p>
+
+<h2 id="classes">Classes</h2>
+
+<p>So how do we create these custom data types? It's actually pretty simple and we can do it by creating a class. A class is a specification for a data type in our program. Because we're creating custom data types, we first have to describe what they look like and how they behave so C# knows what to do with them. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">A good way to think of classes is as blueprints. They describe what the data type should look like and lay out all of the attributes and features that will be apart of the data type.</div></p>
+
+<p>C# already provides us with our three base data types, booleans, strings (text) and numbers. When we create our custom data types, they will be made up of those base data types. Therefore when creating a class we can specify the attributes that the class will contain in terms of these base data types. </p>
+
+<p>Let's take a look at what a class would look like for our Book:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public class Book{\n    public string title;\n    public string author;\n    public int numPages;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cs">public class Book{
+    public string title;
+    public string author;
+    public int numPages;
+}</code></pre></p>
+
+<p>Remember, a class is a specification, a blueprint, it describes the structure and makeup of this new book data type.</p>
+
+<p>In the above code, we've specified that a book is comprised of a title, author and number of pages. Notice how this book data type <em>is comprised of</em> the base data types that we've been provided by the language. Eventually we'll also be able to add functionality to this book class aswell, but let's save that for a future lesson. </p>
+
+<h2 id="objects">Objects</h2>
+
+<p>So now that we've created our book class, C# knows what this new data type looks like, and we can start working with books in our program. </p>
+
+<p>Since the book class is just a specification though, we can't use it in our program, instead we have to create what are called objects. An object is an instance of a class. In this case an object will be an actual book, with an actual title, author and number of pages. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">This is an important terminology point. A class is a blueprint of a data type, an object is an instance of that blueprint.</div></p>
+
+<p>Let's create a book object in C#:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public class Book{\n    public string title;\n    public string author;\n    public int numPages;\n}\n\npublic class App\n{\n    public static void Main(string[] args)\n    {\n          Book book1 = new Book();\n          book1.title = \&#34;Harry Potter\&#34;;\n          book1.author = \&#34;JK Rowling\&#34;;\n          book1.numPages = 400;\n\n          Console.WriteLine(book1.title);\n\n          Book book2 = new Book();\n          book2.title = \&#34;Lord of the Rings\&#34;;\n          book2.author = \&#34;JRR Tolkien\&#34;;\n          book2.numPages = 300;\n\n          Console.WriteLine(book2.title);\n    }\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cs">public class Book{
+    public string title;
+    public string author;
+    public int numPages;
 }
 
 public class App
 {
-     public static void Main(string[] args)
-     {
+    public static void Main(string[] args)
+    {
           Book book1 = new Book();
           book1.title = &#34;Harry Potter&#34;;
           book1.author = &#34;JK Rowling&#34;;
+          book1.numPages = 400;
 
           Console.WriteLine(book1.title);
 
           Book book2 = new Book();
           book2.title = &#34;Lord of the Rings&#34;;
           book2.author = &#34;JRR Tolkien&#34;;
+          book2.numPages = 300;
 
           Console.WriteLine(book2.title);
-     }
-}</code></pre>
+    }
+}</code></pre></p>
 
+<p>So now, we've created an object. It's a book with a title, author and number of pages! As far as C# is concerned this is basically the same as any of the other data types we've been working with throughout this course. </p>
+
+<p>In the case of the book object, we've assigned it a number of attributes, which we can then access and modify just like we normally would.</p>
+
+<p>The title and author are just strings, and the number of pages is a number. In order to access theses attributes we use a <code>.</code>. followed by the name of the attribute. This process is called de-referencing the book object. </p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>So there you have it! Classes and Objects are notorious for tripping up new programmers, but as long as you learn to see them as just more complex custom data types, then a lot of the mystery disappears. </p>
+
+<p>We created a book class and object, but remember that you can create classes to model anything. Try playing around with some of your own custom classes, or adding more attributes to our book! Also don't forget to check out the video above where I'll walk you through writing this code line by line!</p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -514,8 +578,112 @@ public class App
                
                
                
-               <a href="/programming-languages/csharp/classes-objects/#code">
-                   <li>Code</li>
+               <a href="/programming-languages/csharp/classes-objects/#building-a-book">
+                   <li>Building a book</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/csharp/classes-objects/#object-oriented-programming-oop">
+                   <li>Object Oriented Programming (OOP)</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/csharp/classes-objects/#classes">
+                   <li>Classes</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/csharp/classes-objects/#objects">
+                   <li>Objects</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/csharp/classes-objects/#wrapping-it-up">
+                   <li>Wrapping it up</li>
                </a>
                
                
@@ -614,7 +782,7 @@ public class App
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

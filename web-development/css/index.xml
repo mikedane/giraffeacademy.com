@@ -155,5 +155,15 @@
       <description> Code Copy </description>
     </item>
     
+    <item>
+      <title>Styling a Search Bar</title>
+      <link>https://www.mikedane.com/web-development/css/styling-search-bar/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mikedane.com/web-development/css/styling-search-bar/</guid>
+      <description>Now a day&amp;rsquo;s, almost every website you&amp;rsquo;ll see has some sort of searching functionality. And intrinsic to the ability to be able to search on a website is a nice looking search bar! While almost all search bars act the same, you&amp;rsquo;ll find a bunch of different ways that people have styled them accross the web.
+So a few questions arise: How do you build and style a clean, responsive and professional looking search bar?</description>
+    </item>
+    
   </channel>
 </rss>

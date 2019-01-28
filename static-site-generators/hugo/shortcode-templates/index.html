@@ -151,7 +151,7 @@ document.body.removeChild(textArea);
                          
                               <li ><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="blue-text">Shortcode Templates</a></li>
                          
-                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                          
                
           
@@ -263,7 +263,7 @@ document.body.removeChild(textArea);
                
                     <li style="font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;"><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="blue-text">Shortcode Templates</a></li>
                
-                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                
           </ul>
      
@@ -305,7 +305,6 @@ document.body.removeChild(textArea);
 &lt;/div&gt;
 &lt;p&gt;{{ .Get “caption” }}&lt;/p&gt;</code></pre>
 
-
 <p>Above is the contents of the image.html file. This will wrap an image in a purple border and display a caption below. Notice in the image source we’re calling a function Get with a name parameter. Like Partial templates, shortcodes can accept parameters from. In this case we are passing an image source and down below a caption into the shortcode. By letting content pages pass parameters into them, shortcodes become a very powerful ally to a hugo developer.</p>
 
 <p>This shortcode will only require one tag to be included in the content page (see below). We only need one tag because this image isn’t incorporating any of the actual content from the page into it. It’s just displaying an image.</p>
@@ -319,7 +318,6 @@ document.body.removeChild(textArea);
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cspan style=”color: {{ .Get `text-color` }}”\u003e\n\t{{ .Inner }}\n\u003c/span\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">&lt;span style=”color: {{ .Get `text-color` }}”&gt;
 	{{ .Inner }}
 &lt;/span&gt;</code></pre>
-
 
 <p>The code above uses a span which set the text color to the value of  a parameter that’s passed in. Notice inside the span the {{ .Inner }} tag, .Inner store all of the content inside the two tags. You can wrap colored-text tags around text in your content files and it will color that text with the color you pass into it.</p>
 
@@ -644,7 +642,7 @@ document.body.removeChild(textArea);
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

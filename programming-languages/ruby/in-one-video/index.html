@@ -191,7 +191,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">Ruby - Programming Language</div>
-                         <div>This course covers the basics of programming in Ruby. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in Ruby. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -381,7 +381,6 @@ include RubyMine, Aptana RadRails and Vim.</p>
 print &#34;World&#34;
 puts &#34;!&#34;</code></pre>
 
-
 <h3 id="variables-and-data-types">Variables and Data Types</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n=begin\n Names are case-sensitive and may begin with:\n     letters, _\n After, may include\n     letters, numbers, _\n Convention says\n     Start with a lowercase word, then additional words are lowercase separated\n     by an underscore\n     ex. my_first_variable\n=end\nname = \&#34;Mike\&#34;     # Strings\nage = 30          # Integer\ngpa = 3.5         # Decimal\nis_tall = true    # Boolean -\u003e True/False\n\nname = \&#34;John\&#34;\n\nputs \&#34;Your name is #{name}\&#34;\nputs \&#34;Your name is \&#34; &#43; name\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">=begin
@@ -404,7 +403,6 @@ name = &#34;John&#34;
 puts &#34;Your name is #{name}&#34;
 puts &#34;Your name is &#34; &#43; name</code></pre>
 
-
 <h3 id="casting-and-converting">Casting and Converting</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nputs  3.14.to_i\nputs  3.to_f\nputs \&#34;3.0\&#34;.to_s\n\nputs 100 &#43; \&#34;50\&#34;.to_i\nputs  100 &#43; \&#34;50.99\&#34;.to_f\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">puts  3.14.to_i
@@ -413,7 +411,6 @@ puts &#34;3.0&#34;.to_s
 
 puts 100 &#43; &#34;50&#34;.to_i
 puts  100 &#43; &#34;50.99&#34;.to_f</code></pre>
-
 
 <h3 id="strings">Strings</h3>
 
@@ -425,7 +422,6 @@ puts greeting[0]
 puts greeting.include? &#34;llo&#34;
 puts greeting.include? &#34;z&#34;
 puts greeting[1,3]</code></pre>
-
 
 <h3 id="numbers">Numbers</h3>
 
@@ -448,7 +444,6 @@ puts  num.round()
 puts Math.sqrt(144)
 puts Math.log(0)</code></pre>
 
-
 <h3 id="user-input">User Input</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nputs \&#34;Enter your name: \&#34;\nname = gets                             #.chomp\nputs \&#34;Hello #{name}, how are you\&#34;\n\nputs \&#34;Enter first num: \&#34;\nnum1 = gets.chomp\nputs \&#34;enter second num: \&#34;\nnum2 = gets.chomp\nputs num1.to_f &#43; num2.to_f\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">puts &#34;Enter your name: &#34;
@@ -460,7 +455,6 @@ num1 = gets.chomp
 puts &#34;enter second num: &#34;
 num2 = gets.chomp
 puts num1.to_f &#43; num2.to_f</code></pre>
-
 
 <h3 id="arrays">Arrays</h3>
 
@@ -480,7 +474,6 @@ puts &#34;\n\n&#34;
 
 puts lucky_numbers.length</code></pre>
 
-
 <h3 id="2-dimensional-arrays">2 Dimensional Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nnumber_grid = [[],[]]\n# numberGrid = [ [1, 2], [3, 4] ]\nnumber_grid[0][0] = 99\n\nputs number_grid[0][0]\nputs number_grid[0][1]\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">number_grid = [[],[]]
@@ -489,7 +482,6 @@ number_grid[0][0] = 99
 
 puts number_grid[0][0]
 puts number_grid[0][1]</code></pre>
-
 
 <h3 id="array-methods">Array Methods</h3>
 
@@ -510,7 +502,6 @@ puts &#34;\n&#34;
 
 puts  friends.include? &#34;Oscar&#34;</code></pre>
 
-
 <h3 id="methods">Methods</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\ndef add_numbers(num1, num2=99)\n     return num1 &#43; num2\nend\n\nsum = add_numbers(4, 3)\nputs sum\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">def add_numbers(num1, num2=99)
@@ -519,7 +510,6 @@ end
 
 sum = add_numbers(4, 3)
 puts sum</code></pre>
-
 
 <h3 id="if-statements">If Statements</h3>
 
@@ -543,7 +533,6 @@ if &#34;a&#34; &gt; &#34;b&#34;
      puts &#34;string comparison was true&#34;
 end</code></pre>
 
-
 <h3 id="switch-statements">Switch Statements</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nmy_grade = \&#34;A\&#34;\ncase my_grade\n     when \&#34;A\&#34;\n\t\tputs \&#34;You Pass\&#34;\n     when \&#34;F\&#34;\n     \tputs \&#34;You fail\&#34;\n     else\n     \tputs \&#34;Invalid grade\&#34;\nend\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">my_grade = &#34;A&#34;
@@ -555,7 +544,6 @@ case my_grade
      else
      	puts &#34;Invalid grade&#34;
 end</code></pre>
-
 
 <h3 id="dictionaries">Dictionaries</h3>
 
@@ -571,7 +559,6 @@ puts test_grades[&#34;Andy&#34;]
 puts test_grades[:Stanley]
 puts test_grades[3]</code></pre>
 
-
 <h3 id="while-loops">While Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nindex = 1\nwhile index \u003c= 5\n\tputs index\n\tindex &#43;= 1\nend\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">index = 1
@@ -579,7 +566,6 @@ while index &lt;= 5
 	puts index
 	index &#43;= 1
 end</code></pre>
-
 
 <h3 id="for-loops">For Loops</h3>
 
@@ -600,7 +586,6 @@ lucky_nums.each do |lucky_num|
      puts lucky_num
 end</code></pre>
 
-
 <h3 id="exception-catching">Exception Catching</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nbegin\n     # puts bad_variable\n     num = 10/0\nrescue ZeroDivisionError\n     puts \&#34;Error\&#34;\nrescue\n     puts \&#34;All other errors\&#34;\nend\n\nraise \&#34;Made Up Exception\&#34;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="ruby">begin
@@ -613,7 +598,6 @@ rescue
 end
 
 raise &#34;Made Up Exception&#34;</code></pre>
-
 
 <h3 id="classes-and-objects">Classes and Objects</h3>
 
@@ -631,7 +615,6 @@ book1.author = &#34;JK Rowling&#34;
 
 book1.readBook()
 puts book1.title</code></pre>
-
 
 <h3 id="constructors">Constructors</h3>
 
@@ -651,7 +634,6 @@ book1 = Book.new(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;)
 # book1.title = &#34;Half-Blood Prince&#34;
 
 puts book1.title</code></pre>
-
 
 <h3 id="getters-and-setters">Getters and Setters</h3>
 
@@ -675,7 +657,6 @@ end
 book1 = Book.new(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;)
 
 puts book1.title</code></pre>
-
 
 <h3 id="inheritance">Inheritance</h3>
 
@@ -722,7 +703,6 @@ my_chef.make_chicken()
 
 my_italian_chef = ItalianChef.new()
 my_italian_chef.make_chicken()</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -1671,7 +1651,7 @@ my_italian_chef.make_chicken()</code></pre>
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

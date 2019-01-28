@@ -216,10 +216,10 @@ For example on a normal website you have three main sections:</description>
     
     <item>
       <title>Building &amp; Hosting</title>
-      <link>https://www.mikedane.com/static-site-generators/hugo/building--hosting/</link>
+      <link>https://www.mikedane.com/static-site-generators/hugo/building-hosting/</link>
       <pubDate>Thu, 07 Sep 2017 20:24:18 -0400</pubDate>
       
-      <guid>https://www.mikedane.com/static-site-generators/hugo/building--hosting/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/hugo/building-hosting/</guid>
       <description>Up until this point you’ve most likely been running and testing your hugo website using the hugo server command. Hugo server is a great way to test and track changes locally, but what about when you’re ready to display your creation to the world.
 When you&amp;rsquo;re creating all of your layouts, partials and content pages your website is scattered into a bunch of pieces. But when you build your website all of those pieces get put together is exactly the way you want by hugo.</description>
     </item>

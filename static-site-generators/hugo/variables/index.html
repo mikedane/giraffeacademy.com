@@ -151,7 +151,7 @@ document.body.removeChild(textArea);
                          
                               <li ><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                          
-                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                          
                
           
@@ -263,7 +263,7 @@ document.body.removeChild(textArea);
                
                     <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                
-                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                
           </ul>
      
@@ -300,7 +300,6 @@ document.body.removeChild(textArea);
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ args }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ args }}</code></pre>
 
-
 <p>Notice that any go html template command must be placed inside two curly brackets. You can put many different things inside the brackets, but for the purposes of this lesson we’ll be working with variables.</p>
 
 <h2 id="variables">Variables</h2>
@@ -310,7 +309,6 @@ document.body.removeChild(textArea);
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ .Title }} // prints the page title\n{{ .Date }} // prints the date of creation\n{{ .Kind }} // prints the kind of page\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ .Title }} // prints the page title
 {{ .Date }} // prints the date of creation
 {{ .Kind }} // prints the kind of page</code></pre>
-
 
 <p>When you create a new hugo project and new hugo content pages, a bunch of variables are automatically created which you can access and use in go html templates. In a hugo layout you automatically have access to all of these predefined variables and can access them using the curly bracket notation.</p>
 
@@ -328,7 +326,6 @@ document.body.removeChild(textArea);
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ $myVar := value }} // assigns value to $myVar\n{{ $myVar }} // prints $myVar\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ $myVar := value }} // assigns value to $myVar
 {{ $myVar }} // prints $myVar</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -614,7 +611,7 @@ document.body.removeChild(textArea);
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

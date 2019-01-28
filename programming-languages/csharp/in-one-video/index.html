@@ -183,7 +183,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">C# - Programming Language</div>
-                         <div>This course covers the basics of programming in C#. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in C#. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -360,7 +360,6 @@ the only choice for writing C# applications.</p>
 Console.Write(&#34;World&#34;);
 Console.WriteLine(&#34;!&#34;);</code></pre>
 
-
 <h3 id="variables-and-data-types">Variables and Data Types</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n/*\nNames are case-sensitive and may begin with:\n     letters, _, @\nAfter, may include\n     letters, numbers, _\nConvention says\n     Start with a lowercase word, then additional words are capitalized\n     ex. myFirstVariable\n*/\nstring name = \&#34;Mike\&#34;;    // String&#39;s are objects not primitives\nchar testGrade = &#39;A&#39;;    // single 16-bit Unicode character.\n\n// short, int, long can be pre-pended with &#39;u&#39; for &#39;unsigned&#39;\nbyte age0 = 0;           // 8-bit unsigned integer\nshort age1 = 10;         // 16-bit signed integer.\nint age2 = 20;           // 32-bit signed integer\nlong age3 = 30L;         // 64-bit signed integer\n\nfloat gpa0 = 2.5F;       // 32-bit floating point\ndouble gpa1 = 3.5;       // 64-bit double-precision floating point\ndecimal gpa2 = 4.5M;     // 128-bit precise decimal\n\nbool isTall;             // 1 bit -\u003e true/false\nisTall = true;\n\nname = \&#34;John\&#34;;\n\nConsole.WriteLine(\&#34;Your name is \&#34; &#43; name);\nConsole.WriteLine($\&#34;Your name is {name}\&#34;);\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">/*
@@ -393,7 +392,6 @@ name = &#34;John&#34;;
 Console.WriteLine(&#34;Your name is &#34; &#43; name);
 Console.WriteLine($&#34;Your name is {name}&#34;);</code></pre>
 
-
 <h3 id="casting-and-converting">Casting and Converting</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nConsole.WriteLine( (int)3.14 );\nConsole.WriteLine( (double)3 );\n\nint intFromString = Convert.ToInt32(\&#34;50\&#34;);\ndouble doubleFromString = Convert.ToDouble(\&#34;50.99\&#34;);\n\nConsole.WriteLine(100 &#43; intFromString);\nConsole.WriteLine( 100 &#43; doubleFromString );\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">Console.WriteLine( (int)3.14 );
@@ -404,7 +402,6 @@ double doubleFromString = Convert.ToDouble(&#34;50.99&#34;);
 
 Console.WriteLine(100 &#43; intFromString);
 Console.WriteLine( 100 &#43; doubleFromString );</code></pre>
-
 
 <h3 id="strings">Strings</h3>
 
@@ -417,7 +414,6 @@ Console.WriteLine( greeting.IndexOf(&#34;llo&#34;) );
 Console.WriteLine( greeting.IndexOf(&#34;z&#34;) );
 Console.WriteLine( greeting.Substring(2) );
 Console.WriteLine( greeting.Substring(1, 3) );</code></pre>
-
 
 <h3 id="numbers">Numbers</h3>
 
@@ -438,13 +434,11 @@ Console.WriteLine( Math.Pow(2, 3) );
 Console.WriteLine( Math.Sqrt(144) );
 Console.WriteLine( Math.Round(2.7) );</code></pre>
 
-
 <h3 id="user-input">User Input</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nConsole.Write(\&#34;Enter username: \&#34;);\nstring username = Console.ReadLine();\nConsole.WriteLine($\&#34;Hello {username}\&#34;);\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">Console.Write(&#34;Enter username: &#34;);
 string username = Console.ReadLine();
 Console.WriteLine($&#34;Hello {username}&#34;);</code></pre>
-
 
 <h3 id="arrays">Arrays</h3>
 
@@ -456,7 +450,6 @@ Console.WriteLine(luckyNumbers[0]);
 Console.WriteLine(luckyNumbers[1]);
 Console.WriteLine(luckyNumbers.Length);</code></pre>
 
-
 <h3 id="2-dimensional-arrays">2 Dimensional Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// int [][] numberGrid = new int[2][3];\nint[][] numberGrid = { new int[]{ 1, 2 }, new int[]{ 3, 4 } };\nnumberGrid[0][1] = 99;\n\nConsole.WriteLine(numberGrid[0][0]);\nConsole.WriteLine(numberGrid[0][1]);\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">// int [][] numberGrid = new int[2][3];
@@ -465,7 +458,6 @@ numberGrid[0][1] = 99;
 
 Console.WriteLine(numberGrid[0][0]);
 Console.WriteLine(numberGrid[0][1]);</code></pre>
-
 
 <h3 id="arraylist">ArrayList</h3>
 
@@ -480,7 +472,6 @@ Console.WriteLine(friends[1]);
 Console.WriteLine(friends.Contains(&#34;Oscar&#34;));
 Console.WriteLine(friends.Count);</code></pre>
 
-
 <h3 id="methods">Methods</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\npublic static void Main(string [] args){\n     int sum = AddNumbers(4, 60);\n     Console.WriteLine(sum);\n}\n\npublic static int AddNumbers(int num1, int num2){\n     return num1 &#43; num2;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">public static void Main(string [] args){
@@ -491,7 +482,6 @@ Console.WriteLine(friends.Count);</code></pre>
 public static int AddNumbers(int num1, int num2){
      return num1 &#43; num2;
 }</code></pre>
-
 
 <h3 id="if-statements">If Statements</h3>
 
@@ -517,7 +507,6 @@ if (1 &lt; 3)
    Console.WriteLine(&#34;number omparison was true&#34;);
 }  </code></pre>
 
-
 <h3 id="switch-statements">Switch Statements</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nchar myGrade = &#39;A&#39;;\nswitch(myGrade){\n     case &#39;A&#39;:\n          Console.WriteLine(\&#34;You Pass\&#34;);\n          break;\n     case &#39;F&#39;:\n          Console.WriteLine(\&#34;You fail\&#34;);\n          break;\n     default:\n          Console.WriteLine(\&#34;Invalid grade\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">char myGrade = &#39;A&#39;;
@@ -532,7 +521,6 @@ switch(myGrade){
           Console.WriteLine(&#34;Invalid grade&#34;);
 }</code></pre>
 
-
 <h3 id="while-loops">While Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nint index = 1;\nwhile(index \u003c= 5){\n     Console.WriteLine(index);\n     index&#43;&#43;;\n}\n\ndo{\n   Console.WriteLine(index);\n   index&#43;&#43;;\n}while(index \u003c= 5);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">int index = 1;
@@ -546,7 +534,6 @@ do{
    index&#43;&#43;;
 }while(index &lt;= 5);</code></pre>
 
-
 <h3 id="for-loops">For Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nfor(int i = 0; i \u003c 5; i&#43;&#43;){\n     Console.WriteLine(i);\n}\n\nint[] luckyNums = {4, 8, 15, 16, 23, 42};\nforeach(int luckyNum in luckyNums){\n     Console.WriteLine(luckyNum);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">for(int i = 0; i &lt; 5; i&#43;&#43;){
@@ -557,7 +544,6 @@ int[] luckyNums = {4, 8, 15, 16, 23, 42};
 foreach(int luckyNum in luckyNums){
      Console.WriteLine(luckyNum);
 }</code></pre>
-
 
 <h3 id="exception-catching">Exception Catching</h3>
 
@@ -571,7 +557,6 @@ foreach(int luckyNum in luckyNums){
 }
 
 throw new DivideByZeroException(&#34;can&#39;t add numbers&#34;);</code></pre>
-
 
 <h3 id="classes-and-objects">Classes and Objects</h3>
 
@@ -600,7 +585,6 @@ book2.ReadBook();
 Console.WriteLine(book2.title);
 Console.WriteLine(Book.staticAttribute);</code></pre>
 
-
 <h3 id="constructors">Constructors</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\npublic class Book{\n     public String title;\n     public String author;\n\n     public Book(String title, String author){\n          this.title = title;\n          this.author = author;\n     }\n\n     public void readBook(){\n          Console.WriteLine(\&#34;Reading \&#34; &#43; this.title &#43; \&#34; by \&#34; &#43; this.author);\n     }\n}\n\nBook book1 = new Book(\&#34;Harry Potter\&#34;, \&#34;JK Rowling\&#34;);\nConsole.WriteLine(book1.title);\n\nBook book2 = new Book(\&#34;Lord of the Rings\&#34;, \&#34;JRR Tolkien\&#34;);\nConsole.WriteLine(book2.title);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">public class Book{
@@ -622,7 +606,6 @@ Console.WriteLine(book1.title);
 
 Book book2 = new Book(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
 Console.WriteLine(book2.title);</code></pre>
-
 
 <h3 id="getters-and-setters">Getters and Setters</h3>
 
@@ -655,7 +638,6 @@ Console.WriteLine(book1.getTitle());
 
 Book book2 = new Book(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
 Console.WriteLine(book2.getTitle());</code></pre>
-
 
 <h3 id="inheritance">Inheritance</h3>
 
@@ -714,7 +696,6 @@ ItalianChef myItalianChef = new ItalianChef(&#34;Massimo Bottura&#34;, 55, &#34;
 myItalianChef.MakeChicken();
 Console.WriteLine(myItalianChef.countryOfOrigin);</code></pre>
 
-
 <h3 id="abstract-classes-and-methods">Abstract Classes and Methods</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nabstract class Vehicle\n{\n   public abstract void move();\n   public void getDescription()\n   {\n       Console.WriteLine(\&#34;Vehicles are used for transportation\&#34;);\n   }\n}\n\nclass Bicycle : Vehicle\n{\n   public override void move()\n   {\n       Console.WriteLine(\&#34;The bicycle pedals forward\&#34;);\n   }\n}\n\nclass Plane : Vehicle\n{\n   public override void move()\n   {\n       Console.WriteLine(\&#34;The plane flys through the sky\&#34;);\n   }\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="csharp">abstract class Vehicle
@@ -741,7 +722,6 @@ class Plane : Vehicle
        Console.WriteLine(&#34;The plane flys through the sky&#34;);
    }
 }</code></pre>
-
 
 <h3 id="interface-inheritance">Interface Inheritance</h3>
 
@@ -772,7 +752,6 @@ Animal[] animals = {
 foreach(Animal animal in animals){
      animal.speak();
 }</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -1734,7 +1713,7 @@ foreach(Animal animal in animals){
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

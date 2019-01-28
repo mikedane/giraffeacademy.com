@@ -35,7 +35,8 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/drawing-a-shape/</guid>
-      <description> Code Copyprint(&amp;#34; /|&amp;#34;) print(&amp;#34; / |&amp;#34;) print(&amp;#34; / |&amp;#34;) print(&amp;#34;/___|&amp;#34;) </description>
+      <description>As we begin our programming journey in Python, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like Python, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
+We can achieve this by using a print statement.</description>
     </item>
     
     <item>
@@ -44,7 +45,8 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/variables/</guid>
-      <description> Code Copy&amp;#39;&amp;#39;&amp;#39; Names are case-sensitive and may begin with: letters, $, _ After, may include letters, numbers, $, _ Convention says Start with a lowercase word, then additional words are separated by underscores ex. my_first_variable &amp;#39;&amp;#39;&amp;#39; character_name = &amp;#34;George&amp;#34; character_age = &amp;#34;70&amp;#34; print(&amp;#34;There once was a man named &amp;#34; &amp;#43; character_name) print(&amp;#34;He was &amp;#34; &amp;#43; character_age &amp;#43; &amp;#34; years old&amp;#34;) print(&amp;#34;He really liked the name &amp;#34; &amp;#43; character_name) print(&amp;#34;But didn&amp;#39;t like being &amp;#34; &amp;#43; character_age) # You can also print variables using a &amp;#39;,&amp;#39; print(&amp;#34;My variable is&amp;#34;, character_name) </description>
+      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a Python developer!
+The topic I&#39;m talking about is variables! Variables are a Python developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
     </item>
     
     <item>
@@ -53,7 +55,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/strings/</guid>
-      <description> Code Copygreeting = &amp;#34;Hello&amp;#34; #indexes: 01234 print( len(greeting) ) print( greeting[0] ) print( greeting[-1] ) print( greeting.find(&amp;#34;llo&amp;#34;) ) print( greeting.find(&amp;#34;z&amp;#34;) ) print( greeting[2:] ) print( greeting[2:3] ) </description>
+      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of Python&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a Python developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
     </item>
     
     <item>
@@ -62,7 +64,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/math/</guid>
-      <description>Code Copyprint( 2 * 3 ) # Basic Arithmetic: &amp;#43;, -, /, * print( 2**3 ) # Basic Arithmetic: &amp;#43;, -, /, * print( 10 % 3 ) # Modulus Op. : returns remainder of 10/3 print( 1 &amp;#43; 2 * 3 ) # order of operations print(10 / 3.0) # int&amp;#39;s and doubles num = 10 num &amp;#43;= 100 # &amp;#43;=, -=, /=, *= print(num) &amp;#43;&amp;#43;num print(num) # Math module has useful math methods import math print( pow(2, 3) ) print( math.</description>
+      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
     </item>
     
     <item>
@@ -71,7 +73,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/getting-user-input/</guid>
-      <description> Code Copyname = input(&amp;#34;Enter your name: &amp;#34;) print(&amp;#34;Hello&amp;#34;, name &amp;#43; &amp;#34;!&amp;#34;) </description>
+      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
     </item>
     
     <item>
@@ -98,7 +100,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/lists/</guid>
-      <description> Code Copylucky_numbers = [4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0] # indexes 0 1 2 3 4 5 lucky_numbers[0] = 90 print(lucky_numbers[0]) print(lucky_numbers[1]) print(lucky_numbers[-1]) print(lucky_numbers[2:]) print(lucky_numbers[2:4]) print(len(lucky_numbers)) </description>
+      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
     </item>
     
     <item>
@@ -125,7 +127,9 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/functions/</guid>
-      <description> Code Copydef add_numbers(num1, num2=99): return num1 &amp;#43; num2 sum = add_numbers(4, 3) print(sum) </description>
+      <description>In this lesson I wanna talk to you about a really important concept in Python which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Functions!
+Maybe you&#39;ve heard the word Function floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in Python.
+Functions and Organization So far in this course we&#39;ve written a lot of code.</description>
     </item>
     
     <item>
@@ -143,7 +147,8 @@
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/if-statements/</guid>
-      <description> Code Copyis_student = False is_smart = False if is_student and is_smart: print(&amp;#34;You are a student&amp;#34;) elif is_student and not(is_smart): print(&amp;#34;You are not a smart student&amp;#34;) else: print(&amp;#34;You are not a student and not smart&amp;#34;) # &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if 1 &amp;gt; 3: print(&amp;#34;number omparison was true&amp;#34;) if &amp;#34;dog&amp;#34; == &amp;#34;cat&amp;#34;: print(&amp;#34;string omparison was true&amp;#34;) </description>
+      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in Python where we can actually allow our programs to make decisions.
+By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
     </item>
     
     <item>
@@ -179,7 +184,9 @@
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/while-loops/</guid>
-      <description> Code Copyindex = 1 while index &amp;lt;= 5: print(index) index &amp;#43;= 1 </description>
+      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
+I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
+In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
     </item>
     
     <item>
@@ -233,7 +240,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/comments/</guid>
-      <description> Code Copy&amp;#39;&amp;#39;&amp;#39; multi line comment &amp;#39;&amp;#39;&amp;#39; # single # line # comment  </description>
+      <description>As you continue to sharpen your Python skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
     </item>
     
     <item>
@@ -278,7 +285,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/classes-objects/</guid>
-      <description> Code Copyclass Book: def __init__(self, title, author): self.title = title self.author = author book1 = Book(&amp;#34;Harry Potter&amp;#34;, &amp;#34;JK Rowling&amp;#34;); # book1.title = &amp;#34;Half-Blood Prince&amp;#34; print(book1.title) </description>
+      <description>One of the best things about Python is it&#39;s ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you&#39;ll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. In all major applications, being able to work with data in an organized and structured way is extremely important.</description>
     </item>
     
     <item>

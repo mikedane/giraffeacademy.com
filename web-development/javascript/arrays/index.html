@@ -177,7 +177,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">Javascript - Program the Web</div>
-                         <div>This course covers the basics of programming in Javascript. Work your way through the videos and we&#39;ll teach you everything you need to know to make your website more responsive!</div>
+                         <div>This course covers the basics of programming in Javascript. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to make your website more responsive!</div>
                     </div>
                </div>
           </div>
@@ -304,19 +304,47 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/JQ-wmaarWTQ?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    
+                    <p>Up until this point in the course, we've been working with different types of data, and generally we've been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. </p>
 
-<h2 id="code">Code</h2>
+<p>But variables as we've seen them so far do have one short coming, and that's when it comes to storing large amounts of related data.</p>
 
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// luckyNumbers = [];\nluckyNumbers = [4, 8, 15, 16, \&#34;twenty\&#34;, false];\n//  indexes:    0  1  2   3      4        5\n\nluckyNumbers[0] = 90;\ndocument.write(luckyNumbers[0] &#43; \&#34;\u003cbr\u003e\&#34;);\ndocument.write(luckyNumbers[1] &#43; \&#34;\u003cbr\u003e\&#34;);\ndocument.write(luckyNumbers.length);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">// luckyNumbers = [];
-luckyNumbers = [4, 8, 15, 16, &#34;twenty&#34;, false];
-//  indexes:    0  1  2   3      4        5
+<p>Many of the programs that you'll find the real world, and that we'll be writing in this course will deal with large amounts of data. It could be a list of names, an index of phone numbers, the answers to a test, or any number of collections of data like these. </p>
 
-luckyNumbers[0] = 90;
+<p>When you have lots of data like this that's meant to be grouped together, you can't use normal variables to store it. If you did you would need to create hundreds or thousands of variables, and that's assuming that you even know how many pieces of data would be in the collection. </p>
+
+<p>Luckily for us the problem of storing large amounts of data like this has been solved with something called an array. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">An array is a container which acts a lot like the variables we&#39;ve seen so far in this course, except they allow us to store more than one piece of data.</div></p>
+
+<p>So if you wanted to keep track of a list of names or phone numbers in JavaScript, instead of storing them in separate variables you could store them in one massive array!</p>
+
+<h2 id="creating-an-array">Creating an array</h2>
+
+<p>Let's take a look at how to create an array in JavaScript:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;luckyNumbers = [4, 8, 15, 16, \&#34;twenty\&#34;, false];\n//  indexes:    0  1  2   3      4        5\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">luckyNumbers = [4, 8, 15, 16, &#34;twenty&#34;, false];
+//  indexes:    0  1  2   3      4        5</code></pre></p>
+
+<p>You'll notice that creating an array is very similar to creating a variable. In this case we're storing a list of numbers inside the array. Notice how they're all separated with commas. In this case we're populating the array with numbers right off the bat, but a lot of times in programs you'll start with an empty or half empty array and fill it up as the program executes. </p>
+
+<h3 id="array-indexes">Array indexes</h3>
+
+<p>You'll also notice that I've indicated the indexes of each element in the array. Just like strings, which assign indexes to each of their characters, arrays elements also have indexes.</p>
+
+<p>We start with the first element at index position 0, the indexes then increment by one from there. Just like strings you have to get used to the first element being at index position 0. This is something that commonly trips up new programmers!</p>
+
+<p>The array is an entity in itself, but if you want to access an element inside the array you can do so by referring to it directly by it's index. Let's take a look at accessing an element in an array:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;luckyNumbers[0] = 90;\ndocument.write(luckyNumbers[0] &#43; \&#34;\u003cbr\u003e\&#34;);\ndocument.write(luckyNumbers[1] &#43; \&#34;\u003cbr\u003e\&#34;);\ndocument.write(luckyNumbers.length);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">luckyNumbers[0] = 90;
 document.write(luckyNumbers[0] &#43; &#34;&lt;br&gt;&#34;);
 document.write(luckyNumbers[1] &#43; &#34;&lt;br&gt;&#34;);
-document.write(luckyNumbers.length);</code></pre>
+document.write(luckyNumbers.length);</code></pre></p>
 
+<p>The elements inside the array are just normal strings, numbers or booleans. So once you've accessed one they can be treated like you would normally treat one of those data types. You can also modify the elements in an array by simply assigning them a new value as you can see above. </p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>So there you have it, an introduction to arrays! Take a look at the video above for more information and to get a full step by step walk through of working with arrays!</p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -476,8 +504,62 @@ document.write(luckyNumbers.length);</code></pre>
                
                
                
-               <a href="/web-development/javascript/arrays/#code">
-                   <li>Code</li>
+               <a href="/web-development/javascript/arrays/#creating-an-array">
+                   <li>Creating an array</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/arrays/#array-indexes">
+                   <li>Array indexes</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/arrays/#wrapping-it-up">
+                   <li>Wrapping it up</li>
                </a>
                
                
@@ -576,7 +658,7 @@ document.write(luckyNumbers.length);</code></pre>
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

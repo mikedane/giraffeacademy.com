@@ -197,7 +197,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">Java - Programming Language</div>
-                         <div>This course covers the basics of programming in Java. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in Java. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -344,19 +344,104 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/Cx_ut1msINQ?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    
+                    <p>In this lesson I wanna talk to you about a really important concept in Java which makes it really easy to keep our programs organized and re-usable. I'm talking of course about Methods!</p>
 
-<h2 id="code">Code</h2>
+ <p>Maybe you've heard the word Method floating around as you've begun your programming journey, but today we're gonna break down exactly what they are and I'll show you how to use them in Java.</p>
 
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\npublic static void main(String [] args){\n     int sum = addNumbers(4, 60);\n     System.out.println(sum);\n}\n\npublic static int addNumbers(int num1, int num2){\n     return num1 &#43; num2;\n}\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public static void main(String [] args){
-     int sum = addNumbers(4, 60);
-     System.out.println(sum);
+<h2 id="methods-and-organization">Methods and Organization</h2>
+
+<p>So far in this course we've written a lot of code. All sorts of code to do all sorts of different things. And as we go forward and begin to write more and more complex and time consuming programs, one thing that is going to be vitally important is that we have good organization. </p>
+
+<p>Without good organization a program can quickly get out of hand. Eventually you'll find that you're writing separate pieces of code in different parts of the file or project which do exactly the same thing!</p>
+
+<p>There's a principle in software development which all good programmers try to follow called the DRY principle. It stands for "Don't repeat yourself". In other words, it means, don't write the same code twice!</p>
+
+<p>As programmers, a Method is our best defence against violating the DRY principal. A Method is basically a collection of code which can be executed anywhere in our program and used over and over again. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">In many programs there will be certain functionality that needs to be re-used multiple times.</div></p>
+
+<p>Maybe you want to format a string a specific way, or you want to perform some complex math calculation on two numbers, or you want to parse through an array looking for a particular element. All of these are situations where a Method can be written which encapsulates the code needed to do those things, and can then be re-used throughout the program again and again. </p>
+
+<h2 id="say-hi-method">sayHi() Method</h2>
+
+<p>To fully illustrate Methods lets take a look at an example of a simple Method which says hi to the user. Below is the Java code for our <code>sayHi</code> Method.</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void main(String [] args){\n}\n\npublic static void sayHi(){\n    System.out.println(\&#34;Hello\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public static void main(String [] args){
 }
 
-public static int addNumbers(int num1, int num2){
-     return num1 &#43; num2;
-}</code></pre>
+public static void sayHi(){
+    System.out.println(&#34;Hello&#34;);
+}</code></pre></p>
 
+<p>Right off the bat you'll notice a few things here. First is that just like variables we can actually give Methods descriptive names. In this case we've named the Method <code>sayHi</code> because that's what it's doing, that's the functionality that it's performing.</p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">It&#39;s really important that you give these good names, otherwise your program will be significantly less read-able.</div></p>
+
+<p>We follow the Method name with a set of open and closed parenthesis, and then below the top line (which we call the Method declaration), we can write some code. All of the code below the declaration is considered <em>inside</em> the Method.</p>
+
+<p>Once we've written the code inside the Method (note: you can write as much code as you like), we can then execute that code wherever and whenever we want in our programs by <em>calling</em> the Method. </p>
+
+<h3 id="calling-a-method">Calling a Method</h3>
+
+<p>When you call a Method you are essentially telling Java that you want it to stop what it's doing and go execute all of the code contained in the Method. Then once it's done, to come back and keep going on with the normal flow of the program. Let's look at how we can call a Method:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void main(String [] args){\n  sayHi();\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public static void main(String [] args){
+  sayHi();
+}</code></pre></p>
+
+<p>To call a Method we simple state the Method's name and then directly after, place an open and closed parenthesis. The open and closed parenthesis tells Java that you want to actually execute the Method.</p>
+
+<p>Like I mentioned above, when a Method is called Java will stop what it's doing, and jump over to wherever that Method is and execute all of the code inside. Once it's finished with the code in the Method it will return to where it was and keep going. </p>
+
+<p>So if we wanted to <code>sayHi</code> in multiple places in our program, instead of having to duplicate the code for doing that multiple times, we could instead just call the <code>sayHi</code> Method.</p>
+
+<p>This is also advantageous because if we wanted to change the way our program said hi then we could just update the code in the Method body and the program would automatically update the way it's say hi all throughout our program!</p>
+
+<h3 id="parameters-and-arguments">Parameters and Arguments</h3>
+
+<p>Methods are powerful not only because they allow us to re-use the same code over and over, but because they also allow us to pass them information.</p>
+
+<p> When a Method is called in a program, the code calling it can supply it with information specific to it's wants and needs. For example let's say that we wanted to modify our <code>sayHi</code> to say hi to a specific person. The way it's written right now it can't do that, all it does it just say hello. </p>
+
+<p>In order to allow it to say hi to a specific person, we need to specify in the Method declaration that it accepts the name of a person from the caller. This is referred to as a parameter. Check out our updated <code>sayHi</code> Method below and see if you can spot the parameter. </p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void sayHi(String name){\n    System.out.println(\&#34;Hello \&#34; &#43; name);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public static void sayHi(String name){
+    System.out.println(&#34;Hello &#34; &#43; name);
+}</code></pre></p>
+
+<p>I'll give you a hint, look inside the parenthesis, notice how we've declared a variable there called name.</p>
+
+<p>This variable is actually called a parameter, and it defines a piece of information that the Method accepts. Often times, Methods will accept parameters which help them to perform their task in a way that is more specific to the needs of the individual caller.</p>
+
+<p>With this Method the way it is now, we can actually call it and have it say hi to whomever we want. </p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void main(String [] args){\n  sayHi(\&#34;Mike\&#34;)\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public static void main(String [] args){
+  sayHi(&#34;Mike&#34;)
+}</code></pre></p>
+
+<p>Notice above that now when I call the <code>sayHi</code> Method, instead of leaving the parenthesis blank, I place a string inside <code>"Mike"</code>. This string is what's called an argument. This argument will get sent to the Method when it is called and be stored in the <code>name</code> parameter specified in the <code>sayHi</code> Method. </p>
+
+<p>This is an important point of terminology. </p>
+
+A parameter is a special variable that a Method will use to perform it's task in a way that is more specific to the needs of the caller. An argument is the value the caller gives to the Method which will get stored inside the parameter variable.
+
+<p>In the case above we only specified one single parameter, but you can specify as many as you want (although any more than 4 or 5 is generally considered too many). Let's take a look at this same Method but with an additional parameter <code>age</code>:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void main(String [] args){\n  sayHi(\&#34;Mike\&#34;, 24)\n}\n\npublic static void sayHi(String name, int age){\n    System.out.println(\&#34;Hello \&#34; &#43; name &#43; \&#34; you are \&#34; &#43; age);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public static void main(String [] args){
+  sayHi(&#34;Mike&#34;, 24)
+}
+
+public static void sayHi(String name, int age){
+    System.out.println(&#34;Hello &#34; &#43; name &#43; &#34; you are &#34; &#43; age);
+}</code></pre></p>
+
+<p>This looks pretty similar to our previous example, but now in addition to the <code>name</code> parameter, I've also specified the <code>age</code> parameter. Multiple parameters are separated with a comma, and you can't have two parameters with the same name. </p>
+
+<p>When we call the Method now we can pass in the age as well. Notice that the position of the arguments matches the position of the parameters; The name is first and the age is second in both cases, this is crucial!</p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>So there you have it, an introduction to Methods. This is just the first step, but an important step towards mastering Methods and being able to really take advantage of them in our programs. Try writing some Methods of your own and see if you can come up with anything cool!</p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -556,8 +641,116 @@ public static int addNumbers(int num1, int num2){
                
                
                
-               <a href="/programming-languages/java/functions/#code">
-                   <li>Code</li>
+               <a href="/programming-languages/java/functions/#methods-and-organization">
+                   <li>Methods and Organization</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/functions/#sayhi-method">
+                   <li>sayHi() Method</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/functions/#calling-a-method">
+                   <li>Calling a Method</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/functions/#parameters-and-arguments">
+                   <li>Parameters and Arguments</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/functions/#wrapping-it-up">
+                   <li>Wrapping it up</li>
                </a>
                
                
@@ -656,7 +849,7 @@ public static int addNumbers(int num1, int num2){
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

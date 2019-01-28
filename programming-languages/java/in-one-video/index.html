@@ -197,7 +197,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">Java - Programming Language</div>
-                         <div>This course covers the basics of programming in Java. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in Java. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -394,7 +394,6 @@ NetBeans and IntelliJ.</p>
 System.out.print(&#34;World&#34;);
 System.out.println(&#34;!&#34;);</code></pre>
 
-
 <h3 id="variables-and-data-types">Variables and Data Types</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n/*\n Names are case-sensitive and may begin with:\n     letters, $, _\n After, may include\n     letters, numbers, $, _\n Convention says\n     Start with a lowercase word, then additional words are capitalized\n     ex. myFirstVariable\n*/\nString name = \&#34;Mike\&#34;;    // String&#39;s are objects not primitives\nchar testGrade = &#39;A&#39;;    // single 16-bit Unicode character.\n\nbyte age0 = 0;           // 8-bit signed two&#39;s complement integer\nshort age1 = 10;         // 16-bit signed two&#39;s complement integer.\nint age2 = 20;           // 32-bit signed two&#39;s complement integer\nlong age3 = 30L;          // 64-bit optionally signed two&#39;s complement integer\n\nfloat gpa0 = 2.5f;       // 32-bit floating point\ndouble gpa1 = 3.5;       // double-precision 64-bit floating point\n\nboolean isTall;          // 1 bit -\u003e true/false\nisTall = true;\n\nname = \&#34;John\&#34;;\n\nSystem.out.println(\&#34;Your name is \&#34; &#43; name);\nSystem.out.printf(\&#34;Your name is %s \\n\&#34;, name);\n/*\n%f -\u003e double or float\n%d -\u003e Integer\n%s -\u003e string\n%c -\u003e character\n%b -\u003e boolean\n*/\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">/*
@@ -432,7 +431,6 @@ System.out.printf(&#34;Your name is %s \n&#34;, name);
 %b -&gt; boolean
 */</code></pre>
 
-
 <h3 id="casting-and-converting">Casting and Converting</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nSystem.out.println( (int)3.14 );\nSystem.out.println( (double)3 );\n\nint intFromString = Integer.parseInt(\&#34;50\&#34;);\ndouble doubleFromString = Double.parseDouble(\&#34;50.99\&#34;);\n\nSystem.out.println(100 &#43; intFromString);\nSystem.out.println( 100 &#43; doubleFromString );\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">System.out.println( (int)3.14 );
@@ -443,7 +441,6 @@ double doubleFromString = Double.parseDouble(&#34;50.99&#34;);
 
 System.out.println(100 &#43; intFromString);
 System.out.println( 100 &#43; doubleFromString );</code></pre>
-
 
 <h3 id="strings">Strings</h3>
 
@@ -456,7 +453,6 @@ System.out.println( greeting.indexOf(&#34;llo&#34;) );
 System.out.println( greeting.indexOf(&#34;z&#34;) );
 System.out.println( greeting.substring(2) );
 System.out.println( greeting.substring(1, 3) );</code></pre>
-
 
 <h3 id="numbers">Numbers</h3>
 
@@ -478,7 +474,6 @@ System.out.println( Math.pow(2, 3) );
 System.out.println( Math.sqrt(144) );
 System.out.println( Math.round(2.7) );</code></pre>
 
-
 <h3 id="user-input">User Input</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// import java.util.Scanner;\nScanner keyboardInput = new Scanner(System.in);\n\nSystem.out.print(\&#34;Enter username: \&#34;);\nString username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()\nSystem.out.println(\&#34;Hello, \&#34; &#43; username);\n\n// System.out.println( keyboardInput.hasNextLine() ); // .hasNextDouble(), .hasNextInt()\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">// import java.util.Scanner;
@@ -489,7 +484,6 @@ String username = keyboardInput.nextLine(); // .nextDouble(), .nextInt()
 System.out.println(&#34;Hello, &#34; &#43; username);
 
 // System.out.println( keyboardInput.hasNextLine() ); // .hasNextDouble(), .hasNextInt()</code></pre>
-
 
 <h3 id="arrays">Arrays</h3>
 
@@ -502,7 +496,6 @@ System.out.println(luckyNumbers[0]);
 System.out.println(luckyNumbers[1]);
 System.out.println(luckyNumbers.length);</code></pre>
 
-
 <h3 id="2-dimensional-arrays">2 Dimensional Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// int [][] numberGrid = new int[2][3];\nint [][] numberGrid = { {1, 2}, {3, 4} };\nnumberGrid[0][1] = 99;\n\nSystem.out.println(numberGrid[0][0]);\nSystem.out.println(numberGrid[0][1]);\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">// int [][] numberGrid = new int[2][3];
@@ -511,7 +504,6 @@ numberGrid[0][1] = 99;
 
 System.out.println(numberGrid[0][0]);
 System.out.println(numberGrid[0][1]);</code></pre>
-
 
 <h3 id="arraylist">ArrayList</h3>
 
@@ -526,7 +518,6 @@ System.out.println( friends.get(0) );
 System.out.println( friends.contains(&#34;Oscar&#34;) );
 System.out.println( friends.size() );</code></pre>
 
-
 <h3 id="methods">Methods</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\npublic static void main(String [] args){\n     int sum = addNumbers(4, 60);\n     System.out.println(sum);\n}\n\npublic static int addNumbers(int num1, int num2){\n     return num1 &#43; num2;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public static void main(String [] args){
@@ -537,7 +528,6 @@ System.out.println( friends.size() );</code></pre>
 public static int addNumbers(int num1, int num2){
      return num1 &#43; num2;
 }</code></pre>
-
 
 <h3 id="if-statements">If Statements</h3>
 
@@ -565,7 +555,6 @@ if(&#34;dog&#34;.equals(&#34;cat&#34;)){
      System.out.println(&#34;string omparison was true&#34;);
 }</code></pre>
 
-
 <h3 id="switch-statements">Switch Statements</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nchar myGrade = &#39;A&#39;;\nswitch(myGrade){\n     case &#39;A&#39;:\n          System.out.println(\&#34;You Pass\&#34;);\n          break;\n     case &#39;F&#39;:\n          System.out.println(\&#34;You fail\&#34;);\n          break;\n     default:\n          System.out.println(\&#34;Invalid grade\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">char myGrade = &#39;A&#39;;
@@ -579,7 +568,6 @@ switch(myGrade){
      default:
           System.out.println(&#34;Invalid grade&#34;);
 }</code></pre>
-
 
 <h3 id="while-loops">While Loops</h3>
 
@@ -595,7 +583,6 @@ do{
      index&#43;&#43;;
 }while(index &lt;= 5);</code></pre>
 
-
 <h3 id="for-loops">For Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nfor(int i = 0; i \u003c 5; i&#43;&#43;){\n     System.out.println(i);\n}\n\nint luckyNums[] = {4, 8, 15, 16, 23, 42};\nfor(int luckyNum : luckyNums){\n     System.out.println(luckyNum);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">for(int i = 0; i &lt; 5; i&#43;&#43;){
@@ -606,7 +593,6 @@ int luckyNums[] = {4, 8, 15, 16, 23, 42};
 for(int luckyNum : luckyNums){
      System.out.println(luckyNum);
 }</code></pre>
-
 
 <h3 id="exception-catching">Exception Catching</h3>
 
@@ -619,7 +605,6 @@ for(int luckyNum : luckyNums){
 }
 
 throw new ArithmeticException(&#34;can&#39;t add numbers&#34;);</code></pre>
-
 
 <h3 id="classes-and-objects">Classes and Objects</h3>
 
@@ -648,7 +633,6 @@ book2.readBook();
 System.out.println(book2.title);
 System.out.println(Book.staticAttribute)</code></pre>
 
-
 <h3 id="constructors">Constructors</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\npublic class Book{\n     public String title;\n     public String author;\n\n     public Book(){\n          this.title = \&#34;no title\&#34;;\n          this.author = \&#34;no author\&#34;;\n     }\n\n     public Book(String title, String author){\n          this.title = title;\n          this.author = author;\n     }\n\n     public void readBook(){\n          System.out.println(\&#34;Reading \&#34; &#43; this.title &#43; \&#34; by \&#34; &#43; this.author);\n     }\n}\n\nBook book1 = new Book(\&#34;Harry Potter\&#34;, \&#34;JK Rowling\&#34;);\nSystem.out.println(book1.title);\n\nBook book2 = new Book(\&#34;Lord of the Rings\&#34;, \&#34;JRR Tolkien\&#34;);\nSystem.out.println(book2.title);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public class Book{
@@ -675,7 +659,6 @@ System.out.println(book1.title);
 
 Book book2 = new Book(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
 System.out.println(book2.title);</code></pre>
-
 
 <h3 id="getters-and-setters">Getters and Setters</h3>
 
@@ -715,7 +698,6 @@ Console.WriteLine(book1.Title);
 
 Book book2 = new Book(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
 Console.WriteLine(book1.Author);</code></pre>
-
 
 <h3 id="inheritance">Inheritance</h3>
 
@@ -769,7 +751,6 @@ ItalianChef myItalianChef = new ItalianChef(&#34;Massimo Bottura&#34;, 55, &#34;
 myItalianChef.makeChicken();
 System.out.println(myItalianChef.age);</code></pre>
 
-
 <h3 id="abstract-classes-and-methods">Abstract Classes and Methods</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nabstract class Vehicle{\n     public abstract void move();\n     public void getDescription(){\n          System.out.println(\&#34;Vehicles are used for transportation\&#34;);\n     }\n}\n\nclass Bicycle extends Vehicle{\n     @Override\n     public void move(){\n          System.out.println(\&#34;The bicycle pedals forward\&#34;);\n     }\n}\n\nclass Plane extends Vehicle{\n     @Override\n     public void move(){\n          System.out.println(\&#34;The plane flys through the sky\&#34;);\n     }\n}\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">abstract class Vehicle{
@@ -792,7 +773,6 @@ class Plane extends Vehicle{
           System.out.println(&#34;The plane flys through the sky&#34;);
      }
 }</code></pre>
-
 
 <h3 id="interface-inheritance">Interface Inheritance</h3>
 
@@ -822,7 +802,6 @@ Animal [] animals = {
 for(Animal animal : animals){
      animal.speak();
 }</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -1812,7 +1791,7 @@ for(Animal animal : animals){
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

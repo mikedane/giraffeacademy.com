@@ -198,7 +198,7 @@
   </url>
   
   <url>
-    <loc>https://www.mikedane.com/static-site-generators/hexo/mac--windows-installation/</loc>
+    <loc>https://www.mikedane.com/static-site-generators/hexo/mac-windows-installation/</loc>
     <lastmod>2017-09-14T17:26:11-04:00</lastmod>
   </url>
   
@@ -678,7 +678,7 @@
   </url>
   
   <url>
-    <loc>https://www.mikedane.com/static-site-generators/hexo/tags--categories/</loc>
+    <loc>https://www.mikedane.com/static-site-generators/hexo/tags-categories/</loc>
     <lastmod>2017-09-14T17:26:12-04:00</lastmod>
   </url>
   
@@ -1518,6 +1518,11 @@
   </url>
   
   <url>
+    <loc>https://www.mikedane.com/web-development/css/styling-search-bar/</loc>
+    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mikedane.com/databases/sql/nested-queries/</loc>
     <lastmod>2017-12-22T11:48:56-05:00</lastmod>
   </url>
@@ -1843,7 +1848,7 @@
   </url>
   
   <url>
-    <loc>https://www.mikedane.com/static-site-generators/hugo/building--hosting/</loc>
+    <loc>https://www.mikedane.com/static-site-generators/hugo/building-hosting/</loc>
     <lastmod>2017-09-07T20:24:18-04:00</lastmod>
   </url>
   

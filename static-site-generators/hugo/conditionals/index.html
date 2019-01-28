@@ -151,7 +151,7 @@ document.body.removeChild(textArea);
                          
                               <li ><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                          
-                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                          
                
           
@@ -263,7 +263,7 @@ document.body.removeChild(textArea);
                
                     <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                
-                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                
           </ul>
      
@@ -299,13 +299,11 @@ document.body.removeChild(textArea);
 {{ else }}
 {{ end }}</code></pre>
 
-
 <p>You can have any number of else if’s but you must always end a conditional with the {{ end }} tag. That’s super important. The condition for a if statement must be a boolean value. You can also pass in a variable as a condition and if the variable has a value then it will return true, but if the variable is null it will return false.</p>
 
 <p>The most common type of condition is to compare two values or variables. Conditionals are formatted as follows</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ op arg1 arg2 }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ op arg1 arg2 }}</code></pre>
-
 
 <p>Op stands for operator, unlike most other logic languages, here we put the comparison operator before the two arguments. The operators are:</p>
 
@@ -319,8 +317,7 @@ Ge - greater than or equal to</p>
 
 <p>You can negate a conditional by using the not keyword. Not should come before the conditional statement, the use of parenthesis here is important.
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ if not (op arg1 arg2 ) }}\n{{end}}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ if not (op arg1 arg2 ) }}
-{{end}}</code></pre>
-</p>
+{{end}}</code></pre></p>
 
 <h2 id="and-or">And, or</h2>
 
@@ -331,11 +328,9 @@ Ge - greater than or equal to</p>
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ if and (conditional1) (conditional2) }}\n{{ if or (conditional1) (conditional2) }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ if and (conditional1) (conditional2) }}
 {{ if or (conditional1) (conditional2) }}</code></pre>
 
-
 <p>You can also get more fancy by nesting and/or statements</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ if or ( and (conditional1) (conditional2) ) (conditional2) }}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;">{{ if or ( and (conditional1) (conditional2) ) (conditional2) }}</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -625,7 +620,7 @@ Ge - greater than or equal to</p>
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

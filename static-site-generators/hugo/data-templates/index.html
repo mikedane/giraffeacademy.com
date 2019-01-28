@@ -151,7 +151,7 @@ document.body.removeChild(textArea);
                          
                               <li ><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                          
-                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                              <li ><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                          
                
           
@@ -263,7 +263,7 @@ document.body.removeChild(textArea);
                
                     <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/shortcode-templates/" class="">Shortcode Templates</a></li>
                
-                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building--hosting/" class="">Building &amp; Hosting</a></li>
+                    <li style="font-size:14"><a href="https://www.mikedane.com/static-site-generators/hugo/building-hosting/" class="">Building &amp; Hosting</a></li>
                
           </ul>
      
@@ -316,7 +316,6 @@ document.body.removeChild(textArea);
    &#34;capital&#34;: &#34;Phoenix&#34;,
 ...</code></pre>
 
-
 <p>Then, inside a layout we can loop through the information in that data file using the range function. You can reference a specific data file using <code>.Site.Data.filename</code>.</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ range .Site.Data.state-info }}\n\t\u003ch2\u003e{{ .name }}\u003c/h2\u003e\n\t\u003cp\u003ehello{{ .capital }}\u003c/p\u003e\n\tLocation : {{ .lat }}, {{ .long }}\n{{end}}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">{{ range .Site.Data.state-info }}
@@ -324,7 +323,6 @@ document.body.removeChild(textArea);
 	&lt;p&gt;hello{{ .capital }}&lt;/p&gt;
 	Location : {{ .lat }}, {{ .long }}
 {{end}}</code></pre>
-
 
 <h2 id="accessing-data-in-a-file">Accessing data in a file</h2>
 
@@ -336,7 +334,6 @@ document.body.removeChild(textArea);
 	Location : {{ .lat }}, {{ .long }}
 {{end}}</code></pre>
 
-
 <p>Aside from looping through that data on a list page you could also access that data on each state page and only show information for the current state.</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n{{ range .Site.Data.state-info where “name” “==” .title }}\n\t\u003ch2\u003e{{ .name }}\u003c/h2\u003e\n\t\u003cp\u003e{{ .capital }}\u003c/p\u003e\n\tLocation : {{ .lat }}, {{ .long }}\n{{end}}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">{{ range .Site.Data.state-info where “name” “==” .title }}
@@ -344,7 +341,6 @@ document.body.removeChild(textArea);
 	&lt;p&gt;{{ .capital }}&lt;/p&gt;
 	Location : {{ .lat }}, {{ .long }}
 {{end}}</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -634,7 +630,7 @@ document.body.removeChild(textArea);
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

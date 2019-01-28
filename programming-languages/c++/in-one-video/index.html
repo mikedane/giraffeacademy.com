@@ -183,7 +183,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">C&#43;&#43; - Programming Language</div>
-                         <div>This course covers the basics of programming in C&#43;&#43;. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in C&#43;&#43;. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -360,7 +360,6 @@ include Code Blocks, Eclipse and Net Beans.</p>
 cout &lt;&lt; &#34;World&#34;;
 cout &lt;&lt; &#34;!&#34; &lt;&lt; endl;</code></pre>
 
-
 <h3 id="variables-and-data-types">Variables and Data Types</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n/*\nNames are case-sensitive and may begin with:\n     letters, _\nAfter, may include\n     letters, numbers, _\nConvention says\n     Start with a lowercase word, then additional words are capitalized\n     ex. myFirstVariable\n*/\nstring name = \&#34;Mike\&#34;;    // string of characters, not primitive\nchar testGrade = &#39;A&#39;;    // single 8-bit character.\n\n// you can make them unsigned by adding \&#34;unsigned\&#34; prefix\nshort age0 = 10;         // atleast 16-bits signed integer\nint age1 = 20;           // atleast 16-bits signed integer (not smaller than short)\nlong age2 = 30;          // atleast 32-bits signed integer\nlong long age3 = 40;     // atleast 64-bits signed integer\n\nfloat gpa0 = 2.5f;       // single percision floating point\ndouble gpa1 = 3.5;       // double-precision floating point\nlong double gpa2 = 3.5;  // extended-precision floating point\n\nbool isTall;             // 1 bit -\u003e true/false\nisTall = true;\n\nname = \&#34;John\&#34;;\n\ncout \u003c\u003c \&#34;Your name is \&#34; \u003c\u003c name \u003c\u003c endl;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">/*
@@ -392,12 +391,10 @@ name = &#34;John&#34;;
 
 cout &lt;&lt; &#34;Your name is &#34; &lt;&lt; name &lt;&lt; endl;</code></pre>
 
-
 <h3 id="casting-and-converting">Casting and Converting</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\ncout \u003c\u003c  (int)3.14 \u003c\u003c endl;\ncout \u003c\u003c (double)3 / 2 \u003c\u003c endl;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">cout &lt;&lt;  (int)3.14 &lt;&lt; endl;
 cout &lt;&lt; (double)3 / 2 &lt;&lt; endl;</code></pre>
-
 
 <h3 id="pointers">Pointers</h3>
 
@@ -407,7 +404,6 @@ cout &lt;&lt; &amp;num &lt;&lt; endl;
 int *pNum = &amp;num;
 cout &lt;&lt; pNum &lt;&lt; endl;
 cout &lt;&lt; *pNum &lt;&lt; endl;</code></pre>
-
 
 <h3 id="strings">Strings</h3>
 
@@ -420,7 +416,6 @@ cout &lt;&lt; greeting[0] &lt;&lt; endl;
 cout &lt;&lt; greeting.find(&#34;llo&#34;) &lt;&lt; endl;
 cout &lt;&lt; greeting.substr(2) &lt;&lt; endl;
 cout &lt;&lt; greeting.substr(1, 3) &lt;&lt; endl;</code></pre>
-
 
 <h3 id="numbers">Numbers</h3>
 
@@ -443,7 +438,6 @@ cout &lt;&lt; pow(2, 3) &lt;&lt; endl;
 cout &lt;&lt; sqrt(144) &lt;&lt; endl;
 cout &lt;&lt; round(2.7) &lt;&lt; endl;</code></pre>
 
-
 <h3 id="user-input">User Input</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nstring name;\ncout \u003c\u003c \&#34;Enter your name: \&#34;;\ncin \u003e\u003e name;\ncout \u003c\u003c \&#34;Hello \&#34; \u003c\u003c name \u003c\u003c endl;\n\nint num1, num2;\ncout \u003c\u003c \&#34;Enter first num: \&#34;;\ncin \u003e\u003e num1;\ncout \u003c\u003c \&#34;Enter second num: \&#34;;\ncin \u003e\u003e num2;\ncout \u003c\u003c \&#34;Answer: \&#34; \u003c\u003c num1 &#43; num2 \u003c\u003c endl;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">string name;
@@ -458,7 +452,6 @@ cout &lt;&lt; &#34;Enter second num: &#34;;
 cin &gt;&gt; num2;
 cout &lt;&lt; &#34;Answer: &#34; &lt;&lt; num1 &#43; num2 &lt;&lt; endl;</code></pre>
 
-
 <h3 id="arrays">Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// int luckyNumbers[6];\nint luckyNumbers[] = {4, 8, 15, 16, 23, 42};\n//         indexes:    0  1  2   3   4   5\nluckyNumbers[0] = 90;\ncout \u003c\u003c luckyNumbers[0] \u003c\u003c endl;\ncout \u003c\u003c luckyNumbers[1] \u003c\u003c endl;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">// int luckyNumbers[6];
@@ -468,7 +461,6 @@ luckyNumbers[0] = 90;
 cout &lt;&lt; luckyNumbers[0] &lt;&lt; endl;
 cout &lt;&lt; luckyNumbers[1] &lt;&lt; endl;</code></pre>
 
-
 <h3 id="2-dimensional-arrays">2 Dimensional Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// int  numberGrid[2][3];\nint numberGrid[2][3] = { {1, 2, 3}, {4, 5, 6} };\nnumberGrid[0][1] = 99;\n\ncout \u003c\u003c numberGrid[0][0] \u003c\u003c endl;\ncout \u003c\u003c numberGrid[0][1] \u003c\u003c endl;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">// int  numberGrid[2][3];
@@ -477,7 +469,6 @@ numberGrid[0][1] = 99;
 
 cout &lt;&lt; numberGrid[0][0] &lt;&lt; endl;
 cout &lt;&lt; numberGrid[0][1] &lt;&lt; endl;</code></pre>
-
 
 <h3 id="vectors">Vectors</h3>
 
@@ -494,7 +485,6 @@ cout &lt;&lt; friends.at(1) &lt;&lt; endl;
 cout &lt;&lt; friends.at(2) &lt;&lt; endl;
 cout &lt;&lt; friends.size() &lt;&lt; endl;</code></pre>
 
-
 <h3 id="functions">Functions</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nint addNumbers(int num1, int num2);\n\nint main()\n{\n     int sum = addNumbers(4, 60);\n     cout \u003c\u003c sum \u003c\u003c endl;\n\n     return 0;\n}\n\nint addNumbers(int num1, int num2){\n     return num1 &#43; num2;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">int addNumbers(int num1, int num2);
@@ -510,7 +500,6 @@ int main()
 int addNumbers(int num1, int num2){
      return num1 &#43; num2;
 }</code></pre>
-
 
 <h3 id="if-statements">If Statements</h3>
 
@@ -539,7 +528,6 @@ if(myString.compare(&#34;cat&#34;) != 0){
      cout &lt;&lt; &#34;string comparison was true&#34; &lt;&lt; endl;
 }</code></pre>
 
-
 <h3 id="switch-statements">Switch Statements</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nchar myGrade = &#39;A&#39;;\nswitch(myGrade){\n     case &#39;A&#39;:\n          cout \u003c\u003c \&#34;You Pass\&#34; \u003c\u003c endl;\n          break;\n     case &#39;F&#39;:\n          cout \u003c\u003c \&#34;You fail\&#34; \u003c\u003c endl;\n          break;\n     default:\n          cout \u003c\u003c \&#34;Invalid grade\&#34; \u003c\u003c endl;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">char myGrade = &#39;A&#39;;
@@ -554,7 +542,6 @@ switch(myGrade){
           cout &lt;&lt; &#34;Invalid grade&#34; &lt;&lt; endl;
 }</code></pre>
 
-
 <h3 id="while-loops">While Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nint index = 1;\nwhile(index \u003c= 5){\n     cout \u003c\u003c index \u003c\u003c endl;\n     index&#43;&#43;;\n}\n\ndo{\n     cout \u003c\u003c index \u003c\u003c endl;\n     index&#43;&#43;;\n}while(index \u003c= 5);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">int index = 1;
@@ -568,13 +555,11 @@ do{
      index&#43;&#43;;
 }while(index &lt;= 5);</code></pre>
 
-
 <h3 id="for-loops">For Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nfor(int i = 0; i \u003c 5; i&#43;&#43;){\n     cout \u003c\u003c i \u003c\u003c endl;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">for(int i = 0; i &lt; 5; i&#43;&#43;){
      cout &lt;&lt; i &lt;&lt; endl;
 }</code></pre>
-
 
 <h3 id="exception-catching">Exception Catching</h3>
 
@@ -593,7 +578,6 @@ int main(){
      }
      return 0;
 }</code></pre>
-
 
 <h3 id="classes-and-objects">Classes and Objects</h3>
 
@@ -621,7 +605,6 @@ book2.author = &#34;JRR Tolkien&#34;;
 book2.readBook();
 cout &lt;&lt; book2.title &lt;&lt; endl;</code></pre>
 
-
 <h3 id="constructors">Constructors</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nclass Book{\n     public:\n          string title;\n          string author;\n\n          Book(string title, string author){\n               this-\u003etitle = title;\n               this-\u003eauthor = author;\n          }\n\n          void readBook(){\n               cout \u003c\u003c \&#34;Reading \&#34; &#43; this-\u003etitle &#43; \&#34; by \&#34; &#43; this-\u003eauthor \u003c\u003c endl;\n          }\n};\n\nBook book1(\&#34;Harry Potter\&#34;, \&#34;JK Rowling\&#34;);\ncout \u003c\u003c book1.title \u003c\u003c endl;\n\nBook book2(\&#34;Lord of the Rings\&#34;, \&#34;JRR Tolkien\&#34;);\ncout \u003c\u003c book2.title \u003c\u003c endl;\n\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">class Book{
@@ -644,7 +627,6 @@ cout &lt;&lt; book1.title &lt;&lt; endl;
 
 Book book2(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
 cout &lt;&lt; book2.title &lt;&lt; endl;</code></pre>
-
 
 <h3 id="getters-and-setters">Getters and Setters</h3>
 
@@ -681,7 +663,6 @@ cout &lt;&lt; book1.getTitle() &lt;&lt; endl;
 
 Book book2(&#34;Lord of the Rings&#34;, &#34;JRR Tolkien&#34;);
 cout &lt;&lt; book2.getTitle() &lt;&lt; endl;</code></pre>
-
 
 <h3 id="inheritance">Inheritance</h3>
 
@@ -735,10 +716,9 @@ ItalianChef myItalianChef(&#34;Massimo Bottura&#34;, 55, &#34;Italy&#34;);
 myItalianChef.makeChicken();
 cout &lt;&lt; myItalianChef.age &lt;&lt; endl;</code></pre>
 
-
 <h3 id="abstract-classes-and-methods">Abstract Classes and Methods</h3>
 
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nclass Vehicle{\n     public:\n          virtual void move() = 0;\n          void getDescription(){\n               cout \u003c\u003c \&#34;Vehicles are used for transportation\&#34; \u003c\u003c endl;\n          }\n};\n\nclass Bicycle : public Vehicle{\n     public:\n          void move(){\n               cout \u003c\u003c \&#34;The bicycle pedals forward\&#34; \u003c\u003c endl;\n          }\n};\n\nclass Plane : public Vehicle{\n     public:\n          virtual void move(){\n               cout \u003c\u003c \&#34;The plane flys through the sky\&#34; \u003c\u003c endl;\n          }\n};\n\nPlane myPlane;\nmyPlane.move();\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">class Vehicle{
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nclass Vehicle{\n     public:\n          virtual void move() = 0;\n          void getDescription(){\n               cout \u003c\u003c \&#34;Vehicles are used for transportation\&#34; \u003c\u003c endl;\n          }\n};\n\nclass Bicycle : public Vehicle{\n     public:\n          void move(){\n               cout \u003c\u003c \&#34;The bicycle pedals forward\&#34; \u003c\u003c endl;\n          }\n};\n\nclass Plane : public Vehicle{\n     public:\n          virtual void move(){\n               cout \u003c\u003c \&#34;The plane flys through the sky\&#34; \u003c\u003c endl;\n          }\n};\n\nPlane myPlane;\nmyPlane.move();\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cpp">class Vehicle{
      public:
           virtual void move() = 0;
           void getDescription(){
@@ -762,7 +742,6 @@ class Plane : public Vehicle{
 
 Plane myPlane;
 myPlane.move();</code></pre>
-</p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -1724,7 +1703,7 @@ myPlane.move();</code></pre>
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

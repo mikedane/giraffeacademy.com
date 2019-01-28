@@ -181,7 +181,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">C - Programming Language</div>
-                         <div>This course covers the basics of programming in C. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in C. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -352,7 +352,6 @@ include Code Blocks, Eclipse and Net Beans.</p>
 printf(&#34;World&#34;);
 printf(&#34;!\n&#34;);</code></pre>
 
-
 <h3 id="variables-and-data-types">Variables and Data Types</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n/*\nNames are case-sensitive and may begin with:\n     letters, _\nAfter, may include\n     letters, numbers, _\nConvention says\n     Start with a lowercase word, then additional words are capitalized\n     ex. myFirstVariable\n*/\nchar testGrade = &#39;A&#39;;    // single 8-bit character.\nchar name[] = \&#34;Mike\&#34;;    // array of characters (string)\n\n// you can make them unsigned by adding \&#34;unsigned\&#34; prefix\nshort age0 = 10;         // atleast 16-bits signed integer\nint age1 = 20;           // atleast 16-bits signed integer (not smaller than short)\nlong age2 = 30;          // atleast 32-bits signed integer\nlong long age3 = 40;     // atleast 64-bits signed integer\n\nfloat gpa0 = 2.5;       // single percision floating point\ndouble gpa1 = 3.5;       // double-precision floating point\nlong double gpa2 = 3.5;  // extended-precision floating point\n\nint isTall;             // 0 if false, non-zero if true\nisTall = 1;\n\ntestGrade = &#39;F&#39;;\n\nprintf(\&#34;%s, your grade is %c \\n\&#34;, name, testGrade);\n/*\n%c\tcharacter\n%d\tinteger number (base 10)\n%e\texponential floating-point number\n%f\tfloating-point number\n%i\tinteger (base 10)\n%o\toctal number (base 8)\n%s\ta string of characters\n%u\tunsigned decimal (integer) number\n%x\tnumber in hexadecimal (base 16)\n%%\tprint a percent sign\n\\%\tprint a percent sign\n*/\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="c">/*
@@ -397,12 +396,10 @@ printf(&#34;%s, your grade is %c \n&#34;, name, testGrade);
 \%	print a percent sign
 */</code></pre>
 
-
 <h3 id="casting-and-converting">Casting and Converting</h3>
 
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nprintf(\&#34;%d \\n\&#34;, (int)3.14);\nprintf(\&#34;%f \\n\&#34;, (double)3 / 2);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="c">printf(&#34;%d \n&#34;, (int)3.14);
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nprintf(\&#34;%d \\n\&#34;, (int)3.14);\nprintf(\&#34;%f \\n\&#34;, (double)3 / 2);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="c">printf(&#34;%d \n&#34;, (int)3.14);
 printf(&#34;%f \n&#34;, (double)3 / 2);</code></pre>
-</p>
 
 <h3 id="pointers">Pointers</h3>
 
@@ -412,7 +409,6 @@ printf(&#34;%p \n&#34;, &amp;num);
 int *pNum = &amp;num;
 printf(&#34;%p \n&#34;, pNum);
 printf(&#34;%d \n&#34;, *pNum);</code></pre>
-
 
 <h3 id="numbers">Numbers</h3>
 
@@ -432,7 +428,6 @@ printf(&#34;%d \n&#34;, num);
 printf(&#34;%f \n&#34;, pow(2, 3));
 printf(&#34;%f \n&#34;, sqrt(144));
 printf(&#34;%f \n&#34;, round(2.7));</code></pre>
-
 
 <h3 id="user-input">User Input</h3>
 
@@ -456,7 +451,6 @@ printf(&#34;Enter your gpa: &#34;);
 scanf(&#34;%lf&#34;, &amp;gpa);
 printf(&#34;Your gpa is %f \n&#34;, gpa);</code></pre>
 
-
 <h3 id="arrays">Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// int luckyNumbers[6];\nint luckyNumbers[] = {4, 8, 15, 16, 23, 42};\n//        indexes:    0  1  2   3   4   5\nluckyNumbers[0] = 90;\nprintf(\&#34;%d \\n\&#34;, luckyNumbers[0]);\nprintf(\&#34;%d \\n\&#34;, luckyNumbers[1]);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="c">// int luckyNumbers[6];
@@ -466,7 +460,6 @@ luckyNumbers[0] = 90;
 printf(&#34;%d \n&#34;, luckyNumbers[0]);
 printf(&#34;%d \n&#34;, luckyNumbers[1]);</code></pre>
 
-
 <h3 id="2-dimensional-arrays">2 Dimensional Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n// int  numberGrid[2][3];\nint numberGrid[2][3] = { {1, 2, 3}, {4, 5, 6} };\nnumberGrid[0][1] = 99;\n\nprintf(\&#34;%d \\n\&#34;, numberGrid[0][0]);\nprintf(\&#34;%d \\n\&#34;, numberGrid[0][1]);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="c">// int  numberGrid[2][3];
@@ -475,7 +468,6 @@ numberGrid[0][1] = 99;
 
 printf(&#34;%d \n&#34;, numberGrid[0][0]);
 printf(&#34;%d \n&#34;, numberGrid[0][1]);</code></pre>
-
 
 <h3 id="functions">Functions</h3>
 
@@ -491,7 +483,6 @@ int main(){
 int addNumbers(int num1, int num2){
      return num1 &#43; num2;
 }</code></pre>
-
 
 <h3 id="if-statements">If Statements</h3>
 
@@ -515,7 +506,6 @@ if(&#39;a&#39; &gt; &#39;b&#39;){
      printf(&#34;character comparison was true\n&#34;);
 }</code></pre>
 
-
 <h3 id="switch-statements">Switch Statements</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nchar myGrade = &#39;A&#39;;\nswitch(myGrade){\n     case &#39;A&#39;:\n          printf(\&#34;You Pass\\n\&#34;);\n          break;\n     case &#39;F&#39;:\n          printf(\&#34;You fail\\n\&#34;);\n          break;\n     default:\n          printf(\&#34;Invalid grade\\n\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="c">char myGrade = &#39;A&#39;;
@@ -529,7 +519,6 @@ switch(myGrade){
      default:
           printf(&#34;Invalid grade\n&#34;);
 }</code></pre>
-
 
 <h3 id="while-loops">While Loops</h3>
 
@@ -545,13 +534,11 @@ do{
      index&#43;&#43;;
 }while(index &lt;= 5);</code></pre>
 
-
 <h3 id="for-loops">For Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nfor(int i = 0; i \u003c 5; i&#43;&#43;){\n     printf(\&#34;%d \\n\&#34;, i);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="c">for(int i = 0; i &lt; 5; i&#43;&#43;){
      printf(&#34;%d \n&#34;, i);
 }</code></pre>
-
 
 <h3 id="structs">Structs</h3>
 
@@ -571,7 +558,6 @@ int main(){
 
       return 0;
 }</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -1326,7 +1312,7 @@ int main(){
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

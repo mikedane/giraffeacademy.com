@@ -187,7 +187,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">PHP - Programming Language</div>
-                         <div>This course covers the basics of programming in PHP. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in PHP. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -368,7 +368,6 @@ popular include NetBeans, PHP Storm and Adobe DreamWeaver.</p>
 print &#34;&lt;hr/&gt;&#34;;                           // returns 1
 echo  &#34;&lt;p&gt;This is a php tutorial&lt;/p&gt;&#34;;</code></pre>
 
-
 <h3 id="variables-and-data-types">Variables and Data Types</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n/*\nNames are case-sensitive and must start with &#39;$&#39; then:\n   letters, _\nAfter, may include\n   letters, numbers, _\nConvention says\n   Start with a lowercase word, then additional words are capitilized\n   ex. myFirstVariable\n*/\n$name = \&#34;Mike\&#34;;    // Strings\n$age = 30;         // Integer\n$gpa = 3.5;        // Decimal\n$isTall = true;    // Boolean -\u003e true/false\n\n$name = \&#34;John\&#34;;\n\necho  \&#34;Your name is $name \u003cbr\u003e\&#34;;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">/*
@@ -389,14 +388,12 @@ $name = &#34;John&#34;;
 
 echo  &#34;Your name is $name &lt;br&gt;&#34;;</code></pre>
 
-
 <h3 id="casting-and-converting">Casting and Converting</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\necho ((int)3.14).\&#34;\u003cbr\u003e\&#34;;\necho ((float)3).\&#34;\u003cbr\u003e\&#34;;\necho ((int)\&#34;80\&#34; &#43; (float)\&#34;60.5\&#34;).\&#34;\u003cbr\u003e\&#34;;\necho  intval(\&#34;80\&#34;) &#43; floatval(\&#34;60.5\&#34;);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">echo ((int)3.14).&#34;&lt;br&gt;&#34;;
 echo ((float)3).&#34;&lt;br&gt;&#34;;
 echo ((int)&#34;80&#34; &#43; (float)&#34;60.5&#34;).&#34;&lt;br&gt;&#34;;
 echo  intval(&#34;80&#34;) &#43; floatval(&#34;60.5&#34;);</code></pre>
-
 
 <h3 id="strings">Strings</h3>
 
@@ -408,7 +405,6 @@ echo  $greeting[0].&#34;&lt;br&gt;&#34;;
 echo  $greeting[-1].&#34;&lt;br&gt;&#34;;
 echo  str_replace(&#34;l&#34;, &#34;Z&#34;, $greeting).&#34;&lt;br&gt;&#34;;
 echo  strchr($greeting, &#34;ll&#34;).&#34;&lt;br&gt;&#34;;     </code></pre>
-
 
 <h3 id="numbers">Numbers</h3>
 
@@ -431,7 +427,6 @@ echo max(2, 3).&#34;&lt;br&gt;&#34;;
 echo sqrt(144).&#34;&lt;br&gt;&#34;;
 echo round(2.7).&#34;&lt;br&gt;&#34;;</code></pre>
 
-
 <h3 id="user-input-get">User Input GET</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cform action=\&#34;App.php\&#34; method=\&#34;GET\&#34;\u003e\n     Username: \u003cinput type=\&#34;text\&#34; name=\&#34;username\&#34;\u003e\n\u003c/form\u003e\n\n\u003c?php\necho $_GET[\&#34;username\&#34;];\necho \&#34;\u003c/br\u003e\&#34;;\n$age = $_GET[\&#34;age\&#34;];\necho $age;\n?\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">&lt;form action=&#34;App.php&#34; method=&#34;GET&#34;&gt;
@@ -445,7 +440,6 @@ $age = $_GET[&#34;age&#34;];
 echo $age;
 ?&gt;</code></pre>
 
-
 <h3 id="user-input-post">User Input POST</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cform action=\&#34;App.php\&#34; method=\&#34;POST\&#34;\u003e\n     Username: \u003cinput type=\&#34;text\&#34; name=\&#34;username\&#34;\u003e\n\u003c/form\u003e\n\n\u003c?php\necho $_POST[\&#34;username\&#34;];\n?\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">&lt;form action=&#34;App.php&#34; method=&#34;POST&#34;&gt;
@@ -455,7 +449,6 @@ echo $age;
 &lt;?php
 echo $_POST[&#34;username&#34;];
 ?&gt;</code></pre>
-
 
 <h3 id="arrays">Arrays</h3>
 
@@ -469,7 +462,6 @@ echo $lucky_numbers[0].&#34;&lt;br&gt;&#34;;
 echo $lucky_numbers[1].&#34;&lt;br&gt;&#34;;
 echo count($lucky_numbers).&#34;&lt;br&gt;&#34;;</code></pre>
 
-
 <h3 id="2-dimensional-arrays">2 Dimensional Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n$number_grid = [ [1, 2], [3, 4] ];\n$number_grid[0][1] = 99;\n\necho $number_grid[0][0].\&#34;\u003cbr\u003e\&#34;;\necho $number_grid[0][1].\&#34;\u003cbr\u003e\&#34;;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">$number_grid = [ [1, 2], [3, 4] ];
@@ -477,7 +469,6 @@ $number_grid[0][1] = 99;
 
 echo $number_grid[0][0].&#34;&lt;br&gt;&#34;;
 echo $number_grid[0][1].&#34;&lt;br&gt;&#34;;</code></pre>
-
 
 <h3 id="array-functions">Array Functions</h3>
 
@@ -491,7 +482,6 @@ sort($friends);
 echo &#34;$friends[0], $friends[1], $friends[2] &lt;br&gt;&#34;;
 echo in_array(&#34;Oscar&#34;, $friends);</code></pre>
 
-
 <h3 id="associative-arrays">Associative Arrays</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\ntest_grades = {\n    \&#34;Andy\&#34; =\u003e \&#34;B&#43;\&#34;,\n    \&#34;Stanley\&#34; =\u003e \&#34;C\&#34;,\n    \&#34;Ryan\&#34; =\u003e \&#34;A\&#34;,\n    3 =\u003e 95.2\n}\necho  test_grades[\&#34;Andy\&#34;].\&#34;\u003cbr\u003e\&#34;;\necho  test_grades[\&#34;Ryan\&#34;].\&#34;\u003cbr\u003e\&#34;;\necho  test_grades[3].\&#34;\u003cbr\u003e\&#34;;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">test_grades = {
@@ -504,7 +494,6 @@ echo  test_grades[&#34;Andy&#34;].&#34;&lt;br&gt;&#34;;
 echo  test_grades[&#34;Ryan&#34;].&#34;&lt;br&gt;&#34;;
 echo  test_grades[3].&#34;&lt;br&gt;&#34;;</code></pre>
 
-
 <h3 id="functions">Functions</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nfunction addNumbers($num1, $num2=99){\n     return $num1 &#43; $num2;\n}\n\n$sum = addNumbers(4, 3);\necho $sum;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">function addNumbers($num1, $num2=99){
@@ -513,7 +502,6 @@ echo  test_grades[3].&#34;&lt;br&gt;&#34;;</code></pre>
 
 $sum = addNumbers(4, 3);
 echo $sum;</code></pre>
-
 
 <h3 id="if-statements">If Statements</h3>
 
@@ -539,7 +527,6 @@ if(&#34;dog&#34; == &#34;cat&#34;){
    echo &#34;string comparison was true&#34;;
 }</code></pre>
 
-
 <h3 id="switch-statements">Switch Statements</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n$myGrade = \&#34;A\&#34;;\nswitch($myGrade){\n     case \&#34;A\&#34;:\n          echo \&#34;You Pass\&#34;;\n          break;\n     case \&#34;F\&#34;:\n          echo \&#34;You fail\&#34;;\n          break;\n     default:\n          echo \&#34;Invalid grade\&#34;;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">$myGrade = &#34;A&#34;;
@@ -553,7 +540,6 @@ switch($myGrade){
      default:
           echo &#34;Invalid grade&#34;;
 }</code></pre>
-
 
 <h3 id="while-loops">While Loops</h3>
 
@@ -569,7 +555,6 @@ do{
      $index &#43;= 1;
 }while ($index &lt;= 5);</code></pre>
 
-
 <h3 id="for-loops">For Loops</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nfor($i = 0; $i \u003c 5; $i&#43;&#43;){\n     echo $i;\n}\n\n$luckyNums = [4, 8, 15, 16, 23, 42];\nforeach($luckyNums as $luckyNum){\n     echo $luckyNum.\&#34;\u003cbr\u003e\&#34;;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">for($i = 0; $i &lt; 5; $i&#43;&#43;){
@@ -581,7 +566,6 @@ foreach($luckyNums as $luckyNum){
      echo $luckyNum.&#34;&lt;br&gt;&#34;;
 }</code></pre>
 
-
 <h3 id="exception-catching">Exception Catching</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\ntry{\n     throw new Exception(&#39;Something bad happened&#39;);\n} catch(Exception $e){\n     echo $e-\u003egetMessage();\n} finally{\n     echo \&#34;\u003cbr\u003e This code gets executed no matter what\&#34;;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">try{
@@ -591,7 +575,6 @@ foreach($luckyNums as $luckyNum){
 } finally{
      echo &#34;&lt;br&gt; This code gets executed no matter what&#34;;
 }</code></pre>
-
 
 <h3 id="classes-and-objects">Classes and Objects</h3>
 
@@ -614,7 +597,6 @@ echo $book1-&gt;title.&#34;&lt;br&gt;&#34;;
 echo Book::$staticAttribute.&#34;&lt;br&gt;&#34;;
 $book1-&gt;readBook();</code></pre>
 
-
 <h3 id="constructors">Constructors</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nclass Book{\n     var $title;\n     public $author;\n\n     function __construct($title, $author){\n          $this-\u003etitle = $title;\n          $this-\u003eauthor = $author;\n     }\n\n     function readBook(){\n          echo \&#34;Reading $this-\u003etitle by $this-\u003eauthor\&#34;;\n     }\n};\n\n\n$book1 = new Book(\&#34;Harry Potter\&#34;, \&#34;JK Rowling\&#34;);\n// $book1-\u003etitle = \&#34;Half-Blood Prince\&#34;;\n\necho $book1-\u003etitle.\&#34;\u003cbr\u003e\&#34;;\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">class Book{
@@ -636,7 +618,6 @@ $book1 = new Book(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;);
 // $book1-&gt;title = &#34;Half-Blood Prince&#34;;
 
 echo $book1-&gt;title.&#34;&lt;br&gt;&#34;;</code></pre>
-
 
 <h3 id="getters-and-setters">Getters and Setters</h3>
 
@@ -666,7 +647,6 @@ $book1 = new Book(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;);
 $book1-&gt;setTitle(&#34;Half-Blood Prince&#34;);
 
 echo $book1-&gt;getTitle();</code></pre>
-
 
 <h3 id="inheritance">Inheritance</h3>
 
@@ -715,7 +695,6 @@ $italianChef = new ItalianChef(&#34;Massimo Bottura&#34;, 55, &#34;Italy&#34;);
 $italianChef-&gt;makeChicken();
 echo &#34;&lt;br&gt; $italianChef-&gt;countryOfOrigin&#34;;</code></pre>
 
-
 <h3 id="abstract-classes-and-methods">Abstract Classes and Methods</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nabstract class Vehicle{\n     public abstract function move();\n     public function getDescription(){\n          echo \&#34;Vehicles are used for transportation\&#34;;\n     }\n}\n\nclass Bicycle extends Vehicle{\n     public function move(){\n          echo \&#34;The bicycle pedals forward\&#34;;\n     }\n}\n\nclass Plane extends Vehicle{\n\n     public function move(){\n          echo \&#34;The plane flys through the sky\&#34;;\n     }\n}\n\n\n$plane = new Plane();\n$plane-\u003emove();\necho \&#34;\u003cbr\u003e\&#34;;\n$plane-\u003egetDescription();\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">abstract class Vehicle{
@@ -744,7 +723,6 @@ $plane-&gt;move();
 echo &#34;&lt;br&gt;&#34;;
 $plane-&gt;getDescription();</code></pre>
 
-
 <h3 id="interface-inheritance">Interface Inheritance</h3>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\ninterface Animal{\n     public function speak();\n}\n\nclass Cat implements Animal{\n     public function speak(){\n          echo \&#34;Meow Meow \u003cbr\u003e\&#34;;\n     }\n}\n\nclass Dog implements Animal{\n     public function speak(){\n          echo \&#34;Woof Woof \u003cbr\u003e\&#34;;\n     }\n}\n\n\n$animals = [\n     new Dog(),\n     new Cat()\n];\n\nforeach($animals as $animal){\n     $animal-\u003espeak();\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">interface Animal{
@@ -772,7 +750,6 @@ $animals = [
 foreach($animals as $animal){
      $animal-&gt;speak();
 }</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -1800,7 +1777,7 @@ foreach($animals as $animal){
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

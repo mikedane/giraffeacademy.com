@@ -191,7 +191,7 @@ document.body.removeChild(textArea);
                <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
                     <div class="page-margin">
                               <div style="font-size:22px;">Ruby - Programming Language</div>
-                         <div>This course covers the basics of programming in Ruby. Work your way through the videos and we&#39;ll teach you everything you need to know to start your programming journey!</div>
+                         <div>This course covers the basics of programming in Ruby. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
                     </div>
                </div>
           </div>
@@ -334,7 +334,57 @@ document.body.removeChild(textArea);
 </div><div style="font-size:18px" class="flow-text">
                     
 
-<h2 id="code">Code</h2>
+<p>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who's job it was to do calculations and "compute" things all day. Needless to say we've come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. </p>
+
+<p>Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we've written in this course, and all the code that's currently running on your computer, is actually just a collection of complex patterns of 0s &amp; 1s running through your processor. And that same processor that's running everything on your computer is made up of a bunch of ALUs which stands for Arithmetic Logic Unit, basically a digital circuit which does basic math really really fast!</p>
+
+<p>It's because computers are good at math, that you're even able to read this website right now. So as we forge forward and learn to become Ruby developers, it will help to spend some time learning how to leverage the amazing mathematical abilities of this awesome machine we're programming. </p>
+
+<h2 id="integers-vs-floats">Integers vs Floats</h2>
+
+<p>The first thing I'd like to discuss is a very fundamental concept which is integral to mathematics as well as computer programming, which is the difference between an integer and a float.</p>
+
+<p>These are two different types of numbers that we can work with in our programs, and it's important that you have a grasp of the differences so you can use them appropriately. </p>
+
+<p>Let's start with integers which are whole numbers, or counting numbers. That means both negative numbers, positive numbers and zero, as long as they don't have decimal places after them. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Integers are often used to store thing that can&#39;t be broken up, like the number of minutes in the hour (you wouldn&#39;t say it 10:42.5). They can also be used for counting the number of times something has happened. This in particular will come in handy when we look at loops later on in this course.</div></p>
+
+<p>Unlike integers, floats are any numbers <em>with</em> decimal places. Even if a float is technically a whole number like 42, in order for it to be a float it would have to have a .0 at the end of it 42.0. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Floats are often used when precision is a factor, like in scientific measurements, or in many cases when representing percentages (0.0 - 1.0).</div></p>
+
+<p>Any time you're working with numbers in your programs, you always want to be aware of the <em>type</em> of number you're using, be it an integer or a float. Failure to do say may result in aspects of your program not performing as intended, or math calculations not giving precise enough answers. </p>
+
+<h2 id="math-operations">Math Operations</h2>
+
+<p>Now that we have a grasp on the different types of numbers, let use them! You can tell a computer to perform any of the 4 basic math operations, addition, subtraction, multiplication and division by simply writing out the problem like you would normally. </p>
+
+<p>Note that in Ruby we use the <code>*</code> to indicate multiplication and the <code>/</code> to indicate division.  </p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;puts  2 * 3         # Basic Arithmetic: &#43;, -, /, *\nputs  2**3          # Exponent\nputs  10 % 3        # Modulus Op. : returns remainder of 10/3\nputs  1 &#43; 2 * 3     # order of operations\nputs 10 / 3.0       # int&#39;s and doubles\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="rb">puts  2 * 3         # Basic Arithmetic: &#43;, -, /, *
+puts  2**3          # Exponent
+puts  10 % 3        # Modulus Op. : returns remainder of 10/3
+puts  1 &#43; 2 * 3     # order of operations
+puts 10 / 3.0       # int&#39;s and doubles</code></pre></p>
+
+<p>Above are some common examples of math operation you might use.</p>
+
+<p>Ruby will also respect order of operations, so you can group certain expressions using parenthesis to encode more complex math problems.</p>
+
+<h3>Modulo Operator</h3>
+
+<p>If you look in the code above you'll also notice an operator that you might not have seen before, indicated by a percent sign (%). This is what's referred to as the modulo operator and is a pretty common operation that is performed in Ruby programs.</p>
+
+<p>The modulo operator will take the number on the left, divide it by the number on the right and then return the remainder. So if we ask the computer to perform <code>10 % 3</code> we would get back a 1, because 10/3 is 3 with a remainder of 1. </p>
+
+<p>In the code above we are not making use of variables, but often times it's extra useful to store numbers in variables because numbers, unlike strings don't give us any context. If I see a random string in my program I can at least try to infer what it's purpose is by reading the text, the same can't always be said about numbers. </p>
+
+<h2 id="advanced-math">Advanced Math</h2>
+
+<p>Aside from all of the basic math operations and the modulo operation, Ruby also provides ways of doing more complex and difficult calculations with relative easy. Check out the video above for a full demonstration of advanced math in Ruby!</p>
+
+<h2 id="video-code">Video Code</h2>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nputs  2 * 3         # Basic Arithmetic: &#43;, -, /, *\nputs  2**3          # Exponent\nputs  10 % 3        # Modulus Op. : returns remainder of 10/3\nputs  1 &#43; 2 * 3     # order of operations\nputs 10 / 3.0       # int&#39;s and doubles\n\n\nnum = 10\nnum &#43;= 100          # &#43;=, -=, /=, *=\nputs num\n\nnum = -36.8\nputs  num.abs()\nputs  num.round()\n\n# Math class has useful math methods\nputs Math.sqrt(144)\nputs Math.log(0)\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="rb">puts  2 * 3         # Basic Arithmetic: &#43;, -, /, *
 puts  2**3          # Exponent
@@ -354,7 +404,6 @@ puts  num.round()
 # Math class has useful math methods
 puts Math.sqrt(144)
 puts Math.log(0)</code></pre>
-
 
                </div>
                <div style="margin-top: 25px;">
@@ -542,8 +591,112 @@ puts Math.log(0)</code></pre>
                
                
                
-               <a href="/programming-languages/ruby/math/#code">
-                   <li>Code</li>
+               <a href="/programming-languages/ruby/math/#integers-vs-floats">
+                   <li>Integers vs Floats</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/ruby/math/#math-operations">
+                   <li>Math Operations</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/ruby/math/#modulo-operator">
+                   <li>Modulo Operator</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/ruby/math/#advanced-math">
+                   <li>Advanced Math</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/ruby/math/#video-code">
+                   <li>Video Code</li>
                </a>
                
                
@@ -642,7 +795,7 @@ puts Math.log(0)</code></pre>
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2018 Mike Dane. All Rights Reserved
+             © 2019 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

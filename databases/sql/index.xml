@@ -35,7 +35,8 @@
       <pubDate>Fri, 22 Dec 2017 11:48:55 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/sql/mysql-windows-installation/</guid>
-      <description> Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/  Be sure to go to the windows installer page  Run installer Choose &amp;lsquo;Custom Installation&amp;rsquo; and install the server and the shell Create a root password Go into start menu, open MySQL Shell and login Create a database CopyCREATE DATABASE giraffe_db;  Done!
+      <description> Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/  Be sure to go to the windows installer page  Run installer Choose &amp;lsquo;Custom Installation&amp;rsquo; and install the server and the shell Create a root password Go into start menu, open MySQL Shell and login Create a database CopyCREATE DATABASE giraffe_db;
+ Done!
   </description>
     </item>
     
@@ -45,7 +46,7 @@
       <pubDate>Fri, 22 Dec 2017 11:48:55 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/sql/mysql-mac-installation/</guid>
-      <description>Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/ Run installer Write down temporary password Open &amp;lsquo;MySQL&amp;rsquo; in System Preferences and start the server Configure command line to recognize &amp;lsquo;mysql&amp;rsquo; command  echo &amp;lsquo;export PATH=/usr/local/mysql/bin:$PATH&amp;rsquo; &amp;gt;&amp;gt; ~/.bash_profile . ~/.bash_profile  mysql -u root -p  Enter temporary password from step 3 when prompted  Change temporary password CopyALTER USER &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;new_password&amp;#39;;  Test to make sure new password worked  exit mysql -u root -p  Enter new password when prompted   Create a database CopyCREATE DATABASE giraffe_db;  Done!</description>
+      <description>Instructions  Download mySQL Community Server - https://dev.mysql.com/downloads/mysql/ Run installer Write down temporary password Open &amp;lsquo;MySQL&amp;rsquo; in System Preferences and start the server Configure command line to recognize &amp;lsquo;mysql&amp;rsquo; command  echo &amp;lsquo;export PATH=/usr/local/mysql/bin:$PATH&amp;rsquo; &amp;gt;&amp;gt; ~/.bash_profile . ~/.bash_profile  mysql -u root -p  Enter temporary password from step 3 when prompted  Change temporary password CopyALTER USER &amp;#39;root&amp;#39;@&amp;#39;localhost&amp;#39; IDENTIFIED BY &amp;#39;new_password&amp;#39;; Test to make sure new password worked  exit mysql -u root -p  Enter new password when prompted   Create a database CopyCREATE DATABASE giraffe_db; Done!</description>
     </item>
     
     <item>
