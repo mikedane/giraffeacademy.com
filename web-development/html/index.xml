@@ -17,7 +17,9 @@
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/choosing-a-text-editor/</guid>
-      <description></description>
+      <description>As we begin our journey to becoming HTML masters, we&amp;rsquo;ll start with a simple discussion about text editors.
+If you&amp;rsquo;re new to programming, this concept might sound a bit foreign. Normally when people think of text editors they think of Microsoft Word, Google Docs, or even just the basic notepad editor that came with their operating system.
+Popular text editors like Microsoft Word are what we would refer to as a word processors.</description>
     </item>
     
     <item>
@@ -26,7 +28,8 @@
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/creating-an-html-file/</guid>
-      <description> Code Copy&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;title&amp;gt;My Website Title&amp;lt;/title&amp;gt; &amp;lt;body&amp;gt; Hello World &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
+      <description>HTML is a markup language which browsers use to determine how a webpage should be displayed. By learning HTML, you&amp;rsquo;ll be able to write code which describes the look and feel of a website you&amp;rsquo;re trying to build.
+All of this HTML code is going to be contained inside a .html file. This is any file which has a .html extension. Most text editors you&amp;rsquo;re used to using will most likely not be able to save files into the .</description>
     </item>
     
     <item>
@@ -35,7 +38,9 @@
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/basic-tags/</guid>
-      <description> Code Copy&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;This is a great website&amp;#34;&amp;gt; &amp;lt;title&amp;gt;My Website Title&amp;lt;/title&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;My Website&amp;lt;/h1&amp;gt; &amp;lt;hr/&amp;gt; &amp;lt;p&amp;gt; &amp;lt;big&amp;gt;This&amp;lt;/big&amp;gt; is &amp;lt;small&amp;gt;my&amp;lt;/small&amp;gt; &amp;lt;b&amp;gt;&amp;lt;i&amp;gt;paragraph&amp;lt;/i&amp;gt;&amp;lt;/b&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; 10&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
+      <description>In this lesson we&amp;rsquo;ll take a look at some basic HTML tags that you can use to start adding some basic organization and styling to your websites!
+To give you a taste of what we&amp;rsquo;re going to be doing I&amp;rsquo;ll show you the final product, an HTML document that uses a variety of tags to format a basic website:
+Copy&amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;This is a great website&amp;#34;&amp;gt; &amp;lt;title&amp;gt;My Website Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;My Website&amp;lt;/h1&amp;gt; &amp;lt;hr/&amp;gt; &amp;lt;p&amp;gt; &amp;lt;big&amp;gt;This&amp;lt;/big&amp;gt; is &amp;lt;small&amp;gt;my&amp;lt;/small&amp;gt; &amp;lt;b&amp;gt;&amp;lt;i&amp;gt;paragraph&amp;lt;/i&amp;gt;&amp;lt;/b&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; 10&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Throughout this lesson we&amp;rsquo;ll walk through each of these unique tags and I&amp;rsquo;ll discuss how to use them.</description>
     </item>
     
     <item>
@@ -44,7 +49,8 @@
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/comments/</guid>
-      <description> Code Copy&amp;lt;!-- this is a comment it can be multi-line --&amp;gt; </description>
+      <description>As you continue to sharpen your HTML skills and get more and more comfortable building websites, you&amp;rsquo;ll eventually become really good at reading code. Just by looking at a line or two you&amp;rsquo;ll be able to tell what the website will look like and what content it will display.
+But in a lot of cases, merely relying on the HTML tags to properly explain or document themselves can be ineffective, and often times in the course of writing a webpage you&amp;rsquo;ll want to mark things down or explain why you&amp;rsquo;re doing things a certain way.</description>
     </item>
     
     <item>

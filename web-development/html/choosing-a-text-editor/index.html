@@ -253,6 +253,89 @@ document.body.removeChild(textArea);
      <iframe src="https://www.youtube.com/embed/uGGTXUsk7EM?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
                     
+
+<p>As we begin our journey to becoming HTML masters, we&rsquo;ll start with a simple discussion about text editors.</p>
+
+<p>If you&rsquo;re new to programming, this concept might sound a bit foreign. Normally when people think of text editors they think of Microsoft Word, Google Docs, or even just the basic notepad editor that came with their operating system.</p>
+
+<p>Popular text editors like Microsoft Word are what we would refer to as a word processors. They&rsquo;re software applications which are specifically designed to write reports, academic papers, formal documents, and can be used for most school or work related things.</p>
+
+<p>But when we&rsquo;re writing HTML code, believe it or not a word processor is generally not going to work very well. Word processors are designed for documents which are meant to be read by humans. But when we&rsquo;re writing HTML we&rsquo;re writing something that is going to be read by a web browser.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5"><p>Almost no developers use traditional word processors like the one&rsquo;s you&rsquo;re most likely used to using. Instead specialized text editors have been built to suit the specific needs of web developers.</p>
+</div>
+
+<p>A lot of the syntax, formatting and special characters we&rsquo;re going to be using will be foreign for programs like Microsoft Word or Google Docs. Therefore, if we want to make our lives easier, it will be better to use a text editor which is more specifically designed for writing HTML.</p>
+
+<h2 id="ide">IDE</h2>
+
+<p>An IDE, which stands for Integrated Development Environment, is a specialized text editor designed to be used for writing HTML (as well as other programming languages).</p>
+
+<p>IDEs have all sorts of features and functions which makes it really easy to write code cleaner and better. While you technically can use any text editor that can save a file in a <code>.HTML</code> format, I&rsquo;m going to strongly recommend that you consider downloading one of these IDEs.</p>
+
+<p>Since you&rsquo;re most likely not super familiar with what an IDE is and why it might be useful, allow me to explain some of the cool features that are generally included in them.</p>
+
+<h3 id="syntax-highlighting">Syntax Highlighting</h3>
+
+<p>Probably one of the most useful features is syntax highlighting. When we&rsquo;re writing HTML, we&rsquo;re going to be dealing with all sorts of unique and descriptive syntax. One of the fundamental entities of an HTML document are tags, looking something like this <code>&lt;p&gt;&lt;/p&gt;</code>. These tags, as well as all sorts of other special text that will go in and around them make up the structure and format of an HTML document.</p>
+
+<p>When writing and working with large HTML documents, it&rsquo;s often a lot easier to read and understand what&rsquo;s going on when these things are colored.</p>
+
+<p>To demonstrate, let&rsquo;s take a look at the same HTML program but with and without syntax highlighting:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003chead\u003e\n \u003cmeta charset=\&#34;UTF-8\&#34;\u003e\n \u003cmeta name=\&#34;description\&#34; content=\&#34;This is a great website\&#34;\u003e\n \u003ctitle\u003eMy Website Title\u003c/title\u003e\n\u003c/head\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="text">&lt;head&gt;
+ &lt;meta charset=&#34;UTF-8&#34;&gt;
+ &lt;meta name=&#34;description&#34; content=&#34;This is a great website&#34;&gt;
+ &lt;title&gt;My Website Title&lt;/title&gt;
+&lt;/head&gt;</code></pre>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003chead\u003e\n \u003cmeta charset=\&#34;UTF-8\&#34;\u003e\n \u003cmeta name=\&#34;description\&#34; content=\&#34;This is a great website\&#34;\u003e\n \u003ctitle\u003eMy Website Title\u003c/title\u003e\n\u003c/head\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;head&gt;
+ &lt;meta charset=&#34;UTF-8&#34;&gt;
+ &lt;meta name=&#34;description&#34; content=&#34;This is a great website&#34;&gt;
+ &lt;title&gt;My Website Title&lt;/title&gt;
+&lt;/head&gt;</code></pre>
+
+<p>As you can see, even without knowing HTML, the text below is a lot easier to look at. A good IDE will color the text like this automatically, and it&rsquo;s ideal for beginners because everything becomes so much more visual!</p>
+
+<h3 id="linting">Linting</h3>
+
+<p>Linting is a common word use in software development which essentially means checking your program for correctness. HTML uses a lot of complex syntax, and if that syntax isn&rsquo;t organized correctly the website won&rsquo;t render correctly in the browser.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5"><p>Most IDEs will automatically look through your program and check to make sure everything is organized right, and you&rsquo;re not making any obvious or small mistakes.</p>
+</div>
+
+<p>As a beginner, one of the biggest learning curves for HTML will be getting used to the syntax. Therefore an IDE with linting and autocomplete features can be a great way to lean how to do things the right way, and not develop bad habits.</p>
+
+<h3 id="file-explorers">File Explorers</h3>
+
+<p>Any time you&rsquo;re working with HTML, specifically if you&rsquo;re building a website with multiple pages, it will be useful to keep all of your files organized. All modern IDEs will provide some sort of a file explorer to help you do exactly that.</p>
+
+<img class="materialboxed responsive-img center-media" src="https://www.mikedane.com/web-development/html/choosing-a-text-editor/file-explorer.png" alt="" />
+
+
+<p>Here&rsquo;s a view of my file explorer as I write this article.</p>
+
+<p>You can see that I have all of my files, along with their corresponding folder structures laid out nicely. I know which file I&rsquo;m currently editing, and I can add/delete/rename files right from the IDE.</p>
+
+<p>It might not be super obvious why this is useful when you just have your normal file explorer for your operating system. But trust me, the more code you write, the more time you&rsquo;ll spend jumping between one file and another. File explorers like this are a must!</p>
+
+<h2 id="popular-ides">Popular IDEs</h2>
+
+<p>So hopefully I&rsquo;ve convinced you why using an IDE is a good idea when learning to write HTML. Now I&rsquo;ll give you a few suggestions based on my experience using a bunch of different ones.</p>
+
+<p>Keep in mind that this is by no means an exhaustive list, and ultimately the right IDE is going to be the one you enjoy using. I would try a couple of these out and maybe do some research of your own!</p>
+
+<p>Here&rsquo;s some recommendations in no particular order</p>
+
+<ol>
+<li><a target="_blank"href="https://code.visualstudio.com/">Visual Studio Code (my personal choice)</a></li>
+<li><a target="_blank"href="https://atom.io/">Atom</a></li>
+<li><a target="_blank"href="https://www.sublimetext.com/">Sublime</a></li>
+<li><a target="_blank"href="https://www.jetbrains.com/webstorm/">Web Storm</a></li>
+</ol>
+
+<p>If you don&rsquo;t know which to pick, I&rsquo;ll recommend Visual Studio Code, but again, you can&rsquo;t go wrong with any of them!</p>
+
                </div>
                <div style="margin-top: 25px;">
      
@@ -340,6 +423,150 @@ document.body.removeChild(textArea);
 
 
 
+
+
+   
+   <h5>On This Page</h5>
+<div class="table-of-contents" id="table-of-contents" style="margin-left:-20px">
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/choosing-a-text-editor/#ide">
+                   <li>IDE</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/choosing-a-text-editor/#syntax-highlighting">
+                   <li>Syntax Highlighting</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/choosing-a-text-editor/#linting">
+                   <li>Linting</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/choosing-a-text-editor/#file-explorers">
+                   <li>File Explorers</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/choosing-a-text-editor/#popular-ides">
+                   <li>Popular IDEs</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+</div>
 
 <br><br><h5>Share This Page</h5>
 <ul>

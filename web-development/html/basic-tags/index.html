@@ -254,14 +254,16 @@ document.body.removeChild(textArea);
 </div><div style="font-size:18px" class="flow-text">
                     
 
-<h2 id="code">Code</h2>
+<p>In this lesson we&rsquo;ll take a look at some basic HTML tags that you can use to start adding some basic organization and styling to your websites!</p>
 
-<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003chtml\u003e\n     \u003chead\u003e\n     \u003c/head\u003e\n          \u003cmeta charset=\&#34;UTF-8\&#34;\u003e\n          \u003cmeta name=\&#34;description\&#34; content=\&#34;This is a great website\&#34;\u003e\n          \u003ctitle\u003eMy Website Title\u003c/title\u003e\n     \u003cbody\u003e\n          \u003ch1\u003eMy Website\u003c/h1\u003e\n          \u003chr/\u003e\n          \u003cp\u003e\n               \u003cbig\u003eThis\u003c/big\u003e is \u003csmall\u003emy\u003c/small\u003e \u003cb\u003e\u003ci\u003eparagraph\u003c/i\u003e\u003c/b\u003e\n          \u003c/p\u003e\n\n          \u003cp\u003e\n               10\u003csup\u003e2\u003c/sup\u003e\n          \u003c/p\u003e\n     \u003c/body\u003e\n\u003c/html\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;html&gt;
+<p>To give you a taste of what we&rsquo;re going to be doing I&rsquo;ll show you the final product, an HTML document that uses a variety of tags to format a basic website:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003chtml\u003e\n     \u003chead\u003e\n          \u003cmeta charset=\&#34;UTF-8\&#34;\u003e\n          \u003cmeta name=\&#34;description\&#34; content=\&#34;This is a great website\&#34;\u003e\n          \u003ctitle\u003eMy Website Title\u003c/title\u003e\n     \u003c/head\u003e\n     \u003cbody\u003e\n          \u003ch1\u003eMy Website\u003c/h1\u003e\n          \u003chr/\u003e\n          \u003cp\u003e\n               \u003cbig\u003eThis\u003c/big\u003e is \u003csmall\u003emy\u003c/small\u003e \u003cb\u003e\u003ci\u003eparagraph\u003c/i\u003e\u003c/b\u003e\n          \u003c/p\u003e\n\n          \u003cp\u003e\n               10\u003csup\u003e2\u003c/sup\u003e\n          \u003c/p\u003e\n     \u003c/body\u003e\n\u003c/html\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;html&gt;
      &lt;head&gt;
-     &lt;/head&gt;
           &lt;meta charset=&#34;UTF-8&#34;&gt;
           &lt;meta name=&#34;description&#34; content=&#34;This is a great website&#34;&gt;
           &lt;title&gt;My Website Title&lt;/title&gt;
+     &lt;/head&gt;
      &lt;body&gt;
           &lt;h1&gt;My Website&lt;/h1&gt;
           &lt;hr/&gt;
@@ -274,6 +276,119 @@ document.body.removeChild(textArea);
           &lt;/p&gt;
      &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+
+<p>Throughout this lesson we&rsquo;ll walk through each of these unique tags and I&rsquo;ll discuss how to use them.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5"><p>The current version of the HTML language (HTML5) has over 200 built in tags, all of which do different things in the scope of your website. The good news is however that to be productive in HTML you only need to know about 10-15.</p>
+</div>
+
+<p>As a beginner, one of the most important things you can do is get comfortable working with some basic HTML tags. The best way to learn is to play around and build small websites using these a variety of tags.</p>
+
+<h2 id="meta-tags">Meta Tags</h2>
+
+<p>With that being said let&rsquo;s take a look at some simple tags that you can play around with. First let&rsquo;s check out some cool tags we can put in the head of our website.</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003chtml\u003e\n     \u003chead\u003e\n          \u003cmeta charset=\&#34;UTF-8\&#34; /\u003e\n          \u003cmeta name=\&#34;description\&#34; content=\&#34;This is a great website\&#34; /\u003e\n          \u003ctitle\u003eMy Website Title\u003c/title\u003e\n     \u003c/head\u003e\n    \u003cbody\u003e\u003c/body\u003e\n\u003c/html\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;html&gt;
+     &lt;head&gt;
+          &lt;meta charset=&#34;UTF-8&#34; /&gt;
+          &lt;meta name=&#34;description&#34; content=&#34;This is a great website&#34; /&gt;
+          &lt;title&gt;My Website Title&lt;/title&gt;
+     &lt;/head&gt;
+    &lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+<p>I&rsquo;ll point your attention to the two tags in the head named <code>&lt;meta .../&gt;</code>. The first thing you might notice is that theses are non-container tags, they don&rsquo;t have a start and and end tag.</p>
+
+<p>Meta tags are used in the head of the website to provide meta data to the browser as well as other applications like web scrapers (little bots which index websites). You can use meta tags to add a description, author, date of publication, keywords, etc, to the meta data of your site.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5"><p>In case you&rsquo;re not familiar, the term meta data refers to data <em>about</em> data. So these meta tags are information about our webpage.</p>
+</div>
+
+<p>Above we have two common meta tags, a meta description and a meta charset. You&rsquo;ll notice that we can add information to a tag like so: <code>name=&quot;description&quot;</code> or <code>charset=&quot;UTF8&quot;</code>. These little key value pairs are called attributes, and they provide input into an HTML tag with more information about what it&rsquo;s doing. There are hundreds of these attributes, and in the case of the meta tags, they&rsquo;re specifying different pieces of meta information.</p>
+
+<p>It&rsquo;s usually a good idea to give your website a description, and it helps the browser when you add a charset.</p>
+
+<h2 id="headers">Headers</h2>
+
+<p>The next type of tag in our final product is a header tag displayed below:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003ch1\u003eMy Website\u003c/h1\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;h1&gt;My Website&lt;/h1&gt;</code></pre>
+
+<p>This tag indicates that this is a header on our website. Essentially it just means that this is a big bolded piece of text that should announce a section of the website.</p>
+
+<p>Notice the name of the tag <code>&lt;h1&gt;</code>.</p>
+
+<p>In all there are 6 different types of headers we can use <code>&lt;h1&gt;, &lt;h2&gt;, ... , &lt;h6&gt;</code>. As the numbers get smaller so does the text that they display. Check out an illustration of different header sizing below:</p>
+
+<img class="materialboxed responsive-img center-media" src="https://www.mikedane.com/web-development/html/basic-tags/headers.png" alt="HTML headers h1-h6" />
+
+
+<p>Headers are great for organizing the sections of your websites, and also help let search engines know how the text on your website is structured. Generally when you&rsquo;re using header tags you want to use them sequentially. So structure them just like you would headers in a word document or any formal paper you are writing!</p>
+
+<p>In my personal experience I normally will only go as small as h3, I generally don&rsquo;t have text on my websites that have more than 3 sub sections, but you can go as small as h6. Anytime you need a header, be sure to use one of these.</p>
+
+<h2 id="horizontal-rule-paragraphs">Horizontal Rule &amp; Paragraphs</h2>
+
+<p>Now we&rsquo;ll take a look at formatting our pages a little bit. Let&rsquo;s begin by looking at the horizontal rule tag:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003chr/\u003e \n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;hr/&gt; </code></pre>
+
+<p>This is a useful tag which will render a horizontal line across the webpage. Try this one out and take a look at what it does. I generally use these to separate different sections of content, or to provide a nice separator for images.</p>
+
+<p>In addition to using horizontal rules to separate content, you can also use a tag specifically designed for text which will format it into sections. The paragraph tag will wrap a paragraph of text and automatically space it out from other content on the page. You can create a paragraph like so:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cp\u003e\n  Paragraph 1\n\u003c/p\u003e\n\n\u003cp\u003e\n  Paragraph 2\n\u003c/p\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;p&gt;
+  Paragraph 1
+&lt;/p&gt;
+
+&lt;p&gt;
+  Paragraph 2
+&lt;/p&gt;</code></pre>
+
+<p>Above we have an example of two paragraphs of text stacked on top of each other. If you run this in your browser, you&rsquo;ll see how they get formatted. Paragraph tags are some of the most commonly used tags in all of HTML. In fact, the text you&rsquo;re reading right now is being rendered in a paragraph tag!</p>
+
+<p>Generally only text that is meant to be displayed as a paragraph should go in these tags. If you just have some loose text, or the text for a button or text used as a label, there are other more specialized tags for those circumstances.</p>
+
+<h2 id="text-formatters">Text Formatters</h2>
+
+<p>Now that we&rsquo;ve learned about paragraphs and headers, I&rsquo;ll show you some tags that can be used to format text in common ways. These are all container tags that, like the <code>&lt;p&gt;...&lt;/p&gt;</code> tag, will surround text that we want formatted.</p>
+
+<p>Let&rsquo;s modify our paragraphs from above to use some of these formatting tags:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cp\u003e\n  \u003cbig\u003eThis\u003c/big\u003e is \u003csmall\u003emy\u003c/small\u003e \u003cb\u003e\u003ci\u003eparagraph\u003c/i\u003e\u003c/b\u003e\n\u003c/p\u003e\n\n\u003cp\u003e\n  10\u003csup\u003e2\u003c/sup\u003e\n\u003c/p\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;p&gt;
+  &lt;big&gt;This&lt;/big&gt; is &lt;small&gt;my&lt;/small&gt; &lt;b&gt;&lt;i&gt;paragraph&lt;/i&gt;&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  10&lt;sup&gt;2&lt;/sup&gt;
+&lt;/p&gt;</code></pre>
+
+<p>If you haven&rsquo;t already, I would encourage you to copy this into your own webpage and open it in your browser to take a look. I&rsquo;ll also include this html below so you can see how it looks on this webpage:</p>
+
+<hr />
+
+<p>
+  <big>This</big> is <small>my</small> <b><i>paragraph</i></b>
+</p>
+
+<p><p>
+  10<sup>2</sup>
+</p>
+<hr /></p>
+
+<p>There&rsquo;s a few tags here for us to talk about. I&rsquo;ll start with <code>&lt;big&gt;</code> and <code>&lt;small&gt;</code>. These should be fairly obvious, they make the text inside of them either bigger or smaller than normal text would be. These are good for quick size changes, although there are more powerful and specific ways of changing text size on a large scale. These are really useful though in the right context.</p>
+
+<p>Next we have tags for making text bold and italic. Text surrounded with <code>&lt;b&gt;</code> tags will become bold (you can also use <code>&lt;strong&gt;</code>). Text surrounded with <code>&lt;i&gt;</code> tags will become italicized. You can also nest these together, putting a set of italic tags inside a set of bold tags as I&rsquo;ve done above.</p>
+
+<p>Finally at the bottom we have the <code>&lt;sup&gt;</code> tag which stands for superscript, this allows you to format exponents and anything else that needs a superscript.</p>
+
+<h2 id="bringing-it-all-together">Bringing it All Together</h2>
+
+<p>So there you have it, a quick explanation of some simple HTML tags which will allow you to start laying out your pages.</p>
+
+<p>Honestly just with the header and paragraph tags alone you could begin building some awesome websites with great text content. Believe it or not the majority of this webpage is actually just headers and paragraphs (along with some other cools tags we&rsquo;ll see later on).</p>
+
+<p>If you peek back up at the finished program I show you in the beginning of the article you can see how this can all come together to make a webpage. Again I would encourage you to just play around with this. Get a feel for how these tags work and get used to using HTML in general.</p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -381,8 +496,108 @@ document.body.removeChild(textArea);
                
                
                
-               <a href="/web-development/html/basic-tags/#code">
-                   <li>Code</li>
+               <a href="/web-development/html/basic-tags/#meta-tags">
+                   <li>Meta Tags</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/basic-tags/#headers">
+                   <li>Headers</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/basic-tags/#horizontal-rule-ampamp-paragraphs">
+                   <li>Horizontal Rule &amp;amp;amp; Paragraphs</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/basic-tags/#text-formatters">
+                   <li>Text Formatters</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/basic-tags/#bringing-it-all-together">
+                   <li>Bringing it All Together</li>
                </a>
                
                
