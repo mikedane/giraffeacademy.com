@@ -3,6 +3,8 @@
           <div class="row">
                <a href="{{.Permalink}}" ><h2 class="grey-text text-darken-2">{{.Title}}</h2></a>
                {{ template "recursive-course-listing" . }}
+               {{ partial "ads/course-card" . }}
+
           </div>
      {{end}}
 {{end}}
@@ -13,7 +15,9 @@
                     {{ partial "listings/course-card" . }}
                </div>
                {{ template "recursive-course-listing" . }}
+               
           {{end}}
+          
 
      {{end}}
 {{end}}
