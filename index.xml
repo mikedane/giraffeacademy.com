@@ -843,7 +843,9 @@ The topic I&#39;m talking about is variables! Variables are a JavaScript develop
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/style-color/</guid>
-      <description> Code Copy&amp;lt;body style=&amp;#34;background-color:lightblue&amp;#34;&amp;gt; &amp;lt;h2 style=&amp;#34;color:green&amp;#34;&amp;gt; Style and Colors &amp;lt;/h2&amp;gt; &amp;lt;p style=&amp;#34;color: red; background-color:blue&amp;#34;&amp;gt; paragraph text &amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; </description>
+      <description>In this lesson we&amp;rsquo;re gonna touch on styling web pages. When we work with HTML, we&amp;rsquo;re essentially defining the structure or the architecture of our website.
+Once you&amp;rsquo;ve defined the layout of the site however, you&amp;rsquo;ll want to add styles.
+Website styling is what distinguishes one site from another. It brings personality, brand and user friendliness out of the bare HTML that we&amp;rsquo;ve seen so far in this course.</description>
     </item>
     
     <item>
@@ -1015,7 +1017,8 @@ Types of content in hugo Scalability should be the cornerstone of any good websi
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/formatting-a-page/</guid>
-      <description> Code Copy&amp;lt;body&amp;gt; &amp;lt;header&amp;gt; Header &amp;lt;nav&amp;gt; Nav &amp;lt;/nav&amp;gt; &amp;lt;/header&amp;gt; &amp;lt;main&amp;gt; Main &amp;lt;article&amp;gt; Article &amp;lt;section&amp;gt; Section 1 &amp;lt;aside&amp;gt; Aside &amp;lt;/aside&amp;gt; &amp;lt;/section&amp;gt; &amp;lt;section&amp;gt; Section 2 &amp;lt;/section&amp;gt; &amp;lt;/article&amp;gt; &amp;lt;/main&amp;gt; &amp;lt;footer&amp;gt; Footer &amp;lt;/footer&amp;gt; &amp;lt;/body&amp;gt; </description>
+      <description>As we embark on our journey learning to build websites, early on it will help to discuss how to format a web page.
+Every webpage is different, and depending on the type of website, and the content held therein, different formats might be more appropriate than others. But regardless of the type of site, there are a few HTML elements which we can use to format things in a consistent and organized way.</description>
     </item>
     
     <item>
@@ -1187,7 +1190,8 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/links/</guid>
-      <description> Code Copy&amp;lt;a href=&amp;#34;https://www.google.com&amp;#34;&amp;gt; Google&amp;#39;s Homepage &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;page2.html&amp;#34;&amp;gt; Page on same website &amp;lt;/a&amp;gt; &amp;lt;a href=&amp;#34;ebook.pdf&amp;#34;&amp;gt; PDF File &amp;lt;/a&amp;gt; </description>
+      <description>In this lesson we&amp;rsquo;re going to talk about links in HTML. In a lot of ways, links are the backbone of the internet. It&amp;rsquo;s because of links that you&amp;rsquo;re able to navigate around websites, you&amp;rsquo;re able to search for things on google, and you don&amp;rsquo;t have to memorize and keep track of long URLs all the time.
+A link is basically a clickable element on a website which, when clicked, navigates the user to a different page on that same website, to another website altogether, or to a file that is hosted somewhere.</description>
     </item>
     
     <item>
@@ -1358,7 +1362,8 @@ Front matter When you create a new content page using the hugo new filename comm
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/images/</guid>
-      <description> Code Copy&amp;lt;img src=&amp;#34;http://www.mikedane.com/web-development/html/&amp;#34; alt=&amp;#34;Mike Dane HTML Course&amp;#34; width=&amp;#34;200&amp;#34;&amp;gt; </description>
+      <description>One of the staples of any good website are images. In fact, now-a-days, most of what people do online is looking at images and watch videos.
+In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsquo;ll show you how to display images you have stored on your computer as well as images that are stored else ware on the internet. Finally we&amp;rsquo;ll talk about some of the different attributes we can use to control how the image tags behave.</description>
     </item>
     
     <item>

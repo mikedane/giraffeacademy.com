@@ -254,7 +254,53 @@ document.body.removeChild(textArea);
 </div><div style="font-size:18px" class="flow-text">
                     
 
-<h2 id="code">Code</h2>
+<p>In this lesson we&rsquo;re gonna touch on styling web pages. When we work with HTML, we&rsquo;re essentially defining the structure or the architecture of our website.</p>
+
+<p>Once you&rsquo;ve defined the layout of the site however, you&rsquo;ll want to add styles.</p>
+
+<p>Website styling is what distinguishes one site from another. It brings personality, brand and user friendliness out of the bare HTML that we&rsquo;ve seen so far in this course.</p>
+
+<p>As an introduction to styling, let&rsquo;s look at some basic ways to add color to our sites!</p>
+
+<hr />
+
+<p>One quick aside, website styling is a whole topic in itself. There is actually an entirely separate language that we can use to style sites called CSS (Cascading Style Sheet).</p>
+
+<p>This lesson will introduce some very basic styling techniques, but if you want to learn more that just the bare basics, check out my <a target="_blank"href="https://www.mikedane.com/web-development/css"> CSS course </a> (although I&rsquo;d recommend finishing the HTML one first).
+<hr /></p>
+
+<h2 id="changing-text-color">Changing Text Color</h2>
+
+<p>For our foray into styling we&rsquo;re begin by changing the color of the text on the page. HTML allows you to include a special attribute called the <code>style</code> attribute. In the <code>style</code> attribute we can define some basic styles for an element.</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cp style=\&#34;color:blue;\&#34;\u003eSome blue text\u003c/p\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;p style=&#34;color:blue;&#34;&gt;Some blue text&lt;/p&gt;</code></pre>
+
+<p>Above, we have a paragraph with blue text. Notice how we&rsquo;ve added the <code>style</code> attribute. Inside I&rsquo;ve defined that the color of the text should be blue. This is actually a CSS statement. CSS statement&rsquo;s allows us to change certain stylistic aspects of the HTML element.</p>
+
+<p>A CSS statement is structured as follows:</p>
+
+<pre><code>styleProperty: value; 
+</code></pre>
+
+<p>On the left side we have the style property. This is the aspect of the HTML element&rsquo;s style which we want to change. In the case above, <code>color</code> changes the text color. After the property, we have a colon, follow by the value and a semicolon.</p>
+
+<p>In the case of color, we can simply state the name of any common color (red, blue, yellow, teal, etc), or we can use special rgb values and hex color codes. For now, if you want to play around, just stick with common color names, or check out a full list of values <a target="_blank"href="https://www.w3schools.com/cssref/css_colors.asp">here</a>.</p>
+
+<h3 id="background-color">Background Color</h3>
+
+<p>Inside the style tags you can tweak more than one style. If you learn more about CSS you&rsquo;ll discover all sorts of style properties that you can use, for now though I&rsquo;ll introduce you to one more related to color: <code>background-color</code>.</p>
+
+<p>Just like we can specify the text color, we can also specify the background color:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cp style=\&#34;color:blue; background-color: orange;\&#34;\u003eSome blue text w/ orange background\u003c/p\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;p style=&#34;color:blue; background-color: orange;&#34;&gt;Some blue text w/ orange background&lt;/p&gt;</code></pre>
+
+<p>Notice above I&rsquo;ve added a <code>background-color</code> to the paragraph. When you want to specify more than one style property you can simply write them one after another (remembering to use a semicolon to separate them).</p>
+
+<p style="color:blue; background-color: orange;">In this case, now the paragraph will have blue text along with an orange background!</p>
+
+<h2 id="nesting-styles">Nesting Styles</h2>
+
+<p>Now that we&rsquo;ve learned some basic styling, I want to explain how these styles apply to elements within container tags. Let&rsquo;s look at an example of styling applied to nested elements:</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cbody style=\&#34;background-color:lightblue\&#34;\u003e\n     \u003ch2 style=\&#34;color:green\&#34;\u003e\n          Style and Colors\n     \u003c/h2\u003e\n\n     \u003cp style=\&#34;color: red; background-color:blue\&#34;\u003e\n          paragraph text\n     \u003c/p\u003e\n\u003c/body\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;body style=&#34;background-color:lightblue&#34;&gt;
      &lt;h2 style=&#34;color:green&#34;&gt;
@@ -265,6 +311,30 @@ document.body.removeChild(textArea);
           paragraph text
      &lt;/p&gt;
 &lt;/body&gt;</code></pre>
+
+<p>In the code above, we&rsquo;re using the same <code>color</code> and <code>background-color</code> properties, but we&rsquo;ve applied them to a more complex HTML structure. I&rsquo;ll put this same HTML here in this page so you can see how it works:</p>
+
+<div style="background-color:lightblue">
+  <p style="color:green; font-size: 20px;">
+      Style and Colors
+  </p>
+
+  <p style="color: red; background-color:blue">
+      paragraph text
+  </p>
+</div>
+
+<p>Take a notice of how the styling is applied above. We have the <code>lightblue</code> color in the body tag which colors the entire structure including the header. The header then has it&rsquo;s own green color.</p>
+
+<p>The paragraph of text however, unlike the header, doesn&rsquo;t have that same <code>lightblue</code> color background. That&rsquo;s because in the paragraph, I&rsquo;ve overridden the background color, and applied a more specific <code>blue</code> background color to the paragraph.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">All HTML elements will inherit the styling of their parents, unless that styling is explicitly overwritten, like in the case above.</div>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<p>As I said in the beginning, we&rsquo;re only just scratching the surface of styling websites. There&rsquo;s a lot more to learn. But I want you to realize the role that styling can play as we go forward in the course.</p>
+
+<p>Also be aware that, with these types of styles we can do more than change the color!</p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -372,8 +442,87 @@ document.body.removeChild(textArea);
                
                
                
-               <a href="/web-development/html/style-color/#code">
-                   <li>Code</li>
+               <a href="/web-development/html/style-color/#changing-text-color">
+                   <li>Changing Text Color</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/style-color/#background-color">
+                   <li>Background Color</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/style-color/#nesting-styles">
+                   <li>Nesting Styles</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/style-color/#final-thoughts">
+                   <li>Final Thoughts</li>
                </a>
                
                

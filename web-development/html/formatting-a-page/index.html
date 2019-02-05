@@ -254,7 +254,11 @@ document.body.removeChild(textArea);
 </div><div style="font-size:18px" class="flow-text">
                     
 
-<h2 id="code">Code</h2>
+<p>As we embark on our journey learning to build websites, early on it will help to discuss how to format a web page.</p>
+
+<p>Every webpage is different, and depending on the type of website, and the content held therein, different formats might be more appropriate than others. But regardless of the type of site, there are a few HTML elements which we can use to format things in a consistent and organized way.</p>
+
+<p>To begin, let&rsquo;s take a look at a website which is formatted using a variety of HTML container tags. By most standards, this would be considered a well formatted website. Once you&rsquo;ve taken a look, I&rsquo;ll walk you through what everything means:</p>
 
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cbody\u003e\n     \u003cheader\u003e\n          Header\n          \u003cnav\u003e\n               Nav\n          \u003c/nav\u003e\n     \u003c/header\u003e\n     \u003cmain\u003e\n          Main\n          \u003carticle\u003e\n               Article\n               \u003csection\u003e\n                    Section 1\n                    \u003caside\u003e\n                         Aside\n                    \u003c/aside\u003e\n               \u003c/section\u003e\n               \u003csection\u003e\n                    Section 2\n               \u003c/section\u003e\n          \u003c/article\u003e\n     \u003c/main\u003e\n     \u003cfooter\u003e\n          Footer\n     \u003c/footer\u003e\n\u003c/body\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;body&gt;
      &lt;header&gt;
@@ -282,6 +286,121 @@ document.body.removeChild(textArea);
           Footer
      &lt;/footer&gt;
 &lt;/body&gt;</code></pre>
+
+<p>As you can see, we are utilizing a lot of tags here, which, aside from the <code>body</code> tag, you might never have seen before.</p>
+
+<p>Let&rsquo;s break this down and see what it all means.</p>
+
+<h2 id="website-sections">Website Sections</h2>
+
+<p>The first three tags you might notice above are the <code>&lt;header&gt;&lt;/header&gt;</code>, <code>&lt;main&gt;&lt;/main&gt;</code> and <code>&lt;footer&gt;&lt;/footer&gt;</code> tags.</p>
+
+<p>These are three really useful tags, which allow you to break apart your website into three very common sections. Most websites can be broken up into a header, a body and a footer, and these tags allow us to indicate where that content is in the scope of the HTML document.</p>
+
+<p>It&rsquo;s important to note that these tags don&rsquo;t actually change the format or the styling of the content inside. Instead they act as descriptors and containers which indicate the <em>type</em> of content inside of them.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">One of the best reasons to use descriptive tags like this is because it make it easier for search engines like google to understand your page.</div>
+
+<p>Websites which rank highly on keyword searches often use tags like this for organization. As a general rule, the more descriptive and clear the HTML on your page is, the easier it will be for search engines to understand it.</p>
+
+<h2 id="header">Header</h2>
+
+<p>The header section of the website is generally reserved for content that will sit at the top of a webpage.</p>
+
+<p>Generally this will include a series of links to common pages on the site, and often times interactive elements like a search bar or settings menu.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Often times the header will be the same for all pages on a website</div>
+
+<p>Inside the header tag it is often common to use the <code>&lt;nav&gt;&lt;/nav&gt;</code> tag, as I&rsquo;ve done in the code above.</p>
+
+<h3 id="nav">Nav</h3>
+
+<p>Nav here stands for navigation and it&rsquo;s used to describe any navigational elements on your page. In the next lesson we&rsquo;ll learn about links, which allow you to link to other content on your site, which are often placed inside <code>&lt;nav&gt;&lt;/nav&gt;</code> tags.</p>
+
+<p>An example of a header with navigation links and a website title might look like this:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003cheader\u003e\n    \u003ch1\u003eMike&#39;s Website\u003c/h1\u003e\n    \u003cnav\u003e\n      \u003ca href=\&#34;./about.html\&#34;\u003e\n      \u003ca href=\&#34;./contact.html\&#34;\u003e\n      \u003ca href=\&#34;./blog.html\&#34;\u003e\n    \u003c/nav\u003e\n\u003c/header\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;header&gt;
+    &lt;h1&gt;Mike&#39;s Website&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;a href=&#34;./about.html&#34;&gt;
+      &lt;a href=&#34;./contact.html&#34;&gt;
+      &lt;a href=&#34;./blog.html&#34;&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+
+<p>In the above example I&rsquo;ve included three links (those <code>&lt;a&gt;&lt;/a&gt;</code> tags) in the header of the site <em>inside</em> the navigation tags. This is a really good way to format something like this because it&rsquo;s super clear that those links are navigational elements on your site!</p>
+
+<h2 id="main">Main</h2>
+
+<p>The main section, indicated by the <code>&lt;main&gt;&lt;/main&gt;</code> tags, is where all of the content on the site will live.</p>
+
+<p>If you&rsquo;re building a blog site for example then your blog post would go in the main section. Or if you&rsquo;re building an e-commerce site, the products available for sale would also live here.</p>
+
+<p>The main sections is where most of the interaction on the site will take place, and where the user&rsquo;s attention will be directed most of the time. Therefore when laying out a website, the main should have the most content inside of it.</p>
+
+<p>On this website for example, all of this text that you&rsquo;re reading, the video embedded up above, and the side bar with navigation links is all part of the main section of the website.</p>
+
+<p>Search engines will generally be looking in the main section of your website to learn what your page is about and what content is unique to this page in particular.</p>
+
+<p>It&rsquo;s especially important to use main tags when you have a website with a lot of article or text content (much like this one).</p>
+
+<h3 id="article">Article</h3>
+
+<p>Inside the main tag, we can use the special <code>&lt;article&gt;&lt;/article&gt;</code> tag to indicate if something is an article. In the case of this website, I put all of my text articles inside these tags.</p>
+
+<p>Again this is really useful for search engines because they can tell exactly where the article content is and more easily index it.</p>
+
+<p>Generally you should only have one set of article tags in the web page, unless you have a site which is displaying multiple articles.</p>
+
+<h3 id="section">Section</h3>
+
+<p>Inside of the <code>&lt;article&gt;&lt;/article&gt;</code> tags you can use the <code>&lt;section&gt;&lt;/section&gt;</code> tags to break the article up into various sections.</p>
+
+<p>Generally a section of an article would be accompanied by a heading tag (<code>&lt;h2&gt;&lt;/h2&gt;</code> for example) which would give a title to the section and formally introduce it.</p>
+
+<p>I like using sections in my articles, and a lot of times i&rsquo;ll nest them. So I would have a section within a section, like this:</p>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003carticle\u003e\n    \u003ch1\u003eMy Blog Post\u003c/h1\u003e\n    \u003csection\u003e\n      \u003ch2\u003eHow to Build a Website\u003c/h2\u003e\n      text text text ...\n      \u003csection\u003e\n        \u003ch3\u003eLearn HTML\u003c/h3\u003e\n        text text text\n      \u003c/section\u003e\n    \u003c/section\u003e\n\u003c/article\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="html">&lt;article&gt;
+    &lt;h1&gt;My Blog Post&lt;/h1&gt;
+    &lt;section&gt;
+      &lt;h2&gt;How to Build a Website&lt;/h2&gt;
+      text text text ...
+      &lt;section&gt;
+        &lt;h3&gt;Learn HTML&lt;/h3&gt;
+        text text text
+      &lt;/section&gt;
+    &lt;/section&gt;
+&lt;/article&gt;</code></pre>
+
+<p>You can see above how an article structure might look with nested sections and their corresponding headers.</p>
+
+<p>Whenever you&rsquo;re working with text content, you always want to make sure you&rsquo;re going out of your way to structure it with these HTML tags, otherwise your website will be prone to disorganization.</p>
+
+<h3 id="aside">Aside</h3>
+
+<p>The last tag I want to talk about that can go in the <code>&lt;main&gt;&lt;/main&gt;</code> section of the site is called the `<code>&lt;aside&gt;&lt;/aside&gt;</code> tag. The aside tag is used for any content which is not part of the main content of your page.</p>
+
+<p>This let&rsquo;s things like search engines know that it doesn&rsquo;t belong as part of the article or normal main content.</p>
+
+<p>A lot of times something like an ad or a sidebar will go into an aside. There are no hard set rules for how to use them, it&rsquo;s simply a container for anything that doesn&rsquo;t belong as part of the article, section or main.</p>
+
+<h2 id="footer">Footer</h2>
+
+<p>The footer of the website, indicated by the <code>&lt;footer&gt;&lt;/footer&gt;</code> tags is similar to the header in that it generally stores links to common pages on the site and also branding information.</p>
+
+<p>Many websites will often put copyright claims here as well.</p>
+
+<div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Of all the three high level sections: header, main and footer, the footer will most likely be the one with the least content.</div>
+
+<p>I personally like to put social media links here as well as some of the commons links I have in my headers.</p>
+
+<h2 id="a-word-about-seo">A Word About SEO</h2>
+
+<p>Now that we&rsquo;ve looked at some of the cool ways we can format our sites, let&rsquo;s talk about how this relates to SEO or Search Engine Optimization.</p>
+
+<p>Search Engine Optimization is the process of building your website in such a way that it&rsquo;s really easy for search engines to understand it, and hopefully rank it highly in their organic search results. People get super obsessive about SEO because it can lead to more traffic, and thus more popularity and revenue.</p>
+
+<p>We&rsquo;ve touched on this a bit in the article so far, but formatting a site like this is a must for SEO. When you have all of your content laid out explicitly with these different tags, search engine&rsquo;s like google know exactly what&rsquo;s going on and you won&rsquo;t have to wonder if your content will be indexed properly.</p>
 
                </div>
                <div style="margin-top: 25px;">
@@ -389,8 +508,224 @@ document.body.removeChild(textArea);
                
                
                
-               <a href="/web-development/html/formatting-a-page/#code">
-                   <li>Code</li>
+               <a href="/web-development/html/formatting-a-page/#website-sections">
+                   <li>Website Sections</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#header">
+                   <li>Header</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#nav">
+                   <li>Nav</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#main">
+                   <li>Main</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#article">
+                   <li>Article</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#section">
+                   <li>Section</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#aside">
+                   <li>Aside</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#footer">
+                   <li>Footer</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/html/formatting-a-page/#a-word-about-seo">
+                   <li>A Word About SEO</li>
                </a>
                
                
