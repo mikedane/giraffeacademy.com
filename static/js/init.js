@@ -6,6 +6,9 @@ $(document).ready(function() {
      $("#nav-side-single").stick_in_parent({
           offset_top:80
      });
+     $("#nav-side-ad").stick_in_parent({
+      offset_top:500
+     });
      $("#nav-side-article").stick_in_parent({
           offset_top:80
      });
