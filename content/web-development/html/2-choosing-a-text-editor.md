@@ -21,9 +21,7 @@ Popular text editors like Microsoft Word are what we would refer to as a word pr
 
 But when we're writing HTML code, believe it or not a word processor is generally not going to work very well. Word processors are designed for documents which are meant to be read by humans. But when we're writing HTML we're writing something that is going to be read by a web browser.
 
-{{% spotlight %}}
-Almost no developers use traditional word processors like the one's you're most likely used to using. Instead specialized text editors have been built to suit the specific needs of web developers.
-{{% /spotlight %}}
+{{% spotlight %}}Almost no developers use traditional word processors like the one's you're most likely used to using. Instead specialized text editors have been built to suit the specific needs of web developers.{{% /spotlight %}}
 
 A lot of the syntax, formatting and special characters we're going to be using will be foreign for programs like Microsoft Word or Google Docs. Therefore, if we want to make our lives easier, it will be better to use a text editor which is more specifically designed for writing HTML.
 

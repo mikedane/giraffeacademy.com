@@ -33,9 +33,7 @@ Inside the new folder create a file named `index.html`. `index.html` is a specia
 
 Just like most people organize their files into folders and sub-folders, websites are also organized in this same way. When your website is run by the browser it will use the directory of the HTML file to determine the web page's URL. This URL is either relative to your local file system, or to your hosted website. 
 
-{{% spotlight %}}
-In this case, all you need to know is that when we name the HTML file `index.html`, and it's at the root directory of our website, the browser will think that it's the homepage of our site!
-{{% /spotlight %}}
+{{% spotlight %}}In this case, all you need to know is that when we name the HTML file `index.html`, and it's at the root directory of our website, the browser will think that it's the homepage of our site!{{% /spotlight %}}
 
 Now that we have our file created, let's add some text in it and test it out on the browser. Inside `index.html` type `Hello World`. 
 

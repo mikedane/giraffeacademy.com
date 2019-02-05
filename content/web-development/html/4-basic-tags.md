@@ -40,9 +40,7 @@ To give you a taste of what we're going to be doing I'll show you the final prod
 
 Throughout this lesson we'll walk through each of these unique tags and I'll discuss how to use them. 
 
-{{% spotlight %}}
-The current version of the HTML language (HTML5) has over 200 built in tags, all of which do different things in the scope of your website. The good news is however that to be productive in HTML you only need to know about 10-15. 
-{{% /spotlight %}}
+{{% spotlight %}}The current version of the HTML language (HTML5) has over 200 built in tags, all of which do different things in the scope of your website. The good news is however that to be productive in HTML you only need to know about 10-15. {{% /spotlight %}}
 
 As a beginner, one of the most important things you can do is get comfortable working with some basic HTML tags. The best way to learn is to play around and build small websites using these a variety of tags. 
 
@@ -65,9 +63,7 @@ I'll point your attention to the two tags in the head named `<meta .../>`. The f
 
 Meta tags are used in the head of the website to provide meta data to the browser as well as other applications like web scrapers (little bots which index websites). You can use meta tags to add a description, author, date of publication, keywords, etc, to the meta data of your site. 
 
-{{% spotlight %}}
-In case you're not familiar, the term meta data refers to data _about_ data. So these meta tags are information about our webpage. 
-{{% /spotlight %}}
+{{% spotlight %}}In case you're not familiar, the term meta data refers to data _about_ data. So these meta tags are information about our webpage. {{% /spotlight %}}
 
 Above we have two common meta tags, a meta description and a meta charset. You'll notice that we can add information to a tag like so: `name="description"` or `charset="UTF8"`. These little key value pairs are called attributes, and they provide input into an HTML tag with more information about what it's doing. There are hundreds of these attributes, and in the case of the meta tags, they're specifying different pieces of meta information. 
 
