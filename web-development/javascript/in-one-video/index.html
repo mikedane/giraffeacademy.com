@@ -500,127 +500,135 @@ function addNumbers(num1, num2){
 <pre class="" style="font-size:18px; position:relative;"><div class="blue  white-text truncate" style="font-family:arial; padding-left:15px;" >index.html<span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\n\u003ch1 id=\&#34;myHeader\&#34;\u003eMike Dane\u003c/h1\u003e\n\u003cscript src=\&#34;script.js\&#34;\u003e\u003c/script\u003e\n&#34;)" onmouseover="this.className = 'red darken-2 white-text right' " onmouseout="this.className = 'red  white-text right'" style="  padding-left:10px; padding-right:10px; cursor:pointer;" class="red white-text right">Copy</span></div><code id="code" style="padding:15px;" class="html">&lt;h1 id=&#34;myHeader&#34;&gt;Mike Dane&lt;/h1&gt;
 &lt;script src=&#34;script.js&#34;&gt;&lt;/script&gt;</code></pre>
 
-<pre class="" style="font-size:18px; position:relative;"><div class="blue  white-text truncate" style="font-family:arial; padding-left:15px;" >script.js<span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nvar header = document.getElementById(\&#34;myHeader\&#34;);\n\nheader.addEventListener(\&#34;click\&#34;, function(){\n     alert(\&#34;You clicked \&#34; &#43; header.id);\n});\n\n### If Statements\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\nvar isStudent = false;\\nvar isSmart = false;\\n\\nif(isStudent \\u0026\\u0026 isSmart){\\n     document.write(\\\u0026#34;You are a student\\\u0026#34;);\\n} else if(isStudent \\u0026\\u0026 !isSmart){\\n     document.write(\\\u0026#34;You are not a smart student\\\u0026#34;);\\n} else {\\n     document.write(\\\u0026#34;You are not a student and not smart\\\u0026#34;);\\n}\\ndocument.write(\\\u0026#34;\\u003cbr\\u003e\\\u0026#34;);\\n\\n// \\u003e, \\u003c, \\u003e=, \\u003c=, !=, ==\\nif(1 \\u003e 3){\\n     document.write(\\\u0026#34;number comparison was true\\\u0026#34;);\\n}\\ndocument.write(\\\u0026#34;\\u003cbr\\u003e\\\u0026#34;);\\n\\nif(\\\u0026#34;dog\\\u0026#34; != \\\u0026#34;dog\\\u0026#34;){\\n     document.write(\\\u0026#34;string comparison was true\\\u0026#34;);\\n}\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003evar isStudent = false;\nvar isSmart = false;\n\nif(isStudent \u0026amp;\u0026amp; isSmart){\n     document.write(\u0026#34;You are a student\u0026#34;);\n} else if(isStudent \u0026amp;\u0026amp; !isSmart){\n     document.write(\u0026#34;You are not a smart student\u0026#34;);\n} else {\n     document.write(\u0026#34;You are not a student and not smart\u0026#34;);\n}\ndocument.write(\u0026#34;\u0026lt;br\u0026gt;\u0026#34;);\n\n// \u0026gt;, \u0026lt;, \u0026gt;=, \u0026lt;=, !=, ==\nif(1 \u0026gt; 3){\n     document.write(\u0026#34;number comparison was true\u0026#34;);\n}\ndocument.write(\u0026#34;\u0026lt;br\u0026gt;\u0026#34;);\n\nif(\u0026#34;dog\u0026#34; != \u0026#34;dog\u0026#34;){\n     document.write(\u0026#34;string comparison was true\u0026#34;);\n}\u003c/code\u003e\u003c/pre\u003e\n\n### Switch Statements\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\nvar myGrade = \\\u0026#34;A\\\u0026#34;;\\nswitch(myGrade){\\n     case \\\u0026#34;A\\\u0026#34;:\\n          document.write(\\\u0026#34;You Pass\\\u0026#34;);\\n          break;\\n     case \\\u0026#34;F\\\u0026#34;:\\n          document.write(\\\u0026#34;You fail\\\u0026#34;);\\n          break;\\n     default:\\n          document.write(\\\u0026#34;Invalid grade\\\u0026#34;);\\n}\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003evar myGrade = \u0026#34;A\u0026#34;;\nswitch(myGrade){\n     case \u0026#34;A\u0026#34;:\n          document.write(\u0026#34;You Pass\u0026#34;);\n          break;\n     case \u0026#34;F\u0026#34;:\n          document.write(\u0026#34;You fail\u0026#34;);\n          break;\n     default:\n          document.write(\u0026#34;Invalid grade\u0026#34;);\n}\u003c/code\u003e\u003c/pre\u003e\n\n### While Loops\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\nvar index = 1;\\nwhile(index \\u003c= 5){\\n     document.write(index);\\n     index\u0026#43;\u0026#43;;\\n}\\n\\nindex = 1;\\ndo{\\n\\tdocument.write(index);\\n\\tindex\u0026#43;\u0026#43;;\\n}while(index \\u003c= 5);\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003evar index = 1;\nwhile(index \u0026lt;= 5){\n     document.write(index);\n     index\u0026#43;\u0026#43;;\n}\n\nindex = 1;\ndo{\n\tdocument.write(index);\n\tindex\u0026#43;\u0026#43;;\n}while(index \u0026lt;= 5);\u003c/code\u003e\u003c/pre\u003e\n\n### For Loops\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\nfor(var i = 0; i \\u003c 5; i\u0026#43;\u0026#43;){\\n     document.write(i);\\n}\\n\\nvar luckyNums = [4, 8, 15, 16, 23, 42];\\nluckyNums.forEach(function(luckyNum){\\n     document.write(luckyNum \u0026#43; \\\u0026#34;\\u003cbr\\u003e\\\u0026#34;);\\n});\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003efor(var i = 0; i \u0026lt; 5; i\u0026#43;\u0026#43;){\n     document.write(i);\n}\n\nvar luckyNums = [4, 8, 15, 16, 23, 42];\nluckyNums.forEach(function(luckyNum){\n     document.write(luckyNum \u0026#43; \u0026#34;\u0026lt;br\u0026gt;\u0026#34;);\n});\u003c/code\u003e\u003c/pre\u003e\n\n### Exception Catching\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\ntry{\\n     // throw \\\u0026#34;Something went wrong\\\u0026#34;\\n     var x = y \u0026#43; 9;\\n}catch(err){\\n     document.write(err)\\n}finally{\\n     // this code always gets executed\\n}\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003etry{\n     // throw \u0026#34;Something went wrong\u0026#34;\n     var x = y \u0026#43; 9;\n}catch(err){\n     document.write(err)\n}finally{\n     // this code always gets executed\n}\u003c/code\u003e\u003c/pre\u003e\n\n### Classes and Objects\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\nclass Book{\\n     constructor(title, author){\\n          this.title = title;\\n          this.author = author;\\n     }\\n\\n     readBook(){\\n          document.write(\\\u0026#34;Reading \\\u0026#34; \u0026#43; this.title \u0026#43; \\\u0026#34; by \\\u0026#34; \u0026#43; this.author);\\n     }\\n}\\n\\nvar book1 = new Book(\\\u0026#34;Harry Potter\\\u0026#34;, \\\u0026#34;JK Rowling\\\u0026#34;);\\n\\ndocument.write(book1.title \u0026#43; \\\u0026#34;\\u003cbr\\u003e\\\u0026#34;);\\nbook1.readBook();\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003eclass Book{\n     constructor(title, author){\n          this.title = title;\n          this.author = author;\n     }\n\n     readBook(){\n          document.write(\u0026#34;Reading \u0026#34; \u0026#43; this.title \u0026#43; \u0026#34; by \u0026#34; \u0026#43; this.author);\n     }\n}\n\nvar book1 = new Book(\u0026#34;Harry Potter\u0026#34;, \u0026#34;JK Rowling\u0026#34;);\n\ndocument.write(book1.title \u0026#43; \u0026#34;\u0026lt;br\u0026gt;\u0026#34;);\nbook1.readBook();\u003c/code\u003e\u003c/pre\u003e\n\n### Getters and Setters\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\nclass Book{\\n     constructor(title, author){\\n          this.title = title;\\n          this.author = author;\\n     }\\n\\n     get title(){\\n          document.write(\\\u0026#34;\\u003cp\\u003egetting\\u003c/p\\u003e\\\u0026#34;);\\n          return this._title;\\n     }\\n\\n     set title(title){\\n          document.write(\\\u0026#34;\\u003cp\\u003esetting \\u003c/p\\u003e\\\u0026#34;);\\n          this._title = title;\\n     }\\n\\n     readBook(){\\n          document.write(\\\u0026#34;Reading \\\u0026#34; \u0026#43; this.title \u0026#43; \\\u0026#34; by \\\u0026#34; \u0026#43; this.author);\\n     }\\n}\\n\\nvar book1 = new Book(\\\u0026#34;Harry Potter\\\u0026#34;, \\\u0026#34;JK Rowling\\\u0026#34;);\\n\\ndocument.write(book1.title \u0026#43; \\\u0026#34;\\u003cbr\\u003e\\\u0026#34;);\\nbook1.readBook();\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003eclass Book{\n     constructor(title, author){\n          this.title = title;\n          this.author = author;\n     }\n\n     get title(){\n          document.write(\u0026#34;\u0026lt;p\u0026gt;getting\u0026lt;/p\u0026gt;\u0026#34;);\n          return this._title;\n     }\n\n     set title(title){\n          document.write(\u0026#34;\u0026lt;p\u0026gt;setting \u0026lt;/p\u0026gt;\u0026#34;);\n          this._title = title;\n     }\n\n     readBook(){\n          document.write(\u0026#34;Reading \u0026#34; \u0026#43; this.title \u0026#43; \u0026#34; by \u0026#34; \u0026#43; this.author);\n     }\n}\n\nvar book1 = new Book(\u0026#34;Harry Potter\u0026#34;, \u0026#34;JK Rowling\u0026#34;);\n\ndocument.write(book1.title \u0026#43; \u0026#34;\u0026lt;br\u0026gt;\u0026#34;);\nbook1.readBook();\u003c/code\u003e\u003c/pre\u003e\n\n### Inheritance\n\u003cpre class=\&#34;\&#34; style=\&#34;font-size:18px; position:relative;\&#34;onmouseover=\&#34;this.childNodes[0].className = &#39;red white-text right&#39;; \&#34; onmouseout=\&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;\&#34;\u003e\u003cspan id=\&#34;copyBtn\&#34; onclick=\&#34;copyTextToClipboard(this, \u0026#34;\\nclass Chef{\\n\\n     constructor(name, age){\\n          this.name = name;\\n          this.age = age;\\n     }\\n\\n     makeChicken(){\\n          document.write(\\\u0026#34;The chef makes chicken \\u003cbr\\u003e\\\u0026#34;);\\n     }\\n\\n     makeSalad(){\\n          document.write(\\\u0026#34;The chef makes salad \\u003cbr\\u003e\\\u0026#34;);\\n     }\\n\\n     makeSpecialDish(){\\n          document.write(\\\u0026#34;The chef makes a special dish \\u003cbr\\u003e\\\u0026#34;);\\n     }\\n}\\n\\nclass ItalianChef extends Chef{\\n\\n     constructor(name, age, countryOfOrigin){\\n          super(name, age);\\n          this.countryOfOrigin = countryOfOrigin;\\n     }\\n\\n     makePasta(){\\n          document.write(\\\u0026#34;The chef makes pasta \\u003cbr\\u003e\\\u0026#34;);\\n     }\\n\\n     // overridden\\n     makeSpecialDish(){\\n          document.write(\\\u0026#34;The chef makes chicken parm \\u003cbr\\u003e\\\u0026#34;);\\n     }\\n}\\n\\nvar myChef = new Chef(\\\u0026#34;Gordon Ramsay\\\u0026#34;, 50);\\nmyChef.makeChicken();\\n\\nvar myItalianChef = new ItalianChef(\\\u0026#34;Massimo Bottura\\\u0026#34;, 55, \\\u0026#34;Italy\\\u0026#34;);\\nmyItalianChef.makeChicken();\\ndocument.write(myItalianChef.age);\\n\u0026#34;)\&#34; style=\&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; \&#34; class=\&#34;red lighten-2 white-text right hide\&#34;\u003eCopy\u003c/span\u003e\u003ccode id=\&#34;code\&#34; style=\&#34;padding:15px;\&#34; class=\&#34;js\&#34;\u003eclass Chef{\n\n     constructor(name, age){\n          this.name = name;\n          this.age = age;\n     }\n\n     makeChicken(){\n          document.write(\u0026#34;The chef makes chicken \u0026lt;br\u0026gt;\u0026#34;);\n     }\n\n     makeSalad(){\n          document.write(\u0026#34;The chef makes salad \u0026lt;br\u0026gt;\u0026#34;);\n     }\n\n     makeSpecialDish(){\n          document.write(\u0026#34;The chef makes a special dish \u0026lt;br\u0026gt;\u0026#34;);\n     }\n}\n\nclass ItalianChef extends Chef{\n\n     constructor(name, age, countryOfOrigin){\n          super(name, age);\n          this.countryOfOrigin = countryOfOrigin;\n     }\n\n     makePasta(){\n          document.write(\u0026#34;The chef makes pasta \u0026lt;br\u0026gt;\u0026#34;);\n     }\n\n     // overridden\n     makeSpecialDish(){\n          document.write(\u0026#34;The chef makes chicken parm \u0026lt;br\u0026gt;\u0026#34;);\n     }\n}\n\nvar myChef = new Chef(\u0026#34;Gordon Ramsay\u0026#34;, 50);\nmyChef.makeChicken();\n\nvar myItalianChef = new ItalianChef(\u0026#34;Massimo Bottura\u0026#34;, 55, \u0026#34;Italy\u0026#34;);\nmyItalianChef.makeChicken();\ndocument.write(myItalianChef.age);\u003c/code\u003e\u003c/pre\u003e&#34;)" onmouseover="this.className = 'red darken-2 white-text right' " onmouseout="this.className = 'red  white-text right'" style="  padding-left:10px; padding-right:10px; cursor:pointer;" class="red white-text right">Copy</span></div><code id="code" style="padding:15px;" class="js">var header = document.getElementById(&#34;myHeader&#34;);
+<pre class="" style="font-size:18px; position:relative;"><div class="blue  white-text truncate" style="font-family:arial; padding-left:15px;" >script.js<span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nvar header = document.getElementById(\&#34;myHeader\&#34;);\n\nheader.addEventListener(\&#34;click\&#34;, function(){\n     alert(\&#34;You clicked \&#34; &#43; header.id);\n});\n&#34;)" onmouseover="this.className = 'red darken-2 white-text right' " onmouseout="this.className = 'red  white-text right'" style="  padding-left:10px; padding-right:10px; cursor:pointer;" class="red white-text right">Copy</span></div><code id="code" style="padding:15px;" class="js">var header = document.getElementById(&#34;myHeader&#34;);
 
 header.addEventListener(&#34;click&#34;, function(){
      alert(&#34;You clicked &#34; &#43; header.id);
-});
+});</code></pre>
 
-### If Statements
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\nvar isStudent = false;\nvar isSmart = false;\n\nif(isStudent \u0026\u0026 isSmart){\n     document.write(\&amp;#34;You are a student\&amp;#34;);\n} else if(isStudent \u0026\u0026 !isSmart){\n     document.write(\&amp;#34;You are not a smart student\&amp;#34;);\n} else {\n     document.write(\&amp;#34;You are not a student and not smart\&amp;#34;);\n}\ndocument.write(\&amp;#34;\u003cbr\u003e\&amp;#34;);\n\n// \u003e, \u003c, \u003e=, \u003c=, !=, ==\nif(1 \u003e 3){\n     document.write(\&amp;#34;number comparison was true\&amp;#34;);\n}\ndocument.write(\&amp;#34;\u003cbr\u003e\&amp;#34;);\n\nif(\&amp;#34;dog\&amp;#34; != \&amp;#34;dog\&amp;#34;){\n     document.write(\&amp;#34;string comparison was true\&amp;#34;);\n}\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;var isStudent = false;
+<h3 id="if-statements">If Statements</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nvar isStudent = false;\nvar isSmart = false;\n\nif(isStudent \u0026\u0026 isSmart){\n     document.write(\&#34;You are a student\&#34;);\n} else if(isStudent \u0026\u0026 !isSmart){\n     document.write(\&#34;You are not a smart student\&#34;);\n} else {\n     document.write(\&#34;You are not a student and not smart\&#34;);\n}\ndocument.write(\&#34;\u003cbr\u003e\&#34;);\n\n// \u003e, \u003c, \u003e=, \u003c=, !=, ==\nif(1 \u003e 3){\n     document.write(\&#34;number comparison was true\&#34;);\n}\ndocument.write(\&#34;\u003cbr\u003e\&#34;);\n\nif(\&#34;dog\&#34; != \&#34;dog\&#34;){\n     document.write(\&#34;string comparison was true\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">var isStudent = false;
 var isSmart = false;
 
-if(isStudent &amp;amp;&amp;amp; isSmart){
-     document.write(&amp;#34;You are a student&amp;#34;);
-} else if(isStudent &amp;amp;&amp;amp; !isSmart){
-     document.write(&amp;#34;You are not a smart student&amp;#34;);
+if(isStudent &amp;&amp; isSmart){
+     document.write(&#34;You are a student&#34;);
+} else if(isStudent &amp;&amp; !isSmart){
+     document.write(&#34;You are not a smart student&#34;);
 } else {
-     document.write(&amp;#34;You are not a student and not smart&amp;#34;);
+     document.write(&#34;You are not a student and not smart&#34;);
 }
-document.write(&amp;#34;&amp;lt;br&amp;gt;&amp;#34;);
+document.write(&#34;&lt;br&gt;&#34;);
 
-// &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, ==
-if(1 &amp;gt; 3){
-     document.write(&amp;#34;number comparison was true&amp;#34;);
+// &gt;, &lt;, &gt;=, &lt;=, !=, ==
+if(1 &gt; 3){
+     document.write(&#34;number comparison was true&#34;);
 }
-document.write(&amp;#34;&amp;lt;br&amp;gt;&amp;#34;);
+document.write(&#34;&lt;br&gt;&#34;);
 
-if(&amp;#34;dog&amp;#34; != &amp;#34;dog&amp;#34;){
-     document.write(&amp;#34;string comparison was true&amp;#34;);
-}&lt;/code&gt;&lt;/pre&gt;
+if(&#34;dog&#34; != &#34;dog&#34;){
+     document.write(&#34;string comparison was true&#34;);
+}</code></pre>
 
-### Switch Statements
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\nvar myGrade = \&amp;#34;A\&amp;#34;;\nswitch(myGrade){\n     case \&amp;#34;A\&amp;#34;:\n          document.write(\&amp;#34;You Pass\&amp;#34;);\n          break;\n     case \&amp;#34;F\&amp;#34;:\n          document.write(\&amp;#34;You fail\&amp;#34;);\n          break;\n     default:\n          document.write(\&amp;#34;Invalid grade\&amp;#34;);\n}\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;var myGrade = &amp;#34;A&amp;#34;;
+<h3 id="switch-statements">Switch Statements</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nvar myGrade = \&#34;A\&#34;;\nswitch(myGrade){\n     case \&#34;A\&#34;:\n          document.write(\&#34;You Pass\&#34;);\n          break;\n     case \&#34;F\&#34;:\n          document.write(\&#34;You fail\&#34;);\n          break;\n     default:\n          document.write(\&#34;Invalid grade\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">var myGrade = &#34;A&#34;;
 switch(myGrade){
-     case &amp;#34;A&amp;#34;:
-          document.write(&amp;#34;You Pass&amp;#34;);
+     case &#34;A&#34;:
+          document.write(&#34;You Pass&#34;);
           break;
-     case &amp;#34;F&amp;#34;:
-          document.write(&amp;#34;You fail&amp;#34;);
+     case &#34;F&#34;:
+          document.write(&#34;You fail&#34;);
           break;
      default:
-          document.write(&amp;#34;Invalid grade&amp;#34;);
-}&lt;/code&gt;&lt;/pre&gt;
+          document.write(&#34;Invalid grade&#34;);
+}</code></pre>
 
-### While Loops
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\nvar index = 1;\nwhile(index \u003c= 5){\n     document.write(index);\n     index&amp;#43;&amp;#43;;\n}\n\nindex = 1;\ndo{\n\tdocument.write(index);\n\tindex&amp;#43;&amp;#43;;\n}while(index \u003c= 5);\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;var index = 1;
-while(index &amp;lt;= 5){
+<h3 id="while-loops">While Loops</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nvar index = 1;\nwhile(index \u003c= 5){\n     document.write(index);\n     index&#43;&#43;;\n}\n\nindex = 1;\ndo{\n\tdocument.write(index);\n\tindex&#43;&#43;;\n}while(index \u003c= 5);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">var index = 1;
+while(index &lt;= 5){
      document.write(index);
-     index&amp;#43;&amp;#43;;
+     index&#43;&#43;;
 }
 
 index = 1;
 do{
 	document.write(index);
-	index&amp;#43;&amp;#43;;
-}while(index &amp;lt;= 5);&lt;/code&gt;&lt;/pre&gt;
+	index&#43;&#43;;
+}while(index &lt;= 5);</code></pre>
 
-### For Loops
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\nfor(var i = 0; i \u003c 5; i&amp;#43;&amp;#43;){\n     document.write(i);\n}\n\nvar luckyNums = [4, 8, 15, 16, 23, 42];\nluckyNums.forEach(function(luckyNum){\n     document.write(luckyNum &amp;#43; \&amp;#34;\u003cbr\u003e\&amp;#34;);\n});\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;for(var i = 0; i &amp;lt; 5; i&amp;#43;&amp;#43;){
+<h3 id="for-loops">For Loops</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nfor(var i = 0; i \u003c 5; i&#43;&#43;){\n     document.write(i);\n}\n\nvar luckyNums = [4, 8, 15, 16, 23, 42];\nluckyNums.forEach(function(luckyNum){\n     document.write(luckyNum &#43; \&#34;\u003cbr\u003e\&#34;);\n});\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">for(var i = 0; i &lt; 5; i&#43;&#43;){
      document.write(i);
 }
 
 var luckyNums = [4, 8, 15, 16, 23, 42];
 luckyNums.forEach(function(luckyNum){
-     document.write(luckyNum &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34;);
-});&lt;/code&gt;&lt;/pre&gt;
+     document.write(luckyNum &#43; &#34;&lt;br&gt;&#34;);
+});</code></pre>
 
-### Exception Catching
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\ntry{\n     // throw \&amp;#34;Something went wrong\&amp;#34;\n     var x = y &amp;#43; 9;\n}catch(err){\n     document.write(err)\n}finally{\n     // this code always gets executed\n}\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;try{
-     // throw &amp;#34;Something went wrong&amp;#34;
-     var x = y &amp;#43; 9;
+<h3 id="exception-catching">Exception Catching</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\ntry{\n     // throw \&#34;Something went wrong\&#34;\n     var x = y &#43; 9;\n}catch(err){\n     document.write(err)\n}finally{\n     // this code always gets executed\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">try{
+     // throw &#34;Something went wrong&#34;
+     var x = y &#43; 9;
 }catch(err){
      document.write(err)
 }finally{
      // this code always gets executed
-}&lt;/code&gt;&lt;/pre&gt;
+}</code></pre>
 
-### Classes and Objects
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\nclass Book{\n     constructor(title, author){\n          this.title = title;\n          this.author = author;\n     }\n\n     readBook(){\n          document.write(\&amp;#34;Reading \&amp;#34; &amp;#43; this.title &amp;#43; \&amp;#34; by \&amp;#34; &amp;#43; this.author);\n     }\n}\n\nvar book1 = new Book(\&amp;#34;Harry Potter\&amp;#34;, \&amp;#34;JK Rowling\&amp;#34;);\n\ndocument.write(book1.title &amp;#43; \&amp;#34;\u003cbr\u003e\&amp;#34;);\nbook1.readBook();\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;class Book{
+<h3 id="classes-and-objects">Classes and Objects</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nclass Book{\n     constructor(title, author){\n          this.title = title;\n          this.author = author;\n     }\n\n     readBook(){\n          document.write(\&#34;Reading \&#34; &#43; this.title &#43; \&#34; by \&#34; &#43; this.author);\n     }\n}\n\nvar book1 = new Book(\&#34;Harry Potter\&#34;, \&#34;JK Rowling\&#34;);\n\ndocument.write(book1.title &#43; \&#34;\u003cbr\u003e\&#34;);\nbook1.readBook();\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">class Book{
      constructor(title, author){
           this.title = title;
           this.author = author;
      }
 
      readBook(){
-          document.write(&amp;#34;Reading &amp;#34; &amp;#43; this.title &amp;#43; &amp;#34; by &amp;#34; &amp;#43; this.author);
+          document.write(&#34;Reading &#34; &#43; this.title &#43; &#34; by &#34; &#43; this.author);
      }
 }
 
-var book1 = new Book(&amp;#34;Harry Potter&amp;#34;, &amp;#34;JK Rowling&amp;#34;);
+var book1 = new Book(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;);
 
-document.write(book1.title &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34;);
-book1.readBook();&lt;/code&gt;&lt;/pre&gt;
+document.write(book1.title &#43; &#34;&lt;br&gt;&#34;);
+book1.readBook();</code></pre>
 
-### Getters and Setters
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\nclass Book{\n     constructor(title, author){\n          this.title = title;\n          this.author = author;\n     }\n\n     get title(){\n          document.write(\&amp;#34;\u003cp\u003egetting\u003c/p\u003e\&amp;#34;);\n          return this._title;\n     }\n\n     set title(title){\n          document.write(\&amp;#34;\u003cp\u003esetting \u003c/p\u003e\&amp;#34;);\n          this._title = title;\n     }\n\n     readBook(){\n          document.write(\&amp;#34;Reading \&amp;#34; &amp;#43; this.title &amp;#43; \&amp;#34; by \&amp;#34; &amp;#43; this.author);\n     }\n}\n\nvar book1 = new Book(\&amp;#34;Harry Potter\&amp;#34;, \&amp;#34;JK Rowling\&amp;#34;);\n\ndocument.write(book1.title &amp;#43; \&amp;#34;\u003cbr\u003e\&amp;#34;);\nbook1.readBook();\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;class Book{
+<h3 id="getters-and-setters">Getters and Setters</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nclass Book{\n     constructor(title, author){\n          this.title = title;\n          this.author = author;\n     }\n\n     get title(){\n          document.write(\&#34;\u003cp\u003egetting\u003c/p\u003e\&#34;);\n          return this._title;\n     }\n\n     set title(title){\n          document.write(\&#34;\u003cp\u003esetting \u003c/p\u003e\&#34;);\n          this._title = title;\n     }\n\n     readBook(){\n          document.write(\&#34;Reading \&#34; &#43; this.title &#43; \&#34; by \&#34; &#43; this.author);\n     }\n}\n\nvar book1 = new Book(\&#34;Harry Potter\&#34;, \&#34;JK Rowling\&#34;);\n\ndocument.write(book1.title &#43; \&#34;\u003cbr\u003e\&#34;);\nbook1.readBook();\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">class Book{
      constructor(title, author){
           this.title = title;
           this.author = author;
      }
 
      get title(){
-          document.write(&amp;#34;&amp;lt;p&amp;gt;getting&amp;lt;/p&amp;gt;&amp;#34;);
+          document.write(&#34;&lt;p&gt;getting&lt;/p&gt;&#34;);
           return this._title;
      }
 
      set title(title){
-          document.write(&amp;#34;&amp;lt;p&amp;gt;setting &amp;lt;/p&amp;gt;&amp;#34;);
+          document.write(&#34;&lt;p&gt;setting &lt;/p&gt;&#34;);
           this._title = title;
      }
 
      readBook(){
-          document.write(&amp;#34;Reading &amp;#34; &amp;#43; this.title &amp;#43; &amp;#34; by &amp;#34; &amp;#43; this.author);
+          document.write(&#34;Reading &#34; &#43; this.title &#43; &#34; by &#34; &#43; this.author);
      }
 }
 
-var book1 = new Book(&amp;#34;Harry Potter&amp;#34;, &amp;#34;JK Rowling&amp;#34;);
+var book1 = new Book(&#34;Harry Potter&#34;, &#34;JK Rowling&#34;);
 
-document.write(book1.title &amp;#43; &amp;#34;&amp;lt;br&amp;gt;&amp;#34;);
-book1.readBook();&lt;/code&gt;&lt;/pre&gt;
+document.write(book1.title &#43; &#34;&lt;br&gt;&#34;);
+book1.readBook();</code></pre>
 
-### Inheritance
-&lt;pre class=&#34;&#34; style=&#34;font-size:18px; position:relative;&#34;onmouseover=&#34;this.childNodes[0].className = &#39;red white-text right&#39;; &#34; onmouseout=&#34;this.childNodes[0].className = &#39;red lighten-2 white-text right hide&#39;&#34;&gt;&lt;span id=&#34;copyBtn&#34; onclick=&#34;copyTextToClipboard(this, &amp;#34;\nclass Chef{\n\n     constructor(name, age){\n          this.name = name;\n          this.age = age;\n     }\n\n     makeChicken(){\n          document.write(\&amp;#34;The chef makes chicken \u003cbr\u003e\&amp;#34;);\n     }\n\n     makeSalad(){\n          document.write(\&amp;#34;The chef makes salad \u003cbr\u003e\&amp;#34;);\n     }\n\n     makeSpecialDish(){\n          document.write(\&amp;#34;The chef makes a special dish \u003cbr\u003e\&amp;#34;);\n     }\n}\n\nclass ItalianChef extends Chef{\n\n     constructor(name, age, countryOfOrigin){\n          super(name, age);\n          this.countryOfOrigin = countryOfOrigin;\n     }\n\n     makePasta(){\n          document.write(\&amp;#34;The chef makes pasta \u003cbr\u003e\&amp;#34;);\n     }\n\n     // overridden\n     makeSpecialDish(){\n          document.write(\&amp;#34;The chef makes chicken parm \u003cbr\u003e\&amp;#34;);\n     }\n}\n\nvar myChef = new Chef(\&amp;#34;Gordon Ramsay\&amp;#34;, 50);\nmyChef.makeChicken();\n\nvar myItalianChef = new ItalianChef(\&amp;#34;Massimo Bottura\&amp;#34;, 55, \&amp;#34;Italy\&amp;#34;);\nmyItalianChef.makeChicken();\ndocument.write(myItalianChef.age);\n&amp;#34;)&#34; style=&#34;font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; &#34; class=&#34;red lighten-2 white-text right hide&#34;&gt;Copy&lt;/span&gt;&lt;code id=&#34;code&#34; style=&#34;padding:15px;&#34; class=&#34;js&#34;&gt;class Chef{
+<h3 id="inheritance">Inheritance</h3>
+
+<pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\nclass Chef{\n\n     constructor(name, age){\n          this.name = name;\n          this.age = age;\n     }\n\n     makeChicken(){\n          document.write(\&#34;The chef makes chicken \u003cbr\u003e\&#34;);\n     }\n\n     makeSalad(){\n          document.write(\&#34;The chef makes salad \u003cbr\u003e\&#34;);\n     }\n\n     makeSpecialDish(){\n          document.write(\&#34;The chef makes a special dish \u003cbr\u003e\&#34;);\n     }\n}\n\nclass ItalianChef extends Chef{\n\n     constructor(name, age, countryOfOrigin){\n          super(name, age);\n          this.countryOfOrigin = countryOfOrigin;\n     }\n\n     makePasta(){\n          document.write(\&#34;The chef makes pasta \u003cbr\u003e\&#34;);\n     }\n\n     // overridden\n     makeSpecialDish(){\n          document.write(\&#34;The chef makes chicken parm \u003cbr\u003e\&#34;);\n     }\n}\n\nvar myChef = new Chef(\&#34;Gordon Ramsay\&#34;, 50);\nmyChef.makeChicken();\n\nvar myItalianChef = new ItalianChef(\&#34;Massimo Bottura\&#34;, 55, \&#34;Italy\&#34;);\nmyItalianChef.makeChicken();\ndocument.write(myItalianChef.age);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">class Chef{
 
      constructor(name, age){
           this.name = name;
@@ -628,15 +636,15 @@ book1.readBook();&lt;/code&gt;&lt;/pre&gt;
      }
 
      makeChicken(){
-          document.write(&amp;#34;The chef makes chicken &amp;lt;br&amp;gt;&amp;#34;);
+          document.write(&#34;The chef makes chicken &lt;br&gt;&#34;);
      }
 
      makeSalad(){
-          document.write(&amp;#34;The chef makes salad &amp;lt;br&amp;gt;&amp;#34;);
+          document.write(&#34;The chef makes salad &lt;br&gt;&#34;);
      }
 
      makeSpecialDish(){
-          document.write(&amp;#34;The chef makes a special dish &amp;lt;br&amp;gt;&amp;#34;);
+          document.write(&#34;The chef makes a special dish &lt;br&gt;&#34;);
      }
 }
 
@@ -648,21 +656,21 @@ class ItalianChef extends Chef{
      }
 
      makePasta(){
-          document.write(&amp;#34;The chef makes pasta &amp;lt;br&amp;gt;&amp;#34;);
+          document.write(&#34;The chef makes pasta &lt;br&gt;&#34;);
      }
 
      // overridden
      makeSpecialDish(){
-          document.write(&amp;#34;The chef makes chicken parm &amp;lt;br&amp;gt;&amp;#34;);
+          document.write(&#34;The chef makes chicken parm &lt;br&gt;&#34;);
      }
 }
 
-var myChef = new Chef(&amp;#34;Gordon Ramsay&amp;#34;, 50);
+var myChef = new Chef(&#34;Gordon Ramsay&#34;, 50);
 myChef.makeChicken();
 
-var myItalianChef = new ItalianChef(&amp;#34;Massimo Bottura&amp;#34;, 55, &amp;#34;Italy&amp;#34;);
+var myItalianChef = new ItalianChef(&#34;Massimo Bottura&#34;, 55, &#34;Italy&#34;);
 myItalianChef.makeChicken();
-document.write(myItalianChef.age);&lt;/code&gt;&lt;/pre&gt;</code></pre>
+document.write(myItalianChef.age);</code></pre>
 
                </div>
                <div style="margin-top: 25px;">
@@ -1309,6 +1317,238 @@ document.write(myItalianChef.age);&lt;/code&gt;&lt;/pre&gt;</code></pre>
                
                <a href="/web-development/javascript/in-one-video/#programatic-event-listeners">
                    <li>Programatic Event Listeners</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#if-statements">
+                   <li>If Statements</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#switch-statements">
+                   <li>Switch Statements</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#while-loops">
+                   <li>While Loops</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#for-loops">
+                   <li>For Loops</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#exception-catching">
+                   <li>Exception Catching</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#classes-and-objects">
+                   <li>Classes and Objects</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#getters-and-setters">
+                   <li>Getters and Setters</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/web-development/javascript/in-one-video/#inheritance">
+                   <li>Inheritance</li>
                </a>
                
                
