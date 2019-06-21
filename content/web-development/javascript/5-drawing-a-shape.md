@@ -21,7 +21,7 @@ code:
           document.write("/___|");
 ---
 
-{{% programming-language-articles/drawing-shape lang="Python" code-lang="python" %}}
+{{% programming-language-articles/drawing-shape lang="JavaScript" code-lang="js" %}}
 
 ## Video Code
 
