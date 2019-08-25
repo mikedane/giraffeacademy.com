@@ -1,6 +1,4 @@
 {{ define "main" }}
-     {{.Content}}
-     {{- partial "ads/homepage-custom" -}}
-
-     {{ partial "listings/home" . }}
+{{.Content}}
+{{ partial "listings/home" . }}
 {{ end }}
