@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Classes &amp; Objects | Java | Mike Dane</title>
+<meta name="description" content="This tutorial covers classes &amp; objects in Java." />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name='author' content='Mike Dane'>
+<meta property="og:title" content="Classes &amp; Objects | Java | Mike Dane" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.mikedane.com/programming-languages/java/classes-objects/" />
+<meta property="og:description"content="This tutorial covers classes &amp; objects in Java." />
+<meta property="og:site_name" content="Mike Dane" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.com/programming-languages/java/classes-objects/classes-&amp;-objects.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=Mm06BuD3PlY" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://www.mikedane.com/js/sticky-kit.js"></script>
+<script src="https://www.mikedane.com/js/init.js"></script>
+<script>
+function copyTextToClipboard(button, text) {
+var textArea = document.createElement("textarea");
+textArea.style.opacity = 0.1;
+textArea.value = text;
+document.body.appendChild(textArea);
+textArea.select();
+try {
+    var successful = document.execCommand('copy');
+    button.innerHTML = successful ? 'Copied' : 'Copy Error';
+} catch (err) {
+       button.innerHTML = 'Copy Error';
+}
+document.body.removeChild(textArea);
+}
+</script>
+          <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101690476-1', 'auto');
+  ga('send', 'pageview');
+</script>
+     </head>
+     <body>
+          <script type="application/ld+json">
+     {"@context": "http://schema.org",
+     "@type": "WebSite",
+     "name": "Mike Dane",
+     "url": "https://www.mikedane.com/"
+     }
+</script>
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "Organization",
+"name": "Mike Dane",
+"url": "https://www.mikedane.com/",
+"logo": "https://www.mikedane.com/logo-blue.svg",
+"email": "giraffeacademy@gmail.com",
+"description": "MikeDane.com is home to high quality online courses and content",
+"founder": {
+     "@type": "Person",
+     "name": "Mike Dane"
+},
+"sameAs": ["https://www.facebook.com/giraffeacademy/","https://twitter.com/GiraffeAcademy","https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw"]
+}
+</script>
+          <header><nav>
+     <div class="navbar-fixed">
+          <nav class="blue">
+               <div class='nav-wrapper page-wrap'>
+                    <div class="page-margin">
+                         <a class='button-collapse' href='#' data-activates='slide-out'><i class='material-icons'>menu</i>
+                         <a id='logo-container' href='https://www.mikedane.com/'>
+                              <img src="https://www.mikedane.com/logo-white.png" alt="Mike Dane Logo" style="display:inline-block; width: 50px; vertical-align: top; margin-top:6px;" class='hide-on-small-only' >
+                              <span style='font-size: 28px; margin-left: 10px;'>
+                                   Mike Dane
+                              </span>
+                         </a>
+                         <ul class='right hide-on-med-and-down'>
+                              <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+     </div>
+     <ul id='slide-out' class='side-nav'>
+          <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+          <li><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+          <li><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+          <hr>
+          
+
+     
+          
+               
+                         <li ><a href="https://www.mikedane.com/programming-languages/java/" class="">Java</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/installing-jdk/" class="">Installing Jdk</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/hello-world/" class="">Hello World</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/drawing-a-shape/" class="">Drawing A Shape</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/variables/" class="">Variables</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/data-types/" class="">Data Types</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/strings/" class="">Strings</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/math/" class="">Math</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/getting-user-input/" class="">Getting User Input</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/creating-a-calculator/" class="">Creating A Calculator</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/building-a-mad-libs-game/" class="">Building A Mad Libs Game</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/arrays/" class="">Arrays</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/functions/" class="">Methods</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/return/" class="">Return</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/if-statements/" class="">If Statements</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/if-statements-cont/" class="">If Statements (Cont)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/better-calculator/" class="">Better Calculator</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/switch-statements/" class="">Switch Statements</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/while-loops/" class="">While Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/building-a-guessing-game/" class="">Building A Guessing Game</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/for-loops/" class="">For Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/exponent-function/" class="">Exponent Function</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/2d-arrays-nested-loops/" class="">2d Arrays &amp; Nested Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/comments/" class="">Comments</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/try-catch/" class="">Try Catch</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/classes-objects/" class="blue-text">Classes &amp; Objects</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/classes-objects-cont/" class="">Classes &amp; Objects (Cont)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/constructor-function/" class="">Constructor Function</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/creating-a-quiz/" class="">Creating A Quiz</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/class-methods/" class="">Class Methods</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/getters-and-setters/" class="">Getters And Setters</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/static-class-attributes/" class="">Static Class Attributes</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/static-methods-in-classes/" class="">Static Methods In Classes</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/inheritance-extends/" class="">Inheritance (Extends)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/inheritance-implements/" class="">Inheritance (Implements)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/access-modifiers/" class="">Access Modifiers</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/main-method/" class="">Main Method</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/packages-imports/" class="">Packages &amp; Imports</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/in-one-video/" class="">In One Video</a></li>
+                         
+               
+          
+     
+
+     </ul>
+</nav>
+
+     
+          <div class="hide-on-small-only card white-text blue lighten-1" style="margin-top:0px;">
+               <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
+                    <div class="page-margin">
+                              <div style="font-size:22px;">Java - Programming Language</div>
+                         <div>This course covers the basics of programming in Java. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
+                    </div>
+               </div>
+          </div>
+     
+</header>
+          <main>
+               <div class="page-wrap">
+                    <style>
+  #promo-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #promo-cta {
+    font-size: 1.25rem;
+  }
+  #promo-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #promo-video {
+    margin-right: 15px;
+  }
+  #promo-title {
+    font-size: 1.5rem;
+
+     
+  }
+</style>
+
+<div id="promo-wrapper">
+  <div id="promo-content-wrapper">
+    <div id="promo-cta">Check out my latest course!</div>
+    <div id="promo-content">
+      <div id="promo-video">
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/ABQLwlE8MUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="promo-info">
+        <div id="promo-title">Learn React.js in 3.5 hours!</div>
+        <div id="promo-desc">In this video I'll walk you through all the core concepts in React while we build some seriously awesome components!</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                    <div class="page-margin">
+                         <aside><br><a href="https://www.mikedane.com/programming-languages/">Programming Languages</a>
+          &nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.mikedane.com/programming-languages/java/">Java</a>
+          &nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;<span class="grey-text">Classes &amp; Objects</span></aside>
+                         
+     
+          <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.mikedane.com/programming-languages/java/classes-objects/"
+  },
+  "headline": "Classes &amp; Objects | Java | Mike Dane",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.mikedane.com/programming-languages/java/classes-objects/classes-&amp;-objects.png",
+    "height": 512,
+    "width": 1024
+  },
+  "datePublished": "2017-10-22 11:34:30 -0400 -0400",
+  "dateModified": "2017-10-22 11:34:30 -0400 -0400",
+  "author": {
+    "@type": "Person",
+    "name": "Mike Dane"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Mike Dane",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mikedane.com/logo-blue.svg",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "description": "This tutorial covers classes &amp; objects in Java."
+}
+</script>
+          <div class="row">
+     <aside class="col xl2 l2 hide-on-med-and-down right-col-article" i style="padding-left: 0px">
+        
+
+     
+          <ul class="grey lighten-5 table-of-contents z-depth-1" id="nav-side-single" style="overflow: scroll; padding-right:5px; padding-top:5px; padding-bottom:5px; padding-left:0px; line-height:25px;">
+               <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/" class="">Java</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/installing-jdk/" class="">Installing Jdk</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/hello-world/" class="">Hello World</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/drawing-a-shape/" class="">Drawing A Shape</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/variables/" class="">Variables</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/data-types/" class="">Data Types</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/strings/" class="">Strings</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/math/" class="">Math</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/getting-user-input/" class="">Getting User Input</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/creating-a-calculator/" class="">Creating A Calculator</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/building-a-mad-libs-game/" class="">Building A Mad Libs Game</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/arrays/" class="">Arrays</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/functions/" class="">Methods</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/return/" class="">Return</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/if-statements/" class="">If Statements</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/if-statements-cont/" class="">If Statements (Cont)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/better-calculator/" class="">Better Calculator</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/switch-statements/" class="">Switch Statements</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/while-loops/" class="">While Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/building-a-guessing-game/" class="">Building A Guessing Game</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/for-loops/" class="">For Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/exponent-function/" class="">Exponent Function</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/2d-arrays-nested-loops/" class="">2d Arrays &amp; Nested Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/comments/" class="">Comments</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/try-catch/" class="">Try Catch</a></li>
+               
+                    <li style="font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;"><a href="https://www.mikedane.com/programming-languages/java/classes-objects/" class="blue-text">Classes &amp; Objects</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/classes-objects-cont/" class="">Classes &amp; Objects (Cont)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/constructor-function/" class="">Constructor Function</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/creating-a-quiz/" class="">Creating A Quiz</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/class-methods/" class="">Class Methods</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/getters-and-setters/" class="">Getters And Setters</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/static-class-attributes/" class="">Static Class Attributes</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/static-methods-in-classes/" class="">Static Methods In Classes</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/inheritance-extends/" class="">Inheritance (Extends)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/inheritance-implements/" class="">Inheritance (Implements)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/access-modifiers/" class="">Access Modifiers</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/main-method/" class="">Main Method</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/packages-imports/" class="">Packages &amp; Imports</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/in-one-video/" class="">In One Video</a></li>
+               
+          </ul>
+     
+
+     </aside>
+     <div class="col xl8 l8 m12 s12" >
+          <article  class="white z-depth-1" style=" padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top:15px; padding-top:1px;">
+
+               <h1>Classes &amp; Objects</h1>
+               <span class="grey-text">Lesson 26<br />
+     Author : Mike Dane<br />
+     Last Updated : October, 2017</span><br>
+<br>
+<div class="video-container">
+     <iframe src="https://www.youtube.com/embed/Mm06BuD3PlY?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
+</div><div style="font-size:18px" class="flow-text">
+                    <p>One of the best things about Java is it's ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you'll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. </p>
+
+<p>In all major applications, being able to work with data in an organized and structured way is extremely important. Large applications are often faced with displaying, storing and managing complex pieces of information about a variety of things. </p>
+
+<p>One of the limitations of our programming ability up to this point in the course is that we've only learned how to work with very limited <em>types</em> of data. In fact, if you think about it, we're only capable of representing and working with text, numbers and boolean values. </p>
+
+<p>These limited types of data are going to pose a problem to us if we want to write more and more complex programs going forward. The problem is that outside of actuall numbers, text and true/false information, most of the <em>things</em> that we interact with and use in the real world can't be easily stored in a string, number or boolean. </p>
+
+<h2 id="building-a-book">Building a book</h2>
+
+<p>Imagine for example if we were writing a program for a library. In this program we wanted to keep track of and work with a bunch of books. The question arises, how do we store these books?</p>
+
+<p>We can't store them in booleans, we might be able to store how many pages they have and their publishing dates as numbers, and maybe we could store the author's name and title in strings. But hopefully it's clear to you how there isn't an easy solution to representing a book with the limited data types we're giving. At the very least the book is spread out across several variables.</p>
+
+<h3 id="object-oriented-programming-oop">Object Oriented Programming (OOP)</h3>
+
+<p>In the early days of computer programming, developers just kinda bit the bullet and did their best to write programs in the way I just described. But eventually a better solution was devised called object oriented programming.</p>
+
+<p>Object oriented programming allows developers to create their own data types. So in addition to strings, booleans and numbers, a developer could create a custom <code>Book</code> data type. This book data type could then be stored in variables, passed into functions, printed out, and anything else that the other basic data types could do. </p>
+
+<p>By creating your own custom data types in your programs, you can theoretically model any real world item or entity and use it just like you would a string or a number.</p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Most real world applications you see, whether it&#39;s facebook, google, gruhhub, or the small programs we&#39;ll write going forward in the course, will use these custom data types to better organize complex entities like books. </div></p>
+
+<h2 id="classes">Classes</h2>
+
+<p>So how do we create these custom data types? It's actually pretty simple and we can do it by creating a class. A class is a specification for a data type in our program. Because we're creating custom data types, we first have to describe what they look like and how they behave so Java knows what to do with them. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">A good way to think of classes is as blueprints. They describe what the data type should look like and lay out all of the attributes and features that will be apart of the data type.</div></p>
+
+<p>Java already provides us with our three base data types, booleans, strings (text) and numbers. When we create our custom data types, they will be made up of those base data types. Therefore when creating a class we can specify the attributes that the class will contain in terms of these base data types. </p>
+
+<p>Let's take a look at what a class would look like for our Book:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public class Book{\n    public String title;\n    public String author;\n    public int numPages;\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public class Book{
+    public String title;
+    public String author;
+    public int numPages;
+}</code></pre></p>
+
+<p>Remember, a class is a specification, a blueprint, it describes the structure and makeup of this new book data type.</p>
+
+<p>In the above code, we've specified that a book is comprised of a title, author and number of pages. Notice how this book data type <em>is comprised of</em> the base data types that we've been provided by the language. Eventually we'll also be able to add functionality to this book class aswell, but let's save that for a future lesson. </p>
+
+<h2 id="objects">Objects</h2>
+
+<p>So now that we've created our book class, Java knows what this new data type looks like, and we can start working with books in our program. </p>
+
+<p>Since the book class is just a specification though, we can't use it in our program, instead we have to create what are called objects. An object is an instance of a class. In this case an object will be an actual book, with an actual title, author and number of pages. </p>
+
+<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">This is an important terminology point. A class is a blueprint of a data type, an object is an instance of that blueprint.</div></p>
+
+<p>Let's create a book object in Java:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public class Book{\n    public string title;\n    public string author;\n    public int numPages;\n}\n\npublic class App\n{\n    public static void main(String [] args)\n    {\n          Book book1 = new Book();\n          book1.title = \&#34;Harry Potter\&#34;;\n          book1.author = \&#34;JK Rowling\&#34;;\n          book1.numPages = 400;\n\n          System.out.println(book1.title);\n\n          Book book2 = new Book();\n          book2.title = \&#34;Lord of the Rings\&#34;;\n          book2.author = \&#34;JRR Tolkien\&#34;;\n          book2.numPages = 300;\n\n          System.out.println(book2.title);\n    }\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">public class Book{
+    public string title;
+    public string author;
+    public int numPages;
+}
+
+public class App
+{
+    public static void main(String [] args)
+    {
+          Book book1 = new Book();
+          book1.title = &#34;Harry Potter&#34;;
+          book1.author = &#34;JK Rowling&#34;;
+          book1.numPages = 400;
+
+          System.out.println(book1.title);
+
+          Book book2 = new Book();
+          book2.title = &#34;Lord of the Rings&#34;;
+          book2.author = &#34;JRR Tolkien&#34;;
+          book2.numPages = 300;
+
+          System.out.println(book2.title);
+    }
+}</code></pre></p>
+
+<p>So now, we've created an object. It's a book with a title, author and number of pages! As far as Java is concerned this is basically the same as any of the other data types we've been working with throughout this course. </p>
+
+<p>In the case of the book object, we've assigned it a number of attributes, which we can then access and modify just like we normally would.</p>
+
+<p>The title and author are just strings, and the number of pages is a number. In order to access theses attributes we use a <code>.</code>. followed by the name of the attribute. This process is called de-referencing the book object. </p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>So there you have it! Classes and Objects are notorious for tripping up new programmers, but as long as you learn to see them as just more complex custom data types, then a lot of the mystery disappears. </p>
+
+<p>We created a book class and object, but remember that you can create classes to model anything. Try playing around with some of your own custom classes, or adding more attributes to our book! Also don't forget to check out the video above where I'll walk you through writing this code line by line!</p>
+
+               </div>
+               <div style="margin-top: 25px;">
+     
+     
+     
+     
+          
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+                    <a class="waves-effect waves-light btn blue" href="/programming-languages/java/try-catch/"><i class="material-icons left">chevron_left</i>Prev</a>
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+                    <a class="waves-effect waves-light btn blue right" href="/programming-languages/java/classes-objects-cont/"><i class="material-icons right">chevron_right</i>Next</a>
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+     
+
+
+</div>
+
+          </article>
+     </div>
+     <aside class="col xl2 l2 hide-on-med-and-down left-col-article" style="padding-right:0px;">
+          <div id="nav-side-article">
+               
+
+
+
+
+
+
+
+   
+   <h5>On This Page</h5>
+<div class="table-of-contents" id="table-of-contents" style="margin-left:-20px">
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/classes-objects/#building-a-book">
+                   <li>Building a book</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/classes-objects/#object-oriented-programming-oop">
+                   <li>Object Oriented Programming (OOP)</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/classes-objects/#classes">
+                   <li>Classes</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/classes-objects/#objects">
+                   <li>Objects</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/classes-objects/#wrapping-it-up">
+                   <li>Wrapping it up</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+</div>
+
+<br><br><h5>Share This Page</h5>
+<ul>
+     <div class="row">
+          <li class="col xl4 l12"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fclasses-objects%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#3b5998; border-radius:50%; color:#3b5998;"></i>
+          <i class="fa fa-facebook fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://twitter.com/home?status=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fclasses-objects%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#00aced; border-radius:50%; color:#00aced;"></i>
+          <i class="fa fa-twitter fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://plus.google.com/share?url=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fclasses-objects%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#dd4b39; border-radius:50%; color:#dd4b39;"></i>
+          <i class="fa fa-google-plus fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fclasses-objects%2f&title=Classes%20%26%20Objects&summary=This%20tutorial%20covers%20classes%20%26%20objects%20in%20Java.&source=https://www.mikedane.com/" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#0077B5; border-radius:50%; color:#0077B5;"></i>
+          <i class="fa fa-linkedin fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+     </div>
+</ul><div id="mc_embed_signup">
+<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=%2fprogramming-languages%2fjava%2fclasses-objects%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h5>Subscribe To Get Course Updates</h5>
+<div class="mc-field-group input-field">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" class="validate" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddae06c14d9d23cc3973d5008_cbec4abdba" tabindex="-1" value=""></div>
+    <div class="clear"><input class="waves-effect waves-light btn blue" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div><br /><div>
+  <script
+    async
+    src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  ></script>
+  
+  <ins
+    class="adsbygoogle"
+    style="display:block;"
+    data-ad-client="ca-pub-8421251020677378"
+    data-ad-slot="7322741423"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<br />
+
+               
+               
+          </div>
+     </aside>
+</div>
+     
+
+                    </div>
+               </div>
+          </main>
+          <footer><div class='page-footer grey darken-1' style="position: relative; z-index: 100">
+     <div class='page-wrap'>
+         <div class='row page-margin'>
+              <div class='col xl4 l4 m12 s12'>
+                  <h5 class='white-text'>Help MikeDane.com Grow</h5>
+                  <p class="white-text">If you're enjoying my content, consider contributing to the website and investing in the future!</p>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/contribute">Contribute Now</a>
+              </div>
+              <div class='col xl1 l1 hide-on-med-and-down'>
+              </div>
+             <div class='col xl2 l2 m12 s12'>
+                 <h5 class='white-text'>Site Links</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/#courses' id='courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/about' id='about'>About<i class='material-icons left'>info_outline</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/contribute' id='contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                 </ul>
+             </div>
+             <div class='col xl2 l2 hide-on-med-and-down'>
+             </div>
+             <div class='col xl3 l3  m12 s12'>
+                 <h5 class='white-text'>Social Media</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw' target="_blank">YouTube<i class='material-icons left '>videocam</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://twitter.com/mike_dane' target="_blank">Twitter<i class='material-icons left'>account_circle</i></a></li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+     <div class='footer-copyright'>
+         <div class='container center'>
+             © 2021 Mike Dane. All Rights Reserved
+         </div>
+     </div>
+</div>
+</footer>
+     </body>
+</html>

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Getting User Input | Python | Mike Dane</title>
+<meta name="description" content="This tutorial covers getting user input in Python." />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name='author' content='Mike Dane'>
+<meta property="og:title" content="Getting User Input | Python | Mike Dane" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.mikedane.com/programming-languages/python/getting-user-input/" />
+<meta property="og:description"content="This tutorial covers getting user input in Python." />
+<meta property="og:site_name" content="Mike Dane" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.com/programming-languages/python/getting-user-input/getting-user-input.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=1gEZi0uJ3sw" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://www.mikedane.com/js/sticky-kit.js"></script>
+<script src="https://www.mikedane.com/js/init.js"></script>
+<script>
+function copyTextToClipboard(button, text) {
+var textArea = document.createElement("textarea");
+textArea.style.opacity = 0.1;
+textArea.value = text;
+document.body.appendChild(textArea);
+textArea.select();
+try {
+    var successful = document.execCommand('copy');
+    button.innerHTML = successful ? 'Copied' : 'Copy Error';
+} catch (err) {
+       button.innerHTML = 'Copy Error';
+}
+document.body.removeChild(textArea);
+}
+</script>
+          <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101690476-1', 'auto');
+  ga('send', 'pageview');
+</script>
+     </head>
+     <body>
+          <script type="application/ld+json">
+     {"@context": "http://schema.org",
+     "@type": "WebSite",
+     "name": "Mike Dane",
+     "url": "https://www.mikedane.com/"
+     }
+</script>
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "Organization",
+"name": "Mike Dane",
+"url": "https://www.mikedane.com/",
+"logo": "https://www.mikedane.com/logo-blue.svg",
+"email": "giraffeacademy@gmail.com",
+"description": "MikeDane.com is home to high quality online courses and content",
+"founder": {
+     "@type": "Person",
+     "name": "Mike Dane"
+},
+"sameAs": ["https://www.facebook.com/giraffeacademy/","https://twitter.com/GiraffeAcademy","https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw"]
+}
+</script>
+          <header><nav>
+     <div class="navbar-fixed">
+          <nav class="blue">
+               <div class='nav-wrapper page-wrap'>
+                    <div class="page-margin">
+                         <a class='button-collapse' href='#' data-activates='slide-out'><i class='material-icons'>menu</i>
+                         <a id='logo-container' href='https://www.mikedane.com/'>
+                              <img src="https://www.mikedane.com/logo-white.png" alt="Mike Dane Logo" style="display:inline-block; width: 50px; vertical-align: top; margin-top:6px;" class='hide-on-small-only' >
+                              <span style='font-size: 28px; margin-left: 10px;'>
+                                   Mike Dane
+                              </span>
+                         </a>
+                         <ul class='right hide-on-med-and-down'>
+                              <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+     </div>
+     <ul id='slide-out' class='side-nav'>
+          <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+          <li><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+          <li><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+          <hr>
+          
+
+     
+          
+               
+                         <li ><a href="https://www.mikedane.com/programming-languages/python/" class="">Python</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/installation/" class="">Installation</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/hello-world/" class="">Hello World</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/drawing-a-shape/" class="">Drawing A Shape</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/variables/" class="">Variables</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/strings/" class="">Strings</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/math/" class="">Math</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/getting-user-input/" class="blue-text">Getting User Input</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/creating-a-calculator/" class="">Creating A Calculator</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/building-a-mad-libs-game/" class="">Building A Mad Libs Game</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/lists/" class="">Lists</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/list-functions/" class="">List Functions</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/tuples/" class="">Tuples</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/functions/" class="">Functions</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/return-statements/" class="">Return Statements</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/if-statements/" class="">If Statements</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/if-statements-cont/" class="">If Statements (Cont)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/better-calculator/" class="">Better Calculator</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/dictionaries/" class="">Dictionaries</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/while-loops/" class="">While Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/guessing-game/" class="">Guessing Game</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/for-loops/" class="">For Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/exponent-function/" class="">Exponent Function</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/2d-lists-nested-loops/" class="">2d Arrays &amp; Nested Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/building-a-translator/" class="">Building A Translator</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/comments/" class="">Comments</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/try-except/" class="">Try Except</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/reading-files/" class="">Reading Files</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/writing-files/" class="">Writing Files</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/modules/" class="">Modules</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/classes-objects/" class="">Classes &amp; Objects</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/building-a-quiz/" class="">Building A Quiz</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/class-methods/" class="">Class Methods</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/inheritance/" class="">Inheritance</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/python-interpreter/" class="">Python Interpreter</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/python/in-one-video/" class="">In One Video</a></li>
+                         
+               
+          
+     
+
+     </ul>
+</nav>
+
+     
+          <div class="hide-on-small-only card white-text blue lighten-1" style="margin-top:0px;">
+               <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
+                    <div class="page-margin">
+                              <div style="font-size:22px;">Python - Programming Language</div>
+                         <div>This course covers the basics of programming in Python. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
+                    </div>
+               </div>
+          </div>
+     
+</header>
+          <main>
+               <div class="page-wrap">
+                    <style>
+  #promo-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #promo-cta {
+    font-size: 1.25rem;
+  }
+  #promo-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #promo-video {
+    margin-right: 15px;
+  }
+  #promo-title {
+    font-size: 1.5rem;
+
+     
+  }
+</style>
+
+<div id="promo-wrapper">
+  <div id="promo-content-wrapper">
+    <div id="promo-cta">Check out my latest course!</div>
+    <div id="promo-content">
+      <div id="promo-video">
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/ABQLwlE8MUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="promo-info">
+        <div id="promo-title">Learn React.js in 3.5 hours!</div>
+        <div id="promo-desc">In this video I'll walk you through all the core concepts in React while we build some seriously awesome components!</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                    <div class="page-margin">
+                         <aside><br><a href="https://www.mikedane.com/programming-languages/">Programming Languages</a>
+          &nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.mikedane.com/programming-languages/python/">Python</a>
+          &nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;<span class="grey-text">Getting User Input</span></aside>
+                         
+     
+          <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.mikedane.com/programming-languages/python/getting-user-input/"
+  },
+  "headline": "Getting User Input | Python | Mike Dane",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.mikedane.com/programming-languages/python/getting-user-input/getting-user-input.png",
+    "height": 512,
+    "width": 1024
+  },
+  "datePublished": "2017-10-22 11:58:02 -0400 -0400",
+  "dateModified": "2017-10-22 11:58:02 -0400 -0400",
+  "author": {
+    "@type": "Person",
+    "name": "Mike Dane"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Mike Dane",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mikedane.com/logo-blue.svg",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "description": "This tutorial covers getting user input in Python."
+}
+</script>
+          <div class="row">
+     <aside class="col xl2 l2 hide-on-med-and-down right-col-article" i style="padding-left: 0px">
+        
+
+     
+          <ul class="grey lighten-5 table-of-contents z-depth-1" id="nav-side-single" style="overflow: scroll; padding-right:5px; padding-top:5px; padding-bottom:5px; padding-left:0px; line-height:25px;">
+               <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/" class="">Python</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/installation/" class="">Installation</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/hello-world/" class="">Hello World</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/drawing-a-shape/" class="">Drawing A Shape</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/variables/" class="">Variables</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/strings/" class="">Strings</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/math/" class="">Math</a></li>
+               
+                    <li style="font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;"><a href="https://www.mikedane.com/programming-languages/python/getting-user-input/" class="blue-text">Getting User Input</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/creating-a-calculator/" class="">Creating A Calculator</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/building-a-mad-libs-game/" class="">Building A Mad Libs Game</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/lists/" class="">Lists</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/list-functions/" class="">List Functions</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/tuples/" class="">Tuples</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/functions/" class="">Functions</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/return-statements/" class="">Return Statements</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/if-statements/" class="">If Statements</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/if-statements-cont/" class="">If Statements (Cont)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/better-calculator/" class="">Better Calculator</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/dictionaries/" class="">Dictionaries</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/while-loops/" class="">While Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/guessing-game/" class="">Guessing Game</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/for-loops/" class="">For Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/exponent-function/" class="">Exponent Function</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/2d-lists-nested-loops/" class="">2d Arrays &amp; Nested Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/building-a-translator/" class="">Building A Translator</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/comments/" class="">Comments</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/try-except/" class="">Try Except</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/reading-files/" class="">Reading Files</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/writing-files/" class="">Writing Files</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/modules/" class="">Modules</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/classes-objects/" class="">Classes &amp; Objects</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/building-a-quiz/" class="">Building A Quiz</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/class-methods/" class="">Class Methods</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/inheritance/" class="">Inheritance</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/python-interpreter/" class="">Python Interpreter</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/python/in-one-video/" class="">In One Video</a></li>
+               
+          </ul>
+     
+
+     </aside>
+     <div class="col xl8 l8 m12 s12" >
+          <article  class="white z-depth-1" style=" padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top:15px; padding-top:1px;">
+
+               <h1>Getting User Input</h1>
+               <span class="grey-text">Lesson 8<br />
+     Author : Mike Dane<br />
+     Last Updated : October, 2017</span><br>
+<br>
+<div class="video-container">
+     <iframe src="https://www.youtube.com/embed/1gEZi0uJ3sw?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
+</div><div style="font-size:18px" class="flow-text">
+                    <p>Throughout this course we've taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. </p>
+
+<p>But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information. Just look up at the browser search bar above this website.</p>
+
+<p>In this lesson we'll take a look at how to write programs in Python which accept user input. </p>
+
+<h2 id="the-code">The Code</h2>
+
+<p>Programs which get input from the user need to be written in a specific way. The program will essentially prompt the user for information, and then when the user hits <em>enter</em>, will take whatever they entered and be able to use it going forward in it's execution.</p>
+
+<p>The code for accepting user input is actually not that much more complex than the code for printing. In Python, we can get user input like this:</p>
+
+<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;ame = input(\&#34;Enter your name: \&#34;)\nprint(\&#34;Hello\&#34;, name &#43; \&#34;!\&#34;)\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="py">name = input(&#34;Enter your name: &#34;)
+print(&#34;Hello&#34;, name &#43; &#34;!&#34;)</code></pre></p>
+
+<p>The code above simply prompts the user for information, and the prints out what they entered in. </p>
+
+<p>One of the most important things to note here is that we're storing whatever the user entered into a variable. It's vital that we do this, after all, what's the point of asking the user for something if we're not gonna keep track of it. </p>
+
+<h2 id="execution-flow">Execution flow</h2>
+
+<p>As you play around with this program you'll notice that it actually stops it's flow of execution when awaiting input from the user. In pervious programs we're written they seem to execute and be done in a matter of milliseconds. But in this case if you wait 10 minutes before you decide to input something, the computer will wait along with you.</p>
+
+<p>This is because when the computer see's that it's supposed to accept input it stops everything it's doing and waits. In a lot of cases, the input that the computer receives from the user is vital to it being able to perform it's task, whatever that may be. </p>
+
+<p>Many programs you'll encounter (and eventually write) will rely on the user to tell them what to do and when it's okay for them to stop. Once we discover more advanced topics we'll eventually be able to write programs that have menus and give the user an option of what they want to do! But this is where it all starts. </p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>Now that you have the basics down, play around for a bit and try to change the prompt, or maybe try asking the user for multiple pieces of information and use some of the string functions we talked about in the previous lessons to modify it. </p>
+
+<p>There's still a lot to learn about getting user input. As of right now we're only receiving input in the form of strings. As we move forward in the course we'll take a look at how to allow the user to enter numbers, and other types of data. </p>
+
+               </div>
+               <div style="margin-top: 25px;">
+     
+     
+     
+     
+          
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+                    <a class="waves-effect waves-light btn blue" href="/programming-languages/python/math/"><i class="material-icons left">chevron_left</i>Prev</a>
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+                    <a class="waves-effect waves-light btn blue right" href="/programming-languages/python/creating-a-calculator/"><i class="material-icons right">chevron_right</i>Next</a>
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+     
+
+
+</div>
+
+          </article>
+     </div>
+     <aside class="col xl2 l2 hide-on-med-and-down left-col-article" style="padding-right:0px;">
+          <div id="nav-side-article">
+               
+
+
+
+
+
+
+
+   
+   <h5>On This Page</h5>
+<div class="table-of-contents" id="table-of-contents" style="margin-left:-20px">
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/python/getting-user-input/#the-code">
+                   <li>The Code</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/python/getting-user-input/#execution-flow">
+                   <li>Execution flow</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/python/getting-user-input/#wrapping-up">
+                   <li>Wrapping Up</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+</div>
+
+<br><br><h5>Share This Page</h5>
+<ul>
+     <div class="row">
+          <li class="col xl4 l12"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fpython%2fgetting-user-input%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#3b5998; border-radius:50%; color:#3b5998;"></i>
+          <i class="fa fa-facebook fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://twitter.com/home?status=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fpython%2fgetting-user-input%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#00aced; border-radius:50%; color:#00aced;"></i>
+          <i class="fa fa-twitter fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://plus.google.com/share?url=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fpython%2fgetting-user-input%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#dd4b39; border-radius:50%; color:#dd4b39;"></i>
+          <i class="fa fa-google-plus fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fpython%2fgetting-user-input%2f&title=Getting%20User%20Input&summary=This%20tutorial%20covers%20getting%20user%20input%20in%20Python.&source=https://www.mikedane.com/" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#0077B5; border-radius:50%; color:#0077B5;"></i>
+          <i class="fa fa-linkedin fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+     </div>
+</ul><div id="mc_embed_signup">
+<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=%2fprogramming-languages%2fpython%2fgetting-user-input%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h5>Subscribe To Get Course Updates</h5>
+<div class="mc-field-group input-field">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" class="validate" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddae06c14d9d23cc3973d5008_cbec4abdba" tabindex="-1" value=""></div>
+    <div class="clear"><input class="waves-effect waves-light btn blue" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div><br /><div>
+  <script
+    async
+    src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  ></script>
+  
+  <ins
+    class="adsbygoogle"
+    style="display:block;"
+    data-ad-client="ca-pub-8421251020677378"
+    data-ad-slot="7322741423"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<br />
+
+               
+               
+          </div>
+     </aside>
+</div>
+     
+
+                    </div>
+               </div>
+          </main>
+          <footer><div class='page-footer grey darken-1' style="position: relative; z-index: 100">
+     <div class='page-wrap'>
+         <div class='row page-margin'>
+              <div class='col xl4 l4 m12 s12'>
+                  <h5 class='white-text'>Help MikeDane.com Grow</h5>
+                  <p class="white-text">If you're enjoying my content, consider contributing to the website and investing in the future!</p>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/contribute">Contribute Now</a>
+              </div>
+              <div class='col xl1 l1 hide-on-med-and-down'>
+              </div>
+             <div class='col xl2 l2 m12 s12'>
+                 <h5 class='white-text'>Site Links</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/#courses' id='courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/about' id='about'>About<i class='material-icons left'>info_outline</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/contribute' id='contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                 </ul>
+             </div>
+             <div class='col xl2 l2 hide-on-med-and-down'>
+             </div>
+             <div class='col xl3 l3  m12 s12'>
+                 <h5 class='white-text'>Social Media</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw' target="_blank">YouTube<i class='material-icons left '>videocam</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://twitter.com/mike_dane' target="_blank">Twitter<i class='material-icons left'>account_circle</i></a></li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+     <div class='footer-copyright'>
+         <div class='container center'>
+             © 2021 Mike Dane. All Rights Reserved
+         </div>
+     </div>
+</div>
+</footer>
+     </body>
+</html>

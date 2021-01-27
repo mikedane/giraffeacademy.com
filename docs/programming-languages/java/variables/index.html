@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Variables | Java | Mike Dane</title>
+<meta name="description" content="This tutorial covers variables in Java." />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name='author' content='Mike Dane'>
+<meta property="og:title" content="Variables | Java | Mike Dane" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.mikedane.com/programming-languages/java/variables/" />
+<meta property="og:description"content="This tutorial covers variables in Java." />
+<meta property="og:site_name" content="Mike Dane" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.com/programming-languages/java/variables/variables.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=TVSj_N2Rmfo" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://www.mikedane.com/js/sticky-kit.js"></script>
+<script src="https://www.mikedane.com/js/init.js"></script>
+<script>
+function copyTextToClipboard(button, text) {
+var textArea = document.createElement("textarea");
+textArea.style.opacity = 0.1;
+textArea.value = text;
+document.body.appendChild(textArea);
+textArea.select();
+try {
+    var successful = document.execCommand('copy');
+    button.innerHTML = successful ? 'Copied' : 'Copy Error';
+} catch (err) {
+       button.innerHTML = 'Copy Error';
+}
+document.body.removeChild(textArea);
+}
+</script>
+          <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101690476-1', 'auto');
+  ga('send', 'pageview');
+</script>
+     </head>
+     <body>
+          <script type="application/ld+json">
+     {"@context": "http://schema.org",
+     "@type": "WebSite",
+     "name": "Mike Dane",
+     "url": "https://www.mikedane.com/"
+     }
+</script>
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "Organization",
+"name": "Mike Dane",
+"url": "https://www.mikedane.com/",
+"logo": "https://www.mikedane.com/logo-blue.svg",
+"email": "giraffeacademy@gmail.com",
+"description": "MikeDane.com is home to high quality online courses and content",
+"founder": {
+     "@type": "Person",
+     "name": "Mike Dane"
+},
+"sameAs": ["https://www.facebook.com/giraffeacademy/","https://twitter.com/GiraffeAcademy","https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw"]
+}
+</script>
+          <header><nav>
+     <div class="navbar-fixed">
+          <nav class="blue">
+               <div class='nav-wrapper page-wrap'>
+                    <div class="page-margin">
+                         <a class='button-collapse' href='#' data-activates='slide-out'><i class='material-icons'>menu</i>
+                         <a id='logo-container' href='https://www.mikedane.com/'>
+                              <img src="https://www.mikedane.com/logo-white.png" alt="Mike Dane Logo" style="display:inline-block; width: 50px; vertical-align: top; margin-top:6px;" class='hide-on-small-only' >
+                              <span style='font-size: 28px; margin-left: 10px;'>
+                                   Mike Dane
+                              </span>
+                         </a>
+                         <ul class='right hide-on-med-and-down'>
+                              <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+     </div>
+     <ul id='slide-out' class='side-nav'>
+          <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+          <li><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+          <li><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+          <hr>
+          
+
+     
+          
+               
+                         <li ><a href="https://www.mikedane.com/programming-languages/java/" class="">Java</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/installing-jdk/" class="">Installing Jdk</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/hello-world/" class="">Hello World</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/drawing-a-shape/" class="">Drawing A Shape</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/variables/" class="blue-text">Variables</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/data-types/" class="">Data Types</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/strings/" class="">Strings</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/math/" class="">Math</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/getting-user-input/" class="">Getting User Input</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/creating-a-calculator/" class="">Creating A Calculator</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/building-a-mad-libs-game/" class="">Building A Mad Libs Game</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/arrays/" class="">Arrays</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/functions/" class="">Methods</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/return/" class="">Return</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/if-statements/" class="">If Statements</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/if-statements-cont/" class="">If Statements (Cont)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/better-calculator/" class="">Better Calculator</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/switch-statements/" class="">Switch Statements</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/while-loops/" class="">While Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/building-a-guessing-game/" class="">Building A Guessing Game</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/for-loops/" class="">For Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/exponent-function/" class="">Exponent Function</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/2d-arrays-nested-loops/" class="">2d Arrays &amp; Nested Loops</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/comments/" class="">Comments</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/try-catch/" class="">Try Catch</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/classes-objects/" class="">Classes &amp; Objects</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/classes-objects-cont/" class="">Classes &amp; Objects (Cont)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/constructor-function/" class="">Constructor Function</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/creating-a-quiz/" class="">Creating A Quiz</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/class-methods/" class="">Class Methods</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/getters-and-setters/" class="">Getters And Setters</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/static-class-attributes/" class="">Static Class Attributes</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/static-methods-in-classes/" class="">Static Methods In Classes</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/inheritance-extends/" class="">Inheritance (Extends)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/inheritance-implements/" class="">Inheritance (Implements)</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/access-modifiers/" class="">Access Modifiers</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/main-method/" class="">Main Method</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/packages-imports/" class="">Packages &amp; Imports</a></li>
+                         
+                              <li ><a href="https://www.mikedane.com/programming-languages/java/in-one-video/" class="">In One Video</a></li>
+                         
+               
+          
+     
+
+     </ul>
+</nav>
+
+     
+          <div class="hide-on-small-only card white-text blue lighten-1" style="margin-top:0px;">
+               <div style='padding-top:10px; padding-bottom:10px;' class="page-wrap">
+                    <div class="page-margin">
+                              <div style="font-size:22px;">Java - Programming Language</div>
+                         <div>This course covers the basics of programming in Java. Work your way through the videos/articles and I&#39;ll teach you everything you need to know to start your programming journey!</div>
+                    </div>
+               </div>
+          </div>
+     
+</header>
+          <main>
+               <div class="page-wrap">
+                    <style>
+  #promo-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #promo-cta {
+    font-size: 1.25rem;
+  }
+  #promo-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #promo-video {
+    margin-right: 15px;
+  }
+  #promo-title {
+    font-size: 1.5rem;
+
+     
+  }
+</style>
+
+<div id="promo-wrapper">
+  <div id="promo-content-wrapper">
+    <div id="promo-cta">Check out my latest course!</div>
+    <div id="promo-content">
+      <div id="promo-video">
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/ABQLwlE8MUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="promo-info">
+        <div id="promo-title">Learn React.js in 3.5 hours!</div>
+        <div id="promo-desc">In this video I'll walk you through all the core concepts in React while we build some seriously awesome components!</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                    <div class="page-margin">
+                         <aside><br><a href="https://www.mikedane.com/programming-languages/">Programming Languages</a>
+          &nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.mikedane.com/programming-languages/java/">Java</a>
+          &nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;<span class="grey-text">Variables</span></aside>
+                         
+     
+          <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.mikedane.com/programming-languages/java/variables/"
+  },
+  "headline": "Variables | Java | Mike Dane",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.mikedane.com/programming-languages/java/variables/variables.png",
+    "height": 512,
+    "width": 1024
+  },
+  "datePublished": "2017-10-22 11:34:28 -0400 -0400",
+  "dateModified": "2017-10-22 11:34:28 -0400 -0400",
+  "author": {
+    "@type": "Person",
+    "name": "Mike Dane"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Mike Dane",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mikedane.com/logo-blue.svg",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "description": "This tutorial covers variables in Java."
+}
+</script>
+          <div class="row">
+     <aside class="col xl2 l2 hide-on-med-and-down right-col-article" i style="padding-left: 0px">
+        
+
+     
+          <ul class="grey lighten-5 table-of-contents z-depth-1" id="nav-side-single" style="overflow: scroll; padding-right:5px; padding-top:5px; padding-bottom:5px; padding-left:0px; line-height:25px;">
+               <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/" class="">Java</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/installing-jdk/" class="">Installing Jdk</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/hello-world/" class="">Hello World</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/drawing-a-shape/" class="">Drawing A Shape</a></li>
+               
+                    <li style="font-size:16px; margin-top:5px; margin-bottom:5px; margin-left:-10px;"><a href="https://www.mikedane.com/programming-languages/java/variables/" class="blue-text">Variables</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/data-types/" class="">Data Types</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/strings/" class="">Strings</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/math/" class="">Math</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/getting-user-input/" class="">Getting User Input</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/creating-a-calculator/" class="">Creating A Calculator</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/building-a-mad-libs-game/" class="">Building A Mad Libs Game</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/arrays/" class="">Arrays</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/functions/" class="">Methods</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/return/" class="">Return</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/if-statements/" class="">If Statements</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/if-statements-cont/" class="">If Statements (Cont)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/better-calculator/" class="">Better Calculator</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/switch-statements/" class="">Switch Statements</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/while-loops/" class="">While Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/building-a-guessing-game/" class="">Building A Guessing Game</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/for-loops/" class="">For Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/exponent-function/" class="">Exponent Function</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/2d-arrays-nested-loops/" class="">2d Arrays &amp; Nested Loops</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/comments/" class="">Comments</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/try-catch/" class="">Try Catch</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/classes-objects/" class="">Classes &amp; Objects</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/classes-objects-cont/" class="">Classes &amp; Objects (Cont)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/constructor-function/" class="">Constructor Function</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/creating-a-quiz/" class="">Creating A Quiz</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/class-methods/" class="">Class Methods</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/getters-and-setters/" class="">Getters And Setters</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/static-class-attributes/" class="">Static Class Attributes</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/static-methods-in-classes/" class="">Static Methods In Classes</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/inheritance-extends/" class="">Inheritance (Extends)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/inheritance-implements/" class="">Inheritance (Implements)</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/access-modifiers/" class="">Access Modifiers</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/main-method/" class="">Main Method</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/packages-imports/" class="">Packages &amp; Imports</a></li>
+               
+                    <li style="font-size:14"><a href="https://www.mikedane.com/programming-languages/java/in-one-video/" class="">In One Video</a></li>
+               
+          </ul>
+     
+
+     </aside>
+     <div class="col xl8 l8 m12 s12" >
+          <article  class="white z-depth-1" style=" padding-left: 30px; padding-right: 30px; padding-bottom: 30px; margin-top:15px; padding-top:1px;">
+
+               <h1>Variables</h1>
+               <span class="grey-text">Lesson 5<br />
+     Author : Mike Dane<br />
+     Last Updated : October, 2017</span><br>
+<br>
+<div class="video-container">
+     <iframe src="https://www.youtube.com/embed/TVSj_N2Rmfo?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
+</div><div style="font-size:18px" class="flow-text">
+                      <p>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you'll be well on your way to becoming a Java developer!</p>
+  
+  <p>The topic I'm talking about is variables! Variables are a Java developer's bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</p>
+  
+  <p>Often times when you're writing a program in Java, there will be several pieces of data that you need to keep track of. Just like you're constantly keeping track of different pieces of information as you go about your day, like what you have to do at work, or when you're going to the gym, or what the name of the person who just moved in across the hall is, computers also need to keep track of various pieces of information. </p>
+  
+  <p>Think for example of Facebook. Facebook keeps track of tons of information and displays it on their websites and apps. Things like names, birthdays, status', etc. In order for us to write more complex programs like these, that do more than print text out onto the screen, we'll need to learn how to manage all of the information in our programs and use variables. </p>
+  
+  <p>Variables are essentially containers which allow a program to store different pieces of information inside of them. Once the information is stored inside the variable, that information can then be accessed throughout the program simply by referring to the variable's name.</p>
+  
+  <p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Variables are containers where we can store pieces of data we want to work with in our programs</div></p>
+  
+  <h2 id="writing-a-story">Writing a Story</h2>
+  
+  <p>To demonstrate let's take a look at a situation where variables would come in handy:</p>
+  
+  <p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;System.out.println(\&#34;There once was a man named George\&#34;);\nSystem.out.println(\&#34;He was 70 years old\&#34;);\nSystem.out.println(\&#34;He really liked the name George\&#34;);\nSystem.out.println(\&#34;But didn&#39;t like being 70\&#34;);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">System.out.println(&#34;There once was a man named George&#34;);
+System.out.println(&#34;He was 70 years old&#34;);
+System.out.println(&#34;He really liked the name George&#34;);
+System.out.println(&#34;But didn&#39;t like being 70&#34;);</code></pre></p>
+  
+  <p>The program above is very similar to the one we wrote in the previous lesson where we drew a shape. It's just printing out a little story about a man named George. </p>
+  
+  <p>But let's say we wanted to change the name of the character in the story. Well in order to do that we would have to look through all of the code we wrote, and find every place where we wrote the name George and individually change it to the new name (hoping we didn't make any spelling mistake along the way). </p>
+  
+  <p>Suppose that we also wanted to do the same thing with George's age. Maybe we wanted to make him a bit younger or older. Again we'd have to look through each line of code individually and change the age. </p>
+  
+  <p>In a small program like this, making changes like these is fairly manageable, after all our story is only 4 lines. But imagine if instead of 4 we had 400 or 4000 lines, where the character's name and age were mentioned dozens or hundreds of times. </p>
+  
+  <p>Going through and changing all of that would be a nightmare, and even if you used something like a find and replace, it wouldn't be reliable as it couldn't account for any misspellings or mis-agings. </p>
+  
+  <p>And in this case we're only keeping track of two pieces of information about the character, suppose we also wanted to keep track of (and potentially change) his birthday, favorite book, favorite color, and top 5 friends. The more information and data we want to keep track of, and the longer our programs get, the more difficult it is to mange all of it. That's where variables come it. </p>
+  
+  <h3 id="adding-variables-to-the-story">Adding Variables to the Story</h3>
+  
+  <p>Remember, variables are essentially containers where we can store pieces of information. And we can use them to store, for example, our character's name and age. Checkout the modified program below which stores the name and age into variables, and then interweaves them throughout the story. </p>
+  
+  <p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;String characterName = \&#34;George\&#34;;\nint characterAge = 70;\n\nSystem.out.println(\&#34;There once was a man named \&#34; &#43; characterName);\nSystem.out.println(\&#34;He was \&#34; &#43; characterAge &#43; \&#34; years old\&#34;);\nSystem.out.println(\&#34;He really liked the name \&#34; &#43; characterName);\nSystem.out.println(\&#34;But didn&#39;t like being \&#34; &#43; characterAge);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">String characterName = &#34;George&#34;;
+int characterAge = 70;
+
+System.out.println(&#34;There once was a man named &#34; &#43; characterName);
+System.out.println(&#34;He was &#34; &#43; characterAge &#43; &#34; years old&#34;);
+System.out.println(&#34;He really liked the name &#34; &#43; characterName);
+System.out.println(&#34;But didn&#39;t like being &#34; &#43; characterAge);</code></pre></p>
+  
+  <p>What we've done above is very powerful. We've replaced each instance of the character's name and age in the story, with the variable that we stored them in. The values for the name and age are actually stored inside of these variables which we've given descriptive names, and those values can then be accessed by simply referring to the variable's name. </p>
+  
+  <p>This is powerful for multiple reasons. First is that if we wanted to change the characters name, now all we have to do is simply change it up at the top of the program were we stored it in the variable.</p>
+  
+  <p> We've now eliminated the need for searching through the program and finding each instance of the name or age and manually changing it. All the print statements are doing is just printing out what's stored inside the variable. </p>
+  
+  <p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">So if this story eventually became 4000 lines, and mentioned the character&#39;s name 100 times, we could easily change it by making a small change in that one spot at the beginning of the program.</div></p>
+  
+  <p>Variables also allow us to change the pieces of information we're keeping track of throughout our programs. So imagine if halfway though the story the character's age changed (maybe they suddenly aged 10 years?). We could simply update the value in the variable to the new age, and the age would automatically update everywhere thereafter!</p>
+  
+  <p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;String characterName = \&#34;George\&#34;;\nint characterAge = 70;\n\nSystem.out.println(\&#34;There once was a man named \&#34; &#43; characterName);\nSystem.out.println(\&#34;He was \&#34; &#43; characterAge &#43; \&#34; years old\&#34;);\n\ncharacterAge = 80;\n\nSystem.out.println(\&#34;He really liked the name \&#34; &#43; characterName);\nSystem.out.println(\&#34;But didn&#39;t like being \&#34; &#43; characterAge);\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="java">String characterName = &#34;George&#34;;
+int characterAge = 70;
+
+System.out.println(&#34;There once was a man named &#34; &#43; characterName);
+System.out.println(&#34;He was &#34; &#43; characterAge &#43; &#34; years old&#34;);
+
+characterAge = 80;
+
+System.out.println(&#34;He really liked the name &#34; &#43; characterName);
+System.out.println(&#34;But didn&#39;t like being &#34; &#43; characterAge);</code></pre></p>
+  
+  <p>If you run the program now, the character's age will be different in the two places its printed out.</p>
+  
+  <h2 id="rules-for-variables">Rules for variables</h2>
+  
+  <p>Now before we get too ahead of ourselves, I want to share some rules and best practices, specifically for naming these variables. In Java the naming rules are as follows:</p>
+  
+  <code><pre>Names are case-sensitive and may begin with:
+      letters, $, _
+After, may include
+    letters, numbers, $, _
+Convention says
+    Start with a lowercase word, then additional words are capitalized
+    ex. myFirstVariable
+</pre></code>
+  
+  <p>As long as you follow those rules you should be good to go. I'll also mention that you want to be as descriptive as possible when naming these variables. This is not only for your sake, but for the sake of everyone who has to read your code. </p>
+  
+  <p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">It&#39;s better to have a variable name that&#39;s long and descriptive (even though it might take more time to type out), than one that&#39;s just a single letter or confusing!</div></p>
+  
+  <p>Trust me, do Java programmers everywhere a favor and don't be the developer who's lazy and doesn't take the time to name their variables correctly!</p>
+  
+  <h2 id="language-programmers-love-variables">Java Programmers Love Variables</h2>
+  
+  <p>As I said in the beginning of the lesson, variables are a programmers best friend! As we move on from here in the course we'll be using variables to store and keep track of all the different pieces of information we encounter. Keep practicing and soon enough variables will become an invaluable and second nature part of your programming repertoire!</p>
+
+               </div>
+               <div style="margin-top: 25px;">
+     
+     
+     
+     
+          
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+                    <a class="waves-effect waves-light btn blue" href="/programming-languages/java/drawing-a-shape/"><i class="material-icons left">chevron_left</i>Prev</a>
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+                    <a class="waves-effect waves-light btn blue right" href="/programming-languages/java/data-types/"><i class="material-icons right">chevron_right</i>Next</a>
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+               
+
+               
+          
+     
+
+
+</div>
+
+          </article>
+     </div>
+     <aside class="col xl2 l2 hide-on-med-and-down left-col-article" style="padding-right:0px;">
+          <div id="nav-side-article">
+               
+
+
+
+
+
+
+
+   
+   <h5>On This Page</h5>
+<div class="table-of-contents" id="table-of-contents" style="margin-left:-20px">
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/variables/#writing-a-story">
+                   <li>Writing a Story</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/variables/#adding-variables-to-the-story">
+                   <li>Adding Variables to the Story</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/variables/#rules-for-variables">
+                   <li>Rules for variables</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+       
+       
+          
+               
+               
+               
+                   <ul>
+               
+                   <ul>
+               
+               
+               
+               
+               <a href="/programming-languages/java/variables/#java-programmers-love-variables">
+                   <li>Java Programmers Love Variables</li>
+               </a>
+               
+               
+                   </ul>
+               
+                   </ul>
+               
+          
+       
+   
+</div>
+
+<br><br><h5>Share This Page</h5>
+<ul>
+     <div class="row">
+          <li class="col xl4 l12"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fvariables%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#3b5998; border-radius:50%; color:#3b5998;"></i>
+          <i class="fa fa-facebook fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://twitter.com/home?status=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fvariables%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#00aced; border-radius:50%; color:#00aced;"></i>
+          <i class="fa fa-twitter fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://plus.google.com/share?url=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fvariables%2f" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#dd4b39; border-radius:50%; color:#dd4b39;"></i>
+          <i class="fa fa-google-plus fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+          <li class="col xl4 l12"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fjava%2fvariables%2f&title=Variables&summary=This%20tutorial%20covers%20variables%20in%20Java.&source=https://www.mikedane.com/" target="_blank">
+     <span class="fa-stack fa-2x" >
+          <i class="fa fa-circle-thin fa-stack-2x"style="background-color:#0077B5; border-radius:50%; color:#0077B5;"></i>
+          <i class="fa fa-linkedin fa-stack-1x" style="color: white"></i>
+     </span>
+</a></li>
+     </div>
+</ul><div id="mc_embed_signup">
+<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=%2fprogramming-languages%2fjava%2fvariables%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h5>Subscribe To Get Course Updates</h5>
+<div class="mc-field-group input-field">
+	<label for="mce-EMAIL">Email Address </label>
+	<input type="email" value="" name="EMAIL" class="required email" class="validate" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddae06c14d9d23cc3973d5008_cbec4abdba" tabindex="-1" value=""></div>
+    <div class="clear"><input class="waves-effect waves-light btn blue" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div><br /><div>
+  <script
+    async
+    src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  ></script>
+  
+  <ins
+    class="adsbygoogle"
+    style="display:block;"
+    data-ad-client="ca-pub-8421251020677378"
+    data-ad-slot="7322741423"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<br />
+
+               
+               
+          </div>
+     </aside>
+</div>
+     
+
+                    </div>
+               </div>
+          </main>
+          <footer><div class='page-footer grey darken-1' style="position: relative; z-index: 100">
+     <div class='page-wrap'>
+         <div class='row page-margin'>
+              <div class='col xl4 l4 m12 s12'>
+                  <h5 class='white-text'>Help MikeDane.com Grow</h5>
+                  <p class="white-text">If you're enjoying my content, consider contributing to the website and investing in the future!</p>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/contribute">Contribute Now</a>
+              </div>
+              <div class='col xl1 l1 hide-on-med-and-down'>
+              </div>
+             <div class='col xl2 l2 m12 s12'>
+                 <h5 class='white-text'>Site Links</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/#courses' id='courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/about' id='about'>About<i class='material-icons left'>info_outline</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/contribute' id='contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                 </ul>
+             </div>
+             <div class='col xl2 l2 hide-on-med-and-down'>
+             </div>
+             <div class='col xl3 l3  m12 s12'>
+                 <h5 class='white-text'>Social Media</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw' target="_blank">YouTube<i class='material-icons left '>videocam</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://twitter.com/mike_dane' target="_blank">Twitter<i class='material-icons left'>account_circle</i></a></li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+     <div class='footer-copyright'>
+         <div class='container center'>
+             © 2021 Mike Dane. All Rights Reserved
+         </div>
+     </div>
+</div>
+</footer>
+     </body>
+</html>

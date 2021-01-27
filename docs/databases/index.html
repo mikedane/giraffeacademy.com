@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Databases | Mike Dane</title>
+<meta name="description" content="Databases on Mike Dane" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name='author' content='Mike Dane'>
+<meta property="og:title" content="Databases | Mike Dane" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.mikedane.com/databases/" />
+<meta property="og:description"content="Databases on Mike Dane" />
+<meta property="og:site_name" content="Mike Dane" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://www.mikedane.com/js/sticky-kit.js"></script>
+<script src="https://www.mikedane.com/js/init.js"></script>
+<script>
+function copyTextToClipboard(button, text) {
+var textArea = document.createElement("textarea");
+textArea.style.opacity = 0.1;
+textArea.value = text;
+document.body.appendChild(textArea);
+textArea.select();
+try {
+    var successful = document.execCommand('copy');
+    button.innerHTML = successful ? 'Copied' : 'Copy Error';
+} catch (err) {
+       button.innerHTML = 'Copy Error';
+}
+document.body.removeChild(textArea);
+}
+</script>
+          <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101690476-1', 'auto');
+  ga('send', 'pageview');
+</script>
+     </head>
+     <body>
+          <script type="application/ld+json">
+     {"@context": "http://schema.org",
+     "@type": "WebSite",
+     "name": "Mike Dane",
+     "url": "https://www.mikedane.com/"
+     }
+</script>
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "Organization",
+"name": "Mike Dane",
+"url": "https://www.mikedane.com/",
+"logo": "https://www.mikedane.com/logo-blue.svg",
+"email": "giraffeacademy@gmail.com",
+"description": "MikeDane.com is home to high quality online courses and content",
+"founder": {
+     "@type": "Person",
+     "name": "Mike Dane"
+},
+"sameAs": ["https://www.facebook.com/giraffeacademy/","https://twitter.com/GiraffeAcademy","https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw"]
+}
+</script>
+          <header><nav>
+     <div class="navbar-fixed">
+          <nav class="blue">
+               <div class='nav-wrapper page-wrap'>
+                    <div class="page-margin">
+                         <a class='button-collapse' href='#' data-activates='slide-out'><i class='material-icons'>menu</i>
+                         <a id='logo-container' href='https://www.mikedane.com/'>
+                              <img src="https://www.mikedane.com/logo-white.png" alt="Mike Dane Logo" style="display:inline-block; width: 50px; vertical-align: top; margin-top:6px;" class='hide-on-small-only' >
+                              <span style='font-size: 28px; margin-left: 10px;'>
+                                   Mike Dane
+                              </span>
+                         </a>
+                         <ul class='right hide-on-med-and-down'>
+                              <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+                              <li class=""><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+     </div>
+     <ul id='slide-out' class='side-nav'>
+          <li><a href='https://www.mikedane.com/#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+          <li><a href='https://www.mikedane.com/about'>About<i class='material-icons left'>info_outline</i></a></li>
+          <li><a href='https://www.mikedane.com/contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+          <hr>
+          
+
+     
+          
+     
+
+     </ul>
+</nav>
+</header>
+          <main>
+               <div class="page-wrap">
+                    <style>
+  #promo-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #promo-cta {
+    font-size: 1.25rem;
+  }
+  #promo-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #promo-video {
+    margin-right: 15px;
+  }
+  #promo-title {
+    font-size: 1.5rem;
+
+     
+  }
+</style>
+
+<div id="promo-wrapper">
+  <div id="promo-content-wrapper">
+    <div id="promo-cta">Check out my latest course!</div>
+    <div id="promo-content">
+      <div id="promo-video">
+        <iframe width="256" height="144" src="https://www.youtube.com/embed/ABQLwlE8MUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="promo-info">
+        <div id="promo-title">Learn React.js in 3.5 hours!</div>
+        <div id="promo-desc">In this video I'll walk you through all the core concepts in React while we build some seriously awesome components!</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                    <div class="page-margin">
+                         <aside><br><a href="https://www.mikedane.com/">Home</a>
+          &nbsp;&nbsp;<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;
+          <span class="grey-text">Databases</span></aside>
+                         
+     
+          
+          <h2>Courses</h2>
+
+     <div class="row">
+          
+     
+          
+               <div class="col">
+                    <div class="card" style="max-width:307px;">
+     <div class="card-image">
+          <a href="https://www.mikedane.com/databases/mongodb/"><img src="/databases/mongodb/introduction.png"></a>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+     </div>
+     <div class="card-content">
+          <span class="card-title truncate"><a href="https://www.mikedane.com/databases/mongodb/">MongoDB</a></span>
+          <p class="truncate">This tutorial covers introduction in MongoDB.</p>
+     </div>
+     <ul class="collapsible z-depth-0" style="border:0px;" data-collapsible="accordion">
+          <li >
+               <div class="collapsible-header z-depth-0 " ><i class="material-icons">add</i>Lessons</div>
+               
+               <table class="collapsible-body z-depth-0 highlight" >
+                    <tbody style="display: block; max-height:300px; overflow-y:scroll" >
+                    
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/mac-installation\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Mac Installation</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/windows-installation\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Windows Installation</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/creating-collections\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Creating Collections</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/inserting\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Inserting</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/finding-documents\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Finding Documents</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/updating-deleting-documents\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Updating &amp; Deleting Documents</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/bulk-actions\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Bulk Actions</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/text-indexing\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Text Indexing</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/aggregation\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Aggregation</td>
+                         </tr>
+                    
+                         <tr >
+                              <td class="truncate" style="max-width:100%">Go To Course<td>
+                         </tr>
+                         <tr style="cursor: pointer; position:absolute; bottom:0px; color:white; width:inherit" class="blue" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/mongodb\/'">
+                              <td class="center" style=" width: 307px;">Go To Course</td>
+                         </tr>
+                    </tbody>
+
+               </table>
+               
+          </li>
+     </ul>
+</div>
+
+
+
+
+               </div>
+               
+     
+
+          
+               <div class="col">
+                    <div class="card" style="max-width:307px;">
+     <div class="card-image">
+          <a href="https://www.mikedane.com/databases/sql/"><img src="/databases/sql/introduction.png"></a>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+     </div>
+     <div class="card-content">
+          <span class="card-title truncate"><a href="https://www.mikedane.com/databases/sql/">SQL</a></span>
+          <p class="truncate">This tutorial covers introduction in SQL.</p>
+     </div>
+     <ul class="collapsible z-depth-0" style="border:0px;" data-collapsible="accordion">
+          <li >
+               <div class="collapsible-header z-depth-0 " ><i class="material-icons">add</i>Lessons</div>
+               
+               <table class="collapsible-body z-depth-0 highlight" >
+                    <tbody style="display: block; max-height:300px; overflow-y:scroll" >
+                    
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/tables-keys\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Tables &amp; Keys</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/sql-basics\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Sql Basics</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/mysql-windows-installation\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Mysql Windows Installation</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/mysql-mac-installation\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Mysql Mac Installation</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/creating-tables\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Creating Tables</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/inserting-data\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Inserting Data</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/constraints\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Constraints</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/update-delete\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Update &amp; Delete</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/basic-queries\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Basic Queries</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/company-database-intro\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Company Database Intro</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/creating-company-database\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Creating Company Database</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/more-basic-queries\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">More Basic Queries</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/functions\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Functions</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/wildcards\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Wildcards</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/union\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Union</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/joins\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Joins</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/nested-queries\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Nested Queries</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/on-delete\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">On Delete</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/triggers\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Triggers</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/er-diagrams-intro\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Er Diagrams Intro</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/designing-an-er-diagram\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Designing An Er Diagram</td>
+                         </tr>
+                    
+                         <tr style="cursor: pointer;" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/er-diagram-mapping\/';">
+                              <td style="width: 307px; padding-right:20px; padding-left:20px" class="truncate">Er Diagram Mapping</td>
+                         </tr>
+                    
+                         <tr >
+                              <td class="truncate" style="max-width:100%">Go To Course<td>
+                         </tr>
+                         <tr style="cursor: pointer; position:absolute; bottom:0px; color:white; width:inherit" class="blue" onclick="window.document.location='https:\/\/www.mikedane.com\/databases\/sql\/'">
+                              <td class="center" style=" width: 307px;">Go To Course</td>
+                         </tr>
+                    </tbody>
+
+               </table>
+               
+          </li>
+     </ul>
+</div>
+
+
+
+
+               </div>
+               
+     
+
+          
+
+     
+
+     </div>
+
+
+
+
+
+
+
+
+     
+
+                    </div>
+               </div>
+          </main>
+          <footer><div class='page-footer grey darken-1' style="position: relative; z-index: 100">
+     <div class='page-wrap'>
+         <div class='row page-margin'>
+              <div class='col xl4 l4 m12 s12'>
+                  <h5 class='white-text'>Help MikeDane.com Grow</h5>
+                  <p class="white-text">If you're enjoying my content, consider contributing to the website and investing in the future!</p>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/contribute">Contribute Now</a>
+              </div>
+              <div class='col xl1 l1 hide-on-med-and-down'>
+              </div>
+             <div class='col xl2 l2 m12 s12'>
+                 <h5 class='white-text'>Site Links</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/#courses' id='courses'>Courses<i class='material-icons left'>library_books</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/about' id='about'>About<i class='material-icons left'>info_outline</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://www.mikedane.com/contribute' id='contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                 </ul>
+             </div>
+             <div class='col xl2 l2 hide-on-med-and-down'>
+             </div>
+             <div class='col xl3 l3  m12 s12'>
+                 <h5 class='white-text'>Social Media</h5>
+                 <ul>
+                    <li><a class='grey-text text-lighten-3' href='https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw' target="_blank">YouTube<i class='material-icons left '>videocam</i></a></li>
+                    <br />
+                    <li><a class='grey-text text-lighten-3' href='https://twitter.com/mike_dane' target="_blank">Twitter<i class='material-icons left'>account_circle</i></a></li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+     <div class='footer-copyright'>
+         <div class='container center'>
+             © 2021 Mike Dane. All Rights Reserved
+         </div>
+     </div>
+</div>
+</footer>
+     </body>
+</html>

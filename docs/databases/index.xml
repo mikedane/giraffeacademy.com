@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Databases on Mike Dane</title>
+    <link>https://www.mikedane.com/databases/</link>
+    <description>Recent content in Databases on Mike Dane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Sep 2017 11:55:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.mikedane.com/databases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

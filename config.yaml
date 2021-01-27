@@ -5,3 +5,4 @@ author : Mike Dane
 taxonomies: ""
 pygmentsstyle: default
 PygmentsCodeFences: true
+publishDir: docs
