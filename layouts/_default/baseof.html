@@ -10,6 +10,8 @@
           <header>{{ partial "header" . }}</header>
           <main>
                <div class="page-wrap">
+                    {{ partial "video-promotion.html" . }}
+
                     <div class="page-margin">
                          <aside>{{ partial "breadcrumbs" . }}</aside>
                          {{ block "main" . }}{{ end }}
