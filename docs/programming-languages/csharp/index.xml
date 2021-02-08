@@ -299,5 +299,14 @@ C# was designed to be portable and fast and is tightly coupled with Microsoft&am
 C# is one of the most popular programming languages in the world, and can be used to write applications on almost every platform including, Windows, Mac, iOS, Android, and Linux.</description>
     </item>
     
+    <item>
+      <title>Xamarin Forms</title>
+      <link>https://www.mikedane.com/programming-languages/csharp/xamarin-forms-tutorial/</link>
+      <pubDate>Wed, 08 Nov 2017 18:34:45 -0500</pubDate>
+      
+      <guid>https://www.mikedane.com/programming-languages/csharp/xamarin-forms-tutorial/</guid>
+      <description>XAML Intro &amp;lt;Button Text=&amp;#34;Click Me&amp;#34; Clicked=&amp;#34;HandleButtonClick&amp;#34;/&amp;gt;public void HandleButtonClick(object sender, EventArgs args) { Console.WriteLine(&amp;#34;You Clicked Me!&amp;#34;); } Building a text entry &amp;lt;StackLayout&amp;gt; &amp;lt;Entry x:Name=&amp;#34;TodoInput&amp;#34; Text=&amp;#34;&amp;#34; TextChanged=&amp;#34;HandleTextChanged&amp;#34; Completed=&amp;#34;HandleTextCompleted&amp;#34; /&amp;gt; &amp;lt;StackLayout x:Name=&amp;#34;TodoList&amp;#34;&amp;gt; &amp;lt;/StackLayout&amp;gt; &amp;lt;/StackLayout&amp;gt;public void HandleTextChanged(object sender, TextChangedEventArgs args) { Console.WriteLine(args.NewTextValue); } public void HandleTextCompleted(object sender, EventArgs args) { Label newTodo = new Label(); newTodo.Text = TodoInput.Text; TodoList.Children.Add(newTodo); TodoInput.Text = &amp;#34;&amp;#34;; } MVVM Intro  Model is what defines what the actual data we&amp;rsquo;re working with looks like View is the XAML ViewModel connect these two things together  Building the TodoItem Model using System; namespace AppPractice { public class TodoItem { public string TodoText { get; set; } public bool Complete { get; set; } public TodoItem(string TodoText, bool Complete) { this.</description>
+    </item>
+    
   </channel>
 </rss>
