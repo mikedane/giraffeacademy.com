@@ -12,6 +12,12 @@ video: ShufCBZi_r8
 url: /web-development/javascript/ai-shopping-cart/
 weight: 30
 ---
+
+
+<br />
+Head over to https://alan.app/ Use promo code **MIKEDANE1000** to get 1000 free alan requests when you signup!
+
+
 ## Setting up the app
 
 ```bash
