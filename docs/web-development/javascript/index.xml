@@ -277,7 +277,8 @@ Javascript was built with the sole purpose of making websites more responsive an
       <pubDate>Sun, 22 Oct 2017 11:23:34 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/javascript/ai-shopping-cart/</guid>
-      <description>Setting up the app npx create-react-app menu-ai cd menu-ai Building out a basic menu app const menuItems = [ {name: &amp;#34;Angus Burger&amp;#34;, price: 8.99, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Tuna Steak Burger&amp;#34;, price: 15.00, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Bacon Burger&amp;#34;, price: 11.50, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Southwest Chicken Burger&amp;#34;, price: 9.99, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Mozzarella Burger&amp;#34;, price: 12.50, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Cesar Salad&amp;#34;, price: 6.50, category: &amp;#39;salad&amp;#39;}, {name: &amp;#34;BBQ Chicken Salad&amp;#34;, price: 13.99, category: &amp;#39;salad&amp;#39;}, {name: &amp;#34;Garden Salad&amp;#34;, price: 9.</description>
+      <description>Head over to https://alan.app/ Use promo code MIKEDANE1000 to get 1000 free alan requests when you signup!
+Setting up the app npx create-react-app menu-ai cd menu-ai Building out a basic menu app const menuItems = [ {name: &amp;#34;Angus Burger&amp;#34;, price: 8.99, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Tuna Steak Burger&amp;#34;, price: 15.00, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Bacon Burger&amp;#34;, price: 11.50, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Southwest Chicken Burger&amp;#34;, price: 9.99, category: &amp;#39;burger&amp;#39;}, {name: &amp;#34;Mozzarella Burger&amp;#34;, price: 12.</description>
     </item>
     
   </channel>
