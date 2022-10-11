@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on Mike Dane</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Html on Mike Dane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Oct 2017 15:35:15 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.mikedane.com/web-development/html/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 09 Oct 2017 15:35:15 -0400</lastBuildDate><atom:link href="https://www.mikedane.com/web-development/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Choosing A Text Editor</title>
       <link>https://www.mikedane.com/web-development/html/choosing-a-text-editor/</link>
@@ -61,7 +57,8 @@ But in a lot of cases, merely relying on the HTML tags to properly explain or do
       <guid>https://www.mikedane.com/web-development/html/style-color/</guid>
       <description>In this lesson we&amp;rsquo;re gonna touch on styling web pages. When we work with HTML, we&amp;rsquo;re essentially defining the structure or the architecture of our website.
 Once you&amp;rsquo;ve defined the layout of the site however, you&amp;rsquo;ll want to add styles.
-Website styling is what distinguishes one site from another. It brings personality, brand and user friendliness out of the bare HTML that we&amp;rsquo;ve seen so far in this course.</description>
+Website styling is what distinguishes one site from another. It brings personality, brand and user friendliness out of the bare HTML that we&amp;rsquo;ve seen so far in this course.
+As an introduction to styling, let&amp;rsquo;s look at some basic ways to add color to our sites!</description>
     </item>
     
     <item>
@@ -100,7 +97,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/videos/</guid>
-      <description> Code Copy&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34; src=&amp;#34;https://www.youtube.com/embed/M_vEI64hbso&amp;#34; frameborder=&amp;#34;0&amp;#34; gesture=&amp;#34;media&amp;#34; allow=&amp;#34;encrypted-media&amp;#34; allowfullscreen&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;video src=&amp;#34;myvideo.mp4&amp;#34; autoplay controls width=&amp;#34;300&amp;#34; poster=&amp;#34;video-poster.jpg&amp;#34;&amp;gt; &amp;lt;/video&amp;gt; </description>
+      <description>Code Copy&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34; src=&amp;#34;https://www.youtube.com/embed/M_vEI64hbso&amp;#34; frameborder=&amp;#34;0&amp;#34; gesture=&amp;#34;media&amp;#34; allow=&amp;#34;encrypted-media&amp;#34; allowfullscreen&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;video src=&amp;#34;myvideo.mp4&amp;#34; autoplay controls width=&amp;#34;300&amp;#34; poster=&amp;#34;video-poster.jpg&amp;#34;&amp;gt; &amp;lt;/video&amp;gt; </description>
     </item>
     
     <item>
@@ -109,7 +106,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/lists/</guid>
-      <description> Code Copy&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Apples&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Oranges&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Pears&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol type=&amp;#34;A&amp;#34;&amp;gt; &amp;lt;li&amp;gt;One&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Two&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Three&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;Mike Dane&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt;Website with programming tutorials&amp;lt;/dd&amp;gt; &amp;lt;/dl&amp;gt; </description>
+      <description>Code Copy&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Apples&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Oranges&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Pears&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol type=&amp;#34;A&amp;#34;&amp;gt; &amp;lt;li&amp;gt;One&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Two&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Three&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;Mike Dane&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt;Website with programming tutorials&amp;lt;/dd&amp;gt; &amp;lt;/dl&amp;gt; </description>
     </item>
     
     <item>
@@ -118,7 +115,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/tables/</guid>
-      <description> Code Copy&amp;lt;table&amp;gt; &amp;lt;caption&amp;gt;My Table&amp;lt;/caption&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;num1&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;num2&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;num3&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td colspan=&amp;#34;2&amp;#34;&amp;gt;one&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;two&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;three&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;three and a half&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;four&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;five&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;six&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt; </description>
+      <description>Code Copy&amp;lt;table&amp;gt; &amp;lt;caption&amp;gt;My Table&amp;lt;/caption&amp;gt; &amp;lt;thead&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;num1&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;num2&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;num3&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/thead&amp;gt; &amp;lt;tbody&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td colspan=&amp;#34;2&amp;#34;&amp;gt;one&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;two&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;three&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;three and a half&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;four&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;five&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;six&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;/tbody&amp;gt; &amp;lt;/table&amp;gt; </description>
     </item>
     
     <item>
@@ -127,7 +124,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/divs-spans/</guid>
-      <description> Code Copy&amp;lt;div&amp;gt;Div1&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;Div2&amp;lt;/div&amp;gt; &amp;lt;span&amp;gt;Span1&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Span2&amp;lt;/span&amp;gt; </description>
+      <description>Code Copy&amp;lt;div&amp;gt;Div1&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;Div2&amp;lt;/div&amp;gt; &amp;lt;span&amp;gt;Span1&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Span2&amp;lt;/span&amp;gt; </description>
     </item>
     
     <item>
@@ -136,7 +133,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/inputs-forms/</guid>
-      <description> Code Copy&amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;number&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;color&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;date&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;email&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;file&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;radio&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;time&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;url&amp;#34; /&amp;gt; </description>
+      <description>Code Copy&amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;number&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;color&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;date&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;email&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;file&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;radio&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;time&amp;#34; /&amp;gt; &amp;lt;input type=&amp;#34;url&amp;#34; /&amp;gt; </description>
     </item>
     
     <item>
@@ -145,7 +142,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/iframes/</guid>
-      <description> Code Copy&amp;lt;iframe src=&amp;#34;http://www.mikedane.com/&amp;#34; frameborder=&amp;#34;0&amp;#34; width=&amp;#34;1000&amp;#34; height=&amp;#34;800&amp;#34;&amp;gt; sorry iframe not supported &amp;lt;/iframe&amp;gt; </description>
+      <description>Code Copy&amp;lt;iframe src=&amp;#34;http://www.mikedane.com/&amp;#34; frameborder=&amp;#34;0&amp;#34; width=&amp;#34;1000&amp;#34; height=&amp;#34;800&amp;#34;&amp;gt; sorry iframe not supported &amp;lt;/iframe&amp;gt; </description>
     </item>
     
     <item>
@@ -154,7 +151,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.mikedane.com/web-development/html/meta-tags/</guid>
-      <description> Code Copy&amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Teaching HTML for free&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;keywords&amp;#34; content=&amp;#34;HTML, Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;author&amp;#34; content=&amp;#34;Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;/head&amp;gt; </description>
+      <description>Code Copy&amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Teaching HTML for free&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;keywords&amp;#34; content=&amp;#34;HTML, Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;author&amp;#34; content=&amp;#34;Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;/head&amp;gt; </description>
     </item>
     
   </channel>

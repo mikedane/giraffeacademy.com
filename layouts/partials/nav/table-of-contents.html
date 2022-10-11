@@ -21,7 +21,7 @@
                {{ $base := ($.Page.File.LogicalName) }}
                {{ $anchorId := ($header | plainify | htmlEscape | urlize) }}
                {{ $href := delimit (slice $base $anchorId) "#" | string }}
-               <a href="{{ $.Page.URL }}#{{$anchorId}}">
+               <a href="{{ $.Page.Permalink }}#{{$anchorId}}">
                    <li>{{ $header | plainify | htmlEscape }}</li>
                </a>
                <!-- close list -->

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MongoDB on Mike Dane</title>
@@ -6,18 +6,14 @@
     <description>Recent content in MongoDB on Mike Dane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Dec 2017 11:54:12 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.mikedane.com/databases/mongodb/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 22 Dec 2017 11:54:12 -0500</lastBuildDate><atom:link href="https://www.mikedane.com/databases/mongodb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac Installation</title>
       <link>https://www.mikedane.com/databases/mongodb/mac-installation/</link>
       <pubDate>Fri, 22 Dec 2017 11:54:13 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/mongodb/mac-installation/</guid>
-      <description> Instructions Download using brew  Execute the following commands  brew update brew install mongodb Download the Binary  Download MongoDB Community Server Binary  https://www.mongodb.com/download-center?jmp=nav#community  Extract the files (double click) into the downloads folder  I just put them at the root directory of the home folder  Configure command line to recognize &amp;lsquo;mongod&amp;rsquo; command  echo &amp;lsquo;export PATH=/Users/Mike/mongodb-osx-x86_64-3.6.0/bin:$PATH&amp;rsquo; &amp;gt;&amp;gt; ~/.bashrc   Download Compass  https://www.mongodb.com/download-center#compass  Configure  Create &amp;lsquo;/data/db&amp;rsquo; directory  Create this at root directory of hard-drive  Ensure that current user has read/write permissions  Or customize location using:  mongod &amp;ndash;dbpath  I put this at the root directory of my home folder   Start MongoDB server  mongod  Connect to MongoDB server from client &amp;ndash; (in new terminal window) mongo &amp;ndash;host localhost:27017 &amp;ndash; (in compass) use the default settings  </description>
+      <description>Instructions Download using brew Execute the following commands brew update brew install mongodb Download the Binary Download MongoDB Community Server Binary https://www.mongodb.com/download-center?jmp=nav#community Extract the files (double click) into the downloads folder I just put them at the root directory of the home folder Configure command line to recognize &amp;lsquo;mongod&amp;rsquo; command echo &amp;rsquo;export PATH=/Users/Mike/mongodb-osx-x86_64-3.6.0/bin:$PATH&amp;rsquo; &amp;raquo; ~/.bashrc Download Compass https://www.mongodb.com/download-center#compass Configure Create &amp;lsquo;/data/db&amp;rsquo; directory Create this at root directory of hard-drive Ensure that current user has read/write permissions Or customize location using: mongod &amp;ndash;dbpath I put this at the root directory of my home folder Start MongoDB server mongod Connect to MongoDB server from client &amp;ndash; (in new terminal window) mongo &amp;ndash;host localhost:27017 &amp;ndash; (in compass) use the default settings </description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@
       <pubDate>Fri, 22 Dec 2017 11:54:13 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/mongodb/windows-installation/</guid>
-      <description> Instructions  Download the Windows installer  https://www.mongodb.com/download-center?jmp=nav#community  Step through installer (be sure to download compass) Add mongod.exe to path Create &amp;lsquo;/data/db&amp;rsquo; directory  Create this at root directory of hard-drive  Ensure that current user has read/write permissions  Or customize location using:  mongod &amp;ndash;dbpath  I put this at the root directory of my home folder   Start MongoDB server  mongod  Connect to MongoDB server from client &amp;ndash; (in new terminal window) mongo &amp;ndash;host localhost:27017 &amp;ndash; (in compass) use the default settings  </description>
+      <description>Instructions Download the Windows installer https://www.mongodb.com/download-center?jmp=nav#community Step through installer (be sure to download compass) Add mongod.exe to path Create &amp;lsquo;/data/db&amp;rsquo; directory Create this at root directory of hard-drive Ensure that current user has read/write permissions Or customize location using: mongod &amp;ndash;dbpath I put this at the root directory of my home folder Start MongoDB server mongod Connect to MongoDB server from client &amp;ndash; (in new terminal window) mongo &amp;ndash;host localhost:27017 &amp;ndash; (in compass) use the default settings </description>
     </item>
     
     <item>
@@ -35,7 +31,7 @@
       <pubDate>Fri, 22 Dec 2017 11:54:13 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/mongodb/creating-collections/</guid>
-      <description> Code Copy// if you insert into a non-existant collection it will be created automatically db.createCollection(&amp;#34;students&amp;#34;) // https://docs.mongodb.com/manual/reference/method/db.createCollection/index.html db.createCollection(&amp;#34;students&amp;#34;, {options}) db.dropCollection(&amp;#34;students&amp;#34;) show collections </description>
+      <description>Code Copy// if you insert into a non-existant collection it will be created automatically db.createCollection(&amp;#34;students&amp;#34;) // https://docs.mongodb.com/manual/reference/method/db.createCollection/index.html db.createCollection(&amp;#34;students&amp;#34;, {options}) db.dropCollection(&amp;#34;students&amp;#34;) show collections </description>
     </item>
     
     <item>
@@ -62,7 +58,7 @@
       <pubDate>Fri, 22 Dec 2017 11:54:13 -0500</pubDate>
       
       <guid>https://www.mikedane.com/databases/mongodb/updating-deleting-documents/</guid>
-      <description> Code Copy// same filters as inserting db.stuents.updateOne(&amp;lt;filter&amp;gt;, &amp;lt;update&amp;gt;, &amp;lt;options&amp;gt;) // Do this twice so we can change it back with updateMany db.students.updateOne( {major: &amp;#34;Biology&amp;#34;}, { $set: {major: &amp;#34;Bio&amp;#34;} } ) db.students.updateMany( {major: &amp;#34;Bio&amp;#34;}, { $set: {major: &amp;#34;Biology&amp;#34;} } ) // replaceMany() db.students.replaceOne( {major: &amp;#34;Bio&amp;#34;}, {name: &amp;#34;new name&amp;#34;, major: &amp;#34;new major&amp;#34;, gpa: 4.0} ) // Delete all documents db.students.deleteMany({}) db.students.deleteOne({major: &amp;#34;Biology&amp;#34;}) db.students.deleteMany({gpa: {$gte: 3.5}}) </description>
+      <description>Code Copy// same filters as inserting db.stuents.updateOne(&amp;lt;filter&amp;gt;, &amp;lt;update&amp;gt;, &amp;lt;options&amp;gt;) // Do this twice so we can change it back with updateMany db.students.updateOne( {major: &amp;#34;Biology&amp;#34;}, { $set: {major: &amp;#34;Bio&amp;#34;} } ) db.students.updateMany( {major: &amp;#34;Bio&amp;#34;}, { $set: {major: &amp;#34;Biology&amp;#34;} } ) // replaceMany() db.students.replaceOne( {major: &amp;#34;Bio&amp;#34;}, {name: &amp;#34;new name&amp;#34;, major: &amp;#34;new major&amp;#34;, gpa: 4.0} ) // Delete all documents db.students.deleteMany({}) db.students.deleteOne({major: &amp;#34;Biology&amp;#34;}) db.students.deleteMany({gpa: {$gte: 3.5}}) </description>
     </item>
     
     <item>

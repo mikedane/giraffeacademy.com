@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Mike Dane</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Hugo on Mike Dane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Sep 2017 20:24:10 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.mikedane.com/static-site-generators/hugo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 07 Sep 2017 20:24:10 -0400</lastBuildDate><atom:link href="https://www.mikedane.com/static-site-generators/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Installation</title>
       <link>https://www.mikedane.com/static-site-generators/hugo/installing-hugo-on-windows/</link>
@@ -216,10 +212,10 @@ For example on a normal website you have three main sections:</description>
     
     <item>
       <title>Building &amp; Hosting</title>
-      <link>https://www.mikedane.com/static-site-generators/hugo/building-hosting/</link>
+      <link>https://www.mikedane.com/static-site-generators/hugo/building-&amp;-hosting/</link>
       <pubDate>Thu, 07 Sep 2017 20:24:18 -0400</pubDate>
       
-      <guid>https://www.mikedane.com/static-site-generators/hugo/building-hosting/</guid>
+      <guid>https://www.mikedane.com/static-site-generators/hugo/building-&amp;-hosting/</guid>
       <description>Up until this point you’ve most likely been running and testing your hugo website using the hugo server command. Hugo server is a great way to test and track changes locally, but what about when you’re ready to display your creation to the world.
 When you&amp;rsquo;re creating all of your layouts, partials and content pages your website is scattered into a bunch of pieces. But when you build your website all of those pieces get put together is exactly the way you want by hugo.</description>
     </item>

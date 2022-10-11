@@ -12,8 +12,8 @@
                          </a>
                          <ul class='right hide-on-med-and-down'>
                               <li><a href='{{.Site.BaseURL}}#courses'>Courses<i class='material-icons left'>library_books</i></a></li>
-                              <li class="{{if eq .URL `/about/` }}active{{end}}"><a href='{{.Site.BaseURL}}about'>About<i class='material-icons left'>info_outline</i></a></li>
-                              <li class="{{if eq .URL `/contribute/` }}active{{end}}"><a href='{{.Site.BaseURL}}contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
+                              <li class="{{if eq .Permalink `/about/` }}active{{end}}"><a href='{{.Site.BaseURL}}about'>About<i class='material-icons left'>info_outline</i></a></li>
+                              <li class="{{if eq .Permalink `/contribute/` }}active{{end}}"><a href='{{.Site.BaseURL}}contribute'>Contribute<i class='material-icons left'>attach_money</i></a></li>
                          </ul>
                     </div>
                </div>

@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://www.mikedane.com/databases/mongodb/aggregation/" />
 <meta property="og:description"content="This tutorial covers aggregation in MongoDB." />
 <meta property="og:site_name" content="Mike Dane" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.com/databases/mongodb/aggregation/aggregation.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=Kk6Er0c7srU" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.comhttps://www.mikedane.com/databases/mongodb/aggregation/aggregation.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=Kk6Er0c7srU" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 <link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,15 +51,15 @@ document.body.removeChild(textArea);
      {"@context": "http://schema.org",
      "@type": "WebSite",
      "name": "Mike Dane",
-     "url": "https://www.mikedane.com/"
+     "url": "https:\/\/www.mikedane.com\/"
      }
 </script>
 <script type="application/ld+json">
 {"@context": "http://schema.org",
 "@type": "Organization",
 "name": "Mike Dane",
-"url": "https://www.mikedane.com/",
-"logo": "https://www.mikedane.com/logo-blue.svg",
+"url": "https:\/\/www.mikedane.com\/",
+"logo": "https:\/\/www.mikedane.com\/logo-blue.svg",
 "email": "giraffeacademy@gmail.com",
 "description": "MikeDane.com is home to high quality online courses and content",
 "founder": {
@@ -140,45 +140,7 @@ document.body.removeChild(textArea);
 </header>
           <main>
                <div class="page-wrap">
-                    <style>
-  #promo-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-  #promo-cta {
-    font-size: 1.25rem;
-  }
-  #promo-content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #promo-video {
-    margin-right: 15px;
-  }
-  #promo-title {
-    font-size: 1.5rem;
-
-     
-  }
-</style>
-
-<div id="promo-wrapper">
-  <div id="promo-content-wrapper">
-    <div id="promo-cta">I'm starting a coding bootcamp</div>
-    <div id="promo-content">
-      <div id="promo-video">
-        <img src="/assets/dev-simulator.png" style="width: 15rem; border-radius: 1rem;"/>
-      </div>
-      <div id="promo-info">
-        <div id="promo-title"><a style="color: black; font-weight: bold;" href="https://simulator.dev">Dev Simulator - A Coding RPG & Bootcamp</a></div>
-        <div id="promo-desc">Want to learn web development in a fun and gamefied environment? Head over to <a href="https://simulator.dev">simulator.dev</a> and see what I'm working on!</div>
-        <div style="background: #6C63FF; color: white; border-radius: 1rem; padding: 0.5rem; margin-top: 1rem; display: inline-block; box-shadow: 0.25rem 0.25rem 0 black; cursor: pointer;"><a href="https://simulator.dev" style="color: white">Check it out</a></div>
-      </div>
-    </div>
-  </div>
-</div>
+                    
 
 
                     <div class="page-margin">
@@ -193,12 +155,12 @@ document.body.removeChild(textArea);
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.mikedane.com/databases/mongodb/aggregation/"
+    "@id": "https:\/\/www.mikedane.com\/databases\/mongodb\/aggregation\/"
   },
   "headline": "Aggregation | MongoDB | Mike Dane",
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.mikedane.com/databases/mongodb/aggregation/aggregation.png",
+    "url": "https:\/\/www.mikedane.comhttps:\/\/www.mikedane.com\/databases\/mongodb\/aggregation\/aggregation.png",
     "height": 512,
     "width": 1024
   },
@@ -213,7 +175,7 @@ document.body.removeChild(textArea);
     "name": "Mike Dane",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.mikedane.com/logo-blue.svg",
+      "url": "https:\/\/www.mikedane.com\/logo-blue.svg",
       "width": 600,
       "height": 60
     }
@@ -262,10 +224,7 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/Kk6Er0c7srU?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    
-
-<h2 id="code">Code</h2>
-
+                    <h2 id="code">Code</h2>
 <pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\ndb.purchase_orders.insertMany(\n     [\n          {product: \&#34;toothbrush\&#34;, total: 4.75, customer: \&#34;Mike\&#34;},\n          {product: \&#34;guitar\&#34;, total: 199.99, customer: \&#34;Tom\&#34;},\n          {product: \&#34;milk\&#34;, total: 11.33, customer: \&#34;Mike\&#34;},\n          {product: \&#34;pizza\&#34;, total: 8.50, customer: \&#34;Karen\&#34;},\n          {product: \&#34;toothbrush\&#34;, total: 4.75, customer: \&#34;Karen\&#34;},\n          {product: \&#34;pizza\&#34;, total: 4.75, customer: \&#34;Dave\&#34;}\n          {product: \&#34;toothbrush\&#34;, total: 4.75, customer: \&#34;Mike\&#34;},\n     ]\n)\n\n// find out how many toothbrushes were sold\ndb.purchase_orders.count({product: \&#34;toothbrush\&#34;})\n\n// Find list of all products sold\ndb.purchase_orders.distinct(\&#34;product\&#34;)\n\n// Find the total amount of money spent by each customer\ndb.purchase_orders.aggregate(\n     [\n          {$match: {} },\n          {$group: {_id: \&#34;$customer\&#34;, total: { $sum: \&#34;$total\&#34;} } }\n     ]\n)\n\n// Find how much has been spent on each product and sort it by price\ndb.purchase_orders.aggregate(\n     [\n          {$match: {} },\n          {$group: {_id: \&#34;$product\&#34;, total: { $sum: \&#34;$total\&#34;} } },\n          {$sort: {total: -1}}\n     ]\n)\n\n// Find how much money each customer has spent on toothbrushes and pizza\ndb.purchase_orders.aggregate(\n     [\n          {$match: {product: {$in: [\&#34;toothbrush\&#34;, \&#34;pizza\&#34;]} } },\n          {$group: {_id: \&#34;$product\&#34;, total: { $sum: \&#34;$total\&#34;} } },\n     ]\n)\n\n// https://docs.mongodb.com/manual/reference/operator/aggregation/\n// Show the list of all pipeline operators\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="javascript">db.purchase_orders.insertMany(
      [
           {product: &#34;toothbrush&#34;, total: 4.75, customer: &#34;Mike&#34;},
@@ -349,7 +308,7 @@ db.purchase_orders.aggregate(
                
           
                
-                    <a class="waves-effect waves-light btn blue" href="/databases/mongodb/text-indexing/"><i class="material-icons left">chevron_left</i>Prev</a>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/databases/mongodb/text-indexing/"><i class="material-icons left">chevron_left</i>Prev</a>
                
 
                
@@ -392,7 +351,7 @@ db.purchase_orders.aggregate(
                
                
                
-               <a href="/databases/mongodb/aggregation/#code">
+               <a href="https://www.mikedane.com/databases/mongodb/aggregation/#code">
                    <li>Code</li>
                </a>
                
@@ -435,7 +394,7 @@ db.purchase_orders.aggregate(
 </a></li>
      </div>
 </ul><div id="mc_embed_signup">
-<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=%2fdatabases%2fmongodb%2faggregation%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=https%3a%2f%2fwww.mikedane.com%2fdatabases%2fmongodb%2faggregation%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h5>Subscribe To Get Course Updates</h5>
 <div class="mc-field-group input-field">
@@ -514,7 +473,7 @@ db.purchase_orders.aggregate(
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2021 Mike Dane. All Rights Reserved
+             © 2022 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

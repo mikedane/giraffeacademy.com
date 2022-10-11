@@ -9,7 +9,7 @@
   "headline": "{{.Params.seo_title}}",
   "image": {
     "@type": "ImageObject",
-    "url": "{{- substr .Site.BaseURL 0 -1 -}}{{- .Page.URL -}}{{.Params.image}}",
+    "url": "{{- substr .Site.BaseURL 0 -1 -}}{{- .Page.Permalink -}}{{.Params.image}}",
     "height": 512,
     "width": 1024
   },

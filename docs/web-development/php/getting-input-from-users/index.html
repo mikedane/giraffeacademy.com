@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://www.mikedane.com/web-development/php/getting-input-from-users/" />
 <meta property="og:description"content="This tutorial covers getting input from users in PHP." />
 <meta property="og:site_name" content="Mike Dane" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.com/web-development/php/getting-input-from-users/getting-input-from-users.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=XZeFP-CXQj4" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.comhttps://www.mikedane.com/web-development/php/getting-input-from-users/getting-input-from-users.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=XZeFP-CXQj4" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 <link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,15 +51,15 @@ document.body.removeChild(textArea);
      {"@context": "http://schema.org",
      "@type": "WebSite",
      "name": "Mike Dane",
-     "url": "https://www.mikedane.com/"
+     "url": "https:\/\/www.mikedane.com\/"
      }
 </script>
 <script type="application/ld+json">
 {"@context": "http://schema.org",
 "@type": "Organization",
 "name": "Mike Dane",
-"url": "https://www.mikedane.com/",
-"logo": "https://www.mikedane.com/logo-blue.svg",
+"url": "https:\/\/www.mikedane.com\/",
+"logo": "https:\/\/www.mikedane.com\/logo-blue.svg",
 "email": "giraffeacademy@gmail.com",
 "description": "MikeDane.com is home to high quality online courses and content",
 "founder": {
@@ -188,45 +188,7 @@ document.body.removeChild(textArea);
 </header>
           <main>
                <div class="page-wrap">
-                    <style>
-  #promo-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-  #promo-cta {
-    font-size: 1.25rem;
-  }
-  #promo-content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #promo-video {
-    margin-right: 15px;
-  }
-  #promo-title {
-    font-size: 1.5rem;
-
-     
-  }
-</style>
-
-<div id="promo-wrapper">
-  <div id="promo-content-wrapper">
-    <div id="promo-cta">I'm starting a coding bootcamp</div>
-    <div id="promo-content">
-      <div id="promo-video">
-        <img src="/assets/dev-simulator.png" style="width: 15rem; border-radius: 1rem;"/>
-      </div>
-      <div id="promo-info">
-        <div id="promo-title"><a style="color: black; font-weight: bold;" href="https://simulator.dev">Dev Simulator - A Coding RPG & Bootcamp</a></div>
-        <div id="promo-desc">Want to learn web development in a fun and gamefied environment? Head over to <a href="https://simulator.dev">simulator.dev</a> and see what I'm working on!</div>
-        <div style="background: #6C63FF; color: white; border-radius: 1rem; padding: 0.5rem; margin-top: 1rem; display: inline-block; box-shadow: 0.25rem 0.25rem 0 black; cursor: pointer;"><a href="https://simulator.dev" style="color: white">Check it out</a></div>
-      </div>
-    </div>
-  </div>
-</div>
+                    
 
 
                     <div class="page-margin">
@@ -241,12 +203,12 @@ document.body.removeChild(textArea);
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.mikedane.com/web-development/php/getting-input-from-users/"
+    "@id": "https:\/\/www.mikedane.com\/web-development\/php\/getting-input-from-users\/"
   },
   "headline": "Getting Input From Users | PHP | Mike Dane",
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.mikedane.com/web-development/php/getting-input-from-users/getting-input-from-users.png",
+    "url": "https:\/\/www.mikedane.comhttps:\/\/www.mikedane.com\/web-development\/php\/getting-input-from-users\/getting-input-from-users.png",
     "height": 512,
     "width": 1024
   },
@@ -261,7 +223,7 @@ document.body.removeChild(textArea);
     "name": "Mike Dane",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.mikedane.com/logo-blue.svg",
+      "url": "https:\/\/www.mikedane.com\/logo-blue.svg",
       "width": 600,
       "height": 60
     }
@@ -358,44 +320,25 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/XZeFP-CXQj4?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    <p>Throughout this course we've taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. </p>
-
-<p>But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information. Just look up at the browser search bar above this website.</p>
-
-<p>In this lesson we'll take a look at how to write programs in PHP which accept user input. </p>
-
-<h2 id="the-code">The Code</h2>
-
-<p>Programs which get input from the user need to be written in a specific way. The program will essentially prompt the user for information, and then when the user hits <em>enter</em>, will take whatever they entered and be able to use it going forward in it's execution.</p>
-
-<p>The code for accepting user input is actually not that much more complex than the code for printing. In PHP, we can get user input like this:</p>
-
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;\u003cform action=\&#34;site.php\&#34; method=\&#34;GET\&#34;\u003e\n    Username: \u003cinput type=\&#34;text\&#34; name=\&#34;username\&#34;\u003e\n    \u003cinput type=\&#34;submit\&#34;\u003e\n\u003c/form\u003e\n\n\u003c?php\n    echo $_GET[\&#34;username\&#34;];\n?\u003e\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="php">&lt;form action=&#34;site.php&#34; method=&#34;GET&#34;&gt;
-    Username: &lt;input type=&#34;text&#34; name=&#34;username&#34;&gt;
-    &lt;input type=&#34;submit&#34;&gt;
-&lt;/form&gt;
-
-&lt;?php
-    echo $_GET[&#34;username&#34;];
-?&gt;</code></pre></p>
-
-<p>The code above simply prompts the user for information, and the prints out what they entered in. </p>
-
-<p>One of the most important things to note here is that we're storing whatever the user entered into a variable. It's vital that we do this, after all, what's the point of asking the user for something if we're not gonna keep track of it. </p>
-
-<h2 id="execution-flow">Execution flow</h2>
-
-<p>As you play around with this program you'll notice that it actually stops it's flow of execution when awaiting input from the user. In pervious programs we're written they seem to execute and be done in a matter of milliseconds. But in this case if you wait 10 minutes before you decide to input something, the computer will wait along with you.</p>
-
-<p>This is because when the computer see's that it's supposed to accept input it stops everything it's doing and waits. In a lot of cases, the input that the computer receives from the user is vital to it being able to perform it's task, whatever that may be. </p>
-
-<p>Many programs you'll encounter (and eventually write) will rely on the user to tell them what to do and when it's okay for them to stop. Once we discover more advanced topics we'll eventually be able to write programs that have menus and give the user an option of what they want to do! But this is where it all starts. </p>
-
-<h2 id="wrapping-up">Wrapping Up</h2>
-
-<p>Now that you have the basics down, play around for a bit and try to change the prompt, or maybe try asking the user for multiple pieces of information and use some of the string functions we talked about in the previous lessons to modify it. </p>
-
-<p>There's still a lot to learn about getting user input. As of right now we're only receiving input in the form of strings. As we move forward in the course we'll take a look at how to allow the user to enter numbers, and other types of data. </p>
+                    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>&lt;?php
+echo $_GET[&quot;username&quot;];
+?&gt;<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
                </div>
                <div style="margin-top: 25px;">
@@ -434,7 +377,7 @@ document.body.removeChild(textArea);
                
           
                
-                    <a class="waves-effect waves-light btn blue" href="/web-development/php/math/"><i class="material-icons left">chevron_left</i>Prev</a>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/web-development/php/math/"><i class="material-icons left">chevron_left</i>Prev</a>
                
 
                
@@ -446,7 +389,7 @@ document.body.removeChild(textArea);
                
 
                
-                    <a class="waves-effect waves-light btn blue right" href="/web-development/php/creating-a-calculator/"><i class="material-icons right">chevron_right</i>Next</a>
+                    <a class="waves-effect waves-light btn blue right" href="https://www.mikedane.com/web-development/php/creating-a-calculator/"><i class="material-icons right">chevron_right</i>Next</a>
                
           
                
@@ -557,88 +500,6 @@ document.body.removeChild(textArea);
 
 
 
-
-   
-   <h5>On This Page</h5>
-<div class="table-of-contents" id="table-of-contents" style="margin-left:-20px">
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/web-development/php/getting-input-from-users/#the-code">
-                   <li>The Code</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/web-development/php/getting-input-from-users/#execution-flow">
-                   <li>Execution flow</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/web-development/php/getting-input-from-users/#wrapping-up">
-                   <li>Wrapping Up</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-</div>
-
 <br><br><h5>Share This Page</h5>
 <ul>
      <div class="row">
@@ -668,7 +529,7 @@ document.body.removeChild(textArea);
 </a></li>
      </div>
 </ul><div id="mc_embed_signup">
-<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=%2fweb-development%2fphp%2fgetting-input-from-users%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=https%3a%2f%2fwww.mikedane.com%2fweb-development%2fphp%2fgetting-input-from-users%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h5>Subscribe To Get Course Updates</h5>
 <div class="mc-field-group input-field">
@@ -747,7 +608,7 @@ document.body.removeChild(textArea);
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2021 Mike Dane. All Rights Reserved
+             © 2022 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

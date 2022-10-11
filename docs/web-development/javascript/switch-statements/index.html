@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://www.mikedane.com/web-development/javascript/switch-statements/" />
 <meta property="og:description"content="This tutorial covers switch statements in Javascript." />
 <meta property="og:site_name" content="Mike Dane" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.com/web-development/javascript/switch-statements/switch-statements.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=in_At_MyLiA" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.comhttps://www.mikedane.com/web-development/javascript/switch-statements/switch-statements.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=in_At_MyLiA" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 <link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,15 +51,15 @@ document.body.removeChild(textArea);
      {"@context": "http://schema.org",
      "@type": "WebSite",
      "name": "Mike Dane",
-     "url": "https://www.mikedane.com/"
+     "url": "https:\/\/www.mikedane.com\/"
      }
 </script>
 <script type="application/ld+json">
 {"@context": "http://schema.org",
 "@type": "Organization",
 "name": "Mike Dane",
-"url": "https://www.mikedane.com/",
-"logo": "https://www.mikedane.com/logo-blue.svg",
+"url": "https:\/\/www.mikedane.com\/",
+"logo": "https:\/\/www.mikedane.com\/logo-blue.svg",
 "email": "giraffeacademy@gmail.com",
 "description": "MikeDane.com is home to high quality online courses and content",
 "founder": {
@@ -180,45 +180,7 @@ document.body.removeChild(textArea);
 </header>
           <main>
                <div class="page-wrap">
-                    <style>
-  #promo-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-  #promo-cta {
-    font-size: 1.25rem;
-  }
-  #promo-content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #promo-video {
-    margin-right: 15px;
-  }
-  #promo-title {
-    font-size: 1.5rem;
-
-     
-  }
-</style>
-
-<div id="promo-wrapper">
-  <div id="promo-content-wrapper">
-    <div id="promo-cta">I'm starting a coding bootcamp</div>
-    <div id="promo-content">
-      <div id="promo-video">
-        <img src="/assets/dev-simulator.png" style="width: 15rem; border-radius: 1rem;"/>
-      </div>
-      <div id="promo-info">
-        <div id="promo-title"><a style="color: black; font-weight: bold;" href="https://simulator.dev">Dev Simulator - A Coding RPG & Bootcamp</a></div>
-        <div id="promo-desc">Want to learn web development in a fun and gamefied environment? Head over to <a href="https://simulator.dev">simulator.dev</a> and see what I'm working on!</div>
-        <div style="background: #6C63FF; color: white; border-radius: 1rem; padding: 0.5rem; margin-top: 1rem; display: inline-block; box-shadow: 0.25rem 0.25rem 0 black; cursor: pointer;"><a href="https://simulator.dev" style="color: white">Check it out</a></div>
-      </div>
-    </div>
-  </div>
-</div>
+                    
 
 
                     <div class="page-margin">
@@ -233,12 +195,12 @@ document.body.removeChild(textArea);
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.mikedane.com/web-development/javascript/switch-statements/"
+    "@id": "https:\/\/www.mikedane.com\/web-development\/javascript\/switch-statements\/"
   },
   "headline": "Switch Statements | Javascript | Mike Dane",
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.mikedane.com/web-development/javascript/switch-statements/switch-statements.png",
+    "url": "https:\/\/www.mikedane.comhttps:\/\/www.mikedane.com\/web-development\/javascript\/switch-statements\/switch-statements.png",
     "height": 512,
     "width": 1024
   },
@@ -253,7 +215,7 @@ document.body.removeChild(textArea);
     "name": "Mike Dane",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.mikedane.com/logo-blue.svg",
+      "url": "https:\/\/www.mikedane.com\/logo-blue.svg",
       "width": 600,
       "height": 60
     }
@@ -342,61 +304,29 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/in_At_MyLiA?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    <p>Much like if statements, which give your program the ability to make decision, switch statements can be used to infuse a bit of intelligence into any program. In fact, a switch statement is essentially a specialized version of an if statement which would otherwise have an excessive amount of <code>ELSE IF</code> type statements. </p>
-
-<p>Let's take a look at why they're used. </p>
-
-<p>Sometimes, when infusing logic into your programs you'll run into a situation where given the value of a certain piece of data, you'll want to do something different. Normally this could be covered with an if statement, but what if you want to account for 5, 10 , even 20 possible situations?</p>
-
-<p>Using an if statement, your program would soon become a mess of if statement syntax, and it wouldn't be very read-able or clear what's going on. Programmers realized this and thus Switch Statements were born!</p>
-
-<h2 id="switch-statement-structure">Switch Statement Structure</h2>
-
-<p>A switch statement takes a single value, then compares it to a bunch of other values using a boolean expression. When one of these boolean expressions is true then a specific piece of code will execute. </p>
-
-<p>This structure allows you to easily map a value to a piece of code that should be executed. Take a look at a simple switch statement below to get a handle on the syntax in JavaScript:</p>
-
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;var myGrade = \&#34;A\&#34;;\nswitch(myGrade){\n    case \&#34;A\&#34;:\n          document.write(\&#34;You Pass\&#34;);\n          break;\n    case \&#34;F\&#34;:\n          document.write(\&#34;You fail\&#34;);\n          break;\n    default:\n          document.write(\&#34;Invalid grade\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="js">var myGrade = &#34;A&#34;;
-switch(myGrade){
-    case &#34;A&#34;:
-          document.write(&#34;You Pass&#34;);
-          break;
-    case &#34;F&#34;:
-          document.write(&#34;You fail&#34;);
-          break;
-    default:
-          document.write(&#34;Invalid grade&#34;);
-}</code></pre></p>
-
-<p>As you can see above, we start with a value <code>myGrade</code>. Essentially we want to print out whether the student passed or failed given their grade (A or F). </p>
-
-<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Instead of resorting to an if statement we can employ the switch. Unlike if statements which need boolean expressions inside their parenthesis, with the switch statement we&#39;re just gonna pass in a value. In this case we&#39;re passing in myGrade.</div></p>
-
-<p>Now that we have our value, we want to set up a series of case statements. These case statements are essentially the right side of a boolean expression for equality. JavaScript will compare <code>myGrade</code> to each of the values in the case statements ('A' and 'F') for equality. If there's a match then the code directly below the case statement will be executed.</p>
-
-<h2 id="breaks">Breaks</h2>
-
-<p>One thing that's important to keep in mind with switch statements is that by default, JavaScript will try to check all of them for equality, even if it gets a match. This is different from an <code>ELSE IF</code> structure where once a condition is true it stops checking the ones below. </p>
-
-<p>Because JavaScript will automatically check every case no matter what, we need a way to prevent this (most of the time you want to prevent this). In the case of a match, I want the switch statement to stop checking the other cases.</p>
-
-<p>That's where the <code>break</code> keyword comes in. The break keyword tells JavaScript that we're done with the switch statement, and it should <em>break</em> out of it and move on. </p>
-
-<p>Personally I've run into my fair share of bugs in programs I've written from forgetting to put break statements in. So keep this in the back of your mind. </p>
-
-<h2 id="default">Default</h2>
-
-<p>If you examine the switch statement above you'll also notice the <code>default</code> keyword. This keyword acts a lot like an <code>ELSE</code> in an if statement structure. Any code below the default statement will be executed if none of the other cases get a match. Notice also that we don't need a break statement inside the default. </p>
-
-<p>Generally when you have a situation where you're using a switch the default will just catch any situations that you don't want to specify in a case statement.</p>
-
-<p>In the case of the program above it's printing out <code>Invalid Grade</code> for any grade that's not an <code>A</code> or an <code>F</code>. </p>
-
-<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">Most of the time you&#39;ll want to include a default statement.</div></p>
-
-<h2 id="wrapping-it-up">Wrapping it up</h2>
-
-<p>In practice, switch statement are used far less frequently than if statements. The reason is that there's far fewer situations where a switch statement is appropriate over an if statement. A good rule of thumb though is that if you need to check one value against a bunch of other values for equality, then you might need a switch!</p>
+                    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
                </div>
                <div style="margin-top: 25px;">
@@ -467,7 +397,7 @@ switch(myGrade){
                
           
                
-                    <a class="waves-effect waves-light btn blue" href="/web-development/javascript/if-statements-cont/"><i class="material-icons left">chevron_left</i>Prev</a>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/web-development/javascript/if-statements-cont/"><i class="material-icons left">chevron_left</i>Prev</a>
                
 
                
@@ -479,7 +409,7 @@ switch(myGrade){
                
 
                
-                    <a class="waves-effect waves-light btn blue right" href="/web-development/javascript/objects/"><i class="material-icons right">chevron_right</i>Next</a>
+                    <a class="waves-effect waves-light btn blue right" href="https://www.mikedane.com/web-development/javascript/objects/"><i class="material-icons right">chevron_right</i>Next</a>
                
           
                
@@ -542,113 +472,6 @@ switch(myGrade){
 
 
 
-
-   
-   <h5>On This Page</h5>
-<div class="table-of-contents" id="table-of-contents" style="margin-left:-20px">
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/web-development/javascript/switch-statements/#switch-statement-structure">
-                   <li>Switch Statement Structure</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/web-development/javascript/switch-statements/#breaks">
-                   <li>Breaks</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/web-development/javascript/switch-statements/#default">
-                   <li>Default</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/web-development/javascript/switch-statements/#wrapping-it-up">
-                   <li>Wrapping it up</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-</div>
-
 <br><br><h5>Share This Page</h5>
 <ul>
      <div class="row">
@@ -678,7 +501,7 @@ switch(myGrade){
 </a></li>
      </div>
 </ul><div id="mc_embed_signup">
-<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=%2fweb-development%2fjavascript%2fswitch-statements%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=https%3a%2f%2fwww.mikedane.com%2fweb-development%2fjavascript%2fswitch-statements%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h5>Subscribe To Get Course Updates</h5>
 <div class="mc-field-group input-field">
@@ -757,7 +580,7 @@ switch(myGrade){
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2021 Mike Dane. All Rights Reserved
+             © 2022 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

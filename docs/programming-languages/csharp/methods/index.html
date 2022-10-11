@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://www.mikedane.com/programming-languages/csharp/methods/" />
 <meta property="og:description"content="This tutorial covers methods in C#." />
 <meta property="og:site_name" content="Mike Dane" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.com/programming-languages/csharp/methods/methods.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=MkDroqxS8LY" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="og:image" content="https://www.mikedane.comhttps://www.mikedane.com/programming-languages/csharp/methods/methods.png" /><meta property="og:video" content="https://www.youtube.com/watch?v=MkDroqxS8LY" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 <link rel="stylesheet" href="https://www.mikedane.com/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,15 +51,15 @@ document.body.removeChild(textArea);
      {"@context": "http://schema.org",
      "@type": "WebSite",
      "name": "Mike Dane",
-     "url": "https://www.mikedane.com/"
+     "url": "https:\/\/www.mikedane.com\/"
      }
 </script>
 <script type="application/ld+json">
 {"@context": "http://schema.org",
 "@type": "Organization",
 "name": "Mike Dane",
-"url": "https://www.mikedane.com/",
-"logo": "https://www.mikedane.com/logo-blue.svg",
+"url": "https:\/\/www.mikedane.com\/",
+"logo": "https:\/\/www.mikedane.com\/logo-blue.svg",
 "email": "giraffeacademy@gmail.com",
 "description": "MikeDane.com is home to high quality online courses and content",
 "founder": {
@@ -186,45 +186,7 @@ document.body.removeChild(textArea);
 </header>
           <main>
                <div class="page-wrap">
-                    <style>
-  #promo-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-  #promo-cta {
-    font-size: 1.25rem;
-  }
-  #promo-content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #promo-video {
-    margin-right: 15px;
-  }
-  #promo-title {
-    font-size: 1.5rem;
-
-     
-  }
-</style>
-
-<div id="promo-wrapper">
-  <div id="promo-content-wrapper">
-    <div id="promo-cta">I'm starting a coding bootcamp</div>
-    <div id="promo-content">
-      <div id="promo-video">
-        <img src="/assets/dev-simulator.png" style="width: 15rem; border-radius: 1rem;"/>
-      </div>
-      <div id="promo-info">
-        <div id="promo-title"><a style="color: black; font-weight: bold;" href="https://simulator.dev">Dev Simulator - A Coding RPG & Bootcamp</a></div>
-        <div id="promo-desc">Want to learn web development in a fun and gamefied environment? Head over to <a href="https://simulator.dev">simulator.dev</a> and see what I'm working on!</div>
-        <div style="background: #6C63FF; color: white; border-radius: 1rem; padding: 0.5rem; margin-top: 1rem; display: inline-block; box-shadow: 0.25rem 0.25rem 0 black; cursor: pointer;"><a href="https://simulator.dev" style="color: white">Check it out</a></div>
-      </div>
-    </div>
-  </div>
-</div>
+                    
 
 
                     <div class="page-margin">
@@ -239,12 +201,12 @@ document.body.removeChild(textArea);
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.mikedane.com/programming-languages/csharp/methods/"
+    "@id": "https:\/\/www.mikedane.com\/programming-languages\/csharp\/methods\/"
   },
   "headline": "Methods | C# | Mike Dane",
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.mikedane.com/programming-languages/csharp/methods/methods.png",
+    "url": "https:\/\/www.mikedane.comhttps:\/\/www.mikedane.com\/programming-languages\/csharp\/methods\/methods.png",
     "height": 512,
     "width": 1024
   },
@@ -259,7 +221,7 @@ document.body.removeChild(textArea);
     "name": "Mike Dane",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.mikedane.com/logo-blue.svg",
+      "url": "https:\/\/www.mikedane.com\/logo-blue.svg",
       "width": 600,
       "height": 60
     }
@@ -354,104 +316,53 @@ document.body.removeChild(textArea);
 <div class="video-container">
      <iframe src="https://www.youtube.com/embed/MkDroqxS8LY?rel=0" width="854" height="480" frameborder="0"  allowfullscreen></iframe>
 </div><div style="font-size:18px" class="flow-text">
-                    <p>In this lesson I wanna talk to you about a really important concept in C# which makes it really easy to keep our programs organized and re-usable. I'm talking of course about Methods!</p>
-
- <p>Maybe you've heard the word Method floating around as you've begun your programming journey, but today we're gonna break down exactly what they are and I'll show you how to use them in C#.</p>
-
-<h2 id="methods-and-organization">Methods and Organization</h2>
-
-<p>So far in this course we've written a lot of code. All sorts of code to do all sorts of different things. And as we go forward and begin to write more and more complex and time consuming programs, one thing that is going to be vitally important is that we have good organization. </p>
-
-<p>Without good organization a program can quickly get out of hand. Eventually you'll find that you're writing separate pieces of code in different parts of the file or project which do exactly the same thing!</p>
-
-<p>There's a principle in software development which all good programmers try to follow called the DRY principle. It stands for "Don't repeat yourself". In other words, it means, don't write the same code twice!</p>
-
-<p>As programmers, a Method is our best defence against violating the DRY principal. A Method is basically a collection of code which can be executed anywhere in our program and used over and over again. </p>
-
-<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">In many programs there will be certain functionality that needs to be re-used multiple times.</div></p>
-
-<p>Maybe you want to format a string a specific way, or you want to perform some complex math calculation on two numbers, or you want to parse through an array looking for a particular element. All of these are situations where a Method can be written which encapsulates the code needed to do those things, and can then be re-used throughout the program again and again. </p>
-
-<h2 id="say-hi-method">sayHi() Method</h2>
-
-<p>To fully illustrate Methods lets take a look at an example of a simple Method which says hi to the user. Below is the C# code for our <code>sayHi</code> Method.</p>
-
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void Main(string [] args){\n}\n\npublic static void sayHi(){\n    Console.WriteLine(\&#34;Hello\&#34;);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cs">public static void Main(string [] args){
-}
-
-public static void sayHi(){
-    Console.WriteLine(&#34;Hello&#34;);
-}</code></pre></p>
-
-<p>Right off the bat you'll notice a few things here. First is that just like variables we can actually give Methods descriptive names. In this case we've named the Method <code>sayHi</code> because that's what it's doing, that's the functionality that it's performing.</p>
-
-<p><div style="padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-left: 5px solid #2196f3;" class="grey lighten-5">It&#39;s really important that you give these good names, otherwise your program will be significantly less read-able.</div></p>
-
-<p>We follow the Method name with a set of open and closed parenthesis, and then below the top line (which we call the Method declaration), we can write some code. All of the code below the declaration is considered <em>inside</em> the Method.</p>
-
-<p>Once we've written the code inside the Method (note: you can write as much code as you like), we can then execute that code wherever and whenever we want in our programs by <em>calling</em> the Method. </p>
-
-<h3 id="calling-a-method">Calling a Method</h3>
-
-<p>When you call a Method you are essentially telling C# that you want it to stop what it's doing and go execute all of the code contained in the Method. Then once it's done, to come back and keep going on with the normal flow of the program. Let's look at how we can call a Method:</p>
-
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void Main(string [] args){\n  sayHi();\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cs">public static void Main(string [] args){
-  sayHi();
-}</code></pre></p>
-
-<p>To call a Method we simple state the Method's name and then directly after, place an open and closed parenthesis. The open and closed parenthesis tells C# that you want to actually execute the Method.</p>
-
-<p>Like I mentioned above, when a Method is called C# will stop what it's doing, and jump over to wherever that Method is and execute all of the code inside. Once it's finished with the code in the Method it will return to where it was and keep going. </p>
-
-<p>So if we wanted to <code>sayHi</code> in multiple places in our program, instead of having to duplicate the code for doing that multiple times, we could instead just call the <code>sayHi</code> Method.</p>
-
-<p>This is also advantageous because if we wanted to change the way our program said hi then we could just update the code in the Method body and the program would automatically update the way it's say hi all throughout our program!</p>
-
-<h3 id="parameters-and-arguments">Parameters and Arguments</h3>
-
-<p>Methods are powerful not only because they allow us to re-use the same code over and over, but because they also allow us to pass them information.</p>
-
-<p> When a Method is called in a program, the code calling it can supply it with information specific to it's wants and needs. For example let's say that we wanted to modify our <code>sayHi</code> to say hi to a specific person. The way it's written right now it can't do that, all it does it just say hello. </p>
-
-<p>In order to allow it to say hi to a specific person, we need to specify in the Method declaration that it accepts the name of a person from the caller. This is referred to as a parameter. Check out our updated <code>sayHi</code> Method below and see if you can spot the parameter. </p>
-
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void sayHi(string name){\n    Console.WriteLine(\&#34;Hello \&#34; &#43; name);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cs">public static void sayHi(string name){
-    Console.WriteLine(&#34;Hello &#34; &#43; name);
-}</code></pre></p>
-
-<p>I'll give you a hint, look inside the parenthesis, notice how we've declared a variable there called name.</p>
-
-<p>This variable is actually called a parameter, and it defines a piece of information that the Method accepts. Often times, Methods will accept parameters which help them to perform their task in a way that is more specific to the needs of the individual caller.</p>
-
-<p>With this Method the way it is now, we can actually call it and have it say hi to whomever we want. </p>
-
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void Main(string [] args){\n  sayHi(\&#34;Mike\&#34;)\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cs">public static void Main(string [] args){
-  sayHi(&#34;Mike&#34;)
-}</code></pre></p>
-
-<p>Notice above that now when I call the <code>sayHi</code> Method, instead of leaving the parenthesis blank, I place a string inside <code>"Mike"</code>. This string is what's called an argument. This argument will get sent to the Method when it is called and be stored in the <code>name</code> parameter specified in the <code>sayHi</code> Method. </p>
-
-<p>This is an important point of terminology. </p>
-
-A parameter is a special variable that a Method will use to perform it's task in a way that is more specific to the needs of the caller. An argument is the value the caller gives to the Method which will get stored inside the parameter variable.
-
-<p>In the case above we only specified one single parameter, but you can specify as many as you want (although any more than 4 or 5 is generally considered too many). Let's take a look at this same Method but with an additional parameter <code>age</code>:</p>
-
-<p><pre class="" style="font-size:18px; position:relative;"onmouseover="this.childNodes[0].className = 'red white-text right'; " onmouseout="this.childNodes[0].className = 'red lighten-2 white-text right hide'"><span id="copyBtn" onclick="copyTextToClipboard(this, &#34;public static void Main(string [] args){\n  sayHi(\&#34;Mike\&#34;, 24)\n}\n\npublic static void sayHi(){\n    Console.WriteLine(\&#34;Hello \&#34; &#43; name &#43; \&#34; you are \&#34; &#43; age);\n}\n&#34;)" style="font-family:arial; position: absolute; right:10px; top:10px; padding-left:10px; padding-right:10px; cursor:pointer; font-size: 18px; " class="red lighten-2 white-text right hide">Copy</span><code id="code" style="padding:15px;" class="cs">public static void Main(string [] args){
-  sayHi(&#34;Mike&#34;, 24)
-}
-
-public static void sayHi(){
-    Console.WriteLine(&#34;Hello &#34; &#43; name &#43; &#34; you are &#34; &#43; age);
-}</code></pre></p>
-
-<p>This looks pretty similar to our previous example, but now in addition to the <code>name</code> parameter, I've also specified the <code>age</code> parameter. Multiple parameters are separated with a comma, and you can't have two parameters with the same name. </p>
-
-<p>When we call the Method now we can pass in the age as well. Notice that the position of the arguments matches the position of the parameters; The name is first and the age is second in both cases, this is crucial!</p>
-
-<h2 id="wrapping-it-up">Wrapping it up</h2>
-
-<p>So there you have it, an introduction to Methods. This is just the first step, but an important step towards mastering Methods and being able to really take advantage of them in our programs. Try writing some Methods of your own and see if you can come up with anything cool!</p>
+                    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>public static void sayHi(){
+Console.WriteLine(&quot;Hello&quot;);
+}<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>A parameter is a special variable that a Method will use to perform it&rsquo;s task in a way that is more specific to the needs of the caller. An argument is the value the caller gives to the Method which will get stored inside the parameter variable.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>public static void sayHi(){
+Console.WriteLine(&quot;Hello &quot; + name + &quot; you are &quot; + age);
+}<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
                </div>
                <div style="margin-top: 25px;">
@@ -498,7 +409,7 @@ public static void sayHi(){
                
           
                
-                    <a class="waves-effect waves-light btn blue" href="/programming-languages/csharp/arrays/"><i class="material-icons left">chevron_left</i>Prev</a>
+                    <a class="waves-effect waves-light btn blue" href="https://www.mikedane.com/programming-languages/csharp/arrays/"><i class="material-icons left">chevron_left</i>Prev</a>
                
 
                
@@ -510,7 +421,7 @@ public static void sayHi(){
                
 
                
-                    <a class="waves-effect waves-light btn blue right" href="/programming-languages/csharp/return/"><i class="material-icons right">chevron_right</i>Next</a>
+                    <a class="waves-effect waves-light btn blue right" href="https://www.mikedane.com/programming-languages/csharp/return/"><i class="material-icons right">chevron_right</i>Next</a>
                
           
                
@@ -609,146 +520,6 @@ public static void sayHi(){
 
 
 
-
-   
-   <h5>On This Page</h5>
-<div class="table-of-contents" id="table-of-contents" style="margin-left:-20px">
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/programming-languages/csharp/methods/#methods-and-organization">
-                   <li>Methods and Organization</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/programming-languages/csharp/methods/#sayhi-method">
-                   <li>sayHi() Method</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/programming-languages/csharp/methods/#calling-a-method">
-                   <li>Calling a Method</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/programming-languages/csharp/methods/#parameters-and-arguments">
-                   <li>Parameters and Arguments</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-       
-       
-          
-               
-               
-               
-                   <ul>
-               
-                   <ul>
-               
-               
-               
-               
-               <a href="/programming-languages/csharp/methods/#wrapping-it-up">
-                   <li>Wrapping it up</li>
-               </a>
-               
-               
-                   </ul>
-               
-                   </ul>
-               
-          
-       
-   
-</div>
-
 <br><br><h5>Share This Page</h5>
 <ul>
      <div class="row">
@@ -778,7 +549,7 @@ public static void sayHi(){
 </a></li>
      </div>
 </ul><div id="mc_embed_signup">
-<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=%2fprogramming-languages%2fcsharp%2fmethods%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="//giraffeacademy.us16.list-manage.com/subscribe/post?u=ddae06c14d9d23cc3973d5008&amp;id=cbec4abdba&LESSON=https%3a%2f%2fwww.mikedane.com%2fprogramming-languages%2fcsharp%2fmethods%2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h5>Subscribe To Get Course Updates</h5>
 <div class="mc-field-group input-field">
@@ -857,7 +628,7 @@ public static void sayHi(){
      </div>
      <div class='footer-copyright'>
          <div class='container center'>
-             © 2021 Mike Dane. All Rights Reserved
+             © 2022 Mike Dane. All Rights Reserved
          </div>
      </div>
 </div>

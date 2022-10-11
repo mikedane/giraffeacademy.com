@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Mike Dane</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Python on Mike Dane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Oct 2017 11:58:01 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.mikedane.com/programming-languages/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 22 Oct 2017 11:58:01 -0400</lastBuildDate><atom:link href="https://www.mikedane.com/programming-languages/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
       <link>https://www.mikedane.com/programming-languages/python/installation/</link>
       <pubDate>Sun, 22 Oct 2017 11:58:01 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/installation/</guid>
-      <description> Code Copy </description>
+      <description>Code Copy </description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/hello-world/</guid>
-      <description> Code Copyprint(&amp;#34;Hello&amp;#34;) print(&amp;#34;World&amp;#34;) print(&amp;#34;!&amp;#34;) </description>
+      <description>Code Copyprint(&amp;#34;Hello&amp;#34;) print(&amp;#34;World&amp;#34;) print(&amp;#34;!&amp;#34;) </description>
     </item>
     
     <item>
@@ -35,8 +31,7 @@
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/drawing-a-shape/</guid>
-      <description>As we begin our programming journey in Python, we&#39;ll start by paying homage to a tradition widely shared among new programmers, which is learning how to print text out onto the screen. As we learn to talk to computers using a programming language like Python, it will help to know how to get them to talk back to us in the form of output, so let&#39;s take a look!
-We can achieve this by using a print statement.</description>
+      <description> </description>
     </item>
     
     <item>
@@ -45,8 +40,11 @@ We can achieve this by using a print statement.</description>
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/variables/</guid>
-      <description>The topic of this lesson, is in fact one of the most fundamental and important topics in all of computer programming, and once you master it, you&#39;ll be well on your way to becoming a Python developer!
-The topic I&#39;m talking about is variables! Variables are a Python developer&#39;s bread and butter. They make it really easy to write complex programs with lots and lots of instructions, and keep everything organized and straight.</description>
+      <description>print(&amp;quot;There once was a man named &amp;quot; + character_name) print(&amp;quot;He was &amp;quot; + character_age + &amp;quot; years old&amp;quot;) print(&amp;quot;He really liked the name &amp;quot; + character_name) print(&amp;quot;But didn&#39;t like being &amp;quot; + character_age)
+You can also print variables using a &#39;,&#39; print(&amp;quot;My variable is&amp;quot;, character_name)
+print(&amp;quot;There once was a man named &amp;quot; + character_name) print(&amp;quot;He was &amp;quot; + character_age + &amp;quot; years old&amp;quot;)
+character_age = &amp;quot;80&amp;quot;
+print(&amp;quot;He really liked the name &amp;quot; + character_name) print(&amp;quot;But didn&#39;t like being &amp;quot; + character_age)</description>
     </item>
     
     <item>
@@ -55,7 +53,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/strings/</guid>
-      <description>Let&#39;s talk about text, or as it&#39;s known to programmers, strings! In this lesson we&#39;ll take a look at one of Python&#39;s most powerful data types and how you can use them to write awesome programs. As you continue on your journey to becoming a Python developer, one really useful skill you&#39;ll want to pickup along the way is the ability to work with strings in a variety of ways.</description>
+      <description> Video Code Copygreeting = &amp;#34;Hello&amp;#34; #indexes: 01234 print( len(greeting) ) print( greeting[0] ) print( greeting[-1] ) print( greeting.find(&amp;#34;llo&amp;#34;) ) print( greeting.find(&amp;#34;z&amp;#34;) ) print( greeting[2:] ) print( greeting[2:3] ) </description>
     </item>
     
     <item>
@@ -64,7 +62,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/math/</guid>
-      <description>Computers and numbers are like bread and butter. In fact the term computer actually used to refer to people who&#39;s job it was to do calculations and &#34;compute&#34; things all day. Needless to say we&#39;ve come a long way since then, and modern computers are capable of performing billions of calculations in the time it takes a normal human to even write a number down. Not to nerd out here too much, but when you get down to it, all computer instructions, all the code that we&#39;ve written in this course, and all the code that&#39;s currently running on your computer, is actually just a collection of complex patterns of 0s &amp;amp; 1s running through your processor.</description>
+      <description>Video Code Copyprint( 2 * 3 ) # Basic Arithmetic: &amp;#43;, -, /, * print( 2**3 ) # Basic Arithmetic: &amp;#43;, -, /, * print( 10 % 3 ) # Modulus Op. : returns remainder of 10/3 print( 1 &amp;#43; 2 * 3 ) # order of operations print(10 / 3.0) # int&amp;#39;s and doubles num = 10 num &amp;#43;= 100 # &amp;#43;=, -=, /=, *= print(num) &amp;#43;&amp;#43;num print(num) # Math module has useful math methods import math print( pow(2, 3) ) print( math.</description>
     </item>
     
     <item>
@@ -73,7 +71,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/getting-user-input/</guid>
-      <description>Throughout this course we&#39;ve taken a look at how we can make the computer give us information. We do this by using print statements. Print statements give us an idea of whats going on in the program at a given time, and are vital to writing good software. But what about the flip side, what happens when we want to give the computer some information? Almost all applications that you interact with on a daily basis will provide ways for you to give them information.</description>
+      <description> </description>
     </item>
     
     <item>
@@ -82,7 +80,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/creating-a-calculator/</guid>
-      <description> Code Copynum1 = int(input(&amp;#34;Enter First Num: &amp;#34;)) num2 = int(input(&amp;#34;Enter Second Num: &amp;#34;)) print(num1 &amp;#43; num2) </description>
+      <description>Code Copynum1 = int(input(&amp;#34;Enter First Num: &amp;#34;)) num2 = int(input(&amp;#34;Enter Second Num: &amp;#34;)) print(num1 &amp;#43; num2) </description>
     </item>
     
     <item>
@@ -91,7 +89,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/building-a-mad-libs-game/</guid>
-      <description> Code Copycolor = input(&amp;#34;Enter a color: &amp;#34;) pluralNoun = input(&amp;#34;Enter a plural noun: &amp;#34;) celebrity = input(&amp;#34;Enter a celebrity: &amp;#34;) print(&amp;#34;Roses are&amp;#34;, color) print(pluralNoun &amp;#43; &amp;#34; are blue&amp;#34;) print(&amp;#34;I love&amp;#34;, celebrity) </description>
+      <description>Code Copycolor = input(&amp;#34;Enter a color: &amp;#34;) pluralNoun = input(&amp;#34;Enter a plural noun: &amp;#34;) celebrity = input(&amp;#34;Enter a celebrity: &amp;#34;) print(&amp;#34;Roses are&amp;#34;, color) print(pluralNoun &amp;#43; &amp;#34; are blue&amp;#34;) print(&amp;#34;I love&amp;#34;, celebrity) </description>
     </item>
     
     <item>
@@ -100,7 +98,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/lists/</guid>
-      <description>Up until this point in the course, we&#39;ve been working with different types of data, and generally we&#39;ve been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container. But variables as we&#39;ve seen them so far do have one short coming, and that&#39;s when it comes to storing large amounts of related data.</description>
+      <description> </description>
     </item>
     
     <item>
@@ -109,7 +107,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/list-functions/</guid>
-      <description> Code Copyfriends = [] friends.append(&amp;#34;Oscar&amp;#34;) friends.append(&amp;#34;Angela&amp;#34;) friends.insert(1, &amp;#34;Kevin&amp;#34;) # friends.remove(&amp;#34;Kevin&amp;#34;) print( friends ) print( friends.index(&amp;#34;Oscar&amp;#34;) ) print( friends.count(&amp;#34;Angela&amp;#34;) ) friends.sort() print( friends ) friends.clear() print( friends ) </description>
+      <description>Code Copyfriends = [] friends.append(&amp;#34;Oscar&amp;#34;) friends.append(&amp;#34;Angela&amp;#34;) friends.insert(1, &amp;#34;Kevin&amp;#34;) # friends.remove(&amp;#34;Kevin&amp;#34;) print( friends ) print( friends.index(&amp;#34;Oscar&amp;#34;) ) print( friends.count(&amp;#34;Angela&amp;#34;) ) friends.sort() print( friends ) friends.clear() print( friends ) </description>
     </item>
     
     <item>
@@ -118,7 +116,7 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/tuples/</guid>
-      <description> Code Copylucky_numbers = (4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0) # indexes 0 1 2 3 4 5 # lucky_numbers[0] = 90 # tuples are immutable print(lucky_numbers[0]) print(lucky_numbers[1]) print(lucky_numbers[-1]) print(lucky_numbers[2:]) print(lucky_numbers[2:4]) print(len(lucky_numbers)) </description>
+      <description>Code Copylucky_numbers = (4, 8, &amp;#34;fifteen&amp;#34;, 16, 23, 42.0) # indexes 0 1 2 3 4 5 # lucky_numbers[0] = 90 # tuples are immutable print(lucky_numbers[0]) print(lucky_numbers[1]) print(lucky_numbers[-1]) print(lucky_numbers[2:]) print(lucky_numbers[2:4]) print(len(lucky_numbers)) </description>
     </item>
     
     <item>
@@ -127,9 +125,10 @@ The topic I&#39;m talking about is variables! Variables are a Python developer&#
       <pubDate>Sun, 22 Oct 2017 11:58:02 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/functions/</guid>
-      <description>In this lesson I wanna talk to you about a really important concept in Python which makes it really easy to keep our programs organized and re-usable. I&#39;m talking of course about Functions!
-Maybe you&#39;ve heard the word Function floating around as you&#39;ve begun your programming journey, but today we&#39;re gonna break down exactly what they are and I&#39;ll show you how to use them in Python.
-Functions and Organization So far in this course we&#39;ve written a lot of code.</description>
+      <description>sayHi()
+sayHi(&amp;quot;Mike&amp;quot;)
+A parameter is a special variable that a Function will use to perform it&amp;rsquo;s task in a way that is more specific to the needs of the caller. An argument is the value the caller gives to the Function which will get stored inside the parameter variable.
+sayHi(&amp;quot;Mike&amp;quot;, 24)</description>
     </item>
     
     <item>
@@ -138,7 +137,7 @@ Functions and Organization So far in this course we&#39;ve written a lot of code
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/return-statements/</guid>
-      <description> Code Copydef add_numbers(num1, num2=99): return num1 &amp;#43; num2 sum = add_numbers(4, 3) print(sum) </description>
+      <description>Code Copydef add_numbers(num1, num2=99): return num1 &amp;#43; num2 sum = add_numbers(4, 3) print(sum) </description>
     </item>
     
     <item>
@@ -147,8 +146,9 @@ Functions and Organization So far in this course we&#39;ve written a lot of code
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/if-statements/</guid>
-      <description>Up to this point in the course we&#39;ve written some pretty cool programs! But in this lesson I want to introduce you to a concept that will allow our programs to be even more powerful. If statements are a special structure in Python where we can actually allow our programs to make decisions.
-By using an if statement, I could execute certain code when certain conditions are true, and I could execute other code when other conditions are true.</description>
+      <description>if is_student and is_smart: print(&amp;quot;You are a student&amp;quot;) elif is_student and not(is_smart): print(&amp;quot;You are not a smart student&amp;quot;) else: print(&amp;quot;You are not a student and not smart&amp;quot;)
+&amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if 1 &amp;gt; 3: print(&amp;quot;number omparison was true&amp;quot;)
+if &amp;quot;dog&amp;quot; == &amp;quot;cat&amp;quot;: print(&amp;quot;string omparison was true&amp;quot;)</description>
     </item>
     
     <item>
@@ -157,7 +157,7 @@ By using an if statement, I could execute certain code when certain conditions a
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/if-statements-cont/</guid>
-      <description> Code Copyis_student = False is_smart = False if is_student and is_smart: print(&amp;#34;You are a student&amp;#34;) elif is_student and not(is_smart): print(&amp;#34;You are not a smart student&amp;#34;) else: print(&amp;#34;You are not a student and not smart&amp;#34;) # &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if 1 &amp;gt; 3: print(&amp;#34;number omparison was true&amp;#34;) if &amp;#34;dog&amp;#34; == &amp;#34;cat&amp;#34;: print(&amp;#34;string omparison was true&amp;#34;) </description>
+      <description>Code Copyis_student = False is_smart = False if is_student and is_smart: print(&amp;#34;You are a student&amp;#34;) elif is_student and not(is_smart): print(&amp;#34;You are not a smart student&amp;#34;) else: print(&amp;#34;You are not a student and not smart&amp;#34;) # &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, !=, == if 1 &amp;gt; 3: print(&amp;#34;number omparison was true&amp;#34;) if &amp;#34;dog&amp;#34; == &amp;#34;cat&amp;#34;: print(&amp;#34;string omparison was true&amp;#34;) </description>
     </item>
     
     <item>
@@ -166,7 +166,7 @@ By using an if statement, I could execute certain code when certain conditions a
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/better-calculator/</guid>
-      <description> Code Copynum1 = int(input(&amp;#34;num1: &amp;#34;)) op = input(&amp;#34;Operator: &amp;#34;) num1 = int(input(&amp;#34;num1: &amp;#34;)) if op == &amp;#34;&amp;#43;&amp;#34;: print(num1 &amp;#43; num2) elif op == &amp;#34;-&amp;#34;: print(num1 - num2) elif op == &amp;#34;/&amp;#34;: print(num1 / num2) elif op == &amp;#34;*&amp;#34;: print(num1 * num2) else: print(&amp;#34;Invalid Operator&amp;#34;) </description>
+      <description>Code Copynum1 = int(input(&amp;#34;num1: &amp;#34;)) op = input(&amp;#34;Operator: &amp;#34;) num1 = int(input(&amp;#34;num1: &amp;#34;)) if op == &amp;#34;&amp;#43;&amp;#34;: print(num1 &amp;#43; num2) elif op == &amp;#34;-&amp;#34;: print(num1 - num2) elif op == &amp;#34;/&amp;#34;: print(num1 / num2) elif op == &amp;#34;*&amp;#34;: print(num1 * num2) else: print(&amp;#34;Invalid Operator&amp;#34;) </description>
     </item>
     
     <item>
@@ -175,7 +175,7 @@ By using an if statement, I could execute certain code when certain conditions a
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/dictionaries/</guid>
-      <description> Code Copytest_grades = { &amp;#34;Andy&amp;#34; : &amp;#34;B&amp;#43;&amp;#34;, &amp;#34;Stanley&amp;#34; : &amp;#34;C&amp;#34;, &amp;#34;Ryan&amp;#34; : &amp;#34;A&amp;#34;, 3 : 95.2 } print( test_grades[&amp;#34;Andy&amp;#34;] ) print( test_grades.get(&amp;#34;Ryan&amp;#34;, &amp;#34;No Student Found&amp;#34;) ) print( test_grades[3] ) </description>
+      <description>Code Copytest_grades = { &amp;#34;Andy&amp;#34; : &amp;#34;B&amp;#43;&amp;#34;, &amp;#34;Stanley&amp;#34; : &amp;#34;C&amp;#34;, &amp;#34;Ryan&amp;#34; : &amp;#34;A&amp;#34;, 3 : 95.2 } print( test_grades[&amp;#34;Andy&amp;#34;] ) print( test_grades.get(&amp;#34;Ryan&amp;#34;, &amp;#34;No Student Found&amp;#34;) ) print( test_grades[3] ) </description>
     </item>
     
     <item>
@@ -184,9 +184,7 @@ By using an if statement, I could execute certain code when certain conditions a
       <pubDate>Sun, 22 Oct 2017 11:58:03 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/while-loops/</guid>
-      <description>There&#39;s an on-going gag on the popular show &#34;The Simpsons&#34;, where Bart Simpson is forced to write lines on the chalkboard over and over agian to teach him a lesson. One of my favorites features Bart writing &#34;I will not show off&#34; on the blackboard hundreds of times.
-I&#39;ve always liked this gag, and I&#39;m excited to say that I can use it to help explain a programming concept.
-In the episode, when Bart wrote all those lines, he was literally writing the same thing 500 times for the whole afternoon.</description>
+      <description> </description>
     </item>
     
     <item>
@@ -195,7 +193,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/guessing-game/</guid>
-      <description> Code Copysecret_word = &amp;#34;giraffe&amp;#34; guess = &amp;#34;&amp;#34; guess_count = 0 guess_limit = 3 out_of_guesses = False while guess != secret_word and not(out_of_guesses): if guess_count &amp;lt; guess_limit: guess = input(&amp;#34;Enter a guess: &amp;#34;) guess_count &amp;#43;= 1 else: out_of_guesses = True if out_of_guesses: print(&amp;#34;You Lose!&amp;#34;) else: print(&amp;#34;You Win!&amp;#34;) </description>
+      <description>Code Copysecret_word = &amp;#34;giraffe&amp;#34; guess = &amp;#34;&amp;#34; guess_count = 0 guess_limit = 3 out_of_guesses = False while guess != secret_word and not(out_of_guesses): if guess_count &amp;lt; guess_limit: guess = input(&amp;#34;Enter a guess: &amp;#34;) guess_count &amp;#43;= 1 else: out_of_guesses = True if out_of_guesses: print(&amp;#34;You Lose!&amp;#34;) else: print(&amp;#34;You Win!&amp;#34;) </description>
     </item>
     
     <item>
@@ -204,7 +202,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/for-loops/</guid>
-      <description> Code Copyfor index in range(5): print(index) lucky_nums = [4, 8, 15, 16, 23, 42] for lucky_num in lucky_nums: print(lucky_num) for letter in &amp;#34;Giraffe&amp;#34;: print(letter) </description>
+      <description>Code Copyfor index in range(5): print(index) lucky_nums = [4, 8, 15, 16, 23, 42] for lucky_num in lucky_nums: print(lucky_num) for letter in &amp;#34;Giraffe&amp;#34;: print(letter) </description>
     </item>
     
     <item>
@@ -213,7 +211,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/exponent-function/</guid>
-      <description> Code Copydef raise_to_power(base_num, pow_num): result = 1 for index in range(pow_num): result *= base_num return result </description>
+      <description>Code Copydef raise_to_power(base_num, pow_num): result = 1 for index in range(pow_num): result *= base_num return result </description>
     </item>
     
     <item>
@@ -222,7 +220,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/2d-lists-nested-loops/</guid>
-      <description> Code Copynumber_grid = [ [1, 2], [3, 4] ] number_grid[0][1] = 99 print(number_grid[0][0]) print(number_grid[0][1]) for row in number_grid: for row in col: print(col) </description>
+      <description>Code Copynumber_grid = [ [1, 2], [3, 4] ] number_grid[0][1] = 99 print(number_grid[0][0]) print(number_grid[0][1]) for row in number_grid: for row in col: print(col) </description>
     </item>
     
     <item>
@@ -231,7 +229,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/building-a-translator/</guid>
-      <description> Code Copydef translate(phrase): translation = &amp;#34;&amp;#34; for letter in phrase: if letter.lower() in &amp;#34;aeiou&amp;#34;: if letter.isupper(): translation = translation &amp;#43; &amp;#34;G&amp;#34; else: translation = translation &amp;#43; &amp;#34;g&amp;#34; else: translation = translation &amp;#43; letter return translation </description>
+      <description>Code Copydef translate(phrase): translation = &amp;#34;&amp;#34; for letter in phrase: if letter.lower() in &amp;#34;aeiou&amp;#34;: if letter.isupper(): translation = translation &amp;#43; &amp;#34;G&amp;#34; else: translation = translation &amp;#43; &amp;#34;g&amp;#34; else: translation = translation &amp;#43; letter return translation </description>
     </item>
     
     <item>
@@ -240,7 +238,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/comments/</guid>
-      <description>As you continue to sharpen your Python skills and get more and more comfortable writing programs, you&#39;ll eventually become really good at reading code. Just by looking at a line or two you&#39;ll be able to tell what the program is doing, and what&#39;s going to happen. But, in a lot of cases, merely relying on the code to properly explain or document itself can be ineffective, and often times in the course of writing a program you&#39;ll want to mark things down or explain why you&#39;re doing things a certain way.</description>
+      <description> single line comment </description>
     </item>
     
     <item>
@@ -249,7 +247,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:04 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/try-except/</guid>
-      <description> Code Copy# code asks user for number and divides 10 by it # enter &amp;#39;0&amp;#39; to trigger exception try: answer = 10 / int(input(&amp;#34;Enter Number: &amp;#34;)) except ZeroDivisionError as e: print(e) except: print(&amp;#34;Caught any exception&amp;#34;) </description>
+      <description>Code Copy# code asks user for number and divides 10 by it # enter &amp;#39;0&amp;#39; to trigger exception try: answer = 10 / int(input(&amp;#34;Enter Number: &amp;#34;)) except ZeroDivisionError as e: print(e) except: print(&amp;#34;Caught any exception&amp;#34;) </description>
     </item>
     
     <item>
@@ -258,7 +256,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/reading-files/</guid>
-      <description> Code Copyemployee_file = open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#34;) for employee in employee_file.read_lines(): print(employee) employee_file.close() </description>
+      <description>Code Copyemployee_file = open(&amp;#34;employees.txt&amp;#34;, &amp;#34;r&amp;#34;) for employee in employee_file.read_lines(): print(employee) employee_file.close() </description>
     </item>
     
     <item>
@@ -267,7 +265,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/writing-files/</guid>
-      <description> Code Copyemployee_file = open(&amp;#34;employees.txt&amp;#34;, &amp;#34;w&amp;#34;) # also try &amp;#34;a&amp;#34; for append employee_file.write(&amp;#34;\nKelly - Customer Service&amp;#34;) employee_file.close() </description>
+      <description>Code Copyemployee_file = open(&amp;#34;employees.txt&amp;#34;, &amp;#34;w&amp;#34;) # also try &amp;#34;a&amp;#34; for append employee_file.write(&amp;#34;\nKelly - Customer Service&amp;#34;) employee_file.close() </description>
     </item>
     
     <item>
@@ -276,7 +274,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/modules/</guid>
-      <description> Code Copyimport module_name import module2_name as module2 </description>
+      <description>Code Copyimport module_name import module2_name as module2 </description>
     </item>
     
     <item>
@@ -285,7 +283,8 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/classes-objects/</guid>
-      <description>One of the best things about Python is it&#39;s ability to allow us to work with and keep track of a bunch of data. In fact data is the driving force behind most programs that you&#39;ll write. Programmers are constantly parsing strings, adding and subtracting numbers, counting things, and passing different pieces of data around. In all major applications, being able to work with data in an organized and structured way is extremely important.</description>
+      <description>book1 = Book(&amp;quot;Harry Potter&amp;quot;, &amp;quot;JK Rowling&amp;quot;, 500);
+book1.title = &amp;quot;Half-Blood Prince&amp;quot; print(book1.title)</description>
     </item>
     
     <item>
@@ -294,7 +293,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/building-a-quiz/</guid>
-      <description> Code Copyclass Question: def __init__(self, prompt, answer): self.prompt = prompt self.answer = answer question_prompts = [ &amp;#34;What color are apples?\n(a) Red/Green\n(b)Orange&amp;#34;, &amp;#34;What color are bananas?\n(a) Red/Green\n(b)Yellow&amp;#34;, ] questions = [ Question(question_prompts[0], &amp;#34;a&amp;#34;), Question(question_prompts[1], &amp;#34;b&amp;#34;), ] def run_quiz(questions): score = 0 for question in questions: answer = input(question.prompt) if answer == question.answer: score &amp;#43;= 1 print(&amp;#34;you got&amp;#34;, score, &amp;#34;out of&amp;#34;, len(questions)) run_quiz(questions) </description>
+      <description>Code Copyclass Question: def __init__(self, prompt, answer): self.prompt = prompt self.answer = answer question_prompts = [ &amp;#34;What color are apples?\n(a) Red/Green\n(b)Orange&amp;#34;, &amp;#34;What color are bananas?\n(a) Red/Green\n(b)Yellow&amp;#34;, ] questions = [ Question(question_prompts[0], &amp;#34;a&amp;#34;), Question(question_prompts[1], &amp;#34;b&amp;#34;), ] def run_quiz(questions): score = 0 for question in questions: answer = input(question.prompt) if answer == question.answer: score &amp;#43;= 1 print(&amp;#34;you got&amp;#34;, score, &amp;#34;out of&amp;#34;, len(questions)) run_quiz(questions) </description>
     </item>
     
     <item>
@@ -303,7 +302,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/class-methods/</guid>
-      <description> Code Copyclass Student: def __init__(self, name, major, gpa): self.name = name self.major = major self.gpa = gpa def has_honors(self): if self.gpa &amp;gt;= 3.5: return True return False </description>
+      <description>Code Copyclass Student: def __init__(self, name, major, gpa): self.name = name self.major = major self.gpa = gpa def has_honors(self): if self.gpa &amp;gt;= 3.5: return True return False </description>
     </item>
     
     <item>
@@ -312,7 +311,7 @@ In the episode, when Bart wrote all those lines, he was literally writing the sa
       <pubDate>Sun, 22 Oct 2017 11:58:05 -0400</pubDate>
       
       <guid>https://www.mikedane.com/programming-languages/python/inheritance/</guid>
-      <description> Code Copyclass Chef: def make_chicken(self): print(&amp;#34;The chef makes chicken&amp;#34;) def make_salad(self): print(&amp;#34;The chef makes salad&amp;#34;) def make_special_dish(self): print(&amp;#34;The chef makes bbq ribs&amp;#34;) class ItalianChef(Chef): def make_pasta(self): print(&amp;#34;The chef makes pasta&amp;#34;) def make_special_dish(self): print(&amp;#34;The chef makes chicken parm&amp;#34;) myChef = Chef() myChef.make_chicken() myItalianChef = ItalianChef() myItalianChef.make_chicken() </description>
+      <description>Code Copyclass Chef: def make_chicken(self): print(&amp;#34;The chef makes chicken&amp;#34;) def make_salad(self): print(&amp;#34;The chef makes salad&amp;#34;) def make_special_dish(self): print(&amp;#34;The chef makes bbq ribs&amp;#34;) class ItalianChef(Chef): def make_pasta(self): print(&amp;#34;The chef makes pasta&amp;#34;) def make_special_dish(self): print(&amp;#34;The chef makes chicken parm&amp;#34;) myChef = Chef() myChef.make_chicken() myItalianChef = ItalianChef() myItalianChef.make_chicken() </description>
     </item>
     
     <item>
