@@ -1,6 +1,15 @@
-<div>
-  <p style="width: 160px;">I'm partnering with <a target="_blank" href="http://www.globewideacademy.com">Globe Wide Academy</a> to teach a 10 week web development course in SE Asia. Click below to learn more!</p>
-  <a target="_blank" href="http://www.globewideacademy.com">
-  <img width="160px" height="600px" src="/globewide-ad.png"/>
+<div style="border: 1px solid dark-grey;">
+  <a id="ad-link" target="_blank" href="https://bakerseo.com/?source=mikedane.com&ad=1">
+  <img id="ad-image" width="160px" height="600px" src="{{.Site.BaseURL}}assets/bakerseo1.jpeg"/>
 </a>
 </div>
+
+<script>
+  
+  if(Math.trunc(Math.random() * 10) % 2) {
+    const img = document.getElementById('ad-image');
+    const link = document.getElementById('ad-link')
+    img.src = img.src.replace('bakerseo1', 'bakerseo2');
+    link.href = link.href.replace('ad=1', 'ad=2')
+  }
+</script>
