@@ -106,7 +106,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:15 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/html/lists/</guid>
-      <description>Code Copy&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Apples&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Oranges&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Pears&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol type=&amp;#34;A&amp;#34;&amp;gt; &amp;lt;li&amp;gt;One&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Two&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Three&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;Mike Dane&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt;Website with programming tutorials&amp;lt;/dd&amp;gt; &amp;lt;/dl&amp;gt; </description>
+      <description>Code Copy&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Apples&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Oranges&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Pears&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol type=&amp;#34;A&amp;#34;&amp;gt; &amp;lt;li&amp;gt;One&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Two&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Three&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;dl&amp;gt; &amp;lt;dt&amp;gt;🦒&amp;lt;/dt&amp;gt; &amp;lt;dd&amp;gt;Website with programming tutorials&amp;lt;/dd&amp;gt; &amp;lt;/dl&amp;gt; </description>
     </item>
     
     <item>
@@ -151,7 +151,7 @@ In this lesson we&amp;rsquo;ll dive into using images in our webpages. I&amp;rsq
       <pubDate>Mon, 09 Oct 2017 15:35:16 -0400</pubDate>
       
       <guid>https://www.giraffeacademy.com/web-development/html/meta-tags/</guid>
-      <description>Code Copy&amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Teaching HTML for free&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;keywords&amp;#34; content=&amp;#34;HTML, Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;author&amp;#34; content=&amp;#34;Mike Dane&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;/head&amp;gt; </description>
+      <description>Code Copy&amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;description&amp;#34; content=&amp;#34;Teaching HTML for free&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;keywords&amp;#34; content=&amp;#34;HTML, 🦒&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;author&amp;#34; content=&amp;#34;🦒&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;/head&amp;gt; </description>
     </item>
     
   </channel>
