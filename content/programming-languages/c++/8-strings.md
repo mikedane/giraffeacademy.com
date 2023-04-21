@@ -1,12 +1,12 @@
 ---
 date: 2017-11-07T01:21:25-05:00
 title: "Strings"
-seo_title: "Strings | C++ | Mike Dane"
+seo_title: "Strings | C++ | 🦒"
 subheader:
      greeting: C++ - Programming Language
      description: This course covers the basics of programming in C++. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers strings in C++.
-author: Mike Dane
+author: 🦒
 image: strings.png
 video: dAxQkg9IXP8
 url: /programming-languages/c++/strings/

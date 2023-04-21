@@ -1,12 +1,12 @@
 ---
 date: 2017-09-07T20:24:16-04:00
 title: "Block Templates"
-seo_title: "Block Templates | Hugo | Mike Dane"
+seo_title: "Block Templates | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use block templates in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: block-templates.png
 video: QVOMCYitLEc
 url: /static-site-generators/hugo/block-templates/

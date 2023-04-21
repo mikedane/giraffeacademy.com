@@ -1,12 +1,12 @@
 ---
 date: 2017-11-08T18:34:48-05:00
 title: "Getters And Setters"
-seo_title: "Getters And Setters | C# | Mike Dane"
+seo_title: "Getters And Setters | C# | 🦒"
 subheader:
      greeting: C# - Programming Language
      description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers getters and setters in C#.
-author: Mike Dane
+author: 🦒
 image: getters-and-setters.png
 video: EbW-1fPhXQE
 url: /programming-languages/csharp/getters-and-setters/

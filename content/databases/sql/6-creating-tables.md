@@ -1,12 +1,12 @@
 ---
 date: 2017-12-22T11:48:55-05:00
 title: "Creating Tables"
-seo_title: "Creating Tables | SQL | Mike Dane"
+seo_title: "Creating Tables | SQL | 🦒"
 subheader:
      greeting: SQL - Database Programming Language
      description: This course covers the basics of working with SQL. Work your way through the videos/articles and I'll teach you everything you need to know to interact with database management systems and create powerful relational databases!
 description: This tutorial covers creating tables in SQL.
-author: Mike Dane
+author: 🦒
 image: creating-tables.png
 video: SPPTQwx4FfE
 url: /databases/sql/creating-tables/

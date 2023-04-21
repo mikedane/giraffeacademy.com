@@ -1,12 +1,12 @@
 ---
 date: 2017-11-08T18:34:45-05:00
 title: "Xamarin Forms"
-seo_title: "Xamarin Forms Mobile Development | C# | Mike Dane"
+seo_title: "Xamarin Forms Mobile Development | C# | 🦒"
 subheader:
      greeting: C# - Programming Language
      description: This course will cover everything you need to know to get started with Xamarin Forms mobile development
 description: This course will cover everything you need to know to get started with Xamarin Forms mobile development
-author: Mike Dane
+author: 🦒
 image: building-a-mad-libs-game.png
 video: 
 url: /programming-languages/csharp/xamarin-forms-tutorial/

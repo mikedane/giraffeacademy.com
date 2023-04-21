@@ -1,12 +1,12 @@
 ---
 date: 2017-11-08T18:34:45-05:00
 title: "In One Video"
-seo_title: "In One Video | C# | Mike Dane"
+seo_title: "In One Video | C# | 🦒"
 subheader:
      greeting: C# - Programming Language
      description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers the C# language in one video.
-author: Mike Dane
+author: 🦒
 image: building-a-mad-libs-game.png
 video: irBHuMTDsNg
 url: /programming-languages/csharp/in-one-video/

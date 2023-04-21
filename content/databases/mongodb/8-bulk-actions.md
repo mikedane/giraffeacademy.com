@@ -1,12 +1,12 @@
 ---
 date: 2017-12-22T11:54:13-05:00
 title: "Bulk Actions"
-seo_title: "Bulk Actions | MongoDB | Mike Dane"
+seo_title: "Bulk Actions | MongoDB | 🦒"
 subheader:
      greeting: MongoDB - noSQL Database
      description: This course covers the basics of working with MongoDB. Work your way through the videos/articles and I'll teach you everything you need to know to interact with Mongo's flexible document database management system and create powerful document databases!
 description: This tutorial covers bulk actions in MongoDB.
-author: Mike Dane
+author: 🦒
 image: bulk-actions.png
 video: iHmbRQc1JX0
 url: /databases/mongodb/bulk-actions/

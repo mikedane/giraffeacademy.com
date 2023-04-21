@@ -1,12 +1,12 @@
 ---
 date: 2017-09-07T20:24:10-04:00
 title: "Hugo"
-seo_title: "Hugo | Mike Dane"
+seo_title: "Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: Learn Hugo from start to finish with this free tutorial
-author: Mike Dane
+author: 🦒
 image: introduction-to-hugo.png
 video: qtIqKaDlqXo
 url: /static-site-generators/hugo/
@@ -64,4 +64,4 @@ If static site generators are olympic sprinters, then Hugo is Usain Bolt, AKA th
 
 ## Give Hugo a Try
 
-If you’re looking for an easy way to get your static website up and running then give Hugo a try. It’s free, open source, and it plays nice with markdown and HTML. Here at Mike Dane, we have everything you need to get started with Hugo. Our lessons cover all of the main features of Hugo and give you tips to make your site the best it can be.
+If you’re looking for an easy way to get your static website up and running then give Hugo a try. It’s free, open source, and it plays nice with markdown and HTML. Here at 🦒, we have everything you need to get started with Hugo. Our lessons cover all of the main features of Hugo and give you tips to make your site the best it can be.

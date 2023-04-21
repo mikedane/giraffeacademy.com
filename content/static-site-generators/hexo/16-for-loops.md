@@ -1,12 +1,12 @@
 ---
 date: 2017-09-14T17:26:12-04:00
 title: "For Loops"
-seo_title: "For Loops | Hexo | Mike Dane"
+seo_title: "For Loops | Hexo | 🦒"
 subheader:
      greeting: Hexo - Static Site Generator
      description: This course covers the basics of using Hexo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use for loops in Hexo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: for-loops.png
 video: vJsxE6-JXDs
 url: /static-site-generators/hexo/for-loops/

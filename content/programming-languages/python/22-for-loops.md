@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:58:04-04:00
 title: "For Loops"
-seo_title: "For Loops | Python | Mike Dane"
+seo_title: "For Loops | Python | 🦒"
 subheader:
      greeting: Python - Programming Language
      description: This course covers the basics of programming in Python. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers for loops in Python.
-author: Mike Dane
+author: 🦒
 image: for-loops.png
 video: QtyEndC2d78
 url: /programming-languages/python/for-loops/

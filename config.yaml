@@ -1,7 +1,7 @@
-baseURL : https://www.mikedane.com/
+baseURL : https://www.giraffeacademy.com/
 languageCode : en-us
-title : Mike Dane
-author : Mike Dane
+title : Giraffe Academy
+author : 🦒
 taxonomies: ""
 pygmentsstyle: default
 PygmentsCodeFences: true

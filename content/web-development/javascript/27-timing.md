@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:23:35-04:00
 title: "Timing"
-seo_title: "Timing | Javascript | Mike Dane"
+seo_title: "Timing | Javascript | 🦒"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers timing in Javascript.
-author: Mike Dane
+author: 🦒
 image: timing.png
 video: TxR0I9HHwag
 url: /web-development/javascript/timing/

@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:58:03-04:00
 title: "Return Statements"
-seo_title: "Return Statements | Python | Mike Dane"
+seo_title: "Return Statements | Python | 🦒"
 subheader:
      greeting: Python - Programming Language
      description: This course covers the basics of programming in Python. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers return statements in Python.
-author: Mike Dane
+author: 🦒
 image: return-statements.png
 video: nuNXiEDnM44
 url: /programming-languages/python/return-statements/

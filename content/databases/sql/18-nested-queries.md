@@ -1,12 +1,12 @@
 ---
 date: 2017-12-22T11:48:56-05:00
 title: "Nested Queries"
-seo_title: "Nested Queries | SQL | Mike Dane"
+seo_title: "Nested Queries | SQL | 🦒"
 subheader:
      greeting: SQL - Database Programming Language
      description: This course covers the basics of working with SQL. Work your way through the videos/articles and I'll teach you everything you need to know to interact with database management systems and create powerful relational databases!
 description: This tutorial covers nested queries in SQL.
-author: Mike Dane
+author: 🦒
 image: nested-queries.png
 video: lBpSMeQjNqQ
 url: /databases/sql/nested-queries/

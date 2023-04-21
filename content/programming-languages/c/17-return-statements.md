@@ -1,12 +1,12 @@
 ---
 date: 2017-11-01T00:17:44-04:00
 title: "Return Statements"
-seo_title: "Return Statements | C | Mike Dane"
+seo_title: "Return Statements | C | 🦒"
 subheader:
      greeting: C - Programming Language
      description: This course covers the basics of programming in C. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers return statements in C.
-author: Mike Dane
+author: 🦒
 image: return-statements.png
 video: -xouSMuAc8s
 url: /programming-languages/c/return-statements/

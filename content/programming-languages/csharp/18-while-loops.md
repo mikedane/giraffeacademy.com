@@ -1,12 +1,12 @@
 ---
 date: 2017-11-08T18:34:46-05:00
 title: "While Loops"
-seo_title: "While Loops | C# | Mike Dane"
+seo_title: "While Loops | C# | 🦒"
 subheader:
      greeting: C# - Programming Language
      description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers while loops in C#.
-author: Mike Dane
+author: 🦒
 image: while-loops.png
 video: uqMbyuATj2Y
 url: /programming-languages/csharp/while-loops/

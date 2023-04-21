@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:34:29-04:00
 title: "Exponent Function"
-seo_title: "Exponent Function | Java | Mike Dane"
+seo_title: "Exponent Function | Java | 🦒"
 subheader:
      greeting: Java - Programming Language
      description: This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers exponent function in Java.
-author: Mike Dane
+author: 🦒
 image: exponent-function.png
 video: RH9xRe7lwfg
 url: /programming-languages/java/exponent-function/

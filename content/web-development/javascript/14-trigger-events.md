@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:23:34-04:00
 title: "Trigger Events"
-seo_title: "Trigger Events | Javascript | Mike Dane"
+seo_title: "Trigger Events | Javascript | 🦒"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers trigger events in Javascript.
-author: Mike Dane
+author: 🦒
 image: trigger-events.png
 video: jrI0WFCCLWY
 url: /web-development/javascript/trigger-events/
@@ -18,7 +18,7 @@ weight: 14
 ### Inline Event Listeners
 
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader" onclick="handleClick(this)">Mike Dane</h1>
+<h1 id="myHeader" onclick="handleClick(this)">🦒</h1>
 <script src="script.js"></script>
 {{< /code >}}
 
@@ -31,7 +31,7 @@ function handleClick(element){
 ### Programatic Event Listeners
 
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader">Mike Dane</h1>
+<h1 id="myHeader">🦒</h1>
 <script src="script.js"></script>
 {{< /code >}}
 

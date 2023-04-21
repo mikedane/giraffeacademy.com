@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:58:02-04:00
 title: "In One Video"
-seo_title: "In One Video | Python | Mike Dane"
+seo_title: "In One Video | Python | 🦒"
 subheader:
      greeting: Python - Programming Language
      description: This course covers the basics of programming in Python. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers Python programming in one video.
-author: Mike Dane
+author: 🦒
 image: building-a-mad-libs-game.png
 video: aZZkEdWxBQs
 url: /programming-languages/python/in-one-video/

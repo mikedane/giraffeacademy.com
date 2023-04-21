@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:34:31-04:00
 title: "Inheritance (Extends)"
-seo_title: "Inheritance (Extends) | Java | Mike Dane"
+seo_title: "Inheritance (Extends) | Java | 🦒"
 subheader:
      greeting: Java - Programming Language
      description: This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers inheritance (extends) in Java.
-author: Mike Dane
+author: 🦒
 image: inheritance-(extends).png
 video: ePFWoOnyYHc
 url: /programming-languages/java/inheritance-extends/

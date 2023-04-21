@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:34:29-04:00
 title: "Switch Statements"
-seo_title: "Switch Statements | Java | Mike Dane"
+seo_title: "Switch Statements | Java | 🦒"
 subheader:
      greeting: Java - Programming Language
      description: This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers switch statements in Java.
-author: Mike Dane
+author: 🦒
 image: switch-statements.png
 video: QneahuoJ41A
 url: /programming-languages/java/switch-statements/

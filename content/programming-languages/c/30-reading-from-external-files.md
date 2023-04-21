@@ -1,12 +1,12 @@
 ---
 date: 2017-11-01T00:17:54-04:00
 title: "Reading From External Files"
-seo_title: "Reading From External Files | C | Mike Dane"
+seo_title: "Reading From External Files | C | 🦒"
 subheader:
      greeting: C - Programming Language
      description: This course covers the basics of programming in C. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers reading from external files in C.
-author: Mike Dane
+author: 🦒
 image: reading-from-external-files.png
 video: aiJj4mLS9oI
 url: /programming-languages/c/reading-from-external-files/

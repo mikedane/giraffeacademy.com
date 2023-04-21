@@ -1,12 +1,12 @@
 ---
 date: 2017-11-15T17:52:37-05:00
 title: "Using Checkboxes"
-seo_title: "Using Checkboxes | PHP | Mike Dane"
+seo_title: "Using Checkboxes | PHP | 🦒"
 subheader:
      greeting: PHP - Programming Language
      description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers using checkboxes in PHP.
-author: Mike Dane
+author: 🦒
 image: using-checkboxes.png
 video: 1d-_p-64HNM
 url: /web-development/php/using-checkboxes/

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web Development on Mike Dane</title>
-    <link>https://www.mikedane.com/web-development/</link>
-    <description>Recent content in Web Development on Mike Dane</description>
+    <title>Web Development on Giraffe Academy</title>
+    <link>https://www.giraffeacademy.com/web-development/</link>
+    <description>Recent content in Web Development on Giraffe Academy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Sep 2017 11:55:00 -0400</lastBuildDate><atom:link href="https://www.mikedane.com/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2017 11:55:00 -0400</lastBuildDate><atom:link href="https://www.giraffeacademy.com/web-development/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

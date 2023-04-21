@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:23:34-04:00
 title: "AI Powered Shopping Cart"
-seo_title: "AI Powered Shopping Cart | React | Mike Dane"
+seo_title: "AI Powered Shopping Cart | React | 🦒"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript & React. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: In this tutorial I'll show you how to build an AI powered shopping cart in React
-author: Mike Dane
+author: 🦒
 image: building-a-calculator.png
 video: ShufCBZi_r8
 url: /web-development/javascript/ai-shopping-cart/

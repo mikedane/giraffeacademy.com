@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:23:34-04:00
 title: "Writing HTML"
-seo_title: "Writing HTML | Javascript | Mike Dane"
+seo_title: "Writing HTML | Javascript | 🦒"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers writing a shape in Javascript.
-author: Mike Dane
+author: 🦒
 image: drawing-a-shape.png
 video: mbkKbhSbWKA
 url: /web-development/javascript/writing-html/

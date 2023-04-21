@@ -1,12 +1,12 @@
 ---
 date: 2017-11-08T18:34:44-05:00
 title: "Strings"
-seo_title: "Strings | C# | Mike Dane"
+seo_title: "Strings | C# | 🦒"
 subheader:
      greeting: C# - Programming Language
      description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers strings in C#.
-author: Mike Dane
+author: 🦒
 image: strings.png
 video: h6_x9Rxh5rU
 url: /programming-languages/csharp/strings/

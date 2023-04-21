@@ -1,12 +1,12 @@
 ---
 date: 2017-11-07T01:21:27-05:00
 title: "Object Functions"
-seo_title: "Object Functions | C++ | Mike Dane"
+seo_title: "Object Functions | C++ | 🦒"
 subheader:
      greeting: C++ - Programming Language
      description: This course covers the basics of programming in C++. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers object functions in C++.
-author: Mike Dane
+author: 🦒
 image: object-functions.png
 video: eRhXgan1FFQ
 url: /programming-languages/c++/object-functions/

@@ -1,12 +1,12 @@
 ---
 date: 2017-09-07T20:24:12-04:00
 title: "Content Organization"
-seo_title: "Content Organization | Hugo | Mike Dane"
+seo_title: "Content Organization | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use content organization in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: content-organization.png
 video: 0GZxidrlaRM
 url: /static-site-generators/hugo/content-organization/

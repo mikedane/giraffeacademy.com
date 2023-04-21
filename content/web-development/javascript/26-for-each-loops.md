@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:23:35-04:00
 title: "For Each Loops"
-seo_title: "For Each Loops | Javascript | Mike Dane"
+seo_title: "For Each Loops | Javascript | 🦒"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers for each loops in Javascript.
-author: Mike Dane
+author: 🦒
 image: for-each-loops.png
 video: Au7JCqkVq9M
 url: /web-development/javascript/for-each-loops/

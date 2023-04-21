@@ -1,12 +1,12 @@
 ---
 date: 2017-12-22T11:48:57-05:00
 title: "Er Diagrams Intro"
-seo_title: "Er Diagrams Intro | SQL | Mike Dane"
+seo_title: "Er Diagrams Intro | SQL | 🦒"
 subheader:
      greeting: SQL - Database Programming Language
      description: This course covers the basics of working with SQL. Work your way through the videos/articles and I'll teach you everything you need to know to interact with database management systems and create powerful relational databases!
 description: This tutorial covers er diagrams intro in SQL.
-author: Mike Dane
+author: 🦒
 image: er-diagrams-intro.png
 video: Ql0w3x6gGI4
 url: /databases/sql/er-diagrams-intro/

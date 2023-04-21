@@ -1,12 +1,12 @@
 ---
 date: 2017-09-07T20:24:12-04:00
 title: "Archetypes"
-seo_title: "Archetypes | Hugo | Mike Dane"
+seo_title: "Archetypes | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use archetypes in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: archetypes.png
 video: bcme8AzVh6o
 url: /static-site-generators/hugo/archetypes/

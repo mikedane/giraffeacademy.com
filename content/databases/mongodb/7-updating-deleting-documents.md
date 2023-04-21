@@ -1,12 +1,12 @@
 ---
 date: 2017-12-22T11:54:13-05:00
 title: "Updating & Deleting Documents"
-seo_title: "Updating & Deleting Documents | MongoDB | Mike Dane"
+seo_title: "Updating & Deleting Documents | MongoDB | 🦒"
 subheader:
      greeting: MongoDB - noSQL Database
      description: This course covers the basics of working with MongoDB. Work your way through the videos/articles and I'll teach you everything you need to know to interact with Mongo's flexible document database management system and create powerful document databases!
 description: This tutorial covers updating deleting documents in MongoDB.
-author: Mike Dane
+author: 🦒
 image: updating-deleting-documents.png
 video: 2yWPqPO6Zkk
 url: /databases/mongodb/updating-deleting-documents/

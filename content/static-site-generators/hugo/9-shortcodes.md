@@ -1,12 +1,12 @@
 ---
 date: 2017-09-07T20:24:13-04:00
 title: "Shortcodes"
-seo_title: "Shortcodes | Hugo | Mike Dane"
+seo_title: "Shortcodes | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use shortcodes in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: shortcodes.png
 video: 2xkNJL4gJ9E
 url: /static-site-generators/hugo/shortcodes/

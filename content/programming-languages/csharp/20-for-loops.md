@@ -1,12 +1,12 @@
 ---
 date: 2017-11-08T18:34:46-05:00
 title: "For Loops"
-seo_title: "For Loops | C# | Mike Dane"
+seo_title: "For Loops | C# | 🦒"
 subheader:
      greeting: C# - Programming Language
      description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers for loops in C#.
-author: Mike Dane
+author: 🦒
 image: for-loops.png
 video: ad38jqt7XDs
 url: /programming-languages/csharp/for-loops/

@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:23:34-04:00
 title: "Arrays"
-seo_title: "Arrays | Javascript | Mike Dane"
+seo_title: "Arrays | Javascript | 🦒"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers arrays in Javascript.
-author: Mike Dane
+author: 🦒
 image: arrays.png
 video: JQ-wmaarWTQ
 url: /web-development/javascript/arrays/

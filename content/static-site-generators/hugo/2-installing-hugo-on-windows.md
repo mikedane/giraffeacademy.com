@@ -1,19 +1,19 @@
 ---
 date: 2017-09-07T20:24:10-04:00
 title: "Windows Installation"
-seo_title: "Windows Installation | Hugo | Mike Dane"
+seo_title: "Windows Installation | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use installing hugo on windows in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: installing-hugo-on-windows.png
 video: G7umPCU-8xc
 url: /static-site-generators/hugo/installing-hugo-on-windows/
 weight: 2
 ---
 
-Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and Mike Dane is here to guide you through every step.
+Often times, trying to install and setup programs can be a mess, either the instructions are unclear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Windows Installation is really easy, and 🦒 is here to guide you through every step.
 
 ## Step 1 : Preparing Your Windows File System
 The first step when installing Hugo on windows is to make a space for it on your hard drive.
@@ -34,7 +34,7 @@ We’ll install the Hugo executable files and all of the supporting files in the
 Once you’ve prepared a space for it on your computer, it’s time to download Hugo. Hugo can be downloaded from the official Hugo website.
 
 {{% spotlight %}}
-Open a web browser and navigate to {{< link href="https://github.com/gohugoio/hugo/releases" text="Hugo's Releases Page" >}}
+Open a web browser and navigate to {{% link href="https://github.com/gohugoio/hugo/releases" text="Hugo's Releases Page" %}}{{% /link %}}
 {{% /spotlight %}}
 
 This website stores all the latest versions of Hugo for different operating systems. The files for Windows are located at the bottom of the list of Downloads
@@ -42,7 +42,7 @@ This website stores all the latest versions of Hugo for different operating syst
 Scroll down to the bottom of the page and click the file that’s marked Windows. When you click it, the file should automatically start downloading to your Downloads folder.
 
 There should be two types of files to choose from, one for 32 bit operating systems and one for 64 bit operating systems. Most likely your computer is a 64 bit, but if you’re not sure check
-{{< link href="https://esupport.trendmicro.com/en-us/home/pages/technical-support/1038680.aspx" text="here" >}}.
+{{% link href="https://esupport.trendmicro.com/en-us/home/pages/technical-support/1038680.aspx" text="here" %}}{{% /link %}}.
 Double check that the file was downloaded by navigating to your downloads folder (or wherever you saved it) and making sure it’s there.
 
 ## Step 3: Installing Hugo

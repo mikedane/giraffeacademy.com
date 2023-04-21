@@ -1,19 +1,19 @@
 ---
 date: 2017-09-07T20:24:11-04:00
 title: "Mac Installation"
-seo_title: "Mac Installation | Hugo | Mike Dane"
+seo_title: "Mac Installation | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use installing hugo on mac in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: installing-hugo-on-mac.png
 video: WvhCGlLcrF8
 url: /static-site-generators/hugo/installing-hugo-on-mac/
 weight: 3
 ---
 
-Often times, trying to install and setup programs can be a mess, either the instructions aren't clear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Mac Installation is really easy, and Mike Dane is here to guide you through every step.
+Often times, trying to install and setup programs can be a mess, either the instructions aren't clear, or there’s too many little things to do that people end up messing up the first time around. Luckily, that’s not the case with Hugo. Mac Installation is really easy, and 🦒 is here to guide you through every step.
 
 {{< article-image src="hugo-mac.png" alt="This tutorial will teach you how to install hugo on mac." >}}
 
@@ -22,7 +22,7 @@ Installing programs on mac isn’t the same as installing them on Windows. The o
 
 In order to install Hugo on your mac, you’ll have to use a package manager called Homebrew. Homebrew is one of the most popular package managers on mac, and millions of people use it everyday.
 
-If you don’t already have homebrew on your computer you can download and install it using the instructions from the official {{< link href="https://brew.sh/" text="homebrew website" >}}
+If you don’t already have homebrew on your computer you can download and install it using the instructions from the official {{% link href="https://brew.sh/" text="homebrew website" %}}{{% /link %}}
 ## Step 2 : Installing Hugo
 Once you’ve got homebrew installed, installing Hugo is a breeze. Simply open your terminal application and type in the following command.
 

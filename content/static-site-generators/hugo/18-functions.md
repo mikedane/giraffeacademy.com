@@ -1,12 +1,12 @@
 ---
 date: 2017-09-07T20:24:16-04:00
 title: "Functions"
-seo_title: "Functions | Hugo | Mike Dane"
+seo_title: "Functions | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use functions in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: functions.png
 video: w1NkCb3IJd0
 url: /static-site-generators/hugo/functions/

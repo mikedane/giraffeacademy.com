@@ -1,12 +1,12 @@
 ---
 date: 2017-12-22T11:54:13-05:00
 title: "Aggregation"
-seo_title: "Aggregation | MongoDB | Mike Dane"
+seo_title: "Aggregation | MongoDB | 🦒"
 subheader:
      greeting: MongoDB - noSQL Database
      description: This course covers the basics of working with MongoDB. Work your way through the videos/articles and I'll teach you everything you need to know to interact with Mongo's flexible document database management system and create powerful document databases!
 description: This tutorial covers aggregation in MongoDB.
-author: Mike Dane
+author: 🦒
 image: aggregation.png
 video: Kk6Er0c7srU
 url: /databases/mongodb/aggregation/

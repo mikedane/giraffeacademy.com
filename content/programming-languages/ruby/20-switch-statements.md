@@ -1,12 +1,12 @@
 ---
 date: 2017-11-01T00:12:43-04:00
 title: "Case Expressions"
-seo_title: "Case Expressions | Ruby | Mike Dane"
+seo_title: "Case Expressions | Ruby | 🦒"
 subheader:
      greeting: Ruby - Programming Language
      description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers switch statements in Ruby.
-author: Mike Dane
+author: 🦒
 image: switch-statements.png
 video: eBtz-QBbWV0
 url: /programming-languages/ruby/case-expressions/

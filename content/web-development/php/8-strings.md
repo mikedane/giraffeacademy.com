@@ -1,12 +1,12 @@
 ---
 date: 2017-11-15T17:52:37-05:00
 title: "Strings"
-seo_title: "Strings | PHP | Mike Dane"
+seo_title: "Strings | PHP | 🦒"
 subheader:
      greeting: PHP - Programming Language
      description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers strings in PHP.
-author: Mike Dane
+author: 🦒
 image: strings.png
 video: lRUljf_chOE
 url: /web-development/php/strings/

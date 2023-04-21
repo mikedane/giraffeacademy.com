@@ -1,12 +1,12 @@
 ---
 date: 2017-11-08T18:34:45-05:00
 title: "Methods"
-seo_title: "Methods | C# | Mike Dane"
+seo_title: "Methods | C# | 🦒"
 subheader:
      greeting: C# - Programming Language
      description: This course covers the basics of programming in C#. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers methods in C#.
-author: Mike Dane
+author: 🦒
 image: methods.png
 video: MkDroqxS8LY
 url: /programming-languages/csharp/methods/

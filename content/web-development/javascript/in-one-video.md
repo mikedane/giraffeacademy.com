@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:23:34-04:00
 title: "In One Video"
-seo_title: "In One Video | Javascript | Mike Dane"
+seo_title: "In One Video | Javascript | 🦒"
 subheader:
      greeting: Javascript - Program the Web
      description: This course covers the basics of programming in Javascript. Work your way through the videos/articles and I'll teach you everything you need to know to make your website more responsive!
 description: This tutorial covers Javascript programming in one video.
-author: Mike Dane
+author: 🦒
 image: building-a-calculator.png
 video: TLlGhogq56Y
 url: /web-development/javascript/in-one-video/
@@ -141,7 +141,7 @@ alert("Your name is " + name);
 
 ### Accessing HTML
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader" giraffe="Giraffe Attr">Mike Dane</h1>
+<h1 id="myHeader" giraffe="Giraffe Attr">🦒</h1>
 <script src="script.js"></script>
 {{< /code >}}
 
@@ -218,7 +218,7 @@ function addNumbers(num1, num2){
 https://www.w3schools.com/jsref/dom_obj_event.asp
 
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader" onclick="handleClick(this)">Mike Dane</h1>
+<h1 id="myHeader" onclick="handleClick(this)">🦒</h1>
 <script src="script.js"></script>
 {{< /code >}}
 
@@ -233,7 +233,7 @@ function handleClick(element){
 https://www.w3schools.com/jsref/dom_obj_event.asp
 
 {{< code lang="html" file="index.html">}}
-<h1 id="myHeader">Mike Dane</h1>
+<h1 id="myHeader">🦒</h1>
 <script src="script.js"></script>
 {{< /code >}}
 

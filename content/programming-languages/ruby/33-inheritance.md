@@ -1,12 +1,12 @@
 ---
 date: 2017-11-01T00:12:45-04:00
 title: "Inheritance"
-seo_title: "Inheritance | Ruby | Mike Dane"
+seo_title: "Inheritance | Ruby | 🦒"
 subheader:
      greeting: Ruby - Programming Language
      description: This course covers the basics of programming in Ruby. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers inheritance in Ruby.
-author: Mike Dane
+author: 🦒
 image: inheritance.png
 video: Zkk7whVb3f4
 url: /programming-languages/ruby/inheritance/

@@ -1,12 +1,12 @@
 ---
 date: 2017-11-15T17:52:38-05:00
 title: "If Statements (Continued)"
-seo_title: "If Statements (Continued) | PHP | Mike Dane"
+seo_title: "If Statements (Continued) | PHP | 🦒"
 subheader:
      greeting: PHP - Programming Language
      description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers if statements (continued) in PHP.
-author: Mike Dane
+author: 🦒
 image: if-statements-(continued).png
 video: RSbjmccb0Qo
 url: /web-development/php/if-statements-continued/

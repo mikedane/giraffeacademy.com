@@ -1,12 +1,12 @@
 ---
 date: 2019-01-22
 title: "Styling a Search Bar"
-seo_title: "Styling a Search Bar | CSS | Mike Dane"
+seo_title: "Styling a Search Bar | CSS | 🦒"
 subheader:
      greeting: CSS - Style a Website
      description: This course covers the basics of styling a website using CSS. Work your way through the videos/articles and I'll teach you everything you need to know to style a basic website!
 description: This tutorial covers how to style a beautiful and responsive search bar in CSS.
-author: Mike Dane
+author: 🦒
 # image: css-frameworks.png
 # video: nDXDxA27poE
 url: /web-development/css/styling-search-bar/

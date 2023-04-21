@@ -1,12 +1,12 @@
 ---
 date: 2017-11-15T17:52:37-05:00
 title: "In One Video"
-seo_title: "In One Video | PHP | Mike Dane"
+seo_title: "In One Video | PHP | 🦒"
 subheader:
      greeting: PHP - Programming Language
      description: This course covers the basics of programming in PHP. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers PHP in one video.
-author: Mike Dane
+author: 🦒
 image: getting-input-from-users.png
 video: pWBRjQBWuYA
 url: /web-development/php/in-one-video/

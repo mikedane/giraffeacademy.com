@@ -1,12 +1,12 @@
 ---
 date: 2017-09-07T20:24:13-04:00
 title: "Taxonomies"
-seo_title: "Taxonomies | Hugo | Mike Dane"
+seo_title: "Taxonomies | Hugo | 🦒"
 subheader:
      greeting: Hugo - Static Site Generator
      description: This course covers the basics of using Hugo - Static Site Generator. Work your way through the articles and we'll teach you everything you need to know to create a professional and scalable website or blog!
 description: This tutorial covers how to use taxonomies in Hugo -  Static Site Generator.
-author: Mike Dane
+author: 🦒
 image: taxonomies.png
 video: pCPCQgqC8RA
 url: /static-site-generators/hugo/taxonomies/
@@ -52,7 +52,7 @@ We want to add the language taxonomy to each of these country pages. Then we can
 +++
 title = "Ireland"
 Description = “Ireland is sometimes referred to as the Emerald Isle”
-Author = “Mike Dane”
+Author = “🦒”
 languages = [ "Irish", “English” ]
 
 +++

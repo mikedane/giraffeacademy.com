@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:34:31-04:00
 title: "Static Methods In Classes"
-seo_title: "Static Methods In Classes | Java | Mike Dane"
+seo_title: "Static Methods In Classes | Java | 🦒"
 subheader:
      greeting: Java - Programming Language
      description: This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers static methods in classes in Java.
-author: Mike Dane
+author: 🦒
 image: static-methods-in-classes.png
 video: bvNU24rvhgA
 url: /programming-languages/java/static-methods-in-classes/

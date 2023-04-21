@@ -1,12 +1,12 @@
 ---
 date: 2017-10-22T11:34:28-04:00
 title: "Strings"
-seo_title: "Strings | Java | Mike Dane"
+seo_title: "Strings | Java | 🦒"
 subheader:
      greeting: Java - Programming Language
      description: This course covers the basics of programming in Java. Work your way through the videos/articles and I'll teach you everything you need to know to start your programming journey!
 description: This tutorial covers strings in Java.
-author: Mike Dane
+author: 🦒
 image: strings.png
 video: yebwyol5M7k
 url: /programming-languages/java/strings/
